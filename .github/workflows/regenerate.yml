@@ -1,31 +1,81 @@
-name: Regenerate PluginMaster
+name: Sync and Regenerate PluginMaster
+
+# 新版权限配置：允许读取仓库和推送代码
+permissions:
+  contents: write
+
 on:
+  schedule:
+    # 每12小时触发一次 (UTC)
+    - cron: '0 */12 * * *'
   workflow_dispatch:
+
 concurrency: regenerate
 
 jobs:
-  generate:
-    name: Regenerate PluginMaster
+  sync-and-generate:
+    name: Sync and Regenerate
     runs-on: windows-latest
+    
     steps:
-      - name: Extract branch name
-        shell: bash
-        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-        id: extract_branch
-      - uses: actions/checkout@v2
-      - name: Run generator
-        run: .\Make-PluginMaster.ps1
-      - name: Add all changes to Git
-        run: git add -A
-      - name: Commit files
-        continue-on-error: true
+      # 1. 检出代码
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 必须获取完整历史，否则无法合并上游
+          ref: main
+
+      # 2. 配置 Git (合并需要用户信息)
+      - name: Configure Git
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "Regenerate PluginMaster" -a || echo "No changes to commit"
-      - name: Push changes
-        continue-on-error: true
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ steps.extract_branch.outputs.branch }}
+
+      # 3. 同步上游并判断是否有更新
+      - name: Sync with Upstream
+        id: sync
+        shell: bash # 在 Windows 上强制使用 Bash 以方便编写逻辑
+        run: |
+          # 添加上游仓库
+          git remote add upstream https://github.com/goatcorp/PluginDistD17.git
+          git fetch upstream
+
+          # 记录合并前的 Commit Hash
+          BEFORE_SHA=$(git rev-parse HEAD)
+
+          # 尝试合并上游
+          echo "Attempting to merge upstream..."
+          git merge upstream/main --allow-unrelated-histories --no-edit
+
+          # 记录合并后的 Commit Hash
+          AFTER_SHA=$(git rev-parse HEAD)
+
+          # 比较 Hash
+          if [ "$BEFORE_SHA" == "$AFTER_SHA" ]; then
+            echo "No changes from upstream. Local is up-to-date."
+            echo "updated=false" >> $GITHUB_OUTPUT
+          else
+            echo "Successfully merged upstream changes."
+            echo "updated=true" >> $GITHUB_OUTPUT
+          fi
+
+      # 4. 运行生成脚本 (仅当检测到更新时运行)
+      - name: Run generator
+        if: steps.sync.outputs.updated == 'true'
+        run: .\Make-PluginMaster.ps1
+
+      # 5. 提交并推送 (仅当检测到更新时运行)
+      - name: Commit and Push
+        if: steps.sync.outputs.updated == 'true'
+        shell: bash
+        run: |
+          git add -A
+          
+          # 防止脚本运行了但没有产生实际文件变化的情况
+          if git diff-index --quiet HEAD; then
+            echo "Generator ran but produced no changes."
+            exit 0
+          fi
+          
+          git commit -m "Regenerate PluginMaster after upstream sync"
+          git push origin main
