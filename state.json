@@ -49440,9 +49440,9 @@
           }
         },
         "ARealmRecorded": {
-          "BuiltCommit": "24636e093cbac0ad8b68e9f674143dc0ce8468a5",
-          "TimeBuilt": "2025-08-11T07:34:17.7366038+00:00",
-          "EffectiveVersion": "1.0.1.5",
+          "BuiltCommit": "e42cf50f517ac713f7a1842c2c0086a47bd361be",
+          "TimeBuilt": "2025-12-20T10:34:35.3451856+00:00",
+          "EffectiveVersion": "1.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -49559,6 +49559,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "UnknownX7"
+            },
+            "1.0.2.0": {
+              "TimeReleased": "2025-12-20T10:34:35.3451872+00:00",
+              "Changelog": "- Fixed for 7.4 (Thanks to Limiana)\n- Added replay search feature (Thanks to Limiana)\n- Known Issue: Countdowns are currently broken in recordings (SE is aware of this issue)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/UnknownX7/Hypostasis.git",
+                  "Version": "2ee2d9a7b86fc55a7d6a2c10f0bc6e0ccd20748b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "UnknownX7"
             }
           }
@@ -75606,9 +75626,9 @@
           }
         },
         "TPie": {
-          "BuiltCommit": "c917b6a5125eb6208d30efc43038163002405e55",
-          "TimeBuilt": "2025-12-19T02:56:32.8787365+00:00",
-          "EffectiveVersion": "1.13.0.0",
+          "BuiltCommit": "4f20b7c2ca55d830a97932b03b649fc72675d0da",
+          "TimeBuilt": "2025-12-20T10:34:26.9765612+00:00",
+          "EffectiveVersion": "1.13.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.0": {
@@ -75775,6 +75795,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Tischel"
+            },
+            "1.13.0.1": {
+              "TimeReleased": "2025-12-20T10:34:26.9765999+00:00",
+              "Changelog": "- Fixed Nested Ring \u0022Keep Previous Ring Center\u0022 setting not working properly.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "Tischel"
             }
           }
@@ -230515,6 +230551,13 @@
       "Version": "ec76c842809773066f1ed002ce35135d31e9413f",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-12-20T03:56:49.5112527Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/UnknownX7/Hypostasis.git",
+      "Version": "2ee2d9a7b86fc55a7d6a2c10f0bc6e0ccd20748b",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-12-20T10:34:35.4015747Z"
     }
   ]
 }
