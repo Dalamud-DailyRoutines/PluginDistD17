@@ -311,6 +311,39 @@
     "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Altoholic/latest.zip"
   },
   {
+    "Author": "UnknownX",
+    "Name": "A Realm Recorded",
+    "InternalName": "ARealmRecorded",
+    "AssemblyVersion": "1.0.2.0",
+    "Description": "Adds additional features to the duty recorder and automatically starts it in most instances.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/UnknownX7/ARealmRecorded",
+    "CategoryTags": [
+      "utility"
+    ],
+    "DalamudApiLevel": 14,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "ImageUrls": [
+      ""
+    ],
+    "IconUrl": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/main/stable/ARealmRecorded/images/icon.png",
+    "Punchline": "Allows you to use the duty recorder",
+    "AcceptsFeedback": true,
+    "_isDip17Plugin": true,
+    "_Dip17Channel": "stable",
+    "IsHide": "False",
+    "TestingAssemblyVersion": "0.7.0.0",
+    "TestingDalamudApiLevel": 14,
+    "IsTestingExclusive": "False",
+    "LastUpdate": "1766226878",
+    "DownloadLinkInstall": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/ARealmRecorded/latest.zip",
+    "DownloadLinkTesting": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ARealmRecorded/latest.zip",
+    "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ARealmRecorded/latest.zip"
+  },
+  {
     "Author": "Meoiswa",
     "Name": "Auto BGM",
     "InternalName": "AutoBGM",
@@ -4656,7 +4689,7 @@
     "Author": "Tischel",
     "Name": "TPie",
     "InternalName": "TPie",
-    "AssemblyVersion": "1.13.0.0",
+    "AssemblyVersion": "1.13.0.1",
     "Description": "Highly configurable hotbars that can be toggled with a keybind. They can be filled with Actions, Items, Gear Sets, Macros and more...",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Tischel/TPie",
@@ -4669,13 +4702,13 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "Punchline": "Customizable ring-shaped hotbars",
-    "Changelog": "# 1.13.0.0\n\n- Added support for Patch 7.4 and Dalamud API 14.",
+    "Changelog": "# 1.13.0.1\n\n- Fixed Nested Ring \"Keep Previous Ring Center\" setting not working properly.",
     "AcceptsFeedback": true,
     "_isDip17Plugin": true,
     "_Dip17Channel": "stable",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdate": "1766113069",
+    "LastUpdate": "1766226878",
     "DownloadLinkInstall": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/TPie/latest.zip",
     "DownloadLinkTesting": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/TPie/latest.zip",
     "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/TPie/latest.zip"
@@ -5649,38 +5682,6 @@
     "DownloadLinkInstall": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ArchipelagoXIV/latest.zip",
     "DownloadLinkTesting": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ArchipelagoXIV/latest.zip",
     "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ArchipelagoXIV/latest.zip"
-  },
-  {
-    "Author": "UnknownX",
-    "Name": "A Realm Recorded",
-    "InternalName": "ARealmRecorded",
-    "AssemblyVersion": "0.7.0.0",
-    "Description": "Adds additional features to the duty recorder and automatically starts it in most instances.",
-    "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/UnknownX7/ARealmRecorded",
-    "CategoryTags": [
-      "utility"
-    ],
-    "DalamudApiLevel": 8,
-    "LoadRequiredState": 0,
-    "LoadSync": false,
-    "LoadPriority": 0,
-    "ImageUrls": [
-      ""
-    ],
-    "IconUrl": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/main/testing-live/ARealmRecorded/images/icon.png",
-    "Punchline": "Allows you to use the duty recorder",
-    "AcceptsFeedback": true,
-    "_isDip17Plugin": true,
-    "_Dip17Channel": "testing-live",
-    "IsHide": "False",
-    "TestingAssemblyVersion": "0.7.0.0",
-    "IsTestingExclusive": "True",
-    "TestingDalamudApiLevel": 14,
-    "LastUpdate": "1685116702",
-    "DownloadLinkInstall": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ARealmRecorded/latest.zip",
-    "DownloadLinkTesting": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ARealmRecorded/latest.zip",
-    "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ARealmRecorded/latest.zip"
   },
   {
     "Author": "Gotest",
