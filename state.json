@@ -12242,9 +12242,9 @@
           }
         },
         "Waitingway.Dalamud": {
-          "BuiltCommit": "5b97266c2f68f8a6f38d19e1d9a0337973254264",
-          "TimeBuilt": "2025-03-29T06:34:02.6058723+00:00",
-          "EffectiveVersion": "2.3.0.0",
+          "BuiltCommit": "9b329e17159f26e8b30cb7eb64f438b17023f8f0",
+          "TimeBuilt": "2025-12-22T13:52:08.0294375+00:00",
+          "EffectiveVersion": "2.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.4": {
@@ -12454,6 +12454,34 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "WorkingRobot"
+            },
+            "2.4.0.0": {
+              "TimeReleased": "2025-12-22T13:52:08.0294386+00:00",
+              "Changelog": "Updated Waitingway for 7.4",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/WorkingRobot/TemporalStasis.git",
+                  "Version": "c4c191ea9b204b3f3c4af2278f808ab8c648845f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.264"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "WorkingRobot"
             }
           }
@@ -13883,9 +13911,9 @@
           }
         },
         "ResizableHUD": {
-          "BuiltCommit": "b646f746feff4f4b697ae8b8974a437c75dffac4",
-          "TimeBuilt": "2025-08-08T02:36:00.325383+00:00",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "a126fd52dbc2389df76ab615b2055d9cb1469701",
+          "TimeBuilt": "2025-12-22T21:36:08.1618221+00:00",
+          "EffectiveVersion": "1.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.4.0": {
@@ -13984,6 +14012,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Drahsid"
+            },
+            "1.6.0.0": {
+              "TimeReleased": "2025-12-22T21:36:08.1618232+00:00",
+              "Changelog": "- Updated for API14\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Drahsid/DrahsidLib.git",
+                  "Version": "146e81b22c6c2ef1b26a1793229e730e440a610b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.0"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Drahsid"
             }
           }
@@ -48667,9 +48719,9 @@
           }
         },
         "Wholist": {
-          "BuiltCommit": "3432afb5ea020013c0befbcf1d5fc05e1cb523f0",
-          "TimeBuilt": "2025-12-06T02:46:01.4258175+00:00",
-          "EffectiveVersion": "1.11.2.0",
+          "BuiltCommit": "d542dadc4ea6d75ab4346fd80bef9419a96998d0",
+          "TimeBuilt": "2025-12-22T21:35:24.4779605+00:00",
+          "EffectiveVersion": "1.11.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -49430,6 +49482,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Blooym"
+            },
+            "1.11.2.1": {
+              "TimeReleased": "2025-12-22T21:35:24.4780046+00:00",
+              "Changelog": "nofranz\r\n\r\nNot sure if the party member check will still work with this change",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Blooym/Dalamud.Lib.Sirensong.git",
+                  "Version": "eba19305b11a739b51633a74455918d3ff2b5eff"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Blooym"
             }
           }
@@ -55548,9 +55620,9 @@
           }
         },
         "OofPlugin": {
-          "BuiltCommit": "e6828d793b5b7630a4a8cbccd9fe32ca8d98caa2",
-          "TimeBuilt": "2025-08-12T08:10:24.9859789+00:00",
-          "EffectiveVersion": "1.3.5.0",
+          "BuiltCommit": "7119626de4e3df3b2f3f34a2a5e286615242b203",
+          "TimeBuilt": "2025-12-22T13:51:44.759128+00:00",
+          "EffectiveVersion": "1.3.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
@@ -55640,6 +55712,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "codelastnight"
+            },
+            "1.3.6.0": {
+              "TimeReleased": "2025-12-22T13:51:44.7591684+00:00",
+              "Changelog": "- update for api 14\r\n- more robust sound player \r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "codelastnight"
             }
           }
@@ -71986,9 +72082,9 @@
           }
         },
         "GoodFriend": {
-          "BuiltCommit": "f96f9d6781bac8a1673631be7e7bdb45ab7daa5c",
-          "TimeBuilt": "2025-12-04T09:18:47.1326453+00:00",
-          "EffectiveVersion": "3.11.0.0",
+          "BuiltCommit": "cc8779f30c8f0bfce00601b2b7d2f59686260f66",
+          "TimeBuilt": "2025-12-22T21:35:36.3646369+00:00",
+          "EffectiveVersion": "3.11.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.2.0": {
@@ -72644,6 +72740,42 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "Blooym"
+            },
+            "3.11.0.1": {
+              "TimeReleased": "2025-12-22T21:35:36.3646379+00:00",
+              "Changelog": "nofranz\r\n\r\napi bump",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Blooym/Dalamud.Lib.Sirensong.git",
+                  "Version": "eba19305b11a739b51633a74455918d3ff2b5eff"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Blooym"
             }
           }
@@ -91815,9 +91947,9 @@
           }
         },
         "HybridCamera": {
-          "BuiltCommit": "9c32d537d33c9e9c3b9c7f5a195b0b3f2435937a",
-          "TimeBuilt": "2025-09-03T12:28:39.1482996+00:00",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "88ca556ec88caba226e756b86ea51b052104dbfd",
+          "TimeBuilt": "2025-12-22T21:36:40.9600912+00:00",
+          "EffectiveVersion": "1.8.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.1.0": {
@@ -91915,6 +92047,30 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "Drahsid"
+            },
+            "1.8.0.0": {
+              "TimeReleased": "2025-12-22T21:36:40.960092+00:00",
+              "Changelog": "API 14 update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Drahsid/DrahsidLib.git",
+                  "Version": "146e81b22c6c2ef1b26a1793229e730e440a610b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Drahsid"
             }
           }
@@ -109114,9 +109270,9 @@
           }
         },
         "Craftimizer": {
-          "BuiltCommit": "3359748d1382dab09f76aaed98ea7c2b07e36888",
-          "TimeBuilt": "2025-08-19T12:54:47.1166402+00:00",
-          "EffectiveVersion": "2.8.0.0",
+          "BuiltCommit": "a041fc6ebf85029d7e1d37ecfd739c6131a3eb1f",
+          "TimeBuilt": "2025-12-22T13:51:58.5452619+00:00",
+          "EffectiveVersion": "2.9.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.3.0": {
@@ -109389,6 +109545,42 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "WorkingRobot"
+            },
+            "2.9.0.0": {
+              "TimeReleased": "2025-12-22T13:51:58.5452633+00:00",
+              "Changelog": "- Updated Raphael to latest (Optimal solve times are much faster!)\r\n- Added a new option to collapse the synthesis helper by default (thanks PYRiTEmonark)\r\n- Fixed a bug that prevented recipe data from updating when switching jobs (thanks octylFractal)\r\n\r\nThis is just an update to get Craftimizer updated for 7.4. More changes are planned soon.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.264"
+                },
+                {
+                  "Key": "DotNext",
+                  "Version": "5.26.1"
+                },
+                {
+                  "Key": "Raphael.Net",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.IO.Hashing",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "WorkingRobot"
             }
           }
@@ -147232,9 +147424,9 @@
           }
         },
         "BetterShadows": {
-          "BuiltCommit": "177eb34795427816a198905e7c01be57ee8644ee",
-          "TimeBuilt": "2025-08-08T03:01:00.2219644+00:00",
-          "EffectiveVersion": "1.6.0.0",
+          "BuiltCommit": "6876e3c15fa62786059859a1cd238f4c686e0ec1",
+          "TimeBuilt": "2025-12-22T21:36:31.7514903+00:00",
+          "EffectiveVersion": "1.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.8424.29057": {
@@ -147380,6 +147572,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Drahsid"
+            },
+            "1.7.0.0": {
+              "TimeReleased": "2025-12-22T21:36:31.7514914+00:00",
+              "Changelog": "- Updated for API14\n- Fixed a bug wherein the shadow cascade settings would not work\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Drahsid/DrahsidLib.git",
+                  "Version": "146e81b22c6c2ef1b26a1793229e730e440a610b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.0"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Drahsid"
             }
           }
@@ -158512,9 +158728,9 @@
           }
         },
         "RetainerSales": {
-          "BuiltCommit": "cc2ff697a210d9926a77f1e382006025772a5bd4",
-          "TimeBuilt": "2025-08-07T23:48:13.473019+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "1718a4af58266750c43e79119bf371e4d84d9750",
+          "TimeBuilt": "2025-12-22T21:35:44.9875711+00:00",
+          "EffectiveVersion": "1.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -158575,6 +158791,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "Populo"
+            },
+            "1.3.0.0": {
+              "TimeReleased": "2025-12-22T21:35:44.987572+00:00",
+              "Changelog": "7.4 bump",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Populo"
             }
           }
@@ -171052,9 +171284,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "d037682afcd6bc3442100fe543bd5e63e820bf93",
-          "TimeBuilt": "2025-12-21T22:18:56.6511849+00:00",
-          "EffectiveVersion": "1.1.1.1",
+          "BuiltCommit": "83b19d0fc9bd495e6f285b1152e3b598a7217941",
+          "TimeBuilt": "2025-12-22T21:35:58.3303365+00:00",
+          "EffectiveVersion": "1.1.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -172976,6 +173208,46 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
+            },
+            "1.1.1.2": {
+              "TimeReleased": "2025-12-22T21:35:58.3303375+00:00",
+              "Changelog": "Update translations, add German, thanks Censored",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "18dfcaffa4496a589e1c5d8ef65cc2515806821a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.3.9"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -173716,9 +173988,9 @@
           }
         },
         "FlashOnReadyCheck": {
-          "BuiltCommit": "77c5cb68b31c0b09dcf5278092aa7ef589233a56",
-          "TimeBuilt": "2025-11-10T11:38:37.9068915+00:00",
-          "EffectiveVersion": "0.0.0.1",
+          "BuiltCommit": "42680a4a7d2e5f0286a9d1ff9f729daeabc0593d",
+          "TimeBuilt": "2025-12-22T21:36:48.9261227+00:00",
+          "EffectiveVersion": "0.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -173735,6 +174007,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "Pistachio-dev"
+            },
+            "0.1.0.1": {
+              "TimeReleased": "2025-12-22T21:36:48.9261238+00:00",
+              "Changelog": "Patch 7.4",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Pistachio-dev"
             }
           }
@@ -173764,9 +174052,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "48f8172dd161fc524079f54bf76836437b151d08",
-          "TimeBuilt": "2025-12-20T21:42:14.9959537+00:00",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "b8a988df844f2c12514f3cd68a6179b278e61919",
+          "TimeBuilt": "2025-12-22T21:36:22.0457854+00:00",
+          "EffectiveVersion": "1.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -173903,6 +174191,50 @@
                 }
               ],
               "Reviewer": "goaaats",
+              "Submitter": "Sohtoren"
+            },
+            "1.1.2.0": {
+              "TimeReleased": "2025-12-22T21:36:22.0457865+00:00",
+              "Changelog": "- **General**: Fix stain out of range bug.\n- **Inventory**: Add Outfit icon gear able to be outfitted to inventory and glamour dresser inventory\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Sohtoren"
             }
           }
@@ -236600,6 +236932,48 @@
       "Version": "2.0.264",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-12-22T04:32:54.2569652Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DotNext",
+      "Version": "5.26.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-12-22T13:51:58.5983524Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Raphael.Net",
+      "Version": "4.0.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-12-22T13:51:58.5984081Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/WorkingRobot/TemporalStasis.git",
+      "Version": "c4c191ea9b204b3f3c4af2278f808ab8c648845f",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-12-22T13:52:08.1012064Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Blooym/Dalamud.Lib.Sirensong.git",
+      "Version": "eba19305b11a739b51633a74455918d3ff2b5eff",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2025-12-22T21:35:24.5399479Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Drahsid/DrahsidLib.git",
+      "Version": "146e81b22c6c2ef1b26a1793229e730e440a610b",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2025-12-22T21:36:08.1929993Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DalamudPackager",
+      "Version": "14.0.0",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2025-12-22T21:36:08.1930005Z"
     }
   ]
 }
