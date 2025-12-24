@@ -72949,9 +72949,9 @@
           }
         },
         "DeepDungeonTracker": {
-          "BuiltCommit": "4e0693ccf4b5657bbca78f841af672a1a978b5d2",
-          "TimeBuilt": "2025-10-14T09:49:51.8242512+00:00",
-          "EffectiveVersion": "1.0.1.8",
+          "BuiltCommit": "fd8e0e1682f810b6274365d45359bf54d678ba8e",
+          "TimeBuilt": "2025-12-23T21:01:17.097022+00:00",
+          "EffectiveVersion": "1.0.1.9",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -73234,6 +73234,30 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "marconsou"
+            },
+            "1.0.1.9": {
+              "TimeReleased": "2025-12-23T21:01:17.0970234+00:00",
+              "Changelog": "- Patch 7.4 / Dalamud API 14 update.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "marconsou"
             }
           }
@@ -97055,9 +97079,9 @@
           }
         },
         "JobBars": {
-          "BuiltCommit": "8b5be41592c843e71190a7871c9d6695e56955c4",
-          "TimeBuilt": "2025-12-23T03:51:37.1121215+00:00",
-          "EffectiveVersion": "1.3.2.3",
+          "BuiltCommit": "366cbb79dea8604ada46dcce07943625c1514556",
+          "TimeBuilt": "2025-12-23T20:51:39.1997782+00:00",
+          "EffectiveVersion": "1.3.2.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.3.0": {
@@ -97154,6 +97178,30 @@
             "1.3.2.3": {
               "TimeReleased": "2025-12-23T03:51:37.1121603+00:00",
               "Changelog": "- Update KamiToolkit\r\n- 7.4 updates",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "9101fc8a8e861345fe0740e7791cdb06e8764f3e"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "0ceal0t"
+            },
+            "1.3.2.4": {
+              "TimeReleased": "2025-12-23T20:51:39.1998247+00:00",
+              "Changelog": "- Fixed issues with scaling and texture colors",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.git",
@@ -105007,9 +105055,9 @@
           }
         },
         "MOAction": {
-          "BuiltCommit": "74b92cae5d29160e38ded5cad2ff7523f03181e5",
-          "TimeBuilt": "2025-08-08T03:01:15.1219104+00:00",
-          "EffectiveVersion": "4.8.0.0",
+          "BuiltCommit": "02f031dcc1632ae477eacc9d81548917743c8565",
+          "TimeBuilt": "2025-12-23T21:01:04.9390842+00:00",
+          "EffectiveVersion": "4.9.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "4.2.7.0": {
@@ -105184,6 +105232,22 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "4.9.0.0": {
+              "TimeReleased": "2025-12-23T21:01:04.9391232+00:00",
+              "Changelog": "- API 14 [thanks Alluneve]",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
                 }
               ],
               "Reviewer": "reiichi001",
@@ -105998,9 +106062,9 @@
           }
         },
         "DelvUI": {
-          "BuiltCommit": "952ecfbcc61e90c36ce47a9bec1bcbe393983415",
-          "TimeBuilt": "2025-12-23T09:11:48.762128+00:00",
-          "EffectiveVersion": "2.6.1.0",
+          "BuiltCommit": "5b2be43c66e1997ef0fe894310bf27c4dc2d476d",
+          "TimeBuilt": "2025-12-23T21:01:28.5597279+00:00",
+          "EffectiveVersion": "2.6.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -106278,6 +106342,26 @@
             "2.6.1.0": {
               "TimeReleased": "2025-12-23T09:11:48.7621461+00:00",
               "Changelog": "- Added new features for Cast Bars:\r\n  * Added a \u0022Truncate Cast Name\u0022 setting that will attempt to truncate the current cast name if the text wouldn\u0027t fit inside the bar.\r\n  * Made the player cast bar replicate the exact cast name shown by the default UI. This will reflect changes that other plugins might make to your casts, like VanillaPlus\u0027 \u0022Cast Bar Aetheryte Names\u0022 feature.\r\n  \r\n- Added \u0022Brotherhood Extra Chakra Color\u0022 setting for Monk\u0027s Chakra bar.\r\n- Added \u0022Bloodfest Extra Cartridges Color\u0022 setting for Gunbreaker\u0027s Powder Gauge bar.",
+              "UsedNeeds": [
+                {
+                  "Key": "Colourful",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Tischel"
+            },
+            "2.6.1.1": {
+              "TimeReleased": "2025-12-23T21:01:28.5597291+00:00",
+              "Changelog": "- Fixed a bug introduced in the last version with some item cast names.",
               "UsedNeeds": [
                 {
                   "Key": "Colourful",
@@ -174324,9 +174408,9 @@
           }
         },
         "StickyFocusTarget": {
-          "BuiltCommit": "e8e467bac5cb91f0bcb6a0395dc18e4a0cbd4385",
-          "TimeBuilt": "2025-11-29T19:12:53.7297031+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "23ec793b2bc16e3088bcedad36ea0eeb1b5c5734",
+          "TimeBuilt": "2025-12-23T13:35:37.4597468+00:00",
+          "EffectiveVersion": "1.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -174343,6 +174427,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "smileyhead"
+            },
+            "1.1.1.0": {
+              "TimeReleased": "2025-12-23T13:35:37.4597926+00:00",
+              "Changelog": "Additions in 1.1.0\n- Updated plugin for Dotnet 10 and Dalamud 14\n- Added Japanese localisation \u2013 thanks @Yoshihiko-Ino!\n\nFixes in 1.1.1\n- Fixed Japanese not appearing in the language list\n- Fixed outdated version number in the manifest",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "smileyhead"
             }
           }
