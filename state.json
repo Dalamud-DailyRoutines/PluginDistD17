@@ -71360,9 +71360,9 @@
           }
         },
         "FCNameColor": {
-          "BuiltCommit": "38bb57aaf29b3a79b2ddd2352dd04f5ede0a9f22",
-          "TimeBuilt": "2025-08-12T16:24:04.7150536+00:00",
-          "EffectiveVersion": "5.1.0.3",
+          "BuiltCommit": "059ba93359d371085d1972e0712e71f8e33510f2",
+          "TimeBuilt": "2025-12-24T20:59:07.7763776+00:00",
+          "EffectiveVersion": "5.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.0.1": {
@@ -71602,6 +71602,38 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "WesselKuipers"
+            },
+            "5.1.1.0": {
+              "TimeReleased": "2025-12-24T20:59:07.7763786+00:00",
+              "Changelog": "- Update for 7.4 (Thanks Boxu!)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "WesselKuipers"
             }
           }
@@ -80393,9 +80425,9 @@
           }
         },
         "MiniMappingway": {
-          "BuiltCommit": "ffff67a6bb4251f7b06234a0ade395c07a7fbc1e",
-          "TimeBuilt": "2025-08-13T23:26:54.3449276+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "0a26555be4eae11d50bcd10431c5373125755a48",
+          "TimeBuilt": "2025-12-24T20:46:34.4214302+00:00",
+          "EffectiveVersion": "1.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -80553,6 +80585,38 @@
               ],
               "Reviewer": "philpax",
               "Submitter": "jaycewhite"
+            },
+            "1.0.2.0": {
+              "TimeReleased": "2025-12-24T20:46:34.4214833+00:00",
+              "Changelog": "Plugin adoption",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Pkcs",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Xml",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.ServiceModel.Primitives",
+                  "Version": "8.1.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "rreminy"
             }
           }
         },
@@ -94664,9 +94728,9 @@
           }
         },
         "MimicryHelper": {
-          "BuiltCommit": "7adeba127901aa3def928f75a3823430cef66cb0",
-          "TimeBuilt": "2025-08-20T14:21:54.1695042+00:00",
-          "EffectiveVersion": "1.0.1.7",
+          "BuiltCommit": "0d3c8b959f8773d8cbe7cd72317bbca32be0f129",
+          "TimeBuilt": "2025-12-24T20:59:15.1422405+00:00",
+          "EffectiveVersion": "1.0.1.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.2": {
@@ -94728,6 +94792,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "RedMage1993"
+            },
+            "1.0.1.8": {
+              "TimeReleased": "2025-12-24T20:59:15.1422421+00:00",
+              "Changelog": "Rebuilt for patch 7.4",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "RedMage1993"
             }
           }
@@ -98103,9 +98183,9 @@
           }
         },
         "PlayerTags": {
-          "BuiltCommit": "de382eca2042d80726932d14d410716b76b86a8e",
-          "TimeBuilt": "2025-08-13T09:22:21.6254829+00:00",
-          "EffectiveVersion": "1.12.3.0",
+          "BuiltCommit": "76409937f43a3efd52c227d6aa52585cf3646472",
+          "TimeBuilt": "2025-12-24T20:58:50.586073+00:00",
+          "EffectiveVersion": "1.12.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.0": {
@@ -98416,6 +98496,26 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "Pilzinsel64"
+            },
+            "1.12.4.0": {
+              "TimeReleased": "2025-12-24T20:58:50.586113+00:00",
+              "Changelog": "- Update for API 14\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://git.pilzinsel64.de/Pilz.NET/Pilz.Dalamud",
+                  "Version": "5f4c64cf9956e2456e6780c2c5213cdee5fec903"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Pilzinsel64"
             }
           }
@@ -174124,9 +174224,9 @@
           }
         },
         "Shanbells": {
-          "BuiltCommit": "497354c756203e9f8d637b34291080485f546b41",
-          "TimeBuilt": "2025-10-13T12:01:03.9681872+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "d842cff0e2b30b3d668d947a2cba7499b27e3d82",
+          "TimeBuilt": "2025-12-24T20:42:51.4975306+00:00",
+          "EffectiveVersion": "1.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -174144,13 +174244,29 @@
               ],
               "Reviewer": "philpax",
               "Submitter": "kliff-k"
+            },
+            "1.3.0.0": {
+              "TimeReleased": "2025-12-24T20:42:51.4975736+00:00",
+              "Changelog": "- Updated for API14\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "kliff-k"
             }
           }
         },
         "AetherPool": {
-          "BuiltCommit": "12e281a89952c7ea2f390eb00e1d4371f3c05be6",
-          "TimeBuilt": "2025-12-19T11:19:13.609134+00:00",
-          "EffectiveVersion": "0.5.1.0",
+          "BuiltCommit": "d3f0ec3f7d0b0b4648c46eabf3b16b9f64bbbe05",
+          "TimeBuilt": "2025-12-24T20:58:59.7151628+00:00",
+          "EffectiveVersion": "0.5.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.5.0.0": {
@@ -174232,6 +174348,66 @@
             "0.5.1.0": {
               "TimeReleased": "2025-12-19T11:19:13.6091351+00:00",
               "Changelog": "v0.5.1.0: api 14\nv0.5.0.0: update for patch 7.3/api13 \n v0.4.0.0: Advanced triggers and major UI/visual enhancements. \n - Added \u0027Open on X\u0027 triggers for death, queue, etc.\n - Added a new title screen with background and outlined text.\n - Added a player assignment indicator to the HUD.\n - Added \u0027Victory\u0027/\u0027Game Over\u0027 text at the end of a match.\n - Replaced the cue ball with a new custom texture.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "rail2025"
+            },
+            "0.5.1.1": {
+              "TimeReleased": "2025-12-24T20:58:59.7151643+00:00",
+              "Changelog": "v0.5.1.1: sfx fix and control\nv0.5.1.0: api 14\nv0.5.0.0: update for patch 7.3/api13 \n v0.4.0.0: Advanced triggers and major UI/visual enhancements. \n - Added \u0027Open on X\u0027 triggers for death, queue, etc.\n - Added a new title screen with background and outlined text.\n - Added a player assignment indicator to the HUD.\n - Added \u0027Victory\u0027/\u0027Game Over\u0027 text at the end of a match.\n - Replaced the cue ball with a new custom texture.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -190693,9 +190869,9 @@
           }
         },
         "GaugeOMatic": {
-          "BuiltCommit": "3966963152676954fdbc23b74e2a19ba9df329ff",
-          "TimeBuilt": "2025-12-19T04:32:55.0543925+00:00",
-          "EffectiveVersion": "0.8.2.2",
+          "BuiltCommit": "36a38778ae3d9db4aea7e29db2d2295504433ba2",
+          "TimeBuilt": "2025-12-24T20:39:49.2902326+00:00",
+          "EffectiveVersion": "0.8.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.6": {
@@ -191009,6 +191185,22 @@
             "0.8.2.2": {
               "TimeReleased": "2025-12-19T04:32:55.0543934+00:00",
               "Changelog": "- Update for 7.4 / api 14\n- Fixed naming inconsistencies for certain Job Gauge Trackers\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "ItsBexy"
+            },
+            "0.8.3.2": {
+              "TimeReleased": "2025-12-24T20:39:49.2902722+00:00",
+              "Changelog": "- Added separate tracker options for GNB\u0027s cartridges. This allows the new bonus cartridges to be displayed separately from the base 3, and hidden while unavailable.\n- Thread safety band-aids (should not cause crashes on DC anymore)\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -215883,9 +216075,9 @@
           }
         },
         "Photobooth": {
-          "BuiltCommit": "a36fddf0ce4cc678c6413c5630d6f95e9d43ef13",
-          "TimeBuilt": "2025-09-11T14:37:53.7117745+00:00",
-          "EffectiveVersion": "0.0.3.0",
+          "BuiltCommit": "c6996df913f2480d0efab98d474c17a4e98f30f1",
+          "TimeBuilt": "2025-12-24T20:09:11.4654435+00:00",
+          "EffectiveVersion": "0.0.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.2": {
@@ -215918,6 +216110,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "iri-impulse"
+            },
+            "0.0.4.0": {
+              "TimeReleased": "2025-12-24T20:09:11.4654905+00:00",
+              "Changelog": "Update for 7.4",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "iri-impulse"
             }
           }
@@ -238552,6 +238760,13 @@
       "Version": "1438568d3bb37dc0de7dd7b3e3ee61e750dedaaa",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-12-24T06:55:36.8934876Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://git.pilzinsel64.de/Pilz.NET/Pilz.Dalamud",
+      "Version": "5f4c64cf9956e2456e6780c2c5213cdee5fec903",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-12-24T20:58:50.6500253Z"
     }
   ]
 }
