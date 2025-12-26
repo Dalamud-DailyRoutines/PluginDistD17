@@ -5,8 +5,8 @@ $ErrorActionPreference = 'SilentlyContinue'
 $output = New-Object Collections.Generic.List[object]
 
 # 定义下载链接模板（稳定版和测试版）
-$dlTemplateInstall = "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/{0}/latest.zip"
-$dlTemplateTesting = "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/{0}/latest.zip"
+$dlTemplateInstall = "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/{0}/latest.zip"
+$dlTemplateTesting = "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/{0}/latest.zip"
 
 # 当前API级别（用于过滤兼容插件）
 $apiLevel = 14
