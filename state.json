@@ -51142,9 +51142,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "10a61935f9fba1203259ae16903ab13e0d00ca0a",
-          "TimeBuilt": "2025-12-20T21:19:11.8556791+00:00",
-          "EffectiveVersion": "1.6.5.0",
+          "BuiltCommit": "56e12f2b7ba0cafababbabc8cfe43a03ceb1960f",
+          "TimeBuilt": "2025-12-25T12:35:18.4158868+00:00",
+          "EffectiveVersion": "1.6.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -52869,6 +52869,42 @@
                 }
               ],
               "Reviewer": "goaaats",
+              "Submitter": "Infiziert90"
+            },
+            "1.6.6.0": {
+              "TimeReleased": "2025-12-25T12:35:18.4158881+00:00",
+              "Changelog": "- Add mini cactpot tracking\r\n  - new tab for gold saucer has been added\r\n  - part of this data is uploaded [start condition, full board]\r\n\r\n\r\n![ffxiv_dx11_Jej7OTohKY](https://github.com/user-attachments/assets/5a776765-61c2-45a1-959e-ff31d96ecb0b)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "Infiziert90"
             }
           }
@@ -82512,9 +82548,9 @@
           }
         },
         "FauxHollowsSolver": {
-          "BuiltCommit": "8c6e2ccacde5bace17b9d48b6e932cb417fe3c9a",
-          "TimeBuilt": "2025-09-22T19:13:14.8287423+00:00",
-          "EffectiveVersion": "1.5.1.0",
+          "BuiltCommit": "c672a5cabdb4ba9f31521afb2517907a4dc9ca60",
+          "TimeBuilt": "2025-12-25T12:34:47.3209516+00:00",
+          "EffectiveVersion": "1.5.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.0.0": {
@@ -82584,6 +82620,22 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Glorou"
+            },
+            "1.5.1.1": {
+              "TimeReleased": "2025-12-25T12:34:47.3209974+00:00",
+              "Changelog": "Bump for API 14",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
                 }
               ],
               "Reviewer": "philpax",
@@ -171824,9 +171876,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "8b3100e0de2bfef40e6151e0115a244ebb8029c1",
-          "TimeBuilt": "2025-12-24T06:55:36.8311932+00:00",
-          "EffectiveVersion": "1.1.1.4",
+          "BuiltCommit": "f12aafd16ca49f74c7ef2d07a052c707024cefa1",
+          "TimeBuilt": "2025-12-25T12:35:02.8338232+00:00",
+          "EffectiveVersion": "1.1.1.5",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -173867,6 +173919,46 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.1.1.5": {
+              "TimeReleased": "2025-12-25T12:35:02.8338249+00:00",
+              "Changelog": "Duty Loot Preview - Fixed not showing information for initially selected duty.\r\nDuty Loot Preview - Enhanced ui to indicate items that you already have acquired/unlocked (by Hasel)\r\n\r\nLocalization - Actually enabled French and German",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "f16338cf173eca3a0fcca389533a8ada1c4ef624"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.3.9"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "MidoriKami"
             }
           }
@@ -219293,6 +219385,30 @@
               "Submitter": "smileyhead"
             }
           }
+        },
+        "PvPAnnouncer": {
+          "BuiltCommit": "4c7c264ec4912460243d5e5061fdc24dde63dd1c",
+          "TimeBuilt": "2025-12-25T12:35:27.8396778+00:00",
+          "EffectiveVersion": "1.3.3.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.3.3.0": {
+              "TimeReleased": "2025-12-25T12:35:27.8396827+00:00",
+              "Changelog": "Beta version now with at least 30% more 7.4 content!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "spide-r"
+            }
+          }
         }
       }
     },
@@ -238767,6 +238883,13 @@
       "Version": "5f4c64cf9956e2456e6780c2c5213cdee5fec903",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-12-24T20:58:50.6500253Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "f16338cf173eca3a0fcca389533a8ada1c4ef624",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-12-25T12:35:02.8865501Z"
     }
   ]
 }
