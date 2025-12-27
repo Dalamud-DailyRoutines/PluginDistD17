@@ -13197,9 +13197,9 @@
           }
         },
         "Wordsmith": {
-          "BuiltCommit": "56f2332e9508f18b1b88b1f7443d3c0df5b1fb03",
-          "TimeBuilt": "2025-08-13T05:24:24.9213743+00:00",
-          "EffectiveVersion": "1.15.7.0",
+          "BuiltCommit": "9618a131d27590e347c56d3e1c48febb9d1e392a",
+          "TimeBuilt": "2025-12-27T01:42:24.6731989+00:00",
+          "EffectiveVersion": "1.15.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.3": {
@@ -13387,6 +13387,22 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MythicPalette"
+            },
+            "1.15.8.0": {
+              "TimeReleased": "2025-12-27T01:42:24.6732401+00:00",
+              "Changelog": "# Wordsmith v1.15.8 Patch Notes\nUpdated to support API v14",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
                 }
               ],
               "Reviewer": "reiichi001",
@@ -77708,9 +77724,9 @@
           }
         },
         "NeatNoter": {
-          "BuiltCommit": "b30736fb0f336a774d6ff567232f2e9d22caf6fc",
-          "TimeBuilt": "2025-10-10T13:31:06.2494315+00:00",
-          "EffectiveVersion": "2.7.4.0",
+          "BuiltCommit": "62a4756f493dd138b852a3cd57396e31cecfbb0d",
+          "TimeBuilt": "2025-12-27T01:37:25.3223774+00:00",
+          "EffectiveVersion": "2.7.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.6.1.0": {
@@ -78032,6 +78048,38 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "shadowkras"
+            },
+            "2.7.5.0": {
+              "TimeReleased": "2025-12-27T01:37:25.3224228+00:00",
+              "Changelog": "# NeatNoter 2.7.5\n\n## Features\n\n- Updated to patch 7.4.\n- Updated to Dalamud sdk 14.\n\nIf any bug if found, please report at: https://github.com/shadowkras/NeatNoter/issues/\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.556"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.556"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "shadowkras"
             }
           }
@@ -86837,9 +86885,9 @@
           }
         },
         "VFXEditor": {
-          "BuiltCommit": "221e1d67e7c0fdf783b905bd30b24511e0bad6b2",
-          "TimeBuilt": "2025-08-19T04:39:59.6495961+00:00",
-          "EffectiveVersion": "1.9.2.8",
+          "BuiltCommit": "b27871fffb00279e47ddb6e82abe95ac503fa6d9",
+          "TimeBuilt": "2025-12-27T01:51:41.9818896+00:00",
+          "EffectiveVersion": "1.9.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.6.5.0": {
@@ -91152,6 +91200,150 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "0ceal0t"
+            },
+            "1.9.3.1": {
+              "TimeReleased": "2025-12-27T01:51:41.9819715+00:00",
+              "Changelog": "- Updated for 7.4",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/Penumbra.String.git",
+                  "Version": "9bd016fbef5fb2de467dd42165267fdd93cd9592"
+                },
+                {
+                  "Key": "BCnEncoder.Net",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Google.FlatBuffers",
+                  "Version": "25.2.10"
+                },
+                {
+                  "Key": "HelixToolkit",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "HelixToolkit.SharpDX.Core",
+                  "Version": "2.27.3"
+                },
+                {
+                  "Key": "JsonPoke.MSBuild",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "mgholam.fastCSV",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.13.1"
+                },
+                {
+                  "Key": "SharpDX.D3DCompiler",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpGLTF.Toolkit",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "TeximpNet",
+                  "Version": "1.4.3"
+                },
+                {
+                  "Key": "CommunityToolkit.Common",
+                  "Version": "8.3.2"
+                },
+                {
+                  "Key": "CommunityToolkit.Diagnostics",
+                  "Version": "8.3.2"
+                },
+                {
+                  "Key": "CommunityToolkit.HighPerformance",
+                  "Version": "8.4.0"
+                },
+                {
+                  "Key": "CommunityToolkit.Mvvm",
+                  "Version": "8.3.2"
+                },
+                {
+                  "Key": "Cyotek.Drawing.BitmapFont",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct2D1",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct3D11",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.DXGI",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Mathematics",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpGLTF.Core",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "SharpGLTF.Runtime",
+                  "Version": "1.0.5"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "0ceal0t"
             }
           }
         },
@@ -91314,9 +91506,9 @@
           }
         },
         "XIVControllerToggle": {
-          "BuiltCommit": "a6cf20f62052674475dbfd877f82e350084e1cc7",
-          "TimeBuilt": "2025-08-21T20:02:25.4647135+00:00",
-          "EffectiveVersion": "1.2.2.0",
+          "BuiltCommit": "4410e869b71dc706325101539d0f697ff7e59e46",
+          "TimeBuilt": "2025-12-27T01:30:53.213783+00:00",
+          "EffectiveVersion": "1.2.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.1": {
@@ -91407,6 +91599,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "CallumCarmicheal"
+            },
+            "1.2.3.0": {
+              "TimeReleased": "2025-12-27T01:30:53.2138221+00:00",
+              "Changelog": "  # The Great Controller HUD Switcher 1.2.3\n  - Updated to latest Dalamud API and FFXIV patch version, thanks @imvaskel\n\n  # The Great Controller HUD Switcher 1.2.2\n  - Updated to latest API version and FFXIV Patch, thanks @grecaun\n  \n  # The Great Controller HUD Switcher 1.2.1\n  - Fix issue with several configuration variables not saving.\n\n  # The Great Controller HUD Switcher 1.2\n  - Added UI Scaling option to change scaling when swapping between KBM / PAD.\n\n  # The Great Controller HUD Switcher 1.1\n  - Updated to DT 7.2\n  - Added collection enabling / disabling upon switching\n\n  # The Great Controller HUD Switcher 1.0.1.3\n  - Updated to DT 7.1\n  - Added hide chat on switch when changing hud layout\n\n  # The Great Controller HUD Switcher 1.0.1.2\n  - Fixed issue with configuration UI not changing HUD selection\n\n  # The Great Controller HUD Switcher 1.0.1.1\n  - Updated to Dawntrial (7.X) by Aida-Enna\n\n  # The Great Controller HUD Switcher 1.0.1.0\n  - Attempted to fix display scaling on larger DPI monitors\n  - Fixed issue where main plugin command was registered twice\n  \n  # The Great Controller HUD Switcher 1.0.0.0\n  - Made it work(tm)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "CallumCarmicheal"
             }
           }
@@ -106314,9 +106522,9 @@
           }
         },
         "DelvUI": {
-          "BuiltCommit": "36e2e9023142706e36ce51e5ebee9a3d83cebdb8",
-          "TimeBuilt": "2025-12-26T11:55:55.0715977+00:00",
-          "EffectiveVersion": "2.6.2.0",
+          "BuiltCommit": "1ae210dcf2eadb2f26e8808535408a1a8505bdc3",
+          "TimeBuilt": "2025-12-27T01:31:04.3966111+00:00",
+          "EffectiveVersion": "2.6.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -106649,6 +106857,26 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "Tischel"
+            },
+            "2.6.2.1": {
+              "TimeReleased": "2025-12-27T01:31:04.396612+00:00",
+              "Changelog": "- Re-added the unengaged color for hostile enemies in the nameplates settings.",
+              "UsedNeeds": [
+                {
+                  "Key": "Colourful",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Tischel"
             }
           }
@@ -171004,9 +171232,9 @@
           }
         },
         "SoundEffectMuter": {
-          "BuiltCommit": "aaec91300a726a2a4b9c1988bc007a12b3663621",
-          "TimeBuilt": "2025-12-19T20:02:44.4341749+00:00",
-          "EffectiveVersion": "1.2.1.0",
+          "BuiltCommit": "47a2ba8d35f82b6565bf9bc060ad3c290b06f86e",
+          "TimeBuilt": "2025-12-27T01:51:49.7668405+00:00",
+          "EffectiveVersion": "1.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -171028,6 +171256,22 @@
             "1.2.1.0": {
               "TimeReleased": "2025-12-19T20:02:44.434176+00:00",
               "Changelog": "Updated to \u003Cse.7\u003E \u003Cse.4\u003E",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "spide-r"
+            },
+            "1.3.0.0": {
+              "TimeReleased": "2025-12-27T01:51:49.7668415+00:00",
+              "Changelog": "Big update! This plugin can now work in regular duties and in the overworld!",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -214523,9 +214767,9 @@
           }
         },
         "ConditionalTweaks": {
-          "BuiltCommit": "3416c60b11fdebe40b4f0ddedd01d7a6f12ba845",
-          "TimeBuilt": "2025-04-06T19:10:07.5673697+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "0800de0d05f685eaad5bb0f59faa336648f16f64",
+          "TimeBuilt": "2025-12-27T01:37:35.4624414+00:00",
+          "EffectiveVersion": "7.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -214543,6 +214787,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "philpax"
+            },
+            "7.4.0.0": {
+              "TimeReleased": "2025-12-27T01:37:35.4624423+00:00",
+              "Changelog": "Update to Dalamud14, FFXIV7.4, add hudlayout and input device detection.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "lackyas"
             }
           }
         },
@@ -220379,9 +220639,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "4c7c264ec4912460243d5e5061fdc24dde63dd1c",
-          "TimeBuilt": "2025-12-25T12:35:27.8396778+00:00",
-          "EffectiveVersion": "1.3.3.0",
+          "BuiltCommit": "e497fcada70cbced9b447f442094c5784cac6df4",
+          "TimeBuilt": "2025-12-27T01:51:58.2211891+00:00",
+          "EffectiveVersion": "1.3.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.3.0": {
@@ -220398,6 +220658,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "spide-r"
+            },
+            "1.3.3.1": {
+              "TimeReleased": "2025-12-27T01:51:58.2211905+00:00",
+              "Changelog": "Made some changes to the plugin config window to make things nicer.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "spide-r"
             }
           }
@@ -239896,6 +240172,55 @@
       "Version": "4.0.1",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-12-26T11:55:43.7706826Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Ottermandias/Penumbra.String.git",
+      "Version": "9bd016fbef5fb2de467dd42165267fdd93cd9592",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-12-27T01:51:42.0458506Z"
+    },
+    {
+      "Type": 1,
+      "Key": "HelixToolkit",
+      "Version": "3.1.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-12-27T01:51:42.0458821Z"
+    },
+    {
+      "Type": 1,
+      "Key": "HelixToolkit.SharpDX.Core",
+      "Version": "2.27.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-12-27T01:51:42.0458825Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Penumbra.Api",
+      "Version": "5.13.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-12-27T01:51:42.0458831Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CommunityToolkit.Common",
+      "Version": "8.3.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-12-27T01:51:42.0458835Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CommunityToolkit.Diagnostics",
+      "Version": "8.3.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-12-27T01:51:42.0458837Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CommunityToolkit.Mvvm",
+      "Version": "8.3.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-12-27T01:51:42.045884Z"
     }
   ]
 }
