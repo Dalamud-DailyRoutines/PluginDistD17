@@ -82752,9 +82752,9 @@
           }
         },
         "BilingualTooltips": {
-          "BuiltCommit": "3f3c567dcf16f4945c14890bb795a19fda50247e",
-          "TimeBuilt": "2025-12-19T06:08:26.9779728+00:00",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "4e8fee212d6a50dbca762a936389e730b95252ea",
+          "TimeBuilt": "2025-12-27T12:38:16.8859334+00:00",
+          "EffectiveVersion": "1.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -84949,6 +84949,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Elypha"
+            },
+            "1.6.0.0": {
+              "TimeReleased": "2025-12-27T12:38:16.8859744+00:00",
+              "Changelog": "v1.5.0.0\n- Update to API 14.\n- Add support for Deep Dungeon Items/Actions. Please report any missing tooltips to GitHub Issues/Discord.\n- Add support for Main Commands (e.g., Party Finder).\n- Minor fixes and improvements.\n\nv1.6.0.0\n- Fix display of lo......ng names in tooltips.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Elypha/Miosuke.git",
+                  "Version": "f75750f8069d15b947f7550d61158c6d5638bf20"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "Elypha"
             }
           }
@@ -144662,9 +144682,9 @@
           }
         },
         "Browsingway": {
-          "BuiltCommit": "9cc1c302a4ccb98e6f85695e063c18c35c49c7a1",
-          "TimeBuilt": "2025-12-18T22:47:53.9866551+00:00",
-          "EffectiveVersion": "1.7.0",
+          "BuiltCommit": "d88fb77c6283fda63fe870196ea66e65445e6e6a",
+          "TimeBuilt": "2025-12-27T21:29:14.810946+00:00",
+          "EffectiveVersion": "1.7.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.1.0": {
@@ -145016,6 +145036,50 @@
             },
             "1.7.0": {
               "TimeReleased": "2025-12-18T22:47:53.9866563+00:00",
+              "Changelog": "- Bump Chromium to 143.0.7499.40\n- Api 14\n",
+              "UsedNeeds": [
+                {
+                  "Key": "FlatSharp.Compiler",
+                  "Version": "7.9.0"
+                },
+                {
+                  "Key": "FlatSharp.Runtime",
+                  "Version": "7.9.0"
+                },
+                {
+                  "Key": "SharedMemory",
+                  "Version": "2.3.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "CefSharp.Common.NETCore",
+                  "Version": "143.0.90"
+                },
+                {
+                  "Key": "CefSharp.OffScreen.NETCore",
+                  "Version": "143.0.90"
+                },
+                {
+                  "Key": "chromiumembeddedframework.runtime",
+                  "Version": "143.0.9"
+                },
+                {
+                  "Key": "chromiumembeddedframework.runtime.win-x64",
+                  "Version": "143.0.9"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Styr1x"
+            },
+            "1.7.1": {
+              "TimeReleased": "2025-12-27T21:29:14.8109475+00:00",
               "Changelog": "- Bump Chromium to 143.0.7499.40\n- Api 14\n",
               "UsedNeeds": [
                 {
@@ -172200,9 +172264,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "65bca45770e926ab6682850f7d5f7ff29bf4f610",
-          "TimeBuilt": "2025-12-26T11:55:43.7182102+00:00",
-          "EffectiveVersion": "1.1.1.6",
+          "BuiltCommit": "711ae2c822abeaa54056bb94b3b4267f42b4e40f",
+          "TimeBuilt": "2025-12-27T23:09:03.1832943+00:00",
+          "EffectiveVersion": "1.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -174324,6 +174388,46 @@
               ],
               "Reviewer": "philpax",
               "Submitter": "MidoriKami"
+            },
+            "1.1.2.0": {
+              "TimeReleased": "2025-12-27T23:09:03.1833409+00:00",
+              "Changelog": "Localization reworked to actually support built in resx features.\r\n\r\nSome fixes, some adjustments.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "2122482f0dd453a74227965b4f0a6868866e21c1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -174384,9 +174488,9 @@
           }
         },
         "StatusTimers": {
-          "BuiltCommit": "700c2ff5ed5464b0c4d54b59e2d9ba257e78d8a7",
-          "TimeBuilt": "2025-12-19T03:00:29.0813322+00:00",
-          "EffectiveVersion": "1.0.3.0",
+          "BuiltCommit": "43700d2d3883990655e0a936c7dfdace0e32cd2b",
+          "TimeBuilt": "2025-12-27T21:29:38.013903+00:00",
+          "EffectiveVersion": "1.0.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.2": {
@@ -174468,6 +174572,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.git",
                   "Version": "7aa4ae729dc08dac861fae6088602057888ae684"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.3.1": {
+              "TimeReleased": "2025-12-27T21:29:38.0139042+00:00",
+              "Changelog": "# 1.0.3.1\n- Added an option to only show statuses when in combat.\n- Fixed an issue where the settings for the progressbar wouldn\u0027t save properly.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "9519b07c8db287ef75b7153a5e97c24574e800f2"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -175220,9 +175348,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "b8a988df844f2c12514f3cd68a6179b278e61919",
-          "TimeBuilt": "2025-12-22T21:36:22.0457854+00:00",
-          "EffectiveVersion": "1.1.2.0",
+          "BuiltCommit": "bd3ce10d03806d1e5fb52d11c9ecf5c069f82e6f",
+          "TimeBuilt": "2025-12-27T21:29:28.0146847+00:00",
+          "EffectiveVersion": "1.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -175403,6 +175531,50 @@
                 }
               ],
               "Reviewer": "perchbirdd",
+              "Submitter": "Sohtoren"
+            },
+            "1.2.1.0": {
+              "TimeReleased": "2025-12-27T21:29:28.0146862+00:00",
+              "Changelog": "- **General**: Move currency history saving on logout instead of save timer\n- **Jobs**: Add character name on table hover\n- **Progress**: Add Island Sanctuary level tracking and display on the rewards page\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Sohtoren"
             }
           }
@@ -175842,6 +176014,30 @@
               "Submitter": "teechep"
             }
           }
+        },
+        "Photobooth": {
+          "BuiltCommit": "d02e32e3649fe2ce9c19b1b6ffd010ffc42223a6",
+          "TimeBuilt": "2025-12-27T21:28:44.063235+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2025-12-27T21:28:44.0632819+00:00",
+              "Changelog": "1.0.0:\n- Initial stable release. Enjoy!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "iri-impulse"
+            }
+          }
         }
       }
     },
@@ -176217,9 +176413,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "48f8172dd161fc524079f54bf76836437b151d08",
-          "TimeBuilt": "2025-12-20T21:43:26.6358835+00:00",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "bd3ce10d03806d1e5fb52d11c9ecf5c069f82e6f",
+          "TimeBuilt": "2025-12-27T21:29:51.6548896+00:00",
+          "EffectiveVersion": "1.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -179367,6 +179563,50 @@
                 }
               ],
               "Reviewer": "goaaats",
+              "Submitter": "Sohtoren"
+            },
+            "1.2.1.0": {
+              "TimeReleased": "2025-12-27T21:29:51.6548914+00:00",
+              "Changelog": "- **General**: Move currency history saving on logout instead of save timer\n- **Jobs**: Add character name on table hover\n- **Progress**: Add Island Sanctuary level tracking and display on the rewards page\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Sohtoren"
             }
           }
@@ -218411,9 +218651,9 @@
           }
         },
         "StatusTimers": {
-          "BuiltCommit": "700c2ff5ed5464b0c4d54b59e2d9ba257e78d8a7",
-          "TimeBuilt": "2025-12-19T03:00:40.2747677+00:00",
-          "EffectiveVersion": "1.0.3.0",
+          "BuiltCommit": "43700d2d3883990655e0a936c7dfdace0e32cd2b",
+          "TimeBuilt": "2025-12-27T21:30:01.4010132+00:00",
+          "EffectiveVersion": "1.0.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -218783,6 +219023,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.git",
                   "Version": "7aa4ae729dc08dac861fae6088602057888ae684"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.3.1": {
+              "TimeReleased": "2025-12-27T21:30:01.401014+00:00",
+              "Changelog": "# 1.0.3.1\n- Added an option to only show statuses when in combat.\n- Fixed an issue where the settings for the progressbar wouldn\u0027t save properly.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "9519b07c8db287ef75b7153a5e97c24574e800f2"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -240221,6 +240485,20 @@
       "Version": "8.3.2",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-12-27T01:51:42.045884Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "9519b07c8db287ef75b7153a5e97c24574e800f2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-12-27T21:29:38.0399019Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "2122482f0dd453a74227965b4f0a6868866e21c1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-12-27T23:09:03.246673Z"
     }
   ]
 }
