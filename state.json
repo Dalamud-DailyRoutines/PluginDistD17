@@ -13411,9 +13411,9 @@
           }
         },
         "RemotePartyFinder": {
-          "BuiltCommit": "94649e99cc0e649b9c85a17d544ebb3c1af7b2c5",
-          "TimeBuilt": "2025-08-23T10:50:22.9629463+00:00",
-          "EffectiveVersion": "1.0.17.0",
+          "BuiltCommit": "ccf81ec3dd8e7eafa229edc5bc616fddf7a79fb6",
+          "TimeBuilt": "2025-12-28T15:36:15.8391971+00:00",
+          "EffectiveVersion": "1.0.18.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.8.0": {
@@ -13521,6 +13521,18 @@
                 {
                   "Key": "HexaGen.Runtime",
                   "Version": "1.1.20"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "zeroeightysix"
+            },
+            "1.0.18.0": {
+              "TimeReleased": "2025-12-28T15:36:15.8391985+00:00",
+              "Changelog": "Update for 7.4",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
                 }
               ],
               "Reviewer": "philpax",
@@ -159280,9 +159292,9 @@
           }
         },
         "CWLSLastSeenTool": {
-          "BuiltCommit": "71fb03c06b3b29ea97ce963d0376e7d77198529a",
-          "TimeBuilt": "2025-08-12T16:23:49.6468491+00:00",
-          "EffectiveVersion": "1.1.5.0",
+          "BuiltCommit": "5c41fca65e2ff47f49aca86196b03fe6bb6bb735",
+          "TimeBuilt": "2025-12-28T15:36:23.493167+00:00",
+          "EffectiveVersion": "1.1.6.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.2.1": {
@@ -159332,6 +159344,22 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "radax864"
+            },
+            "1.1.6.1": {
+              "TimeReleased": "2025-12-28T15:36:23.4931694+00:00",
+              "Changelog": "Version 1.1.6.1\r\n\r\n- Updated to Dalamud API 14 (Dalamud.NET.Sdk/14.0.1)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
                 }
               ],
               "Reviewer": "philpax",
@@ -162044,9 +162072,9 @@
           }
         },
         "BisBuddy": {
-          "BuiltCommit": "386be3fe30bb5f48237f0e73625b85a804a58f6a",
-          "TimeBuilt": "2025-12-21T10:04:31.966423+00:00",
-          "EffectiveVersion": "0.2.5.0",
+          "BuiltCommit": "6cb91f749c94651d07f1d3067a1fb1cf9b262a13",
+          "TimeBuilt": "2025-12-28T15:36:08.747053+00:00",
+          "EffectiveVersion": "0.2.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.0": {
@@ -163928,6 +163956,214 @@
             "0.2.5.0": {
               "TimeReleased": "2025-12-21T10:04:31.966464+00:00",
               "Changelog": "**Fixes**\n- Fix HQ items not highlighting in inventories\n- Fix prerequisites sometimes not assigning when expected\n- Fix gearset tabs scrolling away when the window is small\n- Fix UI displaying gearset of other character upon swapping\n- Fix extending prereqs when no match is found\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "7aa4ae729dc08dac861fae6088602057888ae684"
+                },
+                {
+                  "Key": "Autofac",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Autofac.Extensions.DependencyInjection",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "CommunityToolkit.Mvvm",
+                  "Version": "8.4.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Fastenshtein",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "LinearAssignment",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "7.1.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.4.1"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "TestableIO.System.IO.Abstractions.Wrappers",
+                  "Version": "22.1.0"
+                },
+                {
+                  "Key": "BCnEncoder.Net",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "CommunityToolkit.HighPerformance",
+                  "Version": "8.4.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.3.9"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Testably.Abstractions.FileSystem.Interface",
+                  "Version": "10.0.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "RajahOmen"
+            },
+            "0.2.6.0": {
+              "TimeReleased": "2025-12-28T15:36:08.747182+00:00",
+              "Changelog": "**Added**\n- Materia tab to show required materia counts to succeed on melds (ala Teamcraft)\n**Fixes**\n- Fix old config migrations not saving, causing new gearsets to be overwritten\n- Fix import failures on some valid static xivgear bis links\n- Fix jobs being incorrect on xivgear multi-job pages\n- Fix rare item requirement race condition crash\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.git",
@@ -182005,9 +182241,9 @@
           "Changelogs": {}
         },
         "RpUtils": {
-          "BuiltCommit": "2af4b90e752bda288cf7deac3f065a8a535026d8",
-          "TimeBuilt": "2025-04-20T19:36:15.2040229+00:00",
-          "EffectiveVersion": "0.3.1.0",
+          "BuiltCommit": "7e1e0602916837c0d797969a1a5de5969fa077cd",
+          "TimeBuilt": "2025-12-28T20:01:38.5829046+00:00",
+          "EffectiveVersion": "0.3.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.0.0": {
@@ -182224,6 +182460,102 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "KassWasTaken"
+            },
+            "0.3.2.0": {
+              "TimeReleased": "2025-12-28T20:01:38.582948+00:00",
+              "Changelog": "0.3.2 (2025.12.27)\r\n- Updated for 7.4, migrated to Dalamud SDK\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "KassWasTaken"
             }
           }
