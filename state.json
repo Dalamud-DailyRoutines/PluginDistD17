@@ -1411,9 +1411,9 @@
           }
         },
         "Tourist": {
-          "BuiltCommit": "1c95d5d76916087485986143ae5b59bc9dad2345",
-          "TimeBuilt": "2025-08-08T19:51:38.0903115+00:00",
-          "EffectiveVersion": "1.13.0.0",
+          "BuiltCommit": "dfc69ae076199bbb391cb9d5173b99a7fcc45f9d",
+          "TimeBuilt": "2025-12-30T23:22:25.041067+00:00",
+          "EffectiveVersion": "1.14.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.9": {
@@ -1876,6 +1876,166 @@
                 {
                   "Key": "System.Diagnostics.EventLog",
                   "Version": "9.0.6"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "foophoof"
+            },
+            "1.14.0.0": {
+              "TimeReleased": "2025-12-30T23:22:25.0411049+00:00",
+              "Changelog": "### Changed\n- API14 support\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalaMock.Host",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "DalaMock.Shared",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "FFXIVWeather.Lumina",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Autofac",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Autofac.Extensions.DependencyInjection",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.6.1"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.2.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
                 }
               ],
               "Reviewer": "reiichi001",
@@ -38967,9 +39127,9 @@
           }
         },
         "Collections": {
-          "BuiltCommit": "82456f07d7290d5063311c7e9e39c167a9372892",
-          "TimeBuilt": "2025-11-12T22:49:55.5677652+00:00",
-          "EffectiveVersion": "1.0.2.11",
+          "BuiltCommit": "ba169cf37357b8d4c325103a13cc51b92fa271ce",
+          "TimeBuilt": "2025-12-30T21:42:16.3616996+00:00",
+          "EffectiveVersion": "1.0.2.12",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.2": {
@@ -41314,6 +41474,38 @@
               ],
               "Reviewer": "philpax",
               "Submitter": "Seventhxiv"
+            },
+            "1.0.2.12": {
+              "TimeReleased": "2025-12-30T21:42:16.3617388+00:00",
+              "Changelog": "Collections v1.0.2.12\r\n- 7.4 update\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "seventhxiv"
             }
           }
         },
@@ -51266,9 +51458,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "56e12f2b7ba0cafababbabc8cfe43a03ceb1960f",
-          "TimeBuilt": "2025-12-25T12:35:18.4158868+00:00",
-          "EffectiveVersion": "1.6.6.0",
+          "BuiltCommit": "0d0b193f60c8c59d5e88f34805ea5464c10ac932",
+          "TimeBuilt": "2025-12-30T21:37:50.8688338+00:00",
+          "EffectiveVersion": "1.6.6.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -53029,6 +53221,42 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "Infiziert90"
+            },
+            "1.6.6.1": {
+              "TimeReleased": "2025-12-30T21:37:50.8688349+00:00",
+              "Changelog": "- Add a check for invalid treasure position\r\n  - If you receive the error message please contact me",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Infiziert90"
             }
           }
@@ -75446,9 +75674,9 @@
           }
         },
         "MagitekStratagem": {
-          "BuiltCommit": "ddfed6b6c71be2364e04083e6c38bd58e6c99953",
-          "TimeBuilt": "2025-08-22T13:04:59.0781938+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "c126ff8c999364e318a821cae3d987c54ae6c69a",
+          "TimeBuilt": "2025-12-30T21:30:34.6623306+00:00",
+          "EffectiveVersion": "1.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.4.0.0": {
@@ -76196,6 +76424,34 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "meoiswa"
+            },
+            "1.3.0.0": {
+              "TimeReleased": "2025-12-30T21:30:34.6623788+00:00",
+              "Changelog": "Version 1.3.0.0:\n - Updated to API14\n\n\nKnown Issues:\n - Windowed mode is currently unsupported.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "10.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "meoiswa"
             }
           }
@@ -172016,9 +172272,9 @@
           }
         },
         "SoundEffectMuter": {
-          "BuiltCommit": "47a2ba8d35f82b6565bf9bc060ad3c290b06f86e",
-          "TimeBuilt": "2025-12-27T01:51:49.7668405+00:00",
-          "EffectiveVersion": "1.3.0.0",
+          "BuiltCommit": "9dc1ba64d3cf7c7768eb619b96215f423d5da146",
+          "TimeBuilt": "2025-12-30T21:37:14.3246556+00:00",
+          "EffectiveVersion": "1.3.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -172056,6 +172312,22 @@
             "1.3.0.0": {
               "TimeReleased": "2025-12-27T01:51:49.7668415+00:00",
               "Changelog": "Big update! This plugin can now work in regular duties and in the overworld!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "spide-r"
+            },
+            "1.3.1.0": {
+              "TimeReleased": "2025-12-30T21:37:14.3246941+00:00",
+              "Changelog": "Toggle Command has been added! /ptogglesem",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -176108,9 +176380,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "bd3ce10d03806d1e5fb52d11c9ecf5c069f82e6f",
-          "TimeBuilt": "2025-12-27T21:29:28.0146847+00:00",
-          "EffectiveVersion": "1.2.1.0",
+          "BuiltCommit": "8a3c04489c0ce89b71430dd2a3500f87e1d8efbb",
+          "TimeBuilt": "2025-12-30T21:37:36.7900022+00:00",
+          "EffectiveVersion": "1.2.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -176296,6 +176568,50 @@
             "1.2.1.0": {
               "TimeReleased": "2025-12-27T21:29:28.0146862+00:00",
               "Changelog": "- **General**: Move currency history saving on logout instead of save timer\n- **Jobs**: Add character name on table hover\n- **Progress**: Add Island Sanctuary level tracking and display on the rewards page\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.2.3.0": {
+              "TimeReleased": "2025-12-30T21:37:36.7900032+00:00",
+              "Changelog": "- **Details**: Fix GC rank mix up twin adder/immortal.\n- **Progress**: Remove colon in island sanctuary rank text\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -176732,14 +177048,26 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "e7939444c51d90a4a267e31e32fc435d8548efe8",
-          "TimeBuilt": "2025-12-24T06:45:43.002419+00:00",
-          "EffectiveVersion": "1.3.1.0",
+          "BuiltCommit": "7948f38adfa1cdb051a9740548be0ff356d2c4a5",
+          "TimeBuilt": "2025-12-30T21:37:22.64614+00:00",
+          "EffectiveVersion": "1.3.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
               "TimeReleased": "2025-12-24T06:45:43.0024241+00:00",
               "Changelog": "# Version 1.3.1\n- Updated to Dalamud API Level 14\n- Updated to .NET 10\n- Compatibility updates for latest FFXIV patch\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "GitHixy"
+            },
+            "1.3.2.0": {
+              "TimeReleased": "2025-12-30T21:37:22.6461408+00:00",
+              "Changelog": "# Version 1.3.2\n- Blacklist Bug Fix\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -177173,9 +177501,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "bd3ce10d03806d1e5fb52d11c9ecf5c069f82e6f",
-          "TimeBuilt": "2025-12-27T21:29:51.6548896+00:00",
-          "EffectiveVersion": "1.2.1.0",
+          "BuiltCommit": "8a3c04489c0ce89b71430dd2a3500f87e1d8efbb",
+          "TimeBuilt": "2025-12-30T21:38:15.3484484+00:00",
+          "EffectiveVersion": "1.2.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -180328,6 +180656,50 @@
             "1.2.1.0": {
               "TimeReleased": "2025-12-27T21:29:51.6548914+00:00",
               "Changelog": "- **General**: Move currency history saving on logout instead of save timer\n- **Jobs**: Add character name on table hover\n- **Progress**: Add Island Sanctuary level tracking and display on the rewards page\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.2.3.0": {
+              "TimeReleased": "2025-12-30T21:38:15.3484494+00:00",
+              "Changelog": "- **Details**: Fix GC rank mix up twin adder/immortal.\n- **Progress**: Remove colon in island sanctuary rank text\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -190198,9 +190570,9 @@
           }
         },
         "Collections": {
-          "BuiltCommit": "82456f07d7290d5063311c7e9e39c167a9372892",
-          "TimeBuilt": "2025-11-12T22:50:07.0712756+00:00",
-          "EffectiveVersion": "1.0.2.11",
+          "BuiltCommit": "ba169cf37357b8d4c325103a13cc51b92fa271ce",
+          "TimeBuilt": "2025-12-30T21:42:26.8871951+00:00",
+          "EffectiveVersion": "1.0.2.12",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -192577,6 +192949,38 @@
               ],
               "Reviewer": "philpax",
               "Submitter": "Seventhxiv"
+            },
+            "1.0.2.12": {
+              "TimeReleased": "2025-12-30T21:42:26.8871963+00:00",
+              "Changelog": "Collections v1.0.2.12\r\n- 7.4 update\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "seventhxiv"
             }
           }
         },
@@ -217763,9 +218167,9 @@
           }
         },
         "Tourist": {
-          "BuiltCommit": "1c95d5d76916087485986143ae5b59bc9dad2345",
-          "TimeBuilt": "2025-08-08T19:52:03.0477464+00:00",
-          "EffectiveVersion": "1.13.0.0",
+          "BuiltCommit": "dfc69ae076199bbb391cb9d5173b99a7fcc45f9d",
+          "TimeBuilt": "2025-12-30T23:22:34.9944732+00:00",
+          "EffectiveVersion": "1.14.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.12.1.0": {
@@ -218255,6 +218659,166 @@
                 {
                   "Key": "System.Diagnostics.EventLog",
                   "Version": "9.0.6"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "foophoof"
+            },
+            "1.14.0.0": {
+              "TimeReleased": "2025-12-30T23:22:34.9944749+00:00",
+              "Changelog": "### Changed\n- API14 support\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalaMock.Host",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "DalaMock.Shared",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "FFXIVWeather.Lumina",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Autofac",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Autofac.Extensions.DependencyInjection",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.6.1"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.2.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
                 }
               ],
               "Reviewer": "reiichi001",
@@ -222351,9 +222915,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "e7939444c51d90a4a267e31e32fc435d8548efe8",
-          "TimeBuilt": "2025-12-24T06:46:00.4842269+00:00",
-          "EffectiveVersion": "1.3.1.0",
+          "BuiltCommit": "7948f38adfa1cdb051a9740548be0ff356d2c4a5",
+          "TimeBuilt": "2025-12-30T21:38:00.4909806+00:00",
+          "EffectiveVersion": "1.3.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.5.0": {
@@ -222395,6 +222959,18 @@
             "1.3.1.0": {
               "TimeReleased": "2025-12-24T06:46:00.4842281+00:00",
               "Changelog": "# Version 1.3.1\n- Updated to Dalamud API Level 14\n- Updated to .NET 10\n- Compatibility updates for latest FFXIV patch\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "GitHixy"
+            },
+            "1.3.2.0": {
+              "TimeReleased": "2025-12-30T21:38:00.4909817+00:00",
+              "Changelog": "# Version 1.3.2\n- Blacklist Bug Fix\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -242242,6 +242818,27 @@
       "Version": "b81f18d1398de670a9a3808147901e08e12ec1cc",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-12-30T01:58:46.2623795Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client",
+      "Version": "10.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-12-30T21:30:34.7252784Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+      "Version": "10.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-12-30T21:30:34.7253059Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+      "Version": "10.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-12-30T21:30:34.7253062Z"
     }
   ]
 }
