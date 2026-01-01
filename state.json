@@ -140842,9 +140842,9 @@
           }
         },
         "StanleyParableXiv": {
-          "BuiltCommit": "6ebae6e88d208097c0ec3ad38a2c4ee313b2a6bb",
-          "TimeBuilt": "2025-12-18T23:13:42.1825059+00:00",
-          "EffectiveVersion": "4.1.0.0",
+          "BuiltCommit": "d4777bfd6710ae6920a4a6d5d9060115377b8b76",
+          "TimeBuilt": "2026-01-01T12:09:38.3018513+00:00",
+          "EffectiveVersion": "4.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
@@ -141233,6 +141233,46 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "GayPotatoEmma"
+            },
+            "4.1.0.1": {
+              "TimeReleased": "2026-01-01T12:09:38.3018528+00:00",
+              "Changelog": "- Added support for the new Worqor Chirteh frontlines map.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "GayPotatoEmma"
             }
           }
@@ -173492,9 +173532,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "262f950072e1cd6a10b32c79b0e8c35c201d1626",
-          "TimeBuilt": "2025-12-30T01:58:46.2024664+00:00",
-          "EffectiveVersion": "1.1.2.1",
+          "BuiltCommit": "2f58ffd3b95bd6cbcdf5ad9155e198381464e6e2",
+          "TimeBuilt": "2026-01-01T12:09:26.2085545+00:00",
+          "EffectiveVersion": "1.1.2.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -175695,6 +175735,46 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.1.2.2": {
+              "TimeReleased": "2026-01-01T12:09:26.2086121+00:00",
+              "Changelog": "nofranz\r\n\r\nreorders InventoryController functions to give better debug info, it seems some folks with custom repo plugins are getting crashes, and the current crash trace is very unhelpful.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "f191e571e7b4cbf4d293769c652ab0ea3ca258c6"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "MidoriKami"
             }
           }
@@ -243238,6 +243318,13 @@
       "Version": "3.1.0.10",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-12-31T18:01:21.2086515Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "f191e571e7b4cbf4d293769c652ab0ea3ca258c6",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2026-01-01T12:09:26.2736934Z"
     }
   ]
 }
