@@ -76553,9 +76553,9 @@
           }
         },
         "Mappy": {
-          "BuiltCommit": "9e9e4a31d7943b55d5597b81604516119e0ea666",
-          "TimeBuilt": "2025-09-15T03:24:01.1741894+00:00",
-          "EffectiveVersion": "3.1.6.10",
+          "BuiltCommit": "95cd13dc4dde65a47eb585b96c3319979838a152",
+          "TimeBuilt": "2026-01-01T22:23:47.9136485+00:00",
+          "EffectiveVersion": "3.1.6.11",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.3.5": {
@@ -77553,6 +77553,46 @@
               ],
               "Reviewer": "philpax",
               "Submitter": "kotenuki"
+            },
+            "3.1.6.11": {
+              "TimeReleased": "2026-01-01T22:23:47.913686+00:00",
+              "Changelog": "API14 \uD83C\uDF86\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "ec76c842809773066f1ed002ce35135d31e9413f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.0-preview.6.25358.103"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "karashiiro",
+              "Submitter": "harbingerftw"
             }
           }
         },
@@ -81761,9 +81801,9 @@
           }
         },
         "BozjaBuddy": {
-          "BuiltCommit": "d4ff8c98c2b6a5153f7ff26b4ff75879d74b38ef",
-          "TimeBuilt": "2025-11-12T22:45:32.9417355+00:00",
-          "EffectiveVersion": "1.1.6.7",
+          "BuiltCommit": "8589590296dcf6ebacb1c8fe22e45535f17833ac",
+          "TimeBuilt": "2026-01-01T22:19:23.9919616+00:00",
+          "EffectiveVersion": "1.1.6.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -82469,6 +82509,118 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "kaleidocli"
+            },
+            "1.1.6.8": {
+              "TimeReleased": "2026-01-01T22:19:23.9919633+00:00",
+              "Changelog": "[1.1.6.8] API bump. Thank you Dukmos (https://github.com/Dukmos) for the changes!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "FFXIVWeather",
+                  "Version": "1.0.17"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "QuickGraph",
+                  "Version": "3.6.61119.7"
+                },
+                {
+                  "Key": "System.Data.SQLite",
+                  "Version": "1.0.119"
+                },
+                {
+                  "Key": "System.Data.SQLite.Core",
+                  "Version": "1.0.119"
+                },
+                {
+                  "Key": "EntityFramework",
+                  "Version": "6.4.4"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.1.0"
+                },
+                {
+                  "Key": "runtime.native.System.Data.SqlClient.sni",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "runtime.win-x64.runtime.native.System.Data.SqlClient.sni",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "runtime.win-x86.runtime.native.System.Data.SqlClient.sni",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Stub.System.Data.SQLite.Core.NetStandard",
+                  "Version": "1.0.119"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ComponentModel.Annotations",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Configuration.ConfigurationManager",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Data.SqlClient",
+                  "Version": "4.8.1"
+                },
+                {
+                  "Key": "System.Data.SQLite.EF6",
+                  "Version": "1.0.119"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.ProtectedData",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Permissions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Windows.Extensions",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "karashiiro",
               "Submitter": "kaleidocli"
             }
           }
@@ -169256,9 +169408,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "3d470d1090ff204a5181706142e8037c00f585ac",
-          "TimeBuilt": "2025-12-31T18:01:03.4560956+00:00",
-          "EffectiveVersion": "1.3.5.1",
+          "BuiltCommit": "a159fdb267bbecc6b9bb8592d2075e719097fe56",
+          "TimeBuilt": "2026-01-01T22:19:09.2442135+00:00",
+          "EffectiveVersion": "1.3.5.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -169419,6 +169571,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "spide-r"
+            },
+            "1.3.5.2": {
+              "TimeReleased": "2026-01-01T22:19:09.2442575+00:00",
+              "Changelog": "Big Update! New Events and Voicelines for 7.4 have been added. This includes Metem\u0027s Mahjong Voicelines!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "karashiiro",
               "Submitter": "spide-r"
             }
           }
@@ -204790,9 +204958,9 @@
           }
         },
         "WhereIsMyMouse": {
-          "BuiltCommit": "8dbbfef650b4f9c246db48792e8ac4ad5fe60bf7",
-          "TimeBuilt": "2025-08-19T04:22:46.5663005+00:00",
-          "EffectiveVersion": "0.0.1.4",
+          "BuiltCommit": "07f219a700397c74c1e32aad5d3a4eff0b4881bf",
+          "TimeBuilt": "2026-01-01T22:23:57.0953298+00:00",
+          "EffectiveVersion": "0.0.1.5",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -204884,6 +205052,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Pythyu"
+            },
+            "0.0.1.5": {
+              "TimeReleased": "2026-01-01T22:23:57.0953308+00:00",
+              "Changelog": "Changes :\r\n  - Update to latest api version\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "karashiiro",
               "Submitter": "Pythyu"
             }
           }
@@ -243325,6 +243509,13 @@
       "Version": "f191e571e7b4cbf4d293769c652ab0ea3ca258c6",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2026-01-01T12:09:26.2736934Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib.git",
+      "Version": "ec76c842809773066f1ed002ce35135d31e9413f",
+      "ReviewedBy": "karashiiro",
+      "ReviewedAt": "2026-01-01T22:23:47.9741432Z"
     }
   ]
 }
