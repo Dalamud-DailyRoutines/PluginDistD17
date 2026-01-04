@@ -11936,9 +11936,9 @@
           }
         },
         "PetRenamer": {
-          "BuiltCommit": "1b29233f27516bc1a83ac43de7c32dee222993d9",
-          "TimeBuilt": "2025-12-20T03:56:59.7252039+00:00",
-          "EffectiveVersion": "2.8.0.0",
+          "BuiltCommit": "a97113f35e3cb3ef0f3ac5563d178e788bdae86c",
+          "TimeBuilt": "2026-01-03T12:19:21.2041713+00:00",
+          "EffectiveVersion": "2.8.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -12778,6 +12778,26 @@
               ],
               "Reviewer": "philpax",
               "Submitter": "Glyceri"
+            },
+            "2.8.0.1": {
+              "TimeReleased": "2026-01-03T12:19:21.2041727+00:00",
+              "Changelog": "[2.8.0.1] \r\n\u002B Fixes a very minor IPC and Export bug.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Glyceri"
             }
           }
         },
@@ -13063,9 +13083,9 @@
           }
         },
         "Honorific": {
-          "BuiltCommit": "4fd19556614b68c5056c93a185b6e29c55fa15c9",
-          "TimeBuilt": "2025-12-20T04:51:24.9312039+00:00",
-          "EffectiveVersion": "1.7.2.1",
+          "BuiltCommit": "8961a09dab041e2528fb5f86e82868b1630721b4",
+          "TimeBuilt": "2026-01-03T12:18:40.8903217+00:00",
+          "EffectiveVersion": "1.7.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.3": {
@@ -13314,6 +13334,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "Caraxi"
+            },
+            "1.7.3.0": {
+              "TimeReleased": "2026-01-03T12:18:40.8903613+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "Caraxi"
             }
           }
@@ -111482,9 +111518,9 @@
           }
         },
         "Craftimizer": {
-          "BuiltCommit": "a041fc6ebf85029d7e1d37ecfd739c6131a3eb1f",
-          "TimeBuilt": "2025-12-22T13:51:58.5452619+00:00",
-          "EffectiveVersion": "2.9.0.0",
+          "BuiltCommit": "be349a29a4986583422ae4af5ab2937ce6a817ca",
+          "TimeBuilt": "2026-01-03T23:38:03.4525641+00:00",
+          "EffectiveVersion": "2.9.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.3.0": {
@@ -111793,6 +111829,42 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "WorkingRobot"
+            },
+            "2.9.1.1": {
+              "TimeReleased": "2026-01-03T23:38:03.452565+00:00",
+              "Changelog": "Fixed Optimal solver from not giving non-100% HQ solutions",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.264"
+                },
+                {
+                  "Key": "DotNext",
+                  "Version": "5.26.1"
+                },
+                {
+                  "Key": "Raphael.Net",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.IO.Hashing",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "WorkingRobot"
             }
           }
@@ -141758,9 +141830,9 @@
           }
         },
         "PositionalGuide": {
-          "BuiltCommit": "0ce624d576fa0544c7e35142310cd4b045452e25",
-          "TimeBuilt": "2025-08-21T07:19:27.3163259+00:00",
-          "EffectiveVersion": "4.7.3",
+          "BuiltCommit": "8ebe8d4fd18293c1539c978e2cf0c856ec98332b",
+          "TimeBuilt": "2026-01-03T23:37:48.0138024+00:00",
+          "EffectiveVersion": "4.8.1",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.8467.16512": {
@@ -141876,6 +141948,26 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "VariableVixen"
+            },
+            "4.8.1": {
+              "TimeReleased": "2026-01-03T23:37:48.0138035+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.NET.ILLink.Tasks",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "VariableVixen"
             }
           }
@@ -142998,9 +143090,9 @@
           }
         },
         "StanleyParableXiv": {
-          "BuiltCommit": "d4777bfd6710ae6920a4a6d5d9060115377b8b76",
-          "TimeBuilt": "2026-01-01T12:09:38.3018513+00:00",
-          "EffectiveVersion": "4.1.0.1",
+          "BuiltCommit": "4e33700897035da1d32f588555de393fb7b5e386",
+          "TimeBuilt": "2026-01-03T12:18:53.7355905+00:00",
+          "EffectiveVersion": "4.1.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
@@ -143394,6 +143486,46 @@
             "4.1.0.1": {
               "TimeReleased": "2026-01-01T12:09:38.3018528+00:00",
               "Changelog": "- Added support for the new Worqor Chirteh frontlines map.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "GayPotatoEmma"
+            },
+            "4.1.0.2": {
+              "TimeReleased": "2026-01-03T12:18:53.7355914+00:00",
+              "Changelog": "- Re-enabled PVP \u0027Countdown Start\u0027 and \u002710 Seconds Remaining\u0027 Events (Thanks to [Critical Impact](https://github.com/Critical-Impact))\n- PVP Win/Loss are still currently disabled, I am still looking into getting these fixed aswell to bring the plugin back to full functionality\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -171652,9 +171784,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "a159fdb267bbecc6b9bb8592d2075e719097fe56",
-          "TimeBuilt": "2026-01-01T22:19:09.2442135+00:00",
-          "EffectiveVersion": "1.3.5.2",
+          "BuiltCommit": "323e6a84e634ad7db1c33def5f7f20de5a8bd8d6",
+          "TimeBuilt": "2026-01-03T23:37:39.1201544+00:00",
+          "EffectiveVersion": "1.3.5.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -171831,6 +171963,22 @@
                 }
               ],
               "Reviewer": "karashiiro",
+              "Submitter": "spide-r"
+            },
+            "1.3.5.3": {
+              "TimeReleased": "2026-01-03T23:37:39.1201965+00:00",
+              "Changelog": "Minor Fixes",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "spide-r"
             }
           }
@@ -172832,9 +172980,9 @@
           }
         },
         "AetherDraw": {
-          "BuiltCommit": "7f66fc35cbe9b5a363d54d48bcf083c4f9e44157",
-          "TimeBuilt": "2025-12-19T11:19:47.5728847+00:00",
-          "EffectiveVersion": "2.4.4.2",
+          "BuiltCommit": "56112acc303d60782b3b177fefbdfe31f93ed7cb",
+          "TimeBuilt": "2026-01-03T12:19:09.351572+00:00",
+          "EffectiveVersion": "2.4.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.1": {
@@ -174003,6 +174151,82 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "rail2025"
+            },
+            "2.4.5.0": {
+              "TimeReleased": "2026-01-03T12:19:09.3515732+00:00",
+              "Changelog": "v2.4.5.0:Arena bg, light party job icons\nv2.4.4.2:API 14\nv2.4.4.1: minor bug fix\nv2.4.4.0: Added Gaze, Towers, Exas, Starburst mechanics . Added Laser Pointer tool (ephemeral). Added \u0027Lock All Items\u0027 canvas toggle.\nv2.4.3.1: Serialization fix.\nv2.4.3.0: Added Pie/Wedge shape tool. Added Caster role icon. Added Job icon swapping in Properties window. Added new Bind/Ignore target markers. Updated Party icon menu layout.\nv2.4.2.0: Overhauled Load/Import window with tabs. Added ability to \u0027Append\u0027 plans (merge pages) from files or URLs. Replaced old Load popup.\nv2.4.1.0:Added Community Plan Browser (Search \u0026 Load).\nv2.4.0.0:Added status icons, updated undo to be per-page, added page movement/reordering, added live object property editing.",
+              "UsedNeeds": [
+                {
+                  "Key": "AngleSharp",
+                  "Version": "1.4.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.12.4"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Skia",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "ExCSS",
+                  "Version": "4.3.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "ShimSkiaSharp",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Custom",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "Svg.Model",
+                  "Version": "3.2.1"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "rail2025"
             }
           }
@@ -222319,9 +222543,9 @@
           }
         },
         "NotificationMaster": {
-          "BuiltCommit": "8627d64b672349a9dceb0be6f2539bb8242089ab",
-          "TimeBuilt": "2025-06-14T10:40:49.0281373+00:00",
-          "EffectiveVersion": "2.1.1.10",
+          "BuiltCommit": "be830547f3dde05b1d0db8d3050945d78648628c",
+          "TimeBuilt": "2026-01-03T12:19:32.9549649+00:00",
+          "EffectiveVersion": "2.1.1.14",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.1.10": {
@@ -222343,6 +222567,26 @@
                 {
                   "Key": "Microsoft.CodeAnalysis.BannedApiAnalyzers",
                   "Version": "3.3.4"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Limiana"
+            },
+            "2.1.1.14": {
+              "TimeReleased": "2026-01-03T12:19:32.954966+00:00",
+              "Changelog": "- Fish bite notification added (by Brappp)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/NotificationMasterAPI",
+                  "Version": "c8da62b5a406705e0d5a3b30c87659056c9bd0c3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "ECommons",
+                  "Version": "3.1.0.12"
                 }
               ],
               "Reviewer": "philpax",
@@ -246461,6 +246705,27 @@
       "Version": "21b3f2b44c1778cb4f7d5fe36a37c0a03377bb36",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-01-02T20:05:31.7230499Z"
+    },
+    {
+      "Type": 1,
+      "Key": "ECommons",
+      "Version": "3.1.0.12",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2026-01-03T12:19:32.9862415Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NET.ILLink.Tasks",
+      "Version": "10.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-01-03T23:37:48.0670329Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Raphael.Net",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-01-03T23:38:03.5286381Z"
     }
   ]
 }
