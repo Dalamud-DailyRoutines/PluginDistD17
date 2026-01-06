@@ -8696,9 +8696,9 @@
           }
         },
         "AutoTimer": {
-          "BuiltCommit": "8a1b225f43eaa1d1e2b27de022ffef13511a67ef",
-          "TimeBuilt": "2025-08-27T17:59:31.7935631+00:00",
-          "EffectiveVersion": "1.1.0.5",
+          "BuiltCommit": "7c9bbbb0c1340b6e7ebfe40a5d1aa825a8102852",
+          "TimeBuilt": "2026-01-06T07:27:16.7710234+00:00",
+          "EffectiveVersion": "1.1.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -8769,6 +8769,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "s5bug"
+            },
+            "1.1.0.6": {
+              "TimeReleased": "2026-01-06T07:27:16.7710627+00:00",
+              "Changelog": "- Update to 7.4",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "s5bug"
             }
           }
@@ -13593,9 +13609,9 @@
           }
         },
         "Wordsmith": {
-          "BuiltCommit": "1e117df47a465d7991bde645d6ad5fd107fb30d3",
-          "TimeBuilt": "2026-01-05T13:47:21.5755412+00:00",
-          "EffectiveVersion": "1.15.9.0",
+          "BuiltCommit": "3d54b27f69e555ec95704ce08cef2d697a0279a9",
+          "TimeBuilt": "2026-01-06T07:23:58.5932256+00:00",
+          "EffectiveVersion": "1.16.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.3": {
@@ -13807,6 +13823,22 @@
             "1.15.9.0": {
               "TimeReleased": "2026-01-05T13:47:21.5755422+00:00",
               "Changelog": "# Wordsmith v1.15.9 Patch Notes\nFixed an issue with the Thesaurus not loading properly for synonyms.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "MythicPalette"
+            },
+            "1.16.0.0": {
+              "TimeReleased": "2026-01-06T07:23:58.5932268+00:00",
+              "Changelog": "# Wordsmith v1.16.0 Patch Notes\n* updated the \u0022Never Show Again\u0022 button to be a checkbox instead.\n* Fixed an issue where an invalid channel option was being displayed on Scratch Pads.\n* \u0022Show Text In Chunks\u0022 option was deprecated and removed.\n* Added a new option to maximize the input box.\n* Added a button that directs users to the Wiki page for Wordsmith.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -45357,9 +45389,9 @@
           }
         },
         "MacroRecorded": {
-          "BuiltCommit": "f611d644285d72d9b287fb4c03d886db9c5779e5",
-          "TimeBuilt": "2025-08-27T16:17:10.63439+00:00",
-          "EffectiveVersion": "1.0.6.2",
+          "BuiltCommit": "de74c2595b712bde2c1537ac6ad7ca56e538ea87",
+          "TimeBuilt": "2026-01-06T07:08:34.3598872+00:00",
+          "EffectiveVersion": "1.0.7.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -45460,6 +45492,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "danielbrenom"
+            },
+            "1.0.7.2": {
+              "TimeReleased": "2026-01-06T07:08:34.3598884+00:00",
+              "Changelog": "- Updated API 14\n ",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "danielbrenom"
             }
           }
@@ -52078,9 +52126,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "0d0b193f60c8c59d5e88f34805ea5464c10ac932",
-          "TimeBuilt": "2025-12-30T21:37:50.8688338+00:00",
-          "EffectiveVersion": "1.6.6.1",
+          "BuiltCommit": "00972ba9d80ce6e4e59ef6266fc0ca02331a8fb0",
+          "TimeBuilt": "2026-01-06T08:00:31.3755121+00:00",
+          "EffectiveVersion": "1.6.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -53877,6 +53925,42 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.6.7.0": {
+              "TimeReleased": "2026-01-06T08:00:31.3755579+00:00",
+              "Changelog": "- Add BNPC tracking \u002B upload\r\n  - This isn\u0027t stored locally as the use for this is limited to other plugins only",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "Infiziert90"
             }
           }
@@ -146575,9 +146659,9 @@
           }
         },
         "MonsterLootHunter": {
-          "BuiltCommit": "f007dc564bc64df43374f112617d7cb60c54bee2",
-          "TimeBuilt": "2025-08-08T13:28:20.3962178+00:00",
-          "EffectiveVersion": "1.4.24.7",
+          "BuiltCommit": "971ad994474d593af128ead9958b768112e38e36",
+          "TimeBuilt": "2026-01-06T07:08:42.6480434+00:00",
+          "EffectiveVersion": "1.5.24.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.4.0": {
@@ -146901,6 +146985,38 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "danielbrenom"
+            },
+            "1.5.24.7": {
+              "TimeReleased": "2026-01-06T07:08:42.6480457+00:00",
+              "Changelog": "- Fixed loading of data\n- Storing fetched data locally\n- Fixes on rendered tables\n ",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Fizzler.Systems.HtmlAgilityPack",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.12.4"
+                },
+                {
+                  "Key": "XivCommon",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Fizzler",
+                  "Version": "1.2.0"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "danielbrenom"
             }
           }
@@ -162408,9 +162524,9 @@
           }
         },
         "TeamcraftListMaker": {
-          "BuiltCommit": "cbeef23655e9152a1f10d556e1a85eea393202fa",
-          "TimeBuilt": "2025-12-19T03:42:37.3343128+00:00",
-          "EffectiveVersion": "1.0.0.8",
+          "BuiltCommit": "43da585ff558fd01d12f5bb89399dc03e441a629",
+          "TimeBuilt": "2026-01-06T07:23:47.7788761+00:00",
+          "EffectiveVersion": "1.0.0.9",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
@@ -162763,6 +162879,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Aida-Enna"
+            },
+            "1.0.0.9": {
+              "TimeReleased": "2026-01-06T07:23:47.778916+00:00",
+              "Changelog": "- Fix markeboard issue/inventory issue",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "Aida-Enna"
             }
           }
@@ -176924,9 +177056,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "3179dc9fa9aec130a8d79d5aeed7542798f26e01",
-          "TimeBuilt": "2026-01-05T13:47:12.3894922+00:00",
-          "EffectiveVersion": "1.1.3.2",
+          "BuiltCommit": "c68552bcaa0f538c3549f172fd426ec561d5ed7a",
+          "TimeBuilt": "2026-01-06T07:08:26.7465369+00:00",
+          "EffectiveVersion": "1.1.3.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -179328,6 +179460,46 @@
               ],
               "Reviewer": "Critical-Impact",
               "Submitter": "MidoriKami"
+            },
+            "1.1.3.3": {
+              "TimeReleased": "2026-01-06T07:08:26.7465824+00:00",
+              "Changelog": "Fix Clock Overlay displaying the wrong Server Time",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "e8572ef59f3a23b3f77a64435eb82ae5e753b5ce"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Zeffuro"
             }
           }
         },
@@ -193164,9 +193336,9 @@
           }
         },
         "AutoTimer": {
-          "BuiltCommit": "8a1b225f43eaa1d1e2b27de022ffef13511a67ef",
-          "TimeBuilt": "2025-08-27T17:59:42.1239854+00:00",
-          "EffectiveVersion": "1.1.0.5",
+          "BuiltCommit": "7c9bbbb0c1340b6e7ebfe40a5d1aa825a8102852",
+          "TimeBuilt": "2026-01-06T07:27:25.0114884+00:00",
+          "EffectiveVersion": "1.1.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -193265,6 +193437,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "s5bug"
+            },
+            "1.1.0.6": {
+              "TimeReleased": "2026-01-06T07:27:25.0114898+00:00",
+              "Changelog": "- Update to 7.4",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "s5bug"
             }
           }
@@ -194216,9 +194404,9 @@
           }
         },
         "Mappy": {
-          "BuiltCommit": "9e9e4a31d7943b55d5597b81604516119e0ea666",
-          "TimeBuilt": "2025-09-13T13:41:37.0703032+00:00",
-          "EffectiveVersion": "3.1.6.10",
+          "BuiltCommit": "557741bffc95c3b9724b430a7c9c3686d4114e2e",
+          "TimeBuilt": "2026-01-06T07:32:07.8088512+00:00",
+          "EffectiveVersion": "3.1.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.3.2": {
@@ -194672,6 +194860,46 @@
               ],
               "Reviewer": "philpax",
               "Submitter": "kotenuki"
+            },
+            "3.1.7.0": {
+              "TimeReleased": "2026-01-06T07:32:07.8088961+00:00",
+              "Changelog": "- Fix for map not showing after DCing etc.\r\n- Fix map from showing in invalid states\n\r\nPlease report the map showing or not showing incorrectly or being unresponsive.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "ec76c842809773066f1ed002ce35135d31e9413f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.0-preview.6.25358.103"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "harbingerftw"
             }
           }
         },
