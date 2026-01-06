@@ -2961,9 +2961,9 @@
           }
         },
         "EmoteLog": {
-          "BuiltCommit": "d01104ce4905b371a2c6b662bf8385d8f314d515",
-          "TimeBuilt": "2025-12-18T22:49:03.8812859+00:00",
-          "EffectiveVersion": "1.1.6.0",
+          "BuiltCommit": "7a75ba65c1d31dbc9c941456f1c454f15925afa9",
+          "TimeBuilt": "2026-01-05T13:44:36.5390459+00:00",
+          "EffectiveVersion": "1.1.6.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -3066,6 +3066,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "RokasKil"
+            },
+            "1.1.6.1": {
+              "TimeReleased": "2026-01-05T13:44:36.5390476+00:00",
+              "Changelog": "- Mark /el as obsolete and add /elog in place of it\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "RokasKil"
             }
           }
@@ -11752,9 +11768,9 @@
           }
         },
         "PushyFinder": {
-          "BuiltCommit": "0e4c85eb10f1fe462ae6b6c2ccf8a55f330a0fca",
-          "TimeBuilt": "2025-08-19T19:49:54.907453+00:00",
-          "EffectiveVersion": "1.3.1.1",
+          "BuiltCommit": "01c81a50d477ade48d8e37e47e6a95d60190acf3",
+          "TimeBuilt": "2026-01-05T13:44:19.5440982+00:00",
+          "EffectiveVersion": "1.3.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -11874,6 +11890,30 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "snightshade"
+            },
+            "1.3.2.0": {
+              "TimeReleased": "2026-01-05T13:44:19.5441453+00:00",
+              "Changelog": "API 14 (FFXIV 7.4)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Flurl.Http",
+                  "Version": "4.0.2"
+                },
+                {
+                  "Key": "Flurl",
+                  "Version": "4.0.0"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "snightshade"
             }
           }
@@ -13553,9 +13593,9 @@
           }
         },
         "Wordsmith": {
-          "BuiltCommit": "9618a131d27590e347c56d3e1c48febb9d1e392a",
-          "TimeBuilt": "2025-12-27T01:42:24.6731989+00:00",
-          "EffectiveVersion": "1.15.8.0",
+          "BuiltCommit": "1e117df47a465d7991bde645d6ad5fd107fb30d3",
+          "TimeBuilt": "2026-01-05T13:47:21.5755412+00:00",
+          "EffectiveVersion": "1.15.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.3": {
@@ -13762,6 +13802,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MythicPalette"
+            },
+            "1.15.9.0": {
+              "TimeReleased": "2026-01-05T13:47:21.5755422+00:00",
+              "Changelog": "# Wordsmith v1.15.9 Patch Notes\nFixed an issue with the Thesaurus not loading properly for synonyms.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "MythicPalette"
             }
           }
@@ -94995,9 +95051,9 @@
           }
         },
         "OfDungeonsDeep": {
-          "BuiltCommit": "9b0072f1e615f6df631c19a739480faf8f81028e",
-          "TimeBuilt": "2025-08-16T13:42:24.2278626+00:00",
-          "EffectiveVersion": "1.0.5.1",
+          "BuiltCommit": "7d6543265ef85f97506d1a65cee8b371fa3f1cde",
+          "TimeBuilt": "2026-01-05T13:38:48.2010743+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -95179,6 +95235,26 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "13.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "MKhayle"
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2026-01-05T13:38:48.2011125+00:00",
+              "Changelog": "### Pilgrim\u0027s Traverse Data update\n- Please report any error you\u0027d find with that new set of data\n- I went into PT myself to test it several times to ensure as much as I could that crashs don\u0027t happen\n-# - API 14 update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MKhayle/compendium.git",
+                  "Version": "19db5b04e3dad1e6c71f2d024c804f95a10eef9d"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -142108,9 +142184,9 @@
           }
         },
         "HuntBuddy": {
-          "BuiltCommit": "768413a68d8670545297b8277f3e74ab42a4454c",
-          "TimeBuilt": "2025-08-08T22:15:14.6957782+00:00",
-          "EffectiveVersion": "1.2.2.0",
+          "BuiltCommit": "baf609914c482dbcfd48262377a6f50cc7ad93c3",
+          "TimeBuilt": "2026-01-05T13:44:28.1650904+00:00",
+          "EffectiveVersion": "1.2.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -142225,6 +142301,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "SheepGoMeh"
+            },
+            "1.2.2.1": {
+              "TimeReleased": "2026-01-05T13:44:28.1650914+00:00",
+              "Changelog": "- API 14 update",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "SheepGoMeh"
             }
           }
@@ -160536,9 +160628,9 @@
           }
         },
         "WhichMount": {
-          "BuiltCommit": "b7c81b05e7dd418917eaf220aee82080f125aaa1",
-          "TimeBuilt": "2025-12-21T22:24:28.5149731+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "84e9f050c7a801db0403dce2d3312f5a7143ce64",
+          "TimeBuilt": "2026-01-05T13:59:54.5946103+00:00",
+          "EffectiveVersion": "1.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -161471,6 +161563,70 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "megurte"
+            },
+            "1.4.1.0": {
+              "TimeReleased": "2026-01-05T13:59:54.5946472+00:00",
+              "Changelog": "Version 1.4.1:\n  - UI fixes\nVersion 1.4.0:\n  - UI/UX improvements\n  - Market Board availability obtion\n  - 7.4 patch mount data update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/megurte/DalamudInjector.git",
+                  "Version": "73018b9f59583b4a8a9045e6d16bc98fecccd2f3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Build",
+                  "Version": "18.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.2.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Framework",
+                  "Version": "18.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "18.0.2"
+                },
+                {
+                  "Key": "System.Configuration.ConfigurationManager",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Reflection.MetadataLoadContext",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.ProtectedData",
+                  "Version": "9.0.6"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "megurte"
             }
           }
@@ -176768,9 +176924,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "eeac32a0c76477ce642de545f964cba9a8ea25d6",
-          "TimeBuilt": "2026-01-04T07:15:42.0078148+00:00",
-          "EffectiveVersion": "1.1.3.0",
+          "BuiltCommit": "3179dc9fa9aec130a8d79d5aeed7542798f26e01",
+          "TimeBuilt": "2026-01-05T13:47:12.3894922+00:00",
+          "EffectiveVersion": "1.1.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -179132,6 +179288,46 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
+            },
+            "1.1.3.2": {
+              "TimeReleased": "2026-01-05T13:47:12.3895298+00:00",
+              "Changelog": "Add Config Migration System\r\n\r\nImproved Currency Warning",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "e8572ef59f3a23b3f77a64435eb82ae5e753b5ce"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -181449,9 +181645,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "768de9736d2f102e2c8443ceae005b3956ed462e",
-          "TimeBuilt": "2025-12-31T18:03:10.0941815+00:00",
-          "EffectiveVersion": "1.3.0.0",
+          "BuiltCommit": "438e267c9418b23f58a480b31b3b4e598588df43",
+          "TimeBuilt": "2026-01-05T15:34:06.3479578+00:00",
+          "EffectiveVersion": "1.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -184731,6 +184927,94 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "Sohtoren"
+            },
+            "1.4.0.0": {
+              "TimeReleased": "2026-01-05T13:57:36.021227+00:00",
+              "Changelog": "- **General**: Add Timers tab and Timers standalone window\n- **Timers**: \n  Add:\n  * Custom Deliveries allowances\n  * Doman Enclave donations\n  * Masked Carnivale \n  * Allied Society Daily Quest Allowance\n- **\u0022Timers standalone windows**: Using /altoholic timer(s) open an icon that allow for a quickview of the timers. The icon size and transparency can be set in the config tab\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Sohtoren"
+            },
+            "1.4.1.0": {
+              "TimeReleased": "2026-01-05T15:34:06.3479985+00:00",
+              "Changelog": "- **Timer/Config**: Fix tab crash\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "Sohtoren"
             }
           }
@@ -247180,6 +247464,27 @@
       "Version": "4.1.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-01-04T07:15:42.0707179Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MKhayle/compendium.git",
+      "Version": "19db5b04e3dad1e6c71f2d024c804f95a10eef9d",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2026-01-05T13:38:48.2648813Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "e8572ef59f3a23b3f77a64435eb82ae5e753b5ce",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2026-01-05T13:47:12.4547829Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/megurte/DalamudInjector.git",
+      "Version": "73018b9f59583b4a8a9045e6d16bc98fecccd2f3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2026-01-05T13:59:54.6562378Z"
     }
   ]
 }
