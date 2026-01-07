@@ -222727,9 +222727,9 @@
           }
         },
         "QuestJournal": {
-          "BuiltCommit": "1767a2b0709fc12f6b0d318199eb4907e3627312",
-          "TimeBuilt": "2026-01-03T09:25:39.1787922+00:00",
-          "EffectiveVersion": "1.3.0.1",
+          "BuiltCommit": "368a1c58813a39acbb50b35f9436fea6096dd9ae",
+          "TimeBuilt": "2026-01-07T04:03:05.8264793+00:00",
+          "EffectiveVersion": "1.3.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -222890,6 +222890,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "QuackieMackie"
+            },
+            "1.3.0.2": {
+              "TimeReleased": "2026-01-07T04:03:05.8265165+00:00",
+              "Changelog": "- Bumped version to 1.3.0.2\r\n- You now have the option \u0060Mark completed repeatable quests\u0060\r\nThis will mark repeatable quests if they have already been completed as completed permanently.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "QuackieMackie"
             }
           }
@@ -228543,6 +228559,126 @@
               ],
               "Reviewer": "Critical-Impact",
               "Submitter": "Pistachio-dev"
+            }
+          }
+        },
+        "CongaHelper": {
+          "BuiltCommit": "d9b8de4c6ee1d9fc9034d7dd9c92dbe51c6e3131",
+          "TimeBuilt": "2026-01-07T06:54:46.3389807+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2026-01-07T06:54:46.3390333+00:00",
+              "Changelog": "- Adds a command /conga as well as a button to the Party List GUI to arrange the party list in the same order as characters appear in the world. useful for TOP conga etc.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "s5bug"
+            }
+          }
+        },
+        "TotalLevelPlugin": {
+          "BuiltCommit": "48095e8dd5cbfbea1199ab282645cb49c696559a",
+          "TimeBuilt": "2026-01-07T07:03:23.3143179+00:00",
+          "EffectiveVersion": "0.0.0.2",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.2": {
+              "TimeReleased": "2026-01-07T07:03:23.3143571+00:00",
+              "Changelog": "- Adds a suffix to the Character\u0027s Name in the Search Info panel totaling the level of their jobs/classes, similar to Runescape.\nIt is done entirely with values available in the SocialDetailB Addon, by reading the text fields used to display the levels of each job individually.\n\nVersion 0.0.0.2:\n - Update to API14\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "meoiswa"
+            }
+          }
+        },
+        "JobAutoSwitcher": {
+          "BuiltCommit": "89dc0ffdefc8a917f5e0b50d0695af1ae7073754",
+          "TimeBuilt": "2026-01-07T07:09:49.0413694+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-01-07T07:09:49.0414183+00:00",
+              "Changelog": "Switches gearsets to match the queued job when clicking commence.\n Initial Release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Valiice"
+            }
+          }
+        },
+        "LapCatCounter": {
+          "BuiltCommit": "485c0631591e92b6ff76dda60b6712b268b69454",
+          "TimeBuilt": "2026-01-07T07:14:45.1572795+00:00",
+          "EffectiveVersion": "1.0.19.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.19.0": {
+              "TimeReleased": "2026-01-07T07:14:45.1573232+00:00",
+              "Changelog": "Initial submission of LapCatCounter.\n\nTracks and displays how many times the player was a lap cat. Purely reactive social plugin.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "ImOv3rburdened"
+            }
+          }
+        },
+        "FoodCheck": {
+          "BuiltCommit": "9f822bc3469c20c431167d1e38447a080cee259c",
+          "TimeBuilt": "2026-01-07T07:19:25.5618166+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-01-07T07:19:25.5618573+00:00",
+              "Changelog": "- Initial Release\nFoodCheck checks to see who is missing the food buff (Well Fed) when a countdown goes out and/or when a ready check is initiated.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Aida-Enna"
             }
           }
         }
