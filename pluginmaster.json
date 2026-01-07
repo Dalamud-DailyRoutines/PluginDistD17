@@ -387,7 +387,7 @@
     "Author": "Critical_Impact",
     "Name": "Allagan Market",
     "InternalName": "AllaganMarket",
-    "AssemblyVersion": "1.3.0.0",
+    "AssemblyVersion": "1.3.0.1",
     "Description": "Helps track what items you have on sale.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -408,7 +408,7 @@
     "TestingAssemblyVersion": "1.0.0.5",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1766376657",
+    "LastUpdate": "1767703072",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/AllaganMarket/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/AllaganMarket/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/AllaganMarket/latest.zip"
