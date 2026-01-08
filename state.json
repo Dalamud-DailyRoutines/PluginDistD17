@@ -42496,9 +42496,9 @@
           }
         },
         "BeegWindow": {
-          "BuiltCommit": "71877f0e87914fa437213af26d378d55c336d290",
-          "TimeBuilt": "2025-12-04T16:38:06.6516015+00:00",
-          "EffectiveVersion": "0.0.0.5",
+          "BuiltCommit": "a6e420c47cd81197a31773ecbb69dfe075977ac1",
+          "TimeBuilt": "2026-01-07T23:14:00.2908303+00:00",
+          "EffectiveVersion": "0.0.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -42563,6 +42563,22 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "ArcaneDisgea"
+            },
+            "0.0.0.6": {
+              "TimeReleased": "2026-01-07T23:14:00.2908314+00:00",
+              "Changelog": "Api Bump",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
                 }
               ],
               "Reviewer": "philpax",
@@ -105010,9 +105026,9 @@
           }
         },
         "GatherBuddy": {
-          "BuiltCommit": "1efae90cc2e1fb9502b3bf73751bd2f098d545d6",
-          "TimeBuilt": "2025-12-19T20:03:22.6599934+00:00",
-          "EffectiveVersion": "3.8.4.1",
+          "BuiltCommit": "8ca8b04483980370d3b04d759057e079a7680d3f",
+          "TimeBuilt": "2026-01-07T23:13:50.6272686+00:00",
+          "EffectiveVersion": "3.8.4.2",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.4.15926": {
@@ -105764,6 +105780,42 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Ottermandias"
+            },
+            "3.8.4.2": {
+              "TimeReleased": "2026-01-07T23:13:50.6272698+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "ff1e6543845e3b8c53a5f8b240bc38faffb1b3bf"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "49631aab5c267953f9d442546488ea3bfdf52fa7"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "Ottermandias"
             }
           }
@@ -180752,9 +180804,9 @@
           }
         },
         "OhHey": {
-          "BuiltCommit": "44a761ad56baa0e09383fd17a0c49fb8e04ccdc5",
-          "TimeBuilt": "2025-11-04T19:49:06.6843206+00:00",
-          "EffectiveVersion": "0.0.3.0",
+          "BuiltCommit": "d5fd554b9a3f8a0102545f94f557f9b07a376ebf",
+          "TimeBuilt": "2026-01-07T23:13:32.2306411+00:00",
+          "EffectiveVersion": "0.0.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.3.0": {
@@ -180780,6 +180832,34 @@
                 {
                   "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
                   "Version": "10.0.0-rc.1.25451.107"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "MeiHasCrashed"
+            },
+            "0.0.4.0": {
+              "TimeReleased": "2026-01-07T23:13:32.2306873+00:00",
+              "Changelog": "# Oh Hey 0.0.4\n\n- Updated for API14\n\nHave fun !\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2025.2.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
                 }
               ],
               "Reviewer": "philpax",
