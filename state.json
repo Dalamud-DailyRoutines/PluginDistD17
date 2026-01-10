@@ -42496,9 +42496,9 @@
           }
         },
         "BeegWindow": {
-          "BuiltCommit": "a6e420c47cd81197a31773ecbb69dfe075977ac1",
-          "TimeBuilt": "2026-01-07T23:14:00.2908303+00:00",
-          "EffectiveVersion": "0.0.0.6",
+          "BuiltCommit": "d1aefed81bc87d7d3001a06bf287602f5a21ebf0",
+          "TimeBuilt": "2026-01-09T12:33:58.0476549+00:00",
+          "EffectiveVersion": "0.0.0.7",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -42570,6 +42570,22 @@
             },
             "0.0.0.6": {
               "TimeReleased": "2026-01-07T23:14:00.2908314+00:00",
+              "Changelog": "Api Bump",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "ArcaneDisgea"
+            },
+            "0.0.0.7": {
+              "TimeReleased": "2026-01-09T12:33:58.0477026+00:00",
               "Changelog": "Api Bump",
               "UsedNeeds": [
                 {
@@ -228423,9 +228439,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "1787a7ae0e9b397176ca71ed08c0903002f31e4b",
-          "TimeBuilt": "2025-12-30T01:44:37.8023885+00:00",
-          "EffectiveVersion": "1.3.4.1",
+          "BuiltCommit": "72c3d904e5e7212948a9d670256a05b0c02bd1f5",
+          "TimeBuilt": "2026-01-09T12:39:55.8355437+00:00",
+          "EffectiveVersion": "1.3.5.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.3.0": {
@@ -228474,6 +228490,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "spide-r"
+            },
+            "1.3.5.4": {
+              "TimeReleased": "2026-01-09T12:39:55.835582+00:00",
+              "Changelog": "Clarified Config a bit more, added a small voice delay.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "spide-r"
             }
           }
