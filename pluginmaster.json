@@ -757,8 +757,8 @@
     "Author": "ArcaneDisgea",
     "Name": "Beeg Dinosaur Eat Window",
     "InternalName": "BeegWindow",
-    "AssemblyVersion": "0.0.0.6",
-    "Description": "Making the window beeg.",
+    "AssemblyVersion": "0.0.0.7",
+    "Description": "Ensures that the game window is maximized when launching in windowed mode.",
     "ApplicableVersion": "any",
     "Tags": [
       "beeg dinosaur eat",
@@ -775,7 +775,7 @@
     "_Dip17Channel": "stable",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdate": "1767827648",
+    "LastUpdate": "1767962040",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/BeegWindow/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/BeegWindow/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/BeegWindow/latest.zip"
@@ -6252,7 +6252,7 @@
     "_isDip17Plugin": true,
     "_Dip17Channel": "stable",
     "IsHide": "False",
-    "TestingAssemblyVersion": "1.3.4.1",
+    "TestingAssemblyVersion": "1.3.5.4",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
     "LastUpdate": "1767483491",
