@@ -77953,9 +77953,9 @@
           }
         },
         "Mappy": {
-          "BuiltCommit": "f4501b996956c4077c0cb40e69cde1e383dee657",
-          "TimeBuilt": "2026-01-03T03:56:51.2657841+00:00",
-          "EffectiveVersion": "3.1.6.12",
+          "BuiltCommit": "4d980eaea02695213a9084237493d25307a90321",
+          "TimeBuilt": "2026-01-12T11:45:31.3313633+00:00",
+          "EffectiveVersion": "3.1.7.1",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.3.5": {
@@ -79032,6 +79032,46 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "harbingerftw"
+            },
+            "3.1.7.1": {
+              "TimeReleased": "2026-01-12T11:45:31.3314009+00:00",
+              "Changelog": "- Fix for map not showing after DCing, logging out etc.\r\n- Fix map from showing in invalid states\r\n- now suppresses the native map open/close sound",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "ec76c842809773066f1ed002ce35135d31e9413f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.0-preview.6.25358.103"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "harbingerftw"
             }
           }
@@ -101476,9 +101516,9 @@
           "Changelogs": {}
         },
         "WhosTalking": {
-          "BuiltCommit": "becebe1784b1762152ec7d4e31bde5489bd40162",
-          "TimeBuilt": "2025-08-26T21:43:13.2257024+00:00",
-          "EffectiveVersion": "0.8.7.0",
+          "BuiltCommit": "cdabcd06c857ff46e6a0dd2a6e15c0e44484ccbe",
+          "TimeBuilt": "2026-01-12T04:52:47.6607538+00:00",
+          "EffectiveVersion": "0.8.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.6.7.0": {
@@ -101725,6 +101765,38 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "keysmashes"
+            },
+            "0.8.8.0": {
+              "TimeReleased": "2026-01-12T04:52:47.6607549+00:00",
+              "Changelog": "Updated for API 14.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2022.3.1"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "keysmashes"
             }
           }
@@ -112134,9 +112206,9 @@
           }
         },
         "MemoryMarker": {
-          "BuiltCommit": "28218186d2b22f62d6098683957115070e93bc15",
-          "TimeBuilt": "2025-08-11T02:07:27.4392948+00:00",
-          "EffectiveVersion": "2.2.3.0",
+          "BuiltCommit": "271497645a7d9fede793ad449f9db9ec3790bd0f",
+          "TimeBuilt": "2026-01-12T04:52:27.1357779+00:00",
+          "EffectiveVersion": "2.2.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.2.0.0": {
@@ -112318,6 +112390,46 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.25"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.0-preview.6.25358.103"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "keysmashes"
+            },
+            "2.2.4.0": {
+              "TimeReleased": "2026-01-12T04:52:27.1357795+00:00",
+              "Changelog": "Updated for API 14.\n\nPlease note: I intend to discontinue Memory Marker in the future. If you are a new user, please consider using Waymark Preset Plugin or the \u0022Instanced Waymarks\u0022 feature in VanillaPlus instead. I am working on developing a migration path for existing users.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "ec76c842809773066f1ed002ce35135d31e9413f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
                 },
                 {
                   "Key": "HtmlAgilityPack",
@@ -141996,9 +142108,9 @@
           }
         },
         "ItemVendorLocation": {
-          "BuiltCommit": "f87fc997840f8b083e2554756294a2a1e2545fa8",
-          "TimeBuilt": "2025-12-20T04:04:43.7116303+00:00",
-          "EffectiveVersion": "2.12.0.0",
+          "BuiltCommit": "86662f4dab1ecce5f1758a121d6323118311b54f",
+          "TimeBuilt": "2026-01-12T04:52:37.003443+00:00",
+          "EffectiveVersion": "2.13.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -142334,6 +142446,34 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "electr0sheep"
+            },
+            "2.13.0.0": {
+              "TimeReleased": "2026-01-12T04:52:37.0034459+00:00",
+              "Changelog": "- Update IPC\n- Clear highlights when item acquired\n- Try to fix some menu highlights\n- Update Quinnana hack\n- Add barebones support for SpecialShop categories\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CheapLoc",
+                  "Version": "1.1.8"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "Mono.Cecil",
+                  "Version": "0.11.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "electr0sheep"
             }
           }
@@ -157150,9 +157290,9 @@
           }
         },
         "DalamudMinesweeper": {
-          "BuiltCommit": "0e1bf84475ed45a7f66a5e71f27bad67280c4b93",
-          "TimeBuilt": "2025-08-08T03:01:08.0977562+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "47d0f2cf3e15f7f60d55be92ba5148c786ce6f67",
+          "TimeBuilt": "2026-01-12T04:52:15.7311614+00:00",
+          "EffectiveVersion": "1.5.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.4": {
@@ -157228,6 +157368,22 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "hunter2actual"
+            },
+            "1.5.1.0": {
+              "TimeReleased": "2026-01-12T04:52:15.7312023+00:00",
+              "Changelog": "Fix an error when loading images",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
                 }
               ],
               "Reviewer": "reiichi001",
@@ -159624,9 +159780,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "44132bd22284d5aac89f98d1c643ee8e48ce58ac",
-          "TimeBuilt": "2025-08-12T18:36:33.3072799+00:00",
-          "EffectiveVersion": "1.3.1.2",
+          "BuiltCommit": "0ee2b24a3059f8697ec994469c7f02e2b6888bba",
+          "TimeBuilt": "2026-01-12T06:12:44.9906285+00:00",
+          "EffectiveVersion": "1.3.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -161315,6 +161471,62 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Felscream"
+            },
+            "1.3.2.0": {
+              "TimeReleased": "2026-01-12T06:12:44.9906712+00:00",
+              "Changelog": "- API 14 update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "8f98b7d9c404852edc8e86e1d917b6c80d001f63"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "Felscream"
             }
           }
@@ -164556,9 +164768,9 @@
           }
         },
         "GraceGawker": {
-          "BuiltCommit": "ee63c343d50f13eabb756350fcc10e87a18288f8",
-          "TimeBuilt": "2025-12-20T04:51:41.6170191+00:00",
-          "EffectiveVersion": "1.1.5.0",
+          "BuiltCommit": "620c367313cbf7b3782f9f258dbc968c4fe12780",
+          "TimeBuilt": "2026-01-12T04:52:55.6390573+00:00",
+          "EffectiveVersion": "1.1.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.0": {
@@ -164631,6 +164843,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "mashirochan"
+            },
+            "1.1.6.0": {
+              "TimeReleased": "2026-01-12T04:52:55.6390582+00:00",
+              "Changelog": "Update usage verbiage",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "mashirochan"
             }
           }
@@ -174052,9 +174280,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "323e6a84e634ad7db1c33def5f7f20de5a8bd8d6",
-          "TimeBuilt": "2026-01-03T23:37:39.1201544+00:00",
-          "EffectiveVersion": "1.3.5.3",
+          "BuiltCommit": "d343fe7e815f0228749a8efa785319b52623745a",
+          "TimeBuilt": "2026-01-12T05:18:17.5781318+00:00",
+          "EffectiveVersion": "1.3.6.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -174236,6 +174464,22 @@
             "1.3.5.3": {
               "TimeReleased": "2026-01-03T23:37:39.1201965+00:00",
               "Changelog": "Minor Fixes",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "spide-r"
+            },
+            "1.3.6.4": {
+              "TimeReleased": "2026-01-12T05:18:17.5781734+00:00",
+              "Changelog": "New Announcer Delay feature. Edits to internal structure that *shouldn\u0027t* be noticable. Ping me in discord if you encounter anything strange!",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -197124,9 +197368,9 @@
           }
         },
         "Mappy": {
-          "BuiltCommit": "557741bffc95c3b9724b430a7c9c3686d4114e2e",
-          "TimeBuilt": "2026-01-06T07:32:07.8088512+00:00",
-          "EffectiveVersion": "3.1.7.0",
+          "BuiltCommit": "4d980eaea02695213a9084237493d25307a90321",
+          "TimeBuilt": "2026-01-12T11:45:41.3161496+00:00",
+          "EffectiveVersion": "3.1.7.1",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.3.2": {
@@ -197619,6 +197863,46 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "harbingerftw"
+            },
+            "3.1.7.1": {
+              "TimeReleased": "2026-01-12T11:45:41.3161505+00:00",
+              "Changelog": "- Fix for map not showing after DCing, logging out etc.\r\n- Fix map from showing in invalid states\r\n- now suppresses the native map open/close sound",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "ec76c842809773066f1ed002ce35135d31e9413f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.0-preview.6.25358.103"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "harbingerftw"
             }
           }
@@ -250792,6 +251076,13 @@
       "Version": "8.15.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-01-11T05:25:50.571334Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Felscream/KamiLib",
+      "Version": "8f98b7d9c404852edc8e86e1d917b6c80d001f63",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2026-01-12T06:12:45.0568199Z"
     }
   ]
 }
