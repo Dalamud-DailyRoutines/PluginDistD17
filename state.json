@@ -176088,9 +176088,9 @@
           }
         },
         "Wikilinx": {
-          "BuiltCommit": "7d8115d6444b32e387cc02bd1b5e2c322b5a1074",
-          "TimeBuilt": "2025-10-15T10:51:26.6640341+00:00",
-          "EffectiveVersion": "0.0.0.7",
+          "BuiltCommit": "6726cee3fbabbde0a225ab806747e47c02032213",
+          "TimeBuilt": "2026-01-20T02:42:43.6443024+00:00",
+          "EffectiveVersion": "0.0.0.8",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.2": {
@@ -176211,6 +176211,26 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "in1tiate"
+            },
+            "0.0.0.8": {
+              "TimeReleased": "2026-01-20T02:42:43.6443516+00:00",
+              "Changelog": "Updated for Patch 7.4 and Dalamud API v14.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Asvel/ffxiv-lodestone-item-id.git",
+                  "Version": "57f27502e0cc5f08edf549795daeb50e502c8276"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "in1tiate"
             }
           }
@@ -254151,6 +254171,13 @@
       "Version": "fe9fb9b2f1a25f5c0704de9c2f28b41fa93addcc",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-01-19T21:01:10.6038414Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Asvel/ffxiv-lodestone-item-id.git",
+      "Version": "57f27502e0cc5f08edf549795daeb50e502c8276",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-01-20T02:42:43.7117343Z"
     }
   ]
 }
