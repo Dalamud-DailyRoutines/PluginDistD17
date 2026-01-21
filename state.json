@@ -57162,9 +57162,9 @@
           }
         },
         "ToastingwayPlugin": {
-          "BuiltCommit": "5b386ea30a7f8f0efd80987d1c78c309409c677e",
-          "TimeBuilt": "2025-03-29T21:54:34.9309683+00:00",
-          "EffectiveVersion": "1.2.0.2",
+          "BuiltCommit": "0f663ca110f02ca4058b4c02fc0d9243e49f7f34",
+          "TimeBuilt": "2026-01-20T20:51:32.3665424+00:00",
+          "EffectiveVersion": "1.3.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -57237,6 +57237,22 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "powellad"
+            },
+            "1.3.0.2": {
+              "TimeReleased": "2026-01-20T20:51:32.3665436+00:00",
+              "Changelog": "Update to Dalamud API 14 and .NET 10.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
                 }
               ],
               "Reviewer": "reiichi001",
@@ -155483,9 +155499,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "4f9a6cd5be391db2dd5aa342a16846ac50bbf9e1",
-          "TimeBuilt": "2025-12-19T06:09:18.8066073+00:00",
-          "EffectiveVersion": "1.34.0.0",
+          "BuiltCommit": "6744c6676c436423beb0526f8b6af4e3b6213e1e",
+          "TimeBuilt": "2026-01-20T20:51:23.1456146+00:00",
+          "EffectiveVersion": "1.34.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -158026,6 +158042,98 @@
             "1.34.0.0": {
               "TimeReleased": "2025-12-19T06:09:18.8066088+00:00",
               "Changelog": "- API 14",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.34.1.0": {
+              "TimeReleased": "2026-01-20T20:51:23.1456558+00:00",
+              "Changelog": "- Add missing auto translate entries for symbols",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
