@@ -186128,14 +186128,30 @@
           }
         },
         "FATEhelper": {
-          "BuiltCommit": "f361f0c51f89aa94bfda4eb26ec353ed9e29db35",
-          "TimeBuilt": "2025-12-26T11:55:30.8151774+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "4390af5c12be69e1e2ea4bd204b2cd9eff72ec6e",
+          "TimeBuilt": "2026-01-22T10:12:46.9696565+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
               "TimeReleased": "2025-12-26T11:55:30.8152172+00:00",
               "Changelog": "updated description and tags for stable release. updated plugin version to 1.0.0.0",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "teechep"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2026-01-22T10:12:46.9696951+00:00",
+              "Changelog": "added option to display and sort by level",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -217798,9 +217814,9 @@
           }
         },
         "BlueMageHelper": {
-          "BuiltCommit": "cc5f7a8f39494e9a6c641d78500b8328a1df4bd8",
-          "TimeBuilt": "2023-01-26T17:15:20.056",
-          "EffectiveVersion": "2.0.1.0",
+          "BuiltCommit": "82bcc5724a304f7f763aa4ca41531501ef74229a",
+          "TimeBuilt": "2026-01-22T10:25:04.2594295+00:00",
+          "EffectiveVersion": "3.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -217816,6 +217832,22 @@
               "UsedNeeds": null,
               "Reviewer": null,
               "Submitter": null
+            },
+            "3.2.0.0": {
+              "TimeReleased": "2026-01-22T10:25:04.2594752+00:00",
+              "Changelog": "- Update and better specify spell sources\r\n- UI refresh\r\n- Add button to open duty in Duty Finder\r\nPlease report any issues you have!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "harbingerftw"
             }
           }
         },
@@ -234879,9 +234911,9 @@
           }
         },
         "FATEhelper": {
-          "BuiltCommit": "a02cf6e1032d713fcacaa478575239fed570c4c2",
-          "TimeBuilt": "2025-12-22T02:52:07.2242146+00:00",
-          "EffectiveVersion": "0.0.0.2",
+          "BuiltCommit": "4390af5c12be69e1e2ea4bd204b2cd9eff72ec6e",
+          "TimeBuilt": "2026-01-22T10:12:57.4745047+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -234914,6 +234946,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "teechep"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2026-01-22T10:12:57.4745062+00:00",
+              "Changelog": "added option to display and sort by fate level",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "teechep"
             }
           }
@@ -235719,9 +235767,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "72c3d904e5e7212948a9d670256a05b0c02bd1f5",
-          "TimeBuilt": "2026-01-09T12:39:55.8355437+00:00",
-          "EffectiveVersion": "1.3.5.4",
+          "BuiltCommit": "b320efca9a09237c313035c632e5c6aaaaa9f440",
+          "TimeBuilt": "2026-01-22T10:18:00.1134326+00:00",
+          "EffectiveVersion": "1.4.6.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.3.0": {
@@ -235775,6 +235823,22 @@
             "1.3.5.4": {
               "TimeReleased": "2026-01-09T12:39:55.835582+00:00",
               "Changelog": "Clarified Config a bit more, added a small voice delay.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "spide-r"
+            },
+            "1.4.6.4": {
+              "TimeReleased": "2026-01-22T10:18:00.1134716+00:00",
+              "Changelog": "Huge Update! All the scions \u002B endwalker/dt main characters are now available as announcers!",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
