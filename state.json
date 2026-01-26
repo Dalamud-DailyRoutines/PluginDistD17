@@ -179416,9 +179416,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "5cb7c13b77da87daa527d3f4685061ce05b91272",
-          "TimeBuilt": "2026-01-21T20:09:40.2521362+00:00",
-          "EffectiveVersion": "0.0.3.15",
+          "BuiltCommit": "03f49ccc3e09efefa9715eb3e3806b16493ba444",
+          "TimeBuilt": "2026-01-26T02:37:14.9453328+00:00",
+          "EffectiveVersion": "0.0.3.20",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
@@ -180836,6 +180836,198 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "serifas"
+            },
+            "0.0.3.20": {
+              "TimeReleased": "2026-01-26T02:37:14.9453341+00:00",
+              "Changelog": "Added the link to the new website and the ability to export your account for it.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.12.4"
+                },
+                {
+                  "Key": "K4os.Compression.LZ4",
+                  "Version": "1.3.8"
+                },
+                {
+                  "Key": "K4os.Compression.LZ4.Legacy",
+                  "Version": "1.3.8"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Web.WebView2",
+                  "Version": "1.0.2903.40"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "NReco.Logging.File",
+                  "Version": "1.3.1"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Abstractions",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "System.Resources.Extensions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "serifas"
             }
           }
         },
@@ -181980,9 +182172,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "55db864a87a9e991243eeff53b88c71594ed057b",
-          "TimeBuilt": "2026-01-25T08:19:01.8019446+00:00",
-          "EffectiveVersion": "1.2.0.4",
+          "BuiltCommit": "c0edbc9844b321ff5bdff834c8d5f2c710bfaf02",
+          "TimeBuilt": "2026-01-26T02:36:55.8489764+00:00",
+          "EffectiveVersion": "1.2.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -184552,6 +184744,46 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "d3f75b65b9ea17b17ac89a4bb8297ef0e46922cd"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.0.5": {
+              "TimeReleased": "2026-01-26T02:36:55.8490193+00:00",
+              "Changelog": "Update some translations\r\n\r\nGearset Redirect - Fixed some issues regarding display and configuration",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "7720ab0741e350e9b9d699a35b360ec7878e3785"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -218879,9 +219111,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "5cb7c13b77da87daa527d3f4685061ce05b91272",
-          "TimeBuilt": "2026-01-21T20:09:59.2797229+00:00",
-          "EffectiveVersion": "0.0.3.15",
+          "BuiltCommit": "2f40ea25eb842a89584605927278ca433539ba4f",
+          "TimeBuilt": "2026-01-26T02:37:34.8472718+00:00",
+          "EffectiveVersion": "0.0.3.20",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -222283,6 +222515,198 @@
             "0.0.3.15": {
               "TimeReleased": "2026-01-21T20:09:59.2797239+00:00",
               "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.12.4"
+                },
+                {
+                  "Key": "K4os.Compression.LZ4",
+                  "Version": "1.3.8"
+                },
+                {
+                  "Key": "K4os.Compression.LZ4.Legacy",
+                  "Version": "1.3.8"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Web.WebView2",
+                  "Version": "1.0.2903.40"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "NReco.Logging.File",
+                  "Version": "1.3.1"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Abstractions",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "System.Resources.Extensions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "serifas"
+            },
+            "0.0.3.20": {
+              "TimeReleased": "2026-01-26T02:37:34.8472728+00:00",
+              "Changelog": "Added the link to the new website and the ability to export your account for it.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -256633,6 +257057,13 @@
       "Version": "27a23f83cf68594831a7cd1c9ea2a7c403837cca",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-01-25T08:23:16.4530569Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "7720ab0741e350e9b9d699a35b360ec7878e3785",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-01-26T02:36:55.9136198Z"
     }
   ]
 }
