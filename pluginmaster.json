@@ -10188,6 +10188,38 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CurrencyAlert/latest.zip"
   },
   {
+    "Author": "nebel",
+    "Name": "Currency Watchdog",
+    "InternalName": "CurrencyWatchdog",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "Provides a configurable overlay with a powerful rule system for displaying how many currency (or non-currency) items you have (or don't have). A spiritual successor to CurrencyAlert.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/nebel/CurrencyWatchdog",
+    "Tags": [
+      "Currency",
+      "Tomestones",
+      "Alert",
+      "Tracker"
+    ],
+    "DalamudApiLevel": 14,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Shows an overlay and/or sends alerts when your held currency items (or non-currency items) match configurable rules.",
+    "AcceptsFeedback": true,
+    "_isDip17Plugin": true,
+    "_Dip17Channel": "testing-live",
+    "IsHide": "False",
+    "TestingAssemblyVersion": "1.0.0.0",
+    "IsTestingExclusive": "True",
+    "TestingDalamudApiLevel": 14,
+    "LastUpdate": "1769911897",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CurrencyWatchdog/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CurrencyWatchdog/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CurrencyWatchdog/latest.zip"
+  },
+  {
     "Author": "0x0ade",
     "Name": "CustomResolution",
     "InternalName": "CustomResolution2782",
