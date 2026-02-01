@@ -179400,9 +179400,9 @@
           }
         },
         "XivFatalFrame": {
-          "BuiltCommit": "5677812a0fb7b259f127847c2d243c29183b4985",
-          "TimeBuilt": "2025-12-20T21:43:04.4746895+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "90d9cc98d8f6a00d259712db772ac095bbee0b07",
+          "TimeBuilt": "2026-01-31T14:15:09.164932+00:00",
+          "EffectiveVersion": "1.2.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -179488,13 +179488,29 @@
               ],
               "Reviewer": "goaaats",
               "Submitter": "Glyceri"
+            },
+            "1.2.0.1": {
+              "TimeReleased": "2026-01-31T14:15:09.164933+00:00",
+              "Changelog": "[1.2.0.1]\n- Achievements should no longer desync on your client. (Don\u0027t worry, the game still registered every achievement you did, the client just wouldnt become aware).\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Glyceri"
             }
           }
         },
         "AcquisitionDate": {
-          "BuiltCommit": "50504d31782dc851f1b35bb9109eeadeb011dfac",
-          "TimeBuilt": "2025-12-20T21:41:33.8658099+00:00",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "41d97df1f7b7136f3b4f761037a952d3c14b9899",
+          "TimeBuilt": "2026-01-31T14:15:01.1611785+00:00",
+          "EffectiveVersion": "1.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -179575,6 +179591,26 @@
                 }
               ],
               "Reviewer": "goaaats",
+              "Submitter": "Glyceri"
+            },
+            "1.1.0.1": {
+              "TimeReleased": "2026-01-31T14:15:01.1612191+00:00",
+              "Changelog": " [1.1.0.1]\n- Achievements should no longer desync on your client. (Don\u0027t worry, the game still registered every achievement you did, the client just wouldnt become aware).\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "Glyceri"
             }
           }
@@ -239341,6 +239377,202 @@
               "Submitter": "Aida-Enna"
             }
           }
+        },
+        "MusicalGuide": {
+          "BuiltCommit": "6706154f20aba555d732c4e4d02bb987ab67596f",
+          "TimeBuilt": "2026-01-31T13:50:52.2939103+00:00",
+          "EffectiveVersion": "1.3.2.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.3.2.0": {
+              "TimeReleased": "2026-01-31T13:50:52.2939509+00:00",
+              "Changelog": "A plugin that enhances camera functionality:\r\n\r\n- Automatically restore camera distances when engaged in different activities\r\n- Provide real first person camera that accurately shows your character\r\n\r\nStaying within the limits of the game is a core design principle. Camera distances respect vanilla distance limitations.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Sidiousious"
+            }
+          }
+        },
+        "BetterMinionRoulette": {
+          "BuiltCommit": "4780a89b7e9ea35378b2e2a2eccd482470cca05d",
+          "TimeBuilt": "2026-01-31T13:51:02.2669722+00:00",
+          "EffectiveVersion": "0.1.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.0.1": {
+              "TimeReleased": "2026-01-31T13:51:02.2669757+00:00",
+              "Changelog": "Allows any number of minions to be enabled for the minion roulette, instead of having to choose between the \u0022up to 30\u0022 and \u0022EVERYTHING\u0022 modes supported by the game.\r\n\r\nA lot like my existing plugin BetterMountRoulette, except simpler (there\u0027s no hidden second roulette to worry about, nor are there any cast bars to finagle).\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/CMDRNuffin/BetterMinionMountRouletteShared.git",
+                  "Version": "df3386e89081cb0cffe2a4bcce11393a740076ab"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "CMDRNuffin"
+            }
+          }
+        },
+        "FlashOnCutSceneDone": {
+          "BuiltCommit": "d890a5ce97f368902efc089a27f35f33949dff68",
+          "TimeBuilt": "2026-01-31T13:58:34.1316643+00:00",
+          "EffectiveVersion": "0.0.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.1.0": {
+              "TimeReleased": "2026-01-31T13:58:34.1317126+00:00",
+              "Changelog": "Flashes the game window in the taskbar when a cutscene ends.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "sub07"
+            }
+          }
+        },
+        "GlamSwapCommand": {
+          "BuiltCommit": "810db21f039ef3587b2ac4c42292b7a9e5220329",
+          "TimeBuilt": "2026-01-31T13:58:41.8774286+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-01-31T13:58:41.8774508+00:00",
+              "Changelog": "Added new command",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Skyde789"
+            }
+          }
+        },
+        "rec-cue": {
+          "BuiltCommit": "36d35bb9cfc5c41e60c0a5760d9ca91934353ecf",
+          "TimeBuilt": "2026-01-31T13:58:49.0638273+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2026-01-31T13:58:49.0638291+00:00",
+              "Changelog": "- Initial release to official repository\n- Configure via /reccue command\n- Monitors configurable folder for file write/modification activity\n- Shows in-game [Rec] indicator (red=pulsing when active, grey=on hold, orange=error)\n- Adjustable indicator position, scale, and visibility\n- Auto-restart monitoring when folder error is resolved\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Miu-B"
+            }
+          }
+        },
+        "Swatch": {
+          "BuiltCommit": "2624e0b5a9362a3dcc69241992431f9228a42723",
+          "TimeBuilt": "2026-01-31T13:58:55.8877952+00:00",
+          "EffectiveVersion": "0.0.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.1.0": {
+              "TimeReleased": "2026-01-31T13:58:55.8877967+00:00",
+              "Changelog": "initial release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "sleepybnuuy"
+            }
+          }
+        },
+        "WachuMakeyMaking": {
+          "BuiltCommit": "08fe5b724db2d78e805bf39deb23a9c53303116b",
+          "TimeBuilt": "2026-01-31T13:59:03.5212469+00:00",
+          "EffectiveVersion": "1.0.6.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.6.0": {
+              "TimeReleased": "2026-01-31T13:59:03.5212481+00:00",
+              "Changelog": "Initial Release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "ArcaneAj"
+            }
+          }
+        },
+        "TotalCharacterLevel": {
+          "BuiltCommit": "8938feca1a44997dbb69f88fbc2770ee9129126d",
+          "TimeBuilt": "2026-01-31T13:59:10.6113777+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2026-01-31T13:59:10.6113785+00:00",
+              "Changelog": "New plugin",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Anqied"
+            }
+          }
         }
       }
     },
@@ -259620,6 +259852,13 @@
       "Version": "5b91bb457e2ffc51fb0325a485decb5fb651fcae",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-01-30T19:35:14.6104198Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/CMDRNuffin/BetterMinionMountRouletteShared.git",
+      "Version": "df3386e89081cb0cffe2a4bcce11393a740076ab",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2026-01-31T13:51:02.3218216Z"
     }
   ]
 }
