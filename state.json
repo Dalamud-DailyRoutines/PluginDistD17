@@ -121076,9 +121076,9 @@
           }
         },
         "SonarPlugin": {
-          "BuiltCommit": "6f99b87e4664412f2081a2e8125e73a70ce13d62",
-          "TimeBuilt": "2026-01-29T11:58:39.3020418+00:00",
-          "EffectiveVersion": "14.741.0.0",
+          "BuiltCommit": "ea62fb5308121a04834e9d6dc6925264c1e99579",
+          "TimeBuilt": "2026-02-03T00:24:12.9825399+00:00",
+          "EffectiveVersion": "14.741.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.5.2.6": {
@@ -134330,6 +134330,510 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "rreminy"
+            },
+            "14.741.0.1": {
+              "TimeReleased": "2026-02-03T00:24:12.9825412+00:00",
+              "Changelog": "Check Sonar News for more information: https://news.ffxivsonar.com",
+              "UsedNeeds": [
+                {
+                  "Key": "AG.NonBlocking",
+                  "Version": "2.1.1"
+                },
+                {
+                  "Key": "ConfigureAwait.Fody",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "DeviceId",
+                  "Version": "6.9.0"
+                },
+                {
+                  "Key": "DeviceId.Linux",
+                  "Version": "6.9.0"
+                },
+                {
+                  "Key": "DeviceId.Mac",
+                  "Version": "6.9.0"
+                },
+                {
+                  "Key": "DeviceId.Windows",
+                  "Version": "6.9.0"
+                },
+                {
+                  "Key": "DeviceId.Windows.Wmi",
+                  "Version": "6.9.0"
+                },
+                {
+                  "Key": "DryIoc.dll",
+                  "Version": "5.4.3"
+                },
+                {
+                  "Key": "DryIoc.MefAttributedModel.dll",
+                  "Version": "7.0.2"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.3"
+                },
+                {
+                  "Key": "InterlockedUtils",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.MessagePack",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "ZString",
+                  "Version": "2.6.0"
+                },
+                {
+                  "Key": "AG",
+                  "Version": "0.1.2-alpha"
+                },
+                {
+                  "Key": "AG.Collections.Concurrent",
+                  "Version": "0.1.2-alpha"
+                },
+                {
+                  "Key": "AG.Collections.Generic",
+                  "Version": "0.1.2-alpha"
+                },
+                {
+                  "Key": "AG.EnumLocalization",
+                  "Version": "0.1.3-alpha"
+                },
+                {
+                  "Key": "BouncyCastle.Cryptography",
+                  "Version": "2.6.2"
+                },
+                {
+                  "Key": "DryIocAttributes.dll",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Farmhash.Sharp",
+                  "Version": "0.9.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "System.ComponentModel.Composition",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "XoshiroPRNG.Net",
+                  "Version": "1.6.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "6.0.4"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "18.0.1"
+                },
+                {
+                  "Key": "xunit",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "18.0.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "18.0.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "18.0.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "xunit.abstractions",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.18.0"
+                },
+                {
+                  "Key": "xunit.assert",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.core",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.extensibility.core",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.extensibility.execution",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "Blurhash.Core",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "FileSystemLinks",
+                  "Version": "1.0.3"
+                },
+                {
+                  "Key": "Humanizer",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "7.1.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.4.3"
+                },
+                {
+                  "Key": "Magick.NET-Q8-x64",
+                  "Version": "14.10.2"
+                },
+                {
+                  "Key": "Spectre.Console",
+                  "Version": "0.54.0"
+                },
+                {
+                  "Key": "BCnEncoder.Net",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "CommunityToolkit.HighPerformance",
+                  "Version": "8.4.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.af",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ar",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.az",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.bg",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.bn",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ca",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.cs",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.da",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.de",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.el",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.es",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.fa",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.fi",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.fil",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.fr",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.he",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.hr",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.hu",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.hy",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.id",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.is",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.it",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ja",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ko",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ku",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.lb",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.lt",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.lv",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ms",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.mt",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.nb",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.nl",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.pl",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.pt",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.pt-BR",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ro",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ru",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sk",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sl",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sr",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sr-Latn",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sv",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.th",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.tr",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.uk",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.uz-Cyrl-UZ",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.uz-Latn-UZ",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.vi",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.zh-CN",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.zh-Hans",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Humanizer.Core.zh-Hant",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Magick.NET.Core",
+                  "Version": "14.10.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "rreminy"
             }
           }
@@ -162513,9 +163017,9 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "52043e45a6fff74945930be83ee2a85c37f6be69",
-          "TimeBuilt": "2025-12-20T21:42:01.2497975+00:00",
-          "EffectiveVersion": "3.1.10.0",
+          "BuiltCommit": "109531df367aa312a92ac67e5feb2493b07ec181",
+          "TimeBuilt": "2026-02-03T00:32:59.4447247+00:00",
+          "EffectiveVersion": "3.1.11.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -163883,6 +164387,46 @@
               ],
               "Reviewer": "goaaats",
               "Submitter": "Bloodsoul"
+            },
+            "3.1.11.0": {
+              "TimeReleased": "2026-02-03T00:32:59.4447654+00:00",
+              "Changelog": "# Umbra 3.1.11\n\n## Fixes \u0026 Improvements\n\n- Fixed an issue where custom plugin couldn\u0027t use ImGui (By [alexpado](https://github.com/alexpado)).\n- Added some missing icons to the icon picker (By [Bloodsoul](https://github.com/Bloodsoul)).\n- Fixed Occult Crescent Survey Point translations (By [GayPotatoEmma](https://github.com/GayPotatoEmma)).\n- Added markers for Occult Crescent Carrots (By [GayPotatoEmma](https://github.com/GayPotatoEmma)).\n- Added ability to enable label for the Volume widget. (By [GayPotatoEmma](https://github.com/GayPotatoEmma) \u0026 [Bloodsoul](https://github.com/Bloodsoul)).\n- Added Mark Hunt Bill mobs to Hunt markers (By [Haselnussbomber](https://github.com/Haselnussbomber)).\n- Added ARR Relic book target markers (By [Haselnussbomber](https://github.com/Haselnussbomber)).\n- Fixed an issue where marker were rendered for dead mobs (By [Haselnussbomber](https://github.com/Haselnussbomber)).\n- Improved Treasure Chest marker (By [Haselnussbomber](https://github.com/Haselnussbomber)).\n- Added categories to the Dynamic Menu widget (By [Ivinedra](https://github.com/Ivinedra)).\n\n---\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "db441cf8a368bbc387afa2928d42be31c152083e"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "System.Reflection.MetadataLoadContext",
+                  "Version": "9.0.4"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "alexpado"
             }
           }
         },
@@ -179496,9 +180040,9 @@
           }
         },
         "DutyPusher": {
-          "BuiltCommit": "08cb12f051fa16108bc277c096ccd224eec704a5",
-          "TimeBuilt": "2025-12-20T08:03:01.7848521+00:00",
-          "EffectiveVersion": "0.1.4.4",
+          "BuiltCommit": "3a8a656a9613666b3940dd317547ce016b32e5d3",
+          "TimeBuilt": "2026-02-03T00:23:36.4629289+00:00",
+          "EffectiveVersion": "0.1.4.5",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.3.1": {
@@ -179560,6 +180104,26 @@
             "0.1.4.4": {
               "TimeReleased": "2025-12-20T08:03:01.7848532+00:00",
               "Changelog": "Update to API 14\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "Dalamud.Loc",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MorCherlf"
+            },
+            "0.1.4.5": {
+              "TimeReleased": "2026-02-03T00:23:36.4629696+00:00",
+              "Changelog": "Update repo link and guide link\r\n",
               "UsedNeeds": [
                 {
                   "Key": "Dalamud.Loc",
@@ -184996,9 +185560,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "24b4a65acb6265a9222d03ccfb2f203a47503ce4",
-          "TimeBuilt": "2026-02-02T04:01:30.7249296+00:00",
-          "EffectiveVersion": "1.2.0.8",
+          "BuiltCommit": "d6bc3a900c67546987d496cd1e1538c17444ec94",
+          "TimeBuilt": "2026-02-03T00:37:08.4119838+00:00",
+          "EffectiveVersion": "1.2.0.9",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -187720,6 +188284,46 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
+            },
+            "1.2.0.9": {
+              "TimeReleased": "2026-02-03T00:37:08.4120284+00:00",
+              "Changelog": "Enhanced Loot Window - Fix crash\r\nResource Bar Percentages - Fix being unable to see original health when under computation mode and similar effects.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "2af53c7b3c96c28510348d3013b3ce3e6a330628"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -187780,9 +188384,9 @@
           }
         },
         "StatusTimers": {
-          "BuiltCommit": "30644f9fde2b43d5c94353ff05f89b4ee728bba9",
-          "TimeBuilt": "2026-01-25T08:23:16.3948248+00:00",
-          "EffectiveVersion": "1.0.3.2",
+          "BuiltCommit": "fc2b35b005922b7c46c7a1e33a7c76cb0a66d8c0",
+          "TimeBuilt": "2026-02-03T00:23:48.9373188+00:00",
+          "EffectiveVersion": "1.0.3.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.2": {
@@ -187912,6 +188516,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.git",
                   "Version": "27a23f83cf68594831a7cd1c9ea2a7c403837cca"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.3.3": {
+              "TimeReleased": "2026-02-03T00:23:48.9373202+00:00",
+              "Changelog": "# 1.0.3.3\n- Updated KTK to the latest version.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "d36a663e16987076487dc7e4d6017a175322ab1b"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -190321,9 +190949,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "a162730312c5a4f5c0706d0a0ef0be0942963cd1",
-          "TimeBuilt": "2026-02-02T03:55:15.3317235+00:00",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "343585d351c4f62e31ed5b28f9c515872dfca226",
+          "TimeBuilt": "2026-02-03T00:24:38.2693483+00:00",
+          "EffectiveVersion": "1.7.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -193740,6 +194368,50 @@
             "1.7.0.0": {
               "TimeReleased": "2026-02-02T03:55:15.3317607+00:00",
               "Changelog": "- **Timers**: Add Mini cactpot, Jumbo cactpot, Fashion report timers tracking\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.7.5.0": {
+              "TimeReleased": "2026-02-03T00:24:38.2693496+00:00",
+              "Changelog": "- **General**: Add automated backup on plugin version update. \n- **Timers**: Fix timer resets when on reset day but before reset hour\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -213952,9 +214624,9 @@
           }
         },
         "NoTankYou": {
-          "BuiltCommit": "edd5ce84b8d0bee28368304b105a3d9bd998b650",
-          "TimeBuilt": "2026-02-02T03:24:34.1998186+00:00",
-          "EffectiveVersion": "7.4.0.2",
+          "BuiltCommit": "6be822ba719e83d00199d8a9a76f88c3f0798515",
+          "TimeBuilt": "2026-02-03T00:25:02.063249+00:00",
+          "EffectiveVersion": "7.4.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "7.2.2.1": {
@@ -214232,6 +214904,50 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "262e1993cbb5e3a63d0e2cb03111ed4a8ce429e9"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.0-preview.6.25358.103"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "7.4.0.3": {
+              "TimeReleased": "2026-02-03T00:25:02.0632499+00:00",
+              "Changelog": "Prevents evaluating characters that are out of range, potentially fixes some crashes",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "2af53c7b3c96c28510348d3013b3ce3e6a330628"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -219662,9 +220378,9 @@
           }
         },
         "Distance": {
-          "BuiltCommit": "ee52eab4da06dc4620db338cf48528a40c9600cc",
-          "TimeBuilt": "2023-11-18T18:11:22.458",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "569a41b039ebc0b27432296271030fc50ae80d67",
+          "TimeBuilt": "2026-02-03T00:30:43.7105382+00:00",
+          "EffectiveVersion": "1.1.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -219673,6 +220389,22 @@
               "UsedNeeds": null,
               "Reviewer": null,
               "Submitter": null
+            },
+            "1.1.4.0": {
+              "TimeReleased": "2026-02-03T00:30:43.7105796+00:00",
+              "Changelog": "Testing Release:\n- Added an option to control displaying distances specifically during Duty Recorder playback.  This is enabled by default and ignores other condition settings.\n- Added an option to show distances from the selected character instead of your own character during Duty Recorder playback.  This is enabled by default.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "PunishedPineapple"
             }
           }
         },
@@ -220421,9 +221153,9 @@
           "Changelogs": {}
         },
         "DailyDuty": {
-          "BuiltCommit": "b053fb5eb26d924cee331d7159f9f74cf5743fb2",
-          "TimeBuilt": "2026-02-02T03:42:07.3189216+00:00",
-          "EffectiveVersion": "6.0.0.6",
+          "BuiltCommit": "f0e37611cbe448cc77990dc757eb0b4d2938e07e",
+          "TimeBuilt": "2026-02-03T00:25:14.6309356+00:00",
+          "EffectiveVersion": "6.0.0.7",
           "MinimumVersion": null,
           "Changelogs": {
             "5.3.0.0": {
@@ -221197,6 +221929,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "262e1993cbb5e3a63d0e2cb03111ed4a8ce429e9"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.0.7": {
+              "TimeReleased": "2026-02-03T00:25:14.6309369+00:00",
+              "Changelog": "Adjust Todo Panels\u0027 Entry Height",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "2af53c7b3c96c28510348d3013b3ce3e6a330628"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -237359,9 +238115,9 @@
           }
         },
         "StatusTimers": {
-          "BuiltCommit": "30644f9fde2b43d5c94353ff05f89b4ee728bba9",
-          "TimeBuilt": "2026-01-25T08:23:27.9392197+00:00",
-          "EffectiveVersion": "1.0.3.2",
+          "BuiltCommit": "fc2b35b005922b7c46c7a1e33a7c76cb0a66d8c0",
+          "TimeBuilt": "2026-02-03T00:24:50.1134792+00:00",
+          "EffectiveVersion": "1.0.3.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -237779,6 +238535,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.git",
                   "Version": "27a23f83cf68594831a7cd1c9ea2a7c403837cca"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.3.3": {
+              "TimeReleased": "2026-02-03T00:24:50.1134804+00:00",
+              "Changelog": "# 1.0.3.3\n- Updated KTK to the latest version.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "d36a663e16987076487dc7e4d6017a175322ab1b"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -239755,9 +240535,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "58f495e01e79930f89bc34e38fd0ee21cb67ea36",
-          "TimeBuilt": "2026-02-02T03:38:13.4481464+00:00",
-          "EffectiveVersion": "1.4.7.7",
+          "BuiltCommit": "a45b241658e9177515491e9ce73b97e1e6d84b1c",
+          "TimeBuilt": "2026-02-03T00:24:23.3106413+00:00",
+          "EffectiveVersion": "1.4.7.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.3.0": {
@@ -239843,6 +240623,22 @@
             "1.4.7.7": {
               "TimeReleased": "2026-02-02T03:38:13.4481848+00:00",
               "Changelog": "Big Backend rework, some fixes. Nothing should be visibly changed. Report if you see issues!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "spide-r"
+            },
+            "1.4.7.8": {
+              "TimeReleased": "2026-02-03T00:24:23.3106423+00:00",
+              "Changelog": "Fix issue with Japanese Language causing improper behavior, G\u0027raha \u0026 Alphinaud lines fixed.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -260793,6 +261589,13 @@
       "Version": "d36a663e16987076487dc7e4d6017a175322ab1b",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-02-02T04:01:30.7917775Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "2af53c7b3c96c28510348d3013b3ce3e6a330628",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-02-03T00:25:02.0929241Z"
     }
   ]
 }
