@@ -180144,9 +180144,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "20184f1fc19a26b4625e1c31e28aa64ca93a526b",
-          "TimeBuilt": "2026-01-28T09:35:30.7504605+00:00",
-          "EffectiveVersion": "1.4.6.7",
+          "BuiltCommit": "a45b241658e9177515491e9ce73b97e1e6d84b1c",
+          "TimeBuilt": "2026-02-03T19:48:37.7326605+00:00",
+          "EffectiveVersion": "1.4.7.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -180376,6 +180376,22 @@
             "1.4.6.7": {
               "TimeReleased": "2026-01-28T09:35:30.7505074+00:00",
               "Changelog": "Minor Event Additions, Config edits, fixes.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "spide-r"
+            },
+            "1.4.7.8": {
+              "TimeReleased": "2026-02-03T19:48:37.7326972+00:00",
+              "Changelog": "Potential fix in place for language options not saving properly. G\u0027raha Tia \u0026 Alphinaud voice line fixes. Please report any issues you find!",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -190949,9 +190965,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "343585d351c4f62e31ed5b28f9c515872dfca226",
-          "TimeBuilt": "2026-02-03T00:24:38.2693483+00:00",
-          "EffectiveVersion": "1.7.5.0",
+          "BuiltCommit": "9a998feb19b8267a409913a7997d724ed56172d9",
+          "TimeBuilt": "2026-02-03T19:49:03.3917265+00:00",
+          "EffectiveVersion": "1.7.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -194412,6 +194428,50 @@
             "1.7.5.0": {
               "TimeReleased": "2026-02-03T00:24:38.2693496+00:00",
               "Changelog": "- **General**: Add automated backup on plugin version update. \n- **Timers**: Fix timer resets when on reset day but before reset hour\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.7.6.0": {
+              "TimeReleased": "2026-02-03T19:49:03.3917278+00:00",
+              "Changelog": "- **Timers**: Another weekly reset timer fix\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -214624,9 +214684,9 @@
           }
         },
         "NoTankYou": {
-          "BuiltCommit": "6be822ba719e83d00199d8a9a76f88c3f0798515",
-          "TimeBuilt": "2026-02-03T00:25:02.063249+00:00",
-          "EffectiveVersion": "7.4.0.3",
+          "BuiltCommit": "a38144a6055855fa58b4ee0098042c518ab9d137",
+          "TimeBuilt": "2026-02-04T00:14:00.5661328+00:00",
+          "EffectiveVersion": "7.4.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "7.2.2.1": {
@@ -214944,6 +215004,50 @@
             "7.4.0.3": {
               "TimeReleased": "2026-02-03T00:25:02.0632499+00:00",
               "Changelog": "Prevents evaluating characters that are out of range, potentially fixes some crashes",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "2af53c7b3c96c28510348d3013b3ce3e6a330628"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.0-preview.6.25358.103"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "7.4.0.4": {
+              "TimeReleased": "2026-02-04T00:14:00.5661818+00:00",
+              "Changelog": "Food/Spiritbond - Fix modules thinking all trials are unreal. While this may feel true sometimes depending on team members skill level, this was not the intent.\r\n\r\nFixed some modules mistakenly respecting old no longer used config values that were migrated.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
@@ -221153,9 +221257,9 @@
           "Changelogs": {}
         },
         "DailyDuty": {
-          "BuiltCommit": "f0e37611cbe448cc77990dc757eb0b4d2938e07e",
-          "TimeBuilt": "2026-02-03T00:25:14.6309356+00:00",
-          "EffectiveVersion": "6.0.0.7",
+          "BuiltCommit": "8b094694e3a0632f51ccfe063b0eaa5de96f1288",
+          "TimeBuilt": "2026-02-04T00:14:14.611706+00:00",
+          "EffectiveVersion": "6.0.0.8",
           "MinimumVersion": null,
           "Changelogs": {
             "5.3.0.0": {
@@ -221949,6 +222053,30 @@
             "6.0.0.7": {
               "TimeReleased": "2026-02-03T00:25:14.6309369+00:00",
               "Changelog": "Adjust Todo Panels\u0027 Entry Height",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "2af53c7b3c96c28510348d3013b3ce3e6a330628"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.0.8": {
+              "TimeReleased": "2026-02-04T00:14:14.6117071+00:00",
+              "Changelog": "Fix Squadron Logic Error that was preventing module from successfully completing\r\n\r\nFixed some overlay elements showing disabled modules values.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
@@ -241231,6 +241359,38 @@
               ],
               "Reviewer": "Critical-Impact",
               "Submitter": "nebel"
+            }
+          }
+        },
+        "Dalamud.CharacterSync": {
+          "BuiltCommit": "5a1ddebb77a0762e772a7c7abcb1e40a85d4e225",
+          "TimeBuilt": "2026-02-03T19:48:47.5107373+00:00",
+          "EffectiveVersion": "2.1.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "2.1.0.0": {
+              "TimeReleased": "2026-02-03T19:48:47.5107408+00:00",
+              "Changelog": "Removed the warning message window and switched to using the notification system.\nChanged how the FFXIV configs are located. It should now support backups on all platforms.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.333"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.333"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Xpahtalo"
             }
           }
         }
