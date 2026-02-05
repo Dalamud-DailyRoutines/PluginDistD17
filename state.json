@@ -149661,9 +149661,9 @@
           }
         },
         "ZodiacBuddy": {
-          "BuiltCommit": "a270d2a5a8d8ca8cda3fa00984c0dd168ce6c56c",
-          "TimeBuilt": "2025-12-31T18:02:08.2276776+00:00",
-          "EffectiveVersion": "1.14.0.0",
+          "BuiltCommit": "1f46fb6281aaed4f9ad1d65697bb25f13283694f",
+          "TimeBuilt": "2026-02-04T20:21:50.9128598+00:00",
+          "EffectiveVersion": "1.14.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -149916,6 +149916,26 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "foophoof"
+            },
+            "1.14.1.0": {
+              "TimeReleased": "2026-02-04T20:21:50.9128969+00:00",
+              "Changelog": "- Text fixes for languages other than English\r\n- Fix map marker location of some FATEs",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LitJWT",
+                  "Version": "2.0.2"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "foophoof"
             }
           }
@@ -241311,9 +241331,9 @@
           }
         },
         "CurrencyWatchdog": {
-          "BuiltCommit": "89b6928f117d5c63887e72cd3b2f3f6569fad54c",
-          "TimeBuilt": "2026-02-01T02:11:12.743192+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "f521fb9977ac14386ab0c0bbab9bed24ffcb81d0",
+          "TimeBuilt": "2026-02-04T20:22:04.1967752+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -241358,6 +241378,50 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "nebel"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2026-02-04T20:22:04.1967763+00:00",
+              "Changelog": "- Support tracking HQ items. By default, both HQ (high quality) and NQ (normal quality) items are considered. This can be changed per-item using the Customize button.\r\n- Support using the HQ version of an icon when available. This can be changed per-item using the Customize button.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "262e1993cbb5e3a63d0e2cb03111ed4a8ce429e9"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.0-preview.6.25358.103"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "nebel"
             }
           }
