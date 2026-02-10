@@ -188456,9 +188456,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "7cb7d71bd038cddee43ebfff06aece34cd7c62f0",
-          "TimeBuilt": "2026-02-09T21:55:30.2039661+00:00",
-          "EffectiveVersion": "1.2.1.1",
+          "BuiltCommit": "6df41dbae59cef5e049f9834fec0ee3d78f87a00",
+          "TimeBuilt": "2026-02-10T08:20:54.5854759+00:00",
+          "EffectiveVersion": "1.2.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -191420,6 +191420,46 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
+            },
+            "1.2.1.2": {
+              "TimeReleased": "2026-02-10T08:20:54.585518+00:00",
+              "Changelog": "Add Cosmic Exploration Progress Window - [PR](https://github.com/MidoriKami/VanillaPlus/pull/145) - This window shows a summary view of your current research progress.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "03ed20e78d7760ba5fe47a20fd3479ec0d22d320"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -192416,9 +192456,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "80e20ada9d5086d928663092655cf292879cb4d1",
-          "TimeBuilt": "2026-01-29T12:03:14.3553019+00:00",
-          "EffectiveVersion": "1.5.5.0",
+          "BuiltCommit": "308a606c52687b76f68f7b00736502d7a9e1ef53",
+          "TimeBuilt": "2026-02-10T08:21:10.7154841+00:00",
+          "EffectiveVersion": "1.8.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -192824,6 +192864,50 @@
             "1.5.5.0": {
               "TimeReleased": "2026-01-29T12:03:14.3553782+00:00",
               "Changelog": "- **Config**: Move timer config to its own tab\n- **General**: Add dye icons on gear pieces.\n- **Progress**: Add Valentione 2026.\n- **Timers**: Config option for adding cross mark for unlocked timer instead of emptiness\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Sohtoren"
+            },
+            "1.8.1.0": {
+              "TimeReleased": "2026-02-10T08:21:10.7154857+00:00",
+              "Changelog": "- **General**: Add automated backup on plugin version update.\n- **Details**: Add housing last visit on mouse hover.\n- **Timers**: Add Mini cactpot, Jumbo cactpot, Fashion report timers, Duty Roulettes tracking. Fix Doman Enclave save spamming\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -244419,9 +244503,9 @@
           }
         },
         "JobAutoSwitcher": {
-          "BuiltCommit": "89dc0ffdefc8a917f5e0b50d0695af1ae7073754",
-          "TimeBuilt": "2026-01-07T07:09:49.0413694+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "0ce628b135896c133fc5ee30eeeee93381b6972b",
+          "TimeBuilt": "2026-02-10T08:21:20.3007536+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -244435,6 +244519,22 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Valiice"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-02-10T08:21:20.300755+00:00",
+              "Changelog": "Add settings UI, gearset preferences, slash commands, job icons, and Ko-fi button",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
                 }
               ],
               "Reviewer": "Critical-Impact",
@@ -265492,6 +265592,20 @@
       "Version": "2.2.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-02-10T00:00:17.1520024Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "03ed20e78d7760ba5fe47a20fd3479ec0d22d320",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2026-02-10T08:20:54.6548894Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DotNet.ReproducibleBuilds",
+      "Version": "2.0.2",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2026-02-10T08:21:20.3808774Z"
     }
   ]
 }
