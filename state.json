@@ -162123,9 +162123,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "638ec1a21196d9fb3d49f5cf351e8f72818769a9",
-          "TimeBuilt": "2026-02-08T06:32:45.491523+00:00",
-          "EffectiveVersion": "1.34.2.0",
+          "BuiltCommit": "4341035c74e61e1a635e32a141fe31a2b52ab935",
+          "TimeBuilt": "2026-02-09T21:49:52.3103274+00:00",
+          "EffectiveVersion": "1.34.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -164937,6 +164937,98 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Infiziert90"
+            },
+            "1.34.3.0": {
+              "TimeReleased": "2026-02-09T21:49:52.3103859+00:00",
+              "Changelog": "- Fix links not showing up in webinterface\r\n- Switch to debug logging",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Infiziert90"
             }
           }
@@ -188364,9 +188456,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "ec76f20d25c4957cde0f1aaba9b6ad953e5fbd04",
-          "TimeBuilt": "2026-02-08T22:20:00.9185307+00:00",
-          "EffectiveVersion": "1.2.1.0",
+          "BuiltCommit": "7cb7d71bd038cddee43ebfff06aece34cd7c62f0",
+          "TimeBuilt": "2026-02-09T21:55:30.2039661+00:00",
+          "EffectiveVersion": "1.2.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -191252,6 +191344,46 @@
             "1.2.1.0": {
               "TimeReleased": "2026-02-08T22:20:00.9185748+00:00",
               "Changelog": "Add MSQ Progress Bar - [PR](https://github.com/MidoriKami/VanillaPlus/pull/146) - Adds a progress bar to the \u0022Current Main Scenario Quest\u0022 ui element to indicate relative progress in the current expansion or in the entire game.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "814c54be105523da7698974f7095bc9b9e32ff43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.1.1": {
+              "TimeReleased": "2026-02-09T21:55:30.2040114+00:00",
+              "Changelog": "MSQ Progress Bar - Fix crash on characters where the MSQ is complete.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
@@ -244247,9 +244379,9 @@
           }
         },
         "TotalLevelPlugin": {
-          "BuiltCommit": "48095e8dd5cbfbea1199ab282645cb49c696559a",
-          "TimeBuilt": "2026-01-07T07:03:23.3143179+00:00",
-          "EffectiveVersion": "0.0.0.2",
+          "BuiltCommit": "2a6849f4feedcb976073741faaac6b4ceff6eaf5",
+          "TimeBuilt": "2026-02-10T00:00:00.1475176+00:00",
+          "EffectiveVersion": "0.0.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.2": {
@@ -244266,6 +244398,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "meoiswa"
+            },
+            "0.0.0.3": {
+              "TimeReleased": "2026-02-10T00:00:00.1475737+00:00",
+              "Changelog": "Adds a suffix to the Character\u0027s Name in the Search Info panel totaling the level of their jobs/classes, similar to Runescape.\n\nVersion 0.0.0.3:\n - Feat: Added a Context Menu entry on player right click to open their Search Info.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "meoiswa"
             }
           }
@@ -244711,6 +244859,106 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Xpahtalo"
+            }
+          }
+        },
+        "CustomEqualizer2782": {
+          "BuiltCommit": "c9bfedd76ea3ef16af9e2731792f61f23978989f",
+          "TimeBuilt": "2026-02-10T00:00:17.0947102+00:00",
+          "EffectiveVersion": "0.1.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.0.0": {
+              "TimeReleased": "2026-02-10T00:00:17.0947138+00:00",
+              "Changelog": "- Initial release\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://git.0x0a.de/0x0ade/DP-FloppyUtils.git",
+                  "Version": "9ecf6a339149ebbe4bf493d82d53c6e4bba2b445"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "FftSharp",
+                  "Version": "2.2.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.D3DCompiler",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "PolySharp",
+                  "Version": "1.15.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.11.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.6.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "0x0ade"
             }
           }
         }
@@ -265230,6 +265478,20 @@
       "Version": "814c54be105523da7698974f7095bc9b9e32ff43",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-02-08T22:20:00.9880915Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://git.0x0a.de/0x0ade/DP-FloppyUtils.git",
+      "Version": "9ecf6a339149ebbe4bf493d82d53c6e4bba2b445",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-02-10T00:00:17.1519616Z"
+    },
+    {
+      "Type": 1,
+      "Key": "FftSharp",
+      "Version": "2.2.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-02-10T00:00:17.1520024Z"
     }
   ]
 }
