@@ -174116,9 +174116,9 @@
           }
         },
         "JobTitles": {
-          "BuiltCommit": "9dd536412328f74dca0cfdb0f3cffc4e7e0f5f78",
-          "TimeBuilt": "2025-12-20T08:03:10.7489466+00:00",
-          "EffectiveVersion": "0.2.0.4",
+          "BuiltCommit": "fd8a7356c8b473c81331ba6472a33189e0bc5a25",
+          "TimeBuilt": "2026-02-14T00:39:44.3203655+00:00",
+          "EffectiveVersion": "0.2.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -174919,6 +174919,134 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "keifufu"
+            },
+            "0.2.0.5": {
+              "TimeReleased": "2026-02-14T00:39:44.320404+00:00",
+              "Changelog": "- Fixed other peoples unlocked titles being tracked as your own\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "keifufu"
             }
           }
@@ -183932,9 +184060,9 @@
           }
         },
         "XivGearExport": {
-          "BuiltCommit": "8a6d7bd7ed9a59af63196ba51e26838c5f159832",
-          "TimeBuilt": "2025-12-20T04:04:50.7868476+00:00",
-          "EffectiveVersion": "1.4.1.3",
+          "BuiltCommit": "12d5fb875053a93fc1e0aa7c705a1655d629f98e",
+          "TimeBuilt": "2026-02-14T00:39:52.5456987+00:00",
+          "EffectiveVersion": "1.4.1.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -184015,6 +184143,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "VioletStardustXIV"
+            },
+            "1.4.1.4": {
+              "TimeReleased": "2026-02-14T00:39:52.5457002+00:00",
+              "Changelog": "- Changed display of command help messages to highlight shorter commands.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "VioletStardustXIV"
             }
           }
@@ -193052,9 +193196,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "308a606c52687b76f68f7b00736502d7a9e1ef53",
-          "TimeBuilt": "2026-02-10T08:21:10.7154841+00:00",
-          "EffectiveVersion": "1.8.1.0",
+          "BuiltCommit": "00b65444c3d0ed0125758a4a29dab3fce921f6fc",
+          "TimeBuilt": "2026-02-14T00:40:08.4487982+00:00",
+          "EffectiveVersion": "1.8.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -193504,6 +193648,50 @@
             "1.8.1.0": {
               "TimeReleased": "2026-02-10T08:21:10.7154857+00:00",
               "Changelog": "- **General**: Add automated backup on plugin version update.\n- **Details**: Add housing last visit on mouse hover.\n- **Timers**: Add Mini cactpot, Jumbo cactpot, Fashion report timers, Duty Roulettes tracking. Fix Doman Enclave save spamming\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Sohtoren"
+            },
+            "1.8.2.0": {
+              "TimeReleased": "2026-02-14T00:40:08.4488017+00:00",
+              "Changelog": "- **Config**: Add frontline timer checkbox config.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -245879,14 +246067,142 @@
           }
         },
         "Facade": {
-          "BuiltCommit": "c8e31a097570c00be360fc75f3e2859d1022c674",
-          "TimeBuilt": "2026-02-13T11:59:07.5774459+00:00",
-          "EffectiveVersion": "0.1.0.0",
+          "BuiltCommit": "f7a9806edc4bcab5d985c4346b80c2d5f06b4ff0",
+          "TimeBuilt": "2026-02-14T00:40:19.2501455+00:00",
+          "EffectiveVersion": "0.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
               "TimeReleased": "2026-02-13T11:59:07.5774876+00:00",
               "Changelog": "- Initial Release\nChange your neighbours\u0027 housing exterior appearance.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "keifufu"
+            },
+            "0.1.0.1": {
+              "TimeReleased": "2026-02-14T00:40:19.2501469+00:00",
+              "Changelog": "Change your neighbours\u0027 housing exterior appearance.\n- Fixed plugin description being overwritten by an indescriptive one.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
