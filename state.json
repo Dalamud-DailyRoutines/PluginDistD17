@@ -238495,9 +238495,9 @@
           }
         },
         "ConditionalTweaks": {
-          "BuiltCommit": "0800de0d05f685eaad5bb0f59faa336648f16f64",
-          "TimeBuilt": "2025-12-27T01:37:35.4624414+00:00",
-          "EffectiveVersion": "7.4.0.0",
+          "BuiltCommit": "c320da0fb8fae81ab96fbd46bc9ceedcb70963ce",
+          "TimeBuilt": "2026-02-14T01:35:55.207758+00:00",
+          "EffectiveVersion": "7.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -238531,6 +238531,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "lackyas"
+            },
+            "7.4.1.0": {
+              "TimeReleased": "2026-02-14T01:35:55.2077967+00:00",
+              "Changelog": "Removed some logging that was too verbose. And added conditions for each role.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "TheThirdDoor"
             }
           }
         },
