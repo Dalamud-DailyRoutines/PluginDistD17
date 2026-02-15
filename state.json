@@ -59661,9 +59661,9 @@
           }
         },
         "Visibility": {
-          "BuiltCommit": "7a3de470a1e28b635403a19b8a3feda478a36e27",
-          "TimeBuilt": "2026-02-07T22:21:00.8853535+00:00",
-          "EffectiveVersion": "1.1.9.3",
+          "BuiltCommit": "6fa9126183b1b59bd528f41c0da688ca7bbc3f3e",
+          "TimeBuilt": "2026-02-15T07:41:16.4551422+00:00",
+          "EffectiveVersion": "1.1.9.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.3.6": {
@@ -59850,6 +59850,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "SheepGoMeh"
+            },
+            "1.1.9.4": {
+              "TimeReleased": "2026-02-15T07:41:16.4552117+00:00",
+              "Changelog": "- Fixed an edge case with friend list, where players marked as friends didn\u0027t register as such when your relogged, or got out of a duty",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "SheepGoMeh"
             }
           }
@@ -246599,6 +246615,30 @@
               ],
               "Reviewer": "Critical-Impact",
               "Submitter": "Piggy-Guy"
+            }
+          }
+        },
+        "JobMountRoulette": {
+          "BuiltCommit": "2d5e6c5bb3985e909809ab3f218ed4d6c5aa54bc",
+          "TimeBuilt": "2026-02-15T07:41:24.5820357+00:00",
+          "EffectiveVersion": "1.1.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.1.0.0": {
+              "TimeReleased": "2026-02-15T07:41:24.5820408+00:00",
+              "Changelog": "Add a popup on right-click for each mount that shows which jobs have the mount assigned and allows toggling per-job assignment. Left-click still toggles the mount for the current job.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "Beletre"
             }
           }
         }
