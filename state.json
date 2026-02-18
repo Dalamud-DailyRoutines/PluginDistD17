@@ -84284,9 +84284,9 @@
           }
         },
         "AbilityAnts": {
-          "BuiltCommit": "48eb8de4a42edb1ba64aff1173f6d3e422c66a4a",
-          "TimeBuilt": "2026-01-25T08:23:05.4418071+00:00",
-          "EffectiveVersion": "1.0.2.3",
+          "BuiltCommit": "49c532b1ee7cbd75257796f17bd301eb8a4b4930",
+          "TimeBuilt": "2026-02-17T20:19:50.0762528+00:00",
+          "EffectiveVersion": "1.0.2.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -84426,6 +84426,22 @@
             "1.0.2.3": {
               "TimeReleased": "2026-01-25T08:23:05.4418083+00:00",
               "Changelog": "# 1.0.2.3\n\t\t- Fix abilities like Ikishoten appearing usable when they aren\u0027t.\n\t\t",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.2.4": {
+              "TimeReleased": "2026-02-17T20:19:50.0762923+00:00",
+              "Changelog": "# 1.0.2.4\n\t\t- Fix synced abilities with charges sometimes not lighting up in time.\n\t\t",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -123017,9 +123033,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "c9a274207509d77c6c21cefcc2248262230cfe3d",
-          "TimeBuilt": "2026-02-07T22:20:52.3156877+00:00",
-          "EffectiveVersion": "3.4.0.0",
+          "BuiltCommit": "12743aecd43f773b36474612831c030cf45c4166",
+          "TimeBuilt": "2026-02-17T20:26:52.20449+00:00",
+          "EffectiveVersion": "3.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -123700,6 +123716,30 @@
                 {
                   "Key": "GTranslate",
                   "Version": "2.3.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "kelvin124124"
+            },
+            "3.5.0.0": {
+              "TimeReleased": "2026-02-17T20:26:52.204564+00:00",
+              "Changelog": "Replaced online language detection with local language detection for accuracy and latency\r\n\r\nConvert all block-scoped namespaces to file-scoped namespaces\r\nCode cleanup\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "SearchPioneer.Lingua",
+                  "Version": "1.0.5"
                 }
               ],
               "Reviewer": "reiichi001",
@@ -189132,9 +189172,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "e7770409ca9b0525994b6b9d9e2e044828a050a9",
-          "TimeBuilt": "2026-02-14T23:10:54.5915589+00:00",
-          "EffectiveVersion": "1.2.1.5",
+          "BuiltCommit": "51206f705b5280c3baef6834f42dca02b3eb3cb2",
+          "TimeBuilt": "2026-02-17T20:20:03.1722084+00:00",
+          "EffectiveVersion": "1.2.1.6",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -192256,6 +192296,46 @@
               ],
               "Reviewer": "nebel",
               "Submitter": "MidoriKami"
+            },
+            "1.2.1.6": {
+              "TimeReleased": "2026-02-17T20:20:03.17221+00:00",
+              "Changelog": "Action Highlight - Fix synced abilities with charges sometimes not lighting up in time",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "03ed20e78d7760ba5fe47a20fd3479ec0d22d320"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -194592,6 +194672,118 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Pistachio-dev"
+            }
+          }
+        },
+        "AetherialArena": {
+          "BuiltCommit": "b9f26f9db2aef398045ab95f8cdad6001ee48fc1",
+          "TimeBuilt": "2026-02-17T22:17:03.1402361+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-02-17T22:17:03.140283+00:00",
+              "Changelog": "v1.0.0.0: stable release, no changes from previous\nv0.9.9.3: api 14/7.4\nv0.9.9.2:Update to Dalamud api 13/patch 7.3, fix credits scrolling bug\nv0.9.9.1: reset ui scaling button, manual input",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "rail2025"
+            }
+          }
+        },
+        "CurrencyWatchdog": {
+          "BuiltCommit": "40a6cc788e76d59166f60b6901d2a9b7f23a3892",
+          "TimeBuilt": "2026-02-18T00:36:42.7138175+00:00",
+          "EffectiveVersion": "1.0.1.2",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.1.2": {
+              "TimeReleased": "2026-02-18T00:36:42.7138563+00:00",
+              "Changelog": "Currency Watchdog provides a configurable overlay, configurable alerts, and a powerful rule system for displaying how many currency (or non-currency) items you have (or don\u0027t have). A spiritual successor to CurrencyAlert.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "03ed20e78d7760ba5fe47a20fd3479ec0d22d320"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.0-preview.6.25358.103"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "nebel"
             }
           }
         }
@@ -244979,9 +245171,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "9023a3bba9f1b38672def87033d1157358c5de4d",
-          "TimeBuilt": "2026-02-13T01:50:32.5207441+00:00",
-          "EffectiveVersion": "1.5.7.8",
+          "BuiltCommit": "0699ea82c7db06b8bc76a8f731ba00bd9dabc9f8",
+          "TimeBuilt": "2026-02-17T20:27:10.9173156+00:00",
+          "EffectiveVersion": "1.5.8.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.3.0": {
@@ -245115,6 +245307,22 @@
             "1.5.7.8": {
               "TimeReleased": "2026-02-13T01:50:32.5207837+00:00",
               "Changelog": "Huge Backend Update. Please report if anything goes wrong!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "spide-r"
+            },
+            "1.5.8.8": {
+              "TimeReleased": "2026-02-17T20:27:10.9173167+00:00",
+              "Changelog": "Softlaunched voiceline and event editor window. Very rough around the edges. Please let me know of any issues!",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -245627,9 +245835,9 @@
           }
         },
         "rec-cue": {
-          "BuiltCommit": "36d35bb9cfc5c41e60c0a5760d9ca91934353ecf",
-          "TimeBuilt": "2026-01-31T13:58:49.0638273+00:00",
-          "EffectiveVersion": "0.0.0.1",
+          "BuiltCommit": "9679757fd3b56bc4256d1462cfd5881be342f7da",
+          "TimeBuilt": "2026-02-17T20:27:19.2396632+00:00",
+          "EffectiveVersion": "0.0.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -245646,6 +245854,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "Miu-B"
+            },
+            "0.0.3.0": {
+              "TimeReleased": "2026-02-17T20:27:19.2396642+00:00",
+              "Changelog": "- Add multi-folder monitoring: configure up to 5 folders simultaneously (e.g. Steam Game Recording \u002B OBS output)\n- Fix OBS indicator flashing caused by buffered writes (poll grace period \u002B increased inactivity timeout)\n- Redesigned config window with per-folder Browse/Remove and Add Folder button\n- Automatic config migration from single-folder to multi-folder format\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Miu-B"
             }
           }
@@ -246107,9 +246331,9 @@
           }
         },
         "AkuTrack": {
-          "BuiltCommit": "c95113fbb8ef8608513570c1a376e1c3f16437a9",
-          "TimeBuilt": "2026-02-13T11:51:01.5119209+00:00",
-          "EffectiveVersion": "0.0.0.1",
+          "BuiltCommit": "40f736b02a95ca0c0ed53d43acd3e04a8729c4c7",
+          "TimeBuilt": "2026-02-17T20:27:01.9171837+00:00",
+          "EffectiveVersion": "0.0.32.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -246134,6 +246358,30 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "amki"
+            },
+            "0.0.32.0": {
+              "TimeReleased": "2026-02-17T20:27:01.9171849+00:00",
+              "Changelog": "- Change hashing to ignore client locale\n- Add SearchWindow stub\n- Only render downloaded data when there is no local\n- Make downloaded markers faded\n- Add new window to display additional information about GatheringPoint\n- Fix markers in locations with map offset (e.g. Solution Nine)\n- Mark hovered markers so it is easier to tell what is being opened by clicking\n- Improve plugin description somewhat\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "amki"
             }
           }
@@ -267214,6 +267462,13 @@
       "Version": "2.2.1",
       "ReviewedBy": "Critical-Impact",
       "ReviewedAt": "2026-02-13T12:05:28.0629719Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SearchPioneer.Lingua",
+      "Version": "1.0.5",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-02-17T20:26:52.2696922Z"
     }
   ]
 }
