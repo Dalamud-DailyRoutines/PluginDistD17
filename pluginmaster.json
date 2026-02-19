@@ -1769,6 +1769,36 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ChillFrames/latest.zip"
   },
   {
+    "Author": "NotNite",
+    "Name": "cl_showpos",
+    "InternalName": "cl_showpos",
+    "AssemblyVersion": "1.1.0.6",
+    "Description": "Shows your exact position, rotation, and velocity on screen. Based off of the cl_showpos command from the Source Engine.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/NotNite/cl_showpos",
+    "Tags": [
+      "ui"
+    ],
+    "CategoryTags": [
+      "ui"
+    ],
+    "DalamudApiLevel": 14,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Customizable, Source Engine-styled position info",
+    "AcceptsFeedback": true,
+    "_isDip17Plugin": true,
+    "_Dip17Channel": "stable",
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "LastUpdate": "1771444287",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/cl_showpos/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/cl_showpos/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/cl_showpos/latest.zip"
+  },
+  {
     "Author": "Meoiswa",
     "Name": "Clarity In Chaos",
     "InternalName": "ClarityInChaos",
@@ -1959,7 +1989,7 @@
     "Author": "Due",
     "Name": "ContactsTracker",
     "InternalName": "ContactsTracker",
-    "AssemblyVersion": "1.0.8.0",
+    "AssemblyVersion": "1.0.9.0",
     "Description": "Help you remember previous contacts.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/DueDine/ContactsTracker",
@@ -1982,7 +2012,7 @@
     "TestingAssemblyVersion": "0.3.0.1",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1766174743",
+    "LastUpdate": "1771444287",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/ContactsTracker/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ContactsTracker/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ContactsTracker/latest.zip"
@@ -2812,6 +2842,35 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/Distance/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Distance/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Distance/latest.zip"
+  },
+  {
+    "Author": "NotNite",
+    "Name": "Distant Seas",
+    "InternalName": "DistantSeas",
+    "AssemblyVersion": "1.1.0.5",
+    "Description": "The ultimate Ocean Fishing plugin. Automatically suggests baits, logs each boat you're on, tracks progress to achievements, adds a global point leaderboard, and more!\n\nIcon from the Mutant Standard project.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/NotNite/DistantSeas",
+    "Tags": [
+      "ocean",
+      "fishing"
+    ],
+    "DalamudApiLevel": 14,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/NotNite/DistantSeas/main/Data/icon.png",
+    "Punchline": "The ultimate Ocean Fishing plugin.",
+    "AcceptsFeedback": true,
+    "_isDip17Plugin": true,
+    "_Dip17Channel": "stable",
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "LastUpdate": "1771444287",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/DistantSeas/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/DistantSeas/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/DistantSeas/latest.zip"
   },
   {
     "Author": "Aida Enna",
@@ -5432,6 +5491,36 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/MultiHit/latest.zip"
   },
   {
+    "Author": "YF",
+    "Name": "Musical Guide",
+    "InternalName": "MusicalGuide",
+    "AssemblyVersion": "1.3.6.0",
+    "Description": "Provides real first person view to see your character, and adjusts camera distance based on game conditions (e.g. close in camera when you begin crafting, maximum distance when combat begins or you enter an instanced area)\n\n/mguide to open configuration window.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/Sidiousious/musical-guide",
+    "Tags": [
+      "Camera"
+    ],
+    "DalamudApiLevel": 14,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IconUrl": "https://yfplugins.kinkop.eu/musical-guide.png",
+    "Punchline": "Enhanced camera distance control and first-person experience.",
+    "AcceptsFeedback": true,
+    "_isDip17Plugin": true,
+    "_Dip17Channel": "stable",
+    "IsHide": "False",
+    "TestingAssemblyVersion": "1.3.6.0",
+    "TestingDalamudApiLevel": 14,
+    "IsTestingExclusive": "False",
+    "LastUpdate": "1771444287",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/MusicalGuide/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/MusicalGuide/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/MusicalGuide/latest.zip"
+  },
+  {
     "Author": "aers, JHerig, squidmade, sourpuh",
     "Name": "Nameplate Debuffs",
     "InternalName": "NamePlateDebuffs",
@@ -7020,6 +7109,34 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/RepairMe/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/RepairMe/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/RepairMe/latest.zip"
+  },
+  {
+    "Author": "NotNite",
+    "Name": "ReSanctuary",
+    "InternalName": "ReSanctuary",
+    "AssemblyVersion": "1.4.0.5",
+    "Description": "A plugin to improve Island Sanctuary. Features:\n\n- Mark items to gather on the proper map\n- Gathering & crafting todo-list, showing you what mats you require\n- Widget for quick access to information\n\nIcon from the Mutant Standard project.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/NotNite/ReSanctuary",
+    "Tags": [
+      "island",
+      "sanctuary"
+    ],
+    "DalamudApiLevel": 14,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Improve your Island Sanctuary experience.",
+    "AcceptsFeedback": true,
+    "_isDip17Plugin": true,
+    "_Dip17Channel": "stable",
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "LastUpdate": "1771444287",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/ReSanctuary/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ReSanctuary/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ReSanctuary/latest.zip"
   },
   {
     "Author": "Drahsid",
@@ -9341,6 +9458,37 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/WorkshopOptimizerPlugin/latest.zip"
   },
   {
+    "Author": "Khloe Leclair, BoxuChan",
+    "Name": "WTSync",
+    "InternalName": "WTSync",
+    "AssemblyVersion": "0.17.1.0",
+    "Description": "WTSync",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/KhloeLeclair/WTSync",
+    "Tags": [
+      "UI",
+      "wondrous tails"
+    ],
+    "DalamudApiLevel": 14,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "ImageUrls": [
+      "https://raw.githubusercontent.com/KhloeLeclair/WTSync/main/images/image1.png"
+    ],
+    "Punchline": "View a list of all the Wondrous Tails duties shared by your party.",
+    "AcceptsFeedback": true,
+    "_isDip17Plugin": true,
+    "_Dip17Channel": "stable",
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "LastUpdate": "1771462219",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/WTSync/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/WTSync/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/WTSync/latest.zip"
+  },
+  {
     "Author": "Anna",
     "Name": "XIVChat Server",
     "InternalName": "XIVChat",
@@ -11409,36 +11557,6 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/MouseTargetTooltip/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/MouseTargetTooltip/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/MouseTargetTooltip/latest.zip"
-  },
-  {
-    "Author": "YF",
-    "Name": "Musical Guide",
-    "InternalName": "MusicalGuide",
-    "AssemblyVersion": "1.3.6.0",
-    "Description": "Provides real first person view to see your character, and adjusts camera distance based on game conditions (e.g. close in camera when you begin crafting, maximum distance when combat begins or you enter an instanced area)\n\n/mguide to open configuration window.",
-    "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Sidiousious/musical-guide",
-    "Tags": [
-      "Camera"
-    ],
-    "DalamudApiLevel": 14,
-    "LoadRequiredState": 0,
-    "LoadSync": false,
-    "CanUnloadAsync": false,
-    "LoadPriority": 0,
-    "IconUrl": "https://yfplugins.kinkop.eu/musical-guide.png",
-    "Punchline": "Enhanced camera distance control and first-person experience.",
-    "AcceptsFeedback": true,
-    "_isDip17Plugin": true,
-    "_Dip17Channel": "testing-live",
-    "IsHide": "False",
-    "TestingAssemblyVersion": "1.3.6.0",
-    "IsTestingExclusive": "True",
-    "TestingDalamudApiLevel": 14,
-    "LastUpdate": "1770878278",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/MusicalGuide/latest.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/MusicalGuide/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/MusicalGuide/latest.zip"
   },
   {
     "Author": "Kaminaris",
