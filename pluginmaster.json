@@ -2183,7 +2183,7 @@
     "_isDip17Plugin": true,
     "_Dip17Channel": "stable",
     "IsHide": "False",
-    "TestingAssemblyVersion": "1.0.1.2",
+    "TestingAssemblyVersion": "1.0.2.0",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
     "LastUpdate": "1771375005",
