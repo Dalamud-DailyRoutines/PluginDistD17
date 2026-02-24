@@ -2,7 +2,7 @@
   "Author": "keifufu",
   "Name": "Facade",
   "InternalName": "Facade",
-  "AssemblyVersion": "0.1.0.2",
+  "AssemblyVersion": "1.0.0.0",
   "Description": "Visually change the exterior appearance of any house so it's no longer an eyesore. (Note: Changes reset upon entering the plot to restore intended collission)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/keifufu/Facade",
@@ -19,5 +19,5 @@
   "Punchline": "Change your neighbours' housing exterior appearance.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "testing-live"
+  "_Dip17Channel": "stable"
 }
