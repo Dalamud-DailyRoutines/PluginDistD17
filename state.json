@@ -246887,9 +246887,9 @@
           }
         },
         "CurrencyWatchdog": {
-          "BuiltCommit": "40a6cc788e76d59166f60b6901d2a9b7f23a3892",
-          "TimeBuilt": "2026-02-13T01:46:56.0190672+00:00",
-          "EffectiveVersion": "1.0.1.2",
+          "BuiltCommit": "bfe0f951d4a01bc362e361d1adebeef696b664fe",
+          "TimeBuilt": "2026-02-24T01:11:19.762102+00:00",
+          "EffectiveVersion": "1.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -247027,6 +247027,50 @@
             "1.0.1.2": {
               "TimeReleased": "2026-02-13T01:46:56.0190684+00:00",
               "Changelog": "- Try alternate texture loading mechanism\r\n- Add some verbose-only logging",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "03ed20e78d7760ba5fe47a20fd3479ec0d22d320"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.0-preview.6.25358.103"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "nebel"
+            },
+            "1.0.2.0": {
+              "TimeReleased": "2026-02-24T01:11:19.7621467+00:00",
+              "Changelog": "- Add the ability to limit how many panels/alerts can be displayed by a single burden. These settings are in a new \u0022Advanced\u0022 tab under the burden name.\r\n- Add the ability to set a wrap mode for the overlay. Setting the new \u0022Layout Wrap\u0022 setting to \u0022Wrap at size\u0022 allows specifying a size at which the layout will wrap onto a new line. The layout will wrap in the secondary direction specified in the Layout Direction.\r\n- To support the above, added two new Layout Direction settings \u0022Right (extending up)\u0022 and \u0022Left (extending up)\u0022. Other layout directions were renamed to match this pattern.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
