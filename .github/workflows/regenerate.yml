@@ -14,6 +14,7 @@ concurrency: regenerate
 jobs:
   sync-and-generate:
     name: Sync and Regenerate
+    # 这里的 windows-latest 即代表 GitHub 提供的最新 Windows Server 环境
     runs-on: windows-latest
     
     steps:
@@ -30,33 +31,56 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-      # 3. 同步上游并判断是否有更新
+      # 3. 同步上游、忽略 .github 变动并合并
       - name: Sync with Upstream
         id: sync
         shell: bash
         run: |
+          # 添加并拉取上游
           git remote add upstream https://github.com/goatcorp/PluginDistD17.git
           git fetch upstream
 
-          BEFORE_SHA=$(git rev-parse HEAD)
-          echo "Attempting to merge upstream..."
-          git merge upstream/main --allow-unrelated-histories --no-edit
-          AFTER_SHA=$(git rev-parse HEAD)
-
-          if [ "$BEFORE_SHA" == "$AFTER_SHA" ]; then
+          # 计算上游有多少个我们本地没有的新提交
+          BEHIND=$(git rev-list --count HEAD..upstream/main)
+          if [ "$BEHIND" -eq 0 ]; then
             echo "No changes from upstream. Local is up-to-date."
             echo "updated=false" >> $GITHUB_OUTPUT
-          else
-            echo "Successfully merged upstream changes."
-            echo "updated=true" >> $GITHUB_OUTPUT
+            exit 0
           fi
+
+          echo "Attempting to merge upstream ($BEHIND new commits)..."
+          
+          # 尝试合并，但不要自动提交 (--no-commit)，并强制生成合并节点 (--no-ff)
+          # || true 是为了防止合并冲突导致步骤直接报错退出
+          git merge upstream/main --no-commit --no-ff --allow-unrelated-histories || true
+
+          # 核心魔法：将 .github 目录在暂存区和工作区中强制恢复为合并前的状态（即抛弃上游的所有 .github 更改）
+          git restore --staged --worktree --source=HEAD .github/ 2>/dev/null || true
+          
+          # 清理上游可能在 .github 中添加的全新文件（这些文件 restore 管不到，会变成 untracked 状态）
+          git clean -fd .github/ 2>/dev/null || true
+
+          # 检查除了 .github 之外，是否还有其他真实的合并冲突
+          if git ls-files -u | grep -q .; then
+            echo "Merge conflicts detected outside .github! Please resolve manually."
+            # 如果有真实冲突，放弃合并并报错
+            git merge --abort
+            exit 1
+          fi
+
+          # 提交这次合并（此时 .github 的更改已经被我们剔除了）
+          git commit -m "Merge upstream changes (ignoring .github)"
+          
+          echo "Successfully merged upstream changes."
+          echo "updated=true" >> $GITHUB_OUTPUT
 
       # 4. 运行生成脚本
       - name: Run generator
         if: github.event_name == 'workflow_dispatch' || steps.sync.outputs.updated == 'true'
+        # 默认在 Windows runner 上 run 步骤使用的是 PowerShell
         run: .\Make-PluginMaster.ps1
 
-      # 5. 提交并推送
+      # 5. 提交并推送生成的产物
       - name: Commit and Push
         if: github.event_name == 'workflow_dispatch' || steps.sync.outputs.updated == 'true'
         shell: bash
