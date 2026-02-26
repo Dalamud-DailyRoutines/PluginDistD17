@@ -102515,9 +102515,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "d6c8018f10e3de56c4787a65a57bcf8012dad1cd",
-          "TimeBuilt": "2026-02-02T03:35:45.6367648+00:00",
-          "EffectiveVersion": "1.6.1.0",
+          "BuiltCommit": "0339c41cfa99b9a05928456d40da87b5cbdab339",
+          "TimeBuilt": "2026-02-25T11:30:24.8277842+00:00",
+          "EffectiveVersion": "1.6.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -103249,6 +103249,38 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.6.2.0": {
+              "TimeReleased": "2026-02-25T11:30:24.8277855+00:00",
+              "Changelog": "- Add chinese translation [thanks ShadyWhite]\r\n- Add DTR entry for pot timers (default on) [thanks Emma]",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.13.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Infiziert90"
             }
           }
@@ -123201,9 +123233,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "94b133ed968e8901d4c3e4593d14eb7d1b19e908",
-          "TimeBuilt": "2026-02-24T00:54:14.2034178+00:00",
-          "EffectiveVersion": "3.5.1.0",
+          "BuiltCommit": "91c01e7f69a50cdd2a866dfbe6d7e184814b9559",
+          "TimeBuilt": "2026-02-25T11:30:39.6368123+00:00",
+          "EffectiveVersion": "3.5.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -123959,6 +123991,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "kelvin124124"
+            },
+            "3.5.1.1": {
+              "TimeReleased": "2026-02-25T11:30:39.6368134+00:00",
+              "Changelog": "fix message incorrectly dropped when Google translate returns regional variant as language detection result\r\nproper fall back to Lingua when Google translate fails\r\nexpand CJK char definition\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "SearchPioneer.Lingua",
+                  "Version": "1.0.5"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "kelvin124124"
             }
           }
@@ -183320,9 +183376,9 @@
           }
         },
         "WaveWrangler": {
-          "BuiltCommit": "c813afe0822c177ae56b19a61a8d037842e650c5",
-          "TimeBuilt": "2025-12-18T23:35:19.7590003+00:00",
-          "EffectiveVersion": "1.0.2.0",
+          "BuiltCommit": "5d02bbb8004b0c3ee67307a36d9f06d956c90f8c",
+          "TimeBuilt": "2026-02-25T11:30:15.0915099+00:00",
+          "EffectiveVersion": "1.0.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -183372,13 +183428,29 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "mashirochan"
+            },
+            "1.0.3.0": {
+              "TimeReleased": "2026-02-25T11:30:15.0915108+00:00",
+              "Changelog": "Allow message after wave",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "mashirochan"
             }
           }
         },
         "QuestShare": {
-          "BuiltCommit": "fe6535e3e1ed09f719a2c53f26e0599bf1e7240f",
-          "TimeBuilt": "2025-12-19T04:23:29.7790818+00:00",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "28e3cc238c72477fb827e92f7b9585ff2e32c6e0",
+          "TimeBuilt": "2026-02-25T11:30:07.0017587+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -183931,6 +184003,110 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "nathanctech"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-02-25T11:30:07.0017671+00:00",
+              "Changelog": "## 1.2.0.0\r\n\r\n- Adds the \u0060/qsnext\u0060 command which will print the next step of the current quest the selected player is on (selected by opening the mini window) along with a clickable marker that will open the map.\r\n- Some code refactoring for more sane code (surely).",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Era-FFXIV/QuestShare.Common.git",
+                  "Version": "cf61f14fcfb7b9dbb0a54f7583af82fdee69b339"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "nathanctech"
             }
           }
@@ -194892,9 +195068,9 @@
           }
         },
         "InventorySearchBar": {
-          "BuiltCommit": "18c6c0687330373bb4e6b1e8d4cc5fd522b604ae",
-          "TimeBuilt": "2026-01-03T09:29:59.5411825+00:00",
-          "EffectiveVersion": "1.9.0.0",
+          "BuiltCommit": "26f9e96075c142229339b3410628e641dac63a0e",
+          "TimeBuilt": "2026-02-25T11:29:48.9907231+00:00",
+          "EffectiveVersion": "1.9.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.9.0.0": {
@@ -195092,6 +195268,206 @@
               ],
               "Reviewer": "Critical-Impact",
               "Submitter": "caitlyn-gg"
+            },
+            "1.9.1.0": {
+              "TimeReleased": "2026-02-25T11:29:48.9907606+00:00",
+              "Changelog": "- Updated dependencies (fixes Retainer search and other issues)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Critical-Impact/CriticalCommonLib.git",
+                  "Version": "46fbcea6c9b4cb9494fcf0f0d7fe7baf36375b62"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "AllaganLib.GameSheets",
+                  "Version": "2.0.6"
+                },
+                {
+                  "Key": "AllaganLib.Monitors",
+                  "Version": "2.0.4"
+                },
+                {
+                  "Key": "AllaganLib.Shared",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Autofac",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Autofac.Extensions.DependencyInjection",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "DalaMock.Host",
+                  "Version": "4.0.5"
+                },
+                {
+                  "Key": "DalaMock.Shared",
+                  "Version": "4.0.5"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "NaturalSort.Extension",
+                  "Version": "4.4.1"
+                },
+                {
+                  "Key": "SerialQueue",
+                  "Version": "2.1.0"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "SonarAnalyzer.CSharp",
+                  "Version": "10.17.0.131074"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "caitlyn-gg"
             }
           }
         },
@@ -195248,9 +195624,9 @@
           }
         },
         "MusicalGuide": {
-          "BuiltCommit": "db0ba2ebb299c58c3d2c4ddfdbed9ba175d18056",
-          "TimeBuilt": "2026-02-18T19:50:48.8671588+00:00",
-          "EffectiveVersion": "1.3.6.0",
+          "BuiltCommit": "4975af35a49b386c7a008807ac83edc66c727d6c",
+          "TimeBuilt": "2026-02-25T11:29:57.2901529+00:00",
+          "EffectiveVersion": "1.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.6.0": {
@@ -195267,6 +195643,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Sidiousious"
+            },
+            "1.4.0.0": {
+              "TimeReleased": "2026-02-25T11:29:57.2901542+00:00",
+              "Changelog": "- added a new option to use full motion in stationary emotes while keeping reduced motion for gameplay\n- fixed an issue where the camera would not rotate with the character when using reduced motion\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Sidiousious"
             }
           }
@@ -268150,6 +268542,146 @@
       "Version": "4.6.3",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-02-23T23:44:33.9753553Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0803125Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0803471Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging.Console",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0803474Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0803476Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0803479Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0803481Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0803483Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Common",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0803486Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0803488Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0804398Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration.Abstractions",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.08044Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration.Binder",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0804402Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0804404Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0804406Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Features",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0804409Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging.Abstractions",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.080441Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging.Configuration",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0804413Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0804415Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0804416Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Primitives",
+      "Version": "10.0.3",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-02-25T11:30:07.0804419Z"
     }
   ]
 }
