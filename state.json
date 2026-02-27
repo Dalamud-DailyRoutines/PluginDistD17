@@ -54674,9 +54674,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "6b6401ab6e8b626a45569da9cc188f98f19fa6a1",
-          "TimeBuilt": "2026-02-23T23:35:49.5296059+00:00",
-          "EffectiveVersion": "1.6.7.4",
+          "BuiltCommit": "96f9d8c40427954a0445b71d1efeccd71467fa5c",
+          "TimeBuilt": "2026-02-27T00:26:51.2753597+00:00",
+          "EffectiveVersion": "1.6.7.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -56594,6 +56594,42 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.6.7.5": {
+              "TimeReleased": "2026-02-27T00:26:51.2754077+00:00",
+              "Changelog": "- Fix my own stupidity ",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -123233,9 +123269,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "91c01e7f69a50cdd2a866dfbe6d7e184814b9559",
-          "TimeBuilt": "2026-02-25T11:30:39.6368123+00:00",
-          "EffectiveVersion": "3.5.1.1",
+          "BuiltCommit": "c9a189370df6b7970692203ca0c914537e1cc52f",
+          "TimeBuilt": "2026-02-27T00:27:13.4500079+00:00",
+          "EffectiveVersion": "3.5.1.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -124015,6 +124051,30 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "kelvin124124"
+            },
+            "3.5.1.3": {
+              "TimeReleased": "2026-02-27T00:27:13.4500177+00:00",
+              "Changelog": "fix English keeps coming back as known language due to misconfiguration.\r\nupdate llm prompt for llmtranslate\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "SearchPioneer.Lingua",
+                  "Version": "1.0.5"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "kelvin124124"
             }
           }
@@ -189228,9 +189288,9 @@
           }
         },
         "CustomResolution2782": {
-          "BuiltCommit": "b6bf2c9cf7d58e3d0be0e0250299c020a344a4a4",
-          "TimeBuilt": "2025-08-17T15:02:09.7949557+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "43c5b62fa20816d2c796096ce342c10e0396a957",
+          "TimeBuilt": "2026-02-27T00:21:34.8465827+00:00",
+          "EffectiveVersion": "1.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -189551,6 +189611,230 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "0x0ade"
+            },
+            "1.1.2.0": {
+              "TimeReleased": "2026-02-27T00:21:34.8465839+00:00",
+              "Changelog": "Since last stable:\n- Move internal utilities to new shared utility\n- API14 compat, migrate from SharpDX to TerraFX (except compiler)\n- Fix Dalamud UI cursor positioning (apparently broken since late API13)\n- Implement scaling via new internal mode to work around GPU driver bugs and crashes\n- Improve exclusive fullscreen mode support\nSince last testing:\n- Nothing, but bump version anyway to work around a Dalamud metadata bug.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://git.0x0a.de/0x0ade/DP-FloppyUtils.git",
+                  "Version": "68cdad478f0f4bb4c9a2372f4e7eb88afbe9f098"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.D3DCompiler",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "PolySharp",
+                  "Version": "1.15.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.11.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Framework",
+                  "Version": "16.11.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Utilities.Core",
+                  "Version": "16.11.0"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "1.0.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.6.1"
+                },
+                {
+                  "Key": "System.Collections",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Configuration.ConfigurationManager",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Globalization",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.Pipelines",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.6.3"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.1"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Resources.ResourceManager",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.1.2"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Handles",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.ProtectedData",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Permissions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "System.Threading",
+                  "Version": "4.0.11"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.6.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "0x0ade"
             }
           }
@@ -193952,9 +194236,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "00b65444c3d0ed0125758a4a29dab3fce921f6fc",
-          "TimeBuilt": "2026-02-14T00:40:08.4487982+00:00",
-          "EffectiveVersion": "1.8.2.0",
+          "BuiltCommit": "8b7207b54ea70c3f311b61c81a886fd0003cc90b",
+          "TimeBuilt": "2026-02-26T21:00:49.8962186+00:00",
+          "EffectiveVersion": "1.8.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -194487,6 +194771,50 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "Sohtoren"
+            },
+            "1.8.3.0": {
+              "TimeReleased": "2026-02-26T21:00:49.8962641+00:00",
+              "Changelog": "- **Progress**: Add Little Ladies\u0027 Day 2026\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "goaaats",
               "Submitter": "Sohtoren"
             }
           }
@@ -195796,6 +196124,30 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "keifufu"
+            }
+          }
+        },
+        "JobAutoSwitcher": {
+          "BuiltCommit": "0ce628b135896c133fc5ee30eeeee93381b6972b",
+          "TimeBuilt": "2026-02-27T00:26:59.4165567+00:00",
+          "EffectiveVersion": "1.2.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.2.0.0": {
+              "TimeReleased": "2026-02-27T00:26:59.4165607+00:00",
+              "Changelog": "Switches gearsets to match the queued job when clicking commence.\n Initial Release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Valiice"
             }
           }
         }
@@ -227854,9 +228206,9 @@
           }
         },
         "BlueMageHelper": {
-          "BuiltCommit": "f559c0b45c8436ff372ab7ab2bce92e02e92784d",
-          "TimeBuilt": "2026-01-25T08:19:25.6469116+00:00",
-          "EffectiveVersion": "3.2.1.0",
+          "BuiltCommit": "3a04d21e0edebeb27de40cad5f97dcaf4d70ab0d",
+          "TimeBuilt": "2026-02-27T00:27:32.7799522+00:00",
+          "EffectiveVersion": "3.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -227892,6 +228244,22 @@
             "3.2.1.0": {
               "TimeReleased": "2026-01-25T08:19:25.6469131+00:00",
               "Changelog": "- Fix scaling issues\r\n- Improve list when source is the masked carnivale",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "harbingerftw"
+            },
+            "3.3.0.0": {
+              "TimeReleased": "2026-02-27T00:27:32.7799538+00:00",
+              "Changelog": "- Add mob locations to all sources (including in duties)\r\n- Adds head markers to mobs in world that drop blue magic you still need (can be toggled)\r\n- Better display source information/location\r\n- Fixes several errors",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -244774,650 +245142,6 @@
             }
           }
         },
-        "CustomResolution2782": {
-          "BuiltCommit": "b1825f67f6ff676a527d58d6931636e94cf99c1e",
-          "TimeBuilt": "2026-02-23T23:44:33.9098801+00:00",
-          "EffectiveVersion": "1.1.1.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.1.0": {
-              "TimeReleased": "2025-09-10T19:17:15.635977+00:00",
-              "Changelog": "- Move internal utilities to submodule utils library\n",
-              "UsedNeeds": [
-                {
-                  "Key": "https://git.0x0a.de/0x0ade/DP-FloppyUtils.git",
-                  "Version": "a41dcbe5edd61932f5212edc4f3a2be598577c2c"
-                },
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "13.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.25"
-                },
-                {
-                  "Key": "SharpDX.Direct3D11",
-                  "Version": "4.2.0"
-                },
-                {
-                  "Key": "Microsoft.NETCore.Platforms",
-                  "Version": "1.1.0"
-                },
-                {
-                  "Key": "Microsoft.NETCore.Targets",
-                  "Version": "1.1.0"
-                },
-                {
-                  "Key": "Microsoft.Win32.Primitives",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "NETStandard.Library",
-                  "Version": "1.6.1"
-                },
-                {
-                  "Key": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.native.System",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.native.System.IO.Compression",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.native.System.Net.Http",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.native.System.Security.Cryptography.Apple",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.native.System.Security.Cryptography.OpenSsl",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "SharpDX",
-                  "Version": "4.2.0"
-                },
-                {
-                  "Key": "SharpDX.DXGI",
-                  "Version": "4.2.0"
-                },
-                {
-                  "Key": "System.AppContext",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Buffers",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Collections",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Collections.Concurrent",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Console",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Diagnostics.Debug",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Diagnostics.DiagnosticSource",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Diagnostics.Tools",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Diagnostics.Tracing",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Globalization",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Globalization.Calendars",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Globalization.Extensions",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.IO",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.IO.Compression",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.IO.Compression.ZipFile",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.IO.FileSystem",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.IO.FileSystem.Primitives",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Linq",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Linq.Expressions",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Net.Http",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Net.Primitives",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Net.Sockets",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.ObjectModel",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Reflection",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Reflection.Emit",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Reflection.Emit.ILGeneration",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Reflection.Emit.Lightweight",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Reflection.Extensions",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Reflection.Primitives",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Reflection.TypeExtensions",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Resources.ResourceManager",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Runtime",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Runtime.Extensions",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Runtime.Handles",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Runtime.InteropServices",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Runtime.InteropServices.RuntimeInformation",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Runtime.Numerics",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Security.Cryptography.Algorithms",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Security.Cryptography.Cng",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Security.Cryptography.Csp",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Security.Cryptography.Encoding",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Security.Cryptography.OpenSsl",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Security.Cryptography.Primitives",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Security.Cryptography.X509Certificates",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Text.Encoding",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Text.Encoding.Extensions",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Text.RegularExpressions",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Threading",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Threading.Tasks",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Threading.Tasks.Extensions",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Threading.Timer",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Xml.ReaderWriter",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Xml.XDocument",
-                  "Version": "4.3.0"
-                }
-              ],
-              "Reviewer": "reiichi001",
-              "Submitter": "0x0ade"
-            },
-            "1.1.0.0": {
-              "TimeReleased": "2026-02-08T00:32:42.1831052+00:00",
-              "Changelog": "- API14 compat, migrate from SharpDX to TerraFX (except compiler)\n- Fix Dalamud UI cursor positioning (apparently broken since late API13)\n- Implement scaling via fake backbuffer (\u0022internal\u0022 mode), working around GPU driver bugs\n- Improve exclusive fullscreen mode support\n",
-              "UsedNeeds": [
-                {
-                  "Key": "https://git.0x0a.de/0x0ade/DP-FloppyUtils.git",
-                  "Version": "1caef52f2f744301694f61abcef4cd2125c86f6a"
-                },
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                },
-                {
-                  "Key": "Microsoft.NETCore.Platforms",
-                  "Version": "1.1.0"
-                },
-                {
-                  "Key": "NETStandard.Library",
-                  "Version": "1.6.1"
-                },
-                {
-                  "Key": "SharpDX",
-                  "Version": "4.2.0"
-                },
-                {
-                  "Key": "SharpDX.D3DCompiler",
-                  "Version": "4.2.0"
-                },
-                {
-                  "Key": "Microsoft.CodeAnalysis.CSharp",
-                  "Version": "5.0.0"
-                },
-                {
-                  "Key": "NETStandard.Library",
-                  "Version": "2.0.3"
-                },
-                {
-                  "Key": "PolySharp",
-                  "Version": "1.15.0"
-                },
-                {
-                  "Key": "Microsoft.CodeAnalysis.Analyzers",
-                  "Version": "3.11.0"
-                },
-                {
-                  "Key": "Microsoft.CodeAnalysis.Common",
-                  "Version": "5.0.0"
-                },
-                {
-                  "Key": "System.Buffers",
-                  "Version": "4.6.0"
-                },
-                {
-                  "Key": "System.Collections.Immutable",
-                  "Version": "9.0.0"
-                },
-                {
-                  "Key": "System.Memory",
-                  "Version": "4.6.0"
-                },
-                {
-                  "Key": "System.Numerics.Vectors",
-                  "Version": "4.6.0"
-                },
-                {
-                  "Key": "System.Reflection.Metadata",
-                  "Version": "9.0.0"
-                },
-                {
-                  "Key": "System.Runtime.CompilerServices.Unsafe",
-                  "Version": "6.1.0"
-                },
-                {
-                  "Key": "System.Text.Encoding.CodePages",
-                  "Version": "8.0.0"
-                },
-                {
-                  "Key": "System.Threading.Tasks.Extensions",
-                  "Version": "4.6.0"
-                }
-              ],
-              "Reviewer": "nebel",
-              "Submitter": "0x0ade"
-            },
-            "1.1.1.0": {
-              "TimeReleased": "2026-02-23T23:44:33.9099254+00:00",
-              "Changelog": "- Fix crashes and hangs and other issues when disabling the plugin\n- Fix crashes and hangs and other issues when switching between modes\n",
-              "UsedNeeds": [
-                {
-                  "Key": "https://git.0x0a.de/0x0ade/DP-FloppyUtils.git",
-                  "Version": "e1351744ac4d2b8414880263941a3ec7c65fa75c"
-                },
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.2"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                },
-                {
-                  "Key": "Microsoft.NETCore.Platforms",
-                  "Version": "1.1.0"
-                },
-                {
-                  "Key": "NETStandard.Library",
-                  "Version": "1.6.1"
-                },
-                {
-                  "Key": "SharpDX",
-                  "Version": "4.2.0"
-                },
-                {
-                  "Key": "SharpDX.D3DCompiler",
-                  "Version": "4.2.0"
-                },
-                {
-                  "Key": "Microsoft.CodeAnalysis.CSharp",
-                  "Version": "5.0.0"
-                },
-                {
-                  "Key": "NETStandard.Library",
-                  "Version": "2.0.3"
-                },
-                {
-                  "Key": "PolySharp",
-                  "Version": "1.15.0"
-                },
-                {
-                  "Key": "Microsoft.CodeAnalysis.Analyzers",
-                  "Version": "3.11.0"
-                },
-                {
-                  "Key": "Microsoft.CodeAnalysis.Common",
-                  "Version": "5.0.0"
-                },
-                {
-                  "Key": "System.Buffers",
-                  "Version": "4.6.0"
-                },
-                {
-                  "Key": "System.Collections.Immutable",
-                  "Version": "9.0.0"
-                },
-                {
-                  "Key": "System.Memory",
-                  "Version": "4.6.0"
-                },
-                {
-                  "Key": "System.Numerics.Vectors",
-                  "Version": "4.6.0"
-                },
-                {
-                  "Key": "System.Reflection.Metadata",
-                  "Version": "9.0.0"
-                },
-                {
-                  "Key": "System.Runtime.CompilerServices.Unsafe",
-                  "Version": "6.1.0"
-                },
-                {
-                  "Key": "System.Text.Encoding.CodePages",
-                  "Version": "8.0.0"
-                },
-                {
-                  "Key": "System.Threading.Tasks.Extensions",
-                  "Version": "4.6.0"
-                },
-                {
-                  "Key": "Microsoft.Build.Framework",
-                  "Version": "16.11.0"
-                },
-                {
-                  "Key": "Microsoft.Build.Utilities.Core",
-                  "Version": "16.11.0"
-                },
-                {
-                  "Key": "System.Text.Json",
-                  "Version": "10.0.2"
-                },
-                {
-                  "Key": "Microsoft.Bcl.AsyncInterfaces",
-                  "Version": "10.0.2"
-                },
-                {
-                  "Key": "Microsoft.NET.StringTools",
-                  "Version": "1.0.0"
-                },
-                {
-                  "Key": "Microsoft.NETCore.Targets",
-                  "Version": "1.1.0"
-                },
-                {
-                  "Key": "Microsoft.Win32.Registry",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Buffers",
-                  "Version": "4.6.1"
-                },
-                {
-                  "Key": "System.Collections",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Collections.Immutable",
-                  "Version": "5.0.0"
-                },
-                {
-                  "Key": "System.Configuration.ConfigurationManager",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.Globalization",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.IO",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.IO.Pipelines",
-                  "Version": "10.0.2"
-                },
-                {
-                  "Key": "System.Memory",
-                  "Version": "4.6.3"
-                },
-                {
-                  "Key": "System.Numerics.Vectors",
-                  "Version": "4.6.1"
-                },
-                {
-                  "Key": "System.Reflection",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Reflection.Primitives",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Resources.ResourceManager",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Runtime",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Runtime.CompilerServices.Unsafe",
-                  "Version": "6.1.2"
-                },
-                {
-                  "Key": "System.Runtime.Extensions",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Runtime.Handles",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Runtime.InteropServices",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Security.AccessControl",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.Security.Cryptography.ProtectedData",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.Security.Permissions",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.Security.Principal.Windows",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.Text.Encoding",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Text.Encoding.CodePages",
-                  "Version": "4.0.1"
-                },
-                {
-                  "Key": "System.Text.Encodings.Web",
-                  "Version": "10.0.2"
-                },
-                {
-                  "Key": "System.Threading",
-                  "Version": "4.0.11"
-                },
-                {
-                  "Key": "System.Threading.Tasks",
-                  "Version": "4.3.0"
-                },
-                {
-                  "Key": "System.Threading.Tasks.Extensions",
-                  "Version": "4.6.3"
-                }
-              ],
-              "Reviewer": "reiichi001",
-              "Submitter": "0x0ade"
-            }
-          }
-        },
         "MountBinder": {
           "BuiltCommit": "9a3dd63ee4aadc6bd5c681817db88f9cbe3a8c09",
           "TimeBuilt": "2025-09-20T19:48:22.5157333+00:00",
@@ -247003,9 +246727,9 @@
           }
         },
         "MusicalGuide": {
-          "BuiltCommit": "4975af35a49b386c7a008807ac83edc66c727d6c",
-          "TimeBuilt": "2026-02-20T22:13:02.1773558+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "4af34ff917dbed6f3589582bd160e34b281b32fa",
+          "TimeBuilt": "2026-02-27T00:27:22.3119794+00:00",
+          "EffectiveVersion": "1.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.2.0": {
@@ -247070,6 +246794,22 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Sidiousious"
+            },
+            "1.5.0.0": {
+              "TimeReleased": "2026-02-27T00:27:22.3119816+00:00",
+              "Changelog": "- added option to use first person tracking in gpose\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Sidiousious"
             }
           }
@@ -268682,6 +268422,27 @@
       "Version": "10.0.3",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-02-25T11:30:07.0804419Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite",
+      "Version": "10.0.3",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2026-02-26T21:00:49.9625581Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite.Core",
+      "Version": "10.0.3",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2026-02-26T21:00:49.9625864Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://git.0x0a.de/0x0ade/DP-FloppyUtils.git",
+      "Version": "68cdad478f0f4bb4c9a2372f4e7eb88afbe9f098",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-02-27T00:21:34.9128972Z"
     }
   ]
 }
