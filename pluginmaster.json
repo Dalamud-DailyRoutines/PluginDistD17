@@ -2885,7 +2885,7 @@
     "Author": "NotNite",
     "Name": "Distant Seas",
     "InternalName": "DistantSeas",
-    "AssemblyVersion": "1.1.0.5",
+    "AssemblyVersion": "1.1.0.6",
     "Description": "The ultimate Ocean Fishing plugin. Automatically suggests baits, logs each boat you're on, tracks progress to achievements, adds a global point leaderboard, and more!\n\nIcon from the Mutant Standard project.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/NotNite/DistantSeas",
@@ -2905,7 +2905,7 @@
     "_Dip17Channel": "stable",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdate": "1771444287",
+    "LastUpdate": "1772222435",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/DistantSeas/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/DistantSeas/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/DistantSeas/latest.zip"
