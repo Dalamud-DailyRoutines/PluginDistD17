@@ -114368,9 +114368,9 @@
           }
         },
         "DistantSeas": {
-          "BuiltCommit": "2cfb7bf1b747fd08a5f66d886c7a6841f1fe8c3d",
-          "TimeBuilt": "2026-02-18T19:51:06.852484+00:00",
-          "EffectiveVersion": "1.1.0.5",
+          "BuiltCommit": "6037c94494c1e152c66174e57e3acf973098f800",
+          "TimeBuilt": "2026-02-27T20:00:32.9488692+00:00",
+          "EffectiveVersion": "1.1.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.2": {
@@ -114448,6 +114448,22 @@
             "1.1.0.5": {
               "TimeReleased": "2026-02-18T19:51:06.8524852+00:00",
               "Changelog": "Updated for Patch 7.4 (finally). Sorry for the delay, I was too busy fishing.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "NotNite"
+            },
+            "1.1.0.6": {
+              "TimeReleased": "2026-02-27T20:00:32.9489073+00:00",
+              "Changelog": "- Fixed an issue where the Journal tab didn\u0027t work if you hadn\u0027t logged any journals",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
