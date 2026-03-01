@@ -11196,9 +11196,9 @@
           }
         },
         "NoTankYou": {
-          "BuiltCommit": "0479c4b347c1251bb0acc2e4c57f4eaef344b01b",
-          "TimeBuilt": "2026-02-08T22:20:12.6855505+00:00",
-          "EffectiveVersion": "7.4.0.6",
+          "BuiltCommit": "6cbdadf194eb562688f909283598d8e3abb0c6d8",
+          "TimeBuilt": "2026-02-28T18:33:33.9743839+00:00",
+          "EffectiveVersion": "7.4.0.7",
           "MinimumVersion": null,
           "Changelogs": {
             "7.1.0.2": {
@@ -12292,6 +12292,50 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "814c54be105523da7698974f7095bc9b9e32ff43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.0-preview.6.25358.103"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "7.4.0.7": {
+              "TimeReleased": "2026-02-28T18:33:33.9743858+00:00",
+              "Changelog": "Blue Mage - Fix Party-Wide Mighty Guard Detection",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "028de4a300b22868c20419e81a26ee12fba685c9"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -189304,9 +189348,9 @@
           }
         },
         "CustomResolution2782": {
-          "BuiltCommit": "43c5b62fa20816d2c796096ce342c10e0396a957",
-          "TimeBuilt": "2026-02-27T00:21:34.8465827+00:00",
-          "EffectiveVersion": "1.1.2.0",
+          "BuiltCommit": "f152a693c861528c281b0685f2f35f9a4c203b49",
+          "TimeBuilt": "2026-02-28T18:33:23.4111345+00:00",
+          "EffectiveVersion": "1.1.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -189852,6 +189896,230 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "0x0ade"
+            },
+            "1.1.3.0": {
+              "TimeReleased": "2026-02-28T18:33:23.4111721+00:00",
+              "Changelog": "Since 1.1.2.0:\n- Work around a Dalamud plugin install bug which breaks the manifest .json\nSince last working stable:\n- Move internal utilities to new shared utility\n- API14 compat, migrate from SharpDX to TerraFX (except compiler)\n- Fix Dalamud UI cursor positioning (apparently broken since late API13)\n- Implement scaling via new internal mode to work around GPU driver bugs and crashes\n- Improve exclusive fullscreen mode support\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://git.0x0a.de/0x0ade/DP-FloppyUtils.git",
+                  "Version": "68cdad478f0f4bb4c9a2372f4e7eb88afbe9f098"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.D3DCompiler",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "PolySharp",
+                  "Version": "1.15.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.11.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Framework",
+                  "Version": "16.11.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Utilities.Core",
+                  "Version": "16.11.0"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "1.0.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.6.1"
+                },
+                {
+                  "Key": "System.Collections",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Configuration.ConfigurationManager",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Globalization",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.Pipelines",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.6.3"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.1"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Resources.ResourceManager",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.1.2"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Handles",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.ProtectedData",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Permissions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "System.Threading",
+                  "Version": "4.0.11"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.6.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "0x0ade"
             }
           }
         },
@@ -189980,9 +190248,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "50b3949d5d8dedae59399f9e678420b752780fb2",
-          "TimeBuilt": "2026-02-20T22:12:43.8266949+00:00",
-          "EffectiveVersion": "1.2.1.7",
+          "BuiltCommit": "0ee93d8440399a2918c84c2803a74dbf6e4fb8fa",
+          "TimeBuilt": "2026-02-28T18:33:46.8111437+00:00",
+          "EffectiveVersion": "1.2.1.8",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -193183,6 +193451,46 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.1.8": {
+              "TimeReleased": "2026-02-28T18:33:46.811145+00:00",
+              "Changelog": "Currency Warning - Add Preview Image\r\nSkip Teleport Confirm - Fix mistakenly confirming follow teleport",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "028de4a300b22868c20419e81a26ee12fba685c9"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
