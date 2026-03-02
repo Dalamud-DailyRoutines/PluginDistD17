@@ -2159,7 +2159,7 @@
     "Author": "nebel",
     "Name": "Currency Watchdog",
     "InternalName": "CurrencyWatchdog",
-    "AssemblyVersion": "1.0.1.2",
+    "AssemblyVersion": "1.0.2.1",
     "Description": "Provides a configurable overlay, configurable alerts, and a powerful rule system for displaying how many currency (or non-currency) items you have (or don't have). A spiritual successor to CurrencyAlert.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/nebel/CurrencyWatchdog",
@@ -2186,7 +2186,7 @@
     "TestingAssemblyVersion": "1.0.2.0",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1771375005",
+    "LastUpdate": "1772392911",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/CurrencyWatchdog/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CurrencyWatchdog/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CurrencyWatchdog/latest.zip"
