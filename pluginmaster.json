@@ -450,7 +450,7 @@
     "Author": "Critical_Impact",
     "Name": "Allagan Market",
     "InternalName": "AllaganMarket",
-    "AssemblyVersion": "1.3.0.6",
+    "AssemblyVersion": "1.3.0.7",
     "Description": "Helps track what items you have on sale.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -471,7 +471,7 @@
     "TestingAssemblyVersion": "1.0.0.5",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1770765714",
+    "LastUpdate": "1772620027",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/AllaganMarket/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/AllaganMarket/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/AllaganMarket/latest.zip"
@@ -4539,7 +4539,7 @@
     "Author": "Critical_Impact",
     "Name": "Allagan Tools",
     "InternalName": "InventoryTools",
-    "AssemblyVersion": "1.14.0.6",
+    "AssemblyVersion": "1.14.0.7",
     "Description": "Allagan Tool's primary purpose is to keep track of items across your characters/retainers/free company. With it's filter system you'll never lose track of items or not know where they should be sorted.\n\nWhile this is it's primary purpose, it has quite an exhaustive list of other features including:\n\t- Craft planning\n\t- Market board integration\n\t- Item highlighting in inventories when searching/sorting and picking ingredients for crafts\n\t- Item window that includes vendor and source information among other things\n\t- Duty/mob/airship/submarine windows that are fully searchable\n\t- A filtering system that lets you setup complex searches for specific items \n\t- Tooltip integration that'll let you see where the items are on hover",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Critical-Impact/InventoryTools",
@@ -4569,7 +4569,7 @@
     "TestingAssemblyVersion": "1.13.1.1",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1770588978",
+    "LastUpdate": "1772619864",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/InventoryTools/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/InventoryTools/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/InventoryTools/latest.zip"
