@@ -92446,9 +92446,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "96e95fe5fd00a7d2b3f9441e520d99caa6bc7463",
-          "TimeBuilt": "2025-12-20T01:38:03.8050261+00:00",
-          "EffectiveVersion": "2.2.0.0",
+          "BuiltCommit": "e48186585a074db0b0fc216949f7e7d713ba995d",
+          "TimeBuilt": "2026-03-03T23:22:22.9545057+00:00",
+          "EffectiveVersion": "2.2.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.0.0": {
@@ -92854,6 +92854,54 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "c71a5545925cb60f8e3fd6b60f093f78dde52ca2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.0-preview.6.25358.103"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "2.2.0.1": {
+              "TimeReleased": "2026-03-03T23:22:22.9546015+00:00",
+              "Changelog": "Add multi stage sort",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "ec76c842809773066f1ed002ce35135d31e9413f"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "028de4a300b22868c20419e81a26ee12fba685c9"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -166405,9 +166453,9 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "109531df367aa312a92ac67e5feb2493b07ec181",
-          "TimeBuilt": "2026-02-03T00:32:59.4447247+00:00",
-          "EffectiveVersion": "3.1.11.0",
+          "BuiltCommit": "b131ee3f9225b72773e4def862b19319c89330b3",
+          "TimeBuilt": "2026-03-03T19:47:56.0585097+00:00",
+          "EffectiveVersion": "3.1.12.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -167815,6 +167863,46 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "alexpado"
+            },
+            "3.1.12.0": {
+              "TimeReleased": "2026-03-03T19:47:56.0585504+00:00",
+              "Changelog": "# Umbra 3.1.12\n\n## Fixes \u0026 Improvements\n\n- Fixed some translations (By [GayPotatoEmma](https://github.com/GayPotatoEmma)).\n- Added markers for Eureka elementals (By [GayPotatoEmma](https://github.com/GayPotatoEmma)).\n- Fixed error when calculating bonus for Custom Deliveries (By [wolfcomp](https://github.com/wolfcomp)).\n\n---\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "db441cf8a368bbc387afa2928d42be31c152083e"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "System.Reflection.MetadataLoadContext",
+                  "Version": "9.0.4"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "goaaats",
+              "Submitter": "Bloodsoul"
             }
           }
         },
@@ -194560,9 +194648,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "8b7207b54ea70c3f311b61c81a886fd0003cc90b",
-          "TimeBuilt": "2026-02-26T21:00:49.8962186+00:00",
-          "EffectiveVersion": "1.8.3.0",
+          "BuiltCommit": "9e2fcd60fe2cf082f73e8267492f35eaa9d7eb7b",
+          "TimeBuilt": "2026-03-03T23:22:45.3009685+00:00",
+          "EffectiveVersion": "1.8.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -195139,6 +195227,50 @@
                 }
               ],
               "Reviewer": "goaaats",
+              "Submitter": "Sohtoren"
+            },
+            "1.8.5.0": {
+              "TimeReleased": "2026-03-03T23:22:45.3009701+00:00",
+              "Changelog": "- **Collection**: Update facewear\n- **Progress**: Update Hildibrant\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Sohtoren"
             }
           }
@@ -196320,9 +196452,9 @@
           }
         },
         "MusicalGuide": {
-          "BuiltCommit": "4975af35a49b386c7a008807ac83edc66c727d6c",
-          "TimeBuilt": "2026-02-25T11:29:57.2901529+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "4af34ff917dbed6f3589582bd160e34b281b32fa",
+          "TimeBuilt": "2026-03-03T23:22:30.8341207+00:00",
+          "EffectiveVersion": "1.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.6.0": {
@@ -196355,6 +196487,22 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Sidiousious"
+            },
+            "1.5.0.0": {
+              "TimeReleased": "2026-03-03T23:22:30.8341222+00:00",
+              "Changelog": "- added option to use first person tracking in gpose\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Sidiousious"
             }
           }
