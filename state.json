@@ -250189,6 +250189,98 @@
               "Submitter": "Piggy-Guy"
             }
           }
+        },
+        "CrystalRadio": {
+          "BuiltCommit": "38c01be8a1bbe3abf43e6779b6cf74f9dcc60e89",
+          "TimeBuilt": "2026-03-08T11:24:11.3104007+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2026-03-08T11:24:11.310441+00:00",
+              "Changelog": "- Listen to your favorite internet radio stations directly in-game. Browse stations and manage your favorites. Use /cradio to open the radio player\n- Published testing version v0.0.0.1!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinForms",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Saevath"
+            }
+          }
+        },
+        "GilsTracker": {
+          "BuiltCommit": "7fa52f6e57e8b5270991fc6f66ec7d849854017c",
+          "TimeBuilt": "2026-03-08T11:29:48.7692068+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2026-03-08T11:29:48.7692481+00:00",
+              "Changelog": "Initial release. \nTracks gil gained and spent during your play session, with optional Server Info Bar display showing net gil and gil per hour.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "TheNickoos"
+            }
+          }
         }
       }
     },
