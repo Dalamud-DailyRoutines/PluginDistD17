@@ -10529,6 +10529,42 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CraftRemaining/latest.zip"
   },
   {
+    "Author": "Saevath",
+    "Name": "CrystalRadio",
+    "InternalName": "CrystalRadio",
+    "AssemblyVersion": "0.0.0.1",
+    "Description": "Listen to your favorite internet radio stations directly in-game. Browse stations and manage your favorites. Use /cradio to open the radio player",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/Saevath/CrystalRadio",
+    "Tags": [
+      "radio",
+      "music",
+      "audio"
+    ],
+    "CategoryTags": [
+      "other",
+      "test"
+    ],
+    "DalamudApiLevel": 14,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/Saevath/CrystalRadio/refs/heads/master/CrystalRadio/images/icon.png",
+    "Punchline": "Stream internet radio stations while playing FFXIV",
+    "AcceptsFeedback": true,
+    "_isDip17Plugin": true,
+    "_Dip17Channel": "testing-live",
+    "IsHide": "False",
+    "TestingAssemblyVersion": "0.0.0.1",
+    "IsTestingExclusive": "True",
+    "TestingDalamudApiLevel": 14,
+    "LastUpdate": "1772969067",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CrystalRadio/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CrystalRadio/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CrystalRadio/latest.zip"
+  },
+  {
     "Author": "MidoriKami, Lharz",
     "Name": "CurrencyAlert",
     "InternalName": "CurrencyAlert",
@@ -10930,6 +10966,36 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/GentleTouch/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/GentleTouch/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/GentleTouch/latest.zip"
+  },
+  {
+    "Author": "Nickoos",
+    "Name": "Gils Tracker",
+    "InternalName": "GilsTracker",
+    "AssemblyVersion": "0.0.0.1",
+    "Description": "Counts how much gil you gain or lose while playing.",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "gil",
+      "economy",
+      "session"
+    ],
+    "DalamudApiLevel": 14,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Tracks gil gained and spent during the session.",
+    "AcceptsFeedback": true,
+    "_isDip17Plugin": true,
+    "_Dip17Channel": "testing-live",
+    "IsHide": "False",
+    "TestingAssemblyVersion": "0.0.0.1",
+    "IsTestingExclusive": "True",
+    "TestingDalamudApiLevel": 14,
+    "LastUpdate": "1772969397",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/GilsTracker/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/GilsTracker/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/GilsTracker/latest.zip"
   },
   {
     "Author": "Shezwick",
