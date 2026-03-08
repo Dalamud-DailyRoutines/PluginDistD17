@@ -52759,9 +52759,9 @@
           }
         },
         "Wholist": {
-          "BuiltCommit": "d542dadc4ea6d75ab4346fd80bef9419a96998d0",
-          "TimeBuilt": "2025-12-22T21:35:24.4779605+00:00",
-          "EffectiveVersion": "1.11.2.1",
+          "BuiltCommit": "725a959e7e1cb57140d7bf70ca932d6789a03fbb",
+          "TimeBuilt": "2026-03-07T20:20:22.2008973+00:00",
+          "EffectiveVersion": "1.11.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -53542,6 +53542,26 @@
                 }
               ],
               "Reviewer": "perchbirdd",
+              "Submitter": "Blooym"
+            },
+            "1.11.3.0": {
+              "TimeReleased": "2026-03-07T20:20:22.2008995+00:00",
+              "Changelog": "The distance column now shows an arrow pointing in the direction of the player (thanks, Exter-N).\r\n\r\nA third party plugin integration has been removed due to inconsistency in functionality. It may return later, it may not.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Blooym/Dalamud.Lib.Sirensong.git",
+                  "Version": "af089e84e3b1d6d467503fb1bf3baf81f027c604"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Blooym"
             }
           }
@@ -81854,9 +81874,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "3c4c7adf752c8224f6acd22b6a4943311ac5ecaa",
-          "TimeBuilt": "2026-02-20T22:12:54.3182344+00:00",
-          "EffectiveVersion": "6.0.0.10",
+          "BuiltCommit": "b60ff6aa65d7c13d1008b5bb745d2c303b21ff06",
+          "TimeBuilt": "2026-03-07T20:19:58.1372706+00:00",
+          "EffectiveVersion": "6.0.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -83277,6 +83297,30 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.1.1": {
+              "TimeReleased": "2026-03-07T20:19:58.1373117+00:00",
+              "Changelog": "Potential System Stability Improvements, (might cause issues, if anything weird happens, please report it)\r\n\r\nFix reset messages being blank\r\n\r\nRemoved module config tab, its now just one bigger window\r\n\r\nFix hunt marks having Challenge Log link\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "d5588d3f5b4b0616b5b974eec3de1c4c3a91ba6f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
@@ -192048,9 +192092,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "0ee93d8440399a2918c84c2803a74dbf6e4fb8fa",
-          "TimeBuilt": "2026-02-28T18:33:46.8111437+00:00",
-          "EffectiveVersion": "1.2.1.8",
+          "BuiltCommit": "931dba5cad29065bc35532bc0685eea6de20f7bf",
+          "TimeBuilt": "2026-03-07T20:20:12.0496706+00:00",
+          "EffectiveVersion": "1.2.1.9",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -195292,6 +195336,46 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
+            },
+            "1.2.1.9": {
+              "TimeReleased": "2026-03-07T20:20:12.0496718+00:00",
+              "Changelog": "Update Translations\r\n\r\nBigger Config Windows - Fix scroll detection\r\nBigger Config Windows - Now won\u0027t resize if window would be too big\r\n\r\nCurrency Warning - Fix outline color in certain themes",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "c3571ac1ffa81d2fda5e5364a3d83d9199627b55"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -195352,9 +195436,9 @@
           }
         },
         "StatusTimers": {
-          "BuiltCommit": "fc2b35b005922b7c46c7a1e33a7c76cb0a66d8c0",
-          "TimeBuilt": "2026-02-03T00:23:48.9373188+00:00",
-          "EffectiveVersion": "1.0.3.3",
+          "BuiltCommit": "46ea8188680a27aa1ffdf4fe0b252050b7d8dfc0",
+          "TimeBuilt": "2026-03-07T20:20:33.136203+00:00",
+          "EffectiveVersion": "1.0.3.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.2": {
@@ -195508,6 +195592,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "d36a663e16987076487dc7e4d6017a175322ab1b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.3.4": {
+              "TimeReleased": "2026-03-07T20:20:33.136204+00:00",
+              "Changelog": "# 1.0.3.4\n- Updated to experimental version of KTK to hopefully prevent more crashes, please report any weird issues you may encounter).",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "d5588d3f5b4b0616b5b974eec3de1c4c3a91ba6f"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -197564,9 +197672,9 @@
           }
         },
         "InventorySearchBar": {
-          "BuiltCommit": "26f9e96075c142229339b3410628e641dac63a0e",
-          "TimeBuilt": "2026-02-25T11:29:48.9907231+00:00",
-          "EffectiveVersion": "1.9.1.0",
+          "BuiltCommit": "d87cf89a9b54792b9035ba8c01704137b39a2728",
+          "TimeBuilt": "2026-03-07T22:34:19.7618258+00:00",
+          "EffectiveVersion": "1.9.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.9.0.0": {
@@ -197963,6 +198071,206 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "caitlyn-gg"
+            },
+            "1.9.2.0": {
+              "TimeReleased": "2026-03-07T22:34:19.7618645+00:00",
+              "Changelog": "- Updated dependencies (fixes Retainer search again)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Critical-Impact/CriticalCommonLib.git",
+                  "Version": "da8cd2e5f7eaa5321c90db4216d298645306fa5b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "AllaganLib.GameSheets",
+                  "Version": "2.0.6"
+                },
+                {
+                  "Key": "AllaganLib.Monitors",
+                  "Version": "2.0.4"
+                },
+                {
+                  "Key": "AllaganLib.Shared",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Autofac",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Autofac.Extensions.DependencyInjection",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "DalaMock.Host",
+                  "Version": "4.1.1"
+                },
+                {
+                  "Key": "DalaMock.Shared",
+                  "Version": "4.0.6"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "NaturalSort.Extension",
+                  "Version": "4.4.1"
+                },
+                {
+                  "Key": "SerialQueue",
+                  "Version": "2.1.0"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "SonarAnalyzer.CSharp",
+                  "Version": "10.17.0.131074"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "caitlyn-gg"
             }
           }
@@ -246303,9 +246611,9 @@
           }
         },
         "StatusTimers": {
-          "BuiltCommit": "fc2b35b005922b7c46c7a1e33a7c76cb0a66d8c0",
-          "TimeBuilt": "2026-02-03T00:24:50.1134792+00:00",
-          "EffectiveVersion": "1.0.3.3",
+          "BuiltCommit": "46ea8188680a27aa1ffdf4fe0b252050b7d8dfc0",
+          "TimeBuilt": "2026-03-07T20:20:53.5979605+00:00",
+          "EffectiveVersion": "1.0.3.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -246747,6 +247055,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "d36a663e16987076487dc7e4d6017a175322ab1b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.3.4": {
+              "TimeReleased": "2026-03-07T20:20:53.5979614+00:00",
+              "Changelog": "# 1.0.3.4\n- Updated to experimental version of KTK to hopefully prevent more crashes, please report any weird issues you may encounter).",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "d5588d3f5b4b0616b5b974eec3de1c4c3a91ba6f"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -248391,9 +248723,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "ad11a729d25f9a401b9b2ff13c2f414b40dd001e",
-          "TimeBuilt": "2026-03-06T00:34:27.3419157+00:00",
-          "EffectiveVersion": "1.5.8.13",
+          "BuiltCommit": "efce2a5b13a01856f3cde0979dce07e99533e466",
+          "TimeBuilt": "2026-03-07T20:20:42.7984043+00:00",
+          "EffectiveVersion": "1.5.8.14",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.3.0": {
@@ -248591,6 +248923,22 @@
             "1.5.8.13": {
               "TimeReleased": "2026-03-06T00:34:27.3419614+00:00",
               "Changelog": "Voiceline Creation, Event Editor have been cleaned up. Added New Voiceline Mute/Delete window.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "spide-r"
+            },
+            "1.5.8.14": {
+              "TimeReleased": "2026-03-07T20:20:42.7984057+00:00",
+              "Changelog": "More Cleanup, More Polish",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -270729,6 +271077,27 @@
       "Version": "10.0.3",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-03-06T00:26:41.9062257Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "d5588d3f5b4b0616b5b974eec3de1c4c3a91ba6f",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-03-07T20:19:58.2058887Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "c3571ac1ffa81d2fda5e5364a3d83d9199627b55",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-03-07T20:20:12.1132231Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Blooym/Dalamud.Lib.Sirensong.git",
+      "Version": "af089e84e3b1d6d467503fb1bf3baf81f027c604",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-03-07T20:20:22.2825302Z"
     }
   ]
 }
