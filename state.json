@@ -249547,9 +249547,9 @@
           }
         },
         "WachuMakeyMaking": {
-          "BuiltCommit": "10d12484788d5db8be5cb32d95881d4993e3ab91",
-          "TimeBuilt": "2026-02-12T06:42:49.1518574+00:00",
-          "EffectiveVersion": "1.0.7.0",
+          "BuiltCommit": "5c50219dfa16b6d1ab1732b189c811296809b138",
+          "TimeBuilt": "2026-03-08T19:31:50.9513603+00:00",
+          "EffectiveVersion": "1.0.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.6.0": {
@@ -249582,6 +249582,22 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "ArcaneAj"
+            },
+            "1.0.8.0": {
+              "TimeReleased": "2026-03-08T19:31:50.9513621+00:00",
+              "Changelog": "Will now add items from opened retainer and saddlebag inventories, caching them until next opened.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "ArcaneAj"
             }
           }
@@ -250259,9 +250275,9 @@
           }
         },
         "GilsTracker": {
-          "BuiltCommit": "7fa52f6e57e8b5270991fc6f66ec7d849854017c",
-          "TimeBuilt": "2026-03-08T11:29:48.7692068+00:00",
-          "EffectiveVersion": "0.0.0.1",
+          "BuiltCommit": "f52eb97c55e8f727c6094ad59667be2560370b8f",
+          "TimeBuilt": "2026-03-08T19:31:42.8750345+00:00",
+          "EffectiveVersion": "0.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -250278,6 +250294,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "TheNickoos"
+            },
+            "0.0.0.2": {
+              "TimeReleased": "2026-03-08T19:31:42.875074+00:00",
+              "Changelog": "Fixed a null reference exception.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "TheNickoos"
             }
           }
