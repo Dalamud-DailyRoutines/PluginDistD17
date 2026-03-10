@@ -248723,9 +248723,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "efce2a5b13a01856f3cde0979dce07e99533e466",
-          "TimeBuilt": "2026-03-07T20:20:42.7984043+00:00",
-          "EffectiveVersion": "1.5.8.14",
+          "BuiltCommit": "01a57728fc2febbdb01b2f3e140c6b03a1b13345",
+          "TimeBuilt": "2026-03-09T22:38:45.3389934+00:00",
+          "EffectiveVersion": "1.6.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.3.0": {
@@ -248950,6 +248950,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "spide-r"
+            },
+            "1.6.0.1": {
+              "TimeReleased": "2026-03-09T22:38:45.3390335+00:00",
+              "Changelog": "Rework Complete - Letting this simmer in testing for a bit before migrating to stable.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "goaaats",
               "Submitter": "spide-r"
             }
           }
