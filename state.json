@@ -250329,6 +250329,186 @@
               "Submitter": "TheNickoos"
             }
           }
+        },
+        "SteamRecordingEnhanced": {
+          "BuiltCommit": "690b37401cca497f5d3a17df41748581a729221e",
+          "TimeBuilt": "2026-03-12T07:07:03.2893851+00:00",
+          "EffectiveVersion": "0.1.2.8",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.2.8": {
+              "TimeReleased": "2026-03-12T07:07:03.2894266+00:00",
+              "Changelog": "Initial testing release!\n\nSteam Recording Enhanced is a plugin that integrates with Steam Game Recording feature to automatically add various in-game events to your recording timeline as markers for easy cliping and rewinding.\nSetup instruction for non-steam users included.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "RokasKil"
+            }
+          }
+        },
+        "AetherGon": {
+          "BuiltCommit": "d027bcf1903e433c274d810ba49714957ba2980e",
+          "TimeBuilt": "2026-03-12T07:17:51.7147039+00:00",
+          "EffectiveVersion": "1.2.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.2.0.1": {
+              "TimeReleased": "2026-03-12T07:17:51.7147503+00:00",
+              "Changelog": "A super hexagon clone mini-game.\nv1.2.0.1: code clean up, see dalamud app store installer for plugin description\nv1.2.0.0:clean up assets, added seizure warning\nv1.0.0.0: Stable release, music, difficulty, high scores\nv0.0.0.1: Initial release.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "rail2025"
+            }
+          }
+        },
+        "Aether48": {
+          "BuiltCommit": "0f167dfac8ad5b6bc17041ac6b5829b349da63ed",
+          "TimeBuilt": "2026-03-12T07:21:51.8224051+00:00",
+          "EffectiveVersion": "1.0.0.2",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.2": {
+              "TimeReleased": "2026-03-12T07:21:51.8224485+00:00",
+              "Changelog": "A 2048 clone.\nv1.0.0.2: bug fixes, see dalamud app store installer for plugin description\nv1.0.0.0: clean up \nv0.0.0.1: Initial release.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "rail2025"
+            }
+          }
+        },
+        "AscianMusicPlayer": {
+          "BuiltCommit": "a1fad0d6d3eea53489d064e9d334ad1fb32dc2bb",
+          "TimeBuilt": "2026-03-12T07:24:09.438387+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-03-12T07:24:09.4384365+00:00",
+              "Changelog": "__Initial Release__\nFeatures:\n- Play your local music files ingame\n  - Supports .mp3, .wav and .flac\n- Display your current song in the Server Info Bar\n  - Left click to open the main window, right click to (un)pause your music\n- Automatically pulls the song information from your music file metadata\n- A simple mini player for whenever you don\u0027t need to see the entire list\n- Option to automatically mute ingame music\n- Choose which channel the music comes through so you can use the ingame volume sliders\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "TagLibSharp",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinForms",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "GayPotatoEmma"
+            }
+          }
         }
       }
     },
@@ -271238,6 +271418,13 @@
       "Version": "af089e84e3b1d6d467503fb1bf3baf81f027c604",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-03-07T20:20:22.2825302Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TagLibSharp",
+      "Version": "2.3.0",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2026-03-12T07:24:09.5086375Z"
     }
   ]
 }
