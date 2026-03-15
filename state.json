@@ -8985,9 +8985,9 @@
           }
         },
         "WinTitle": {
-          "BuiltCommit": "9fd5bf6f7ce7d01e3ba40835b17183f1d0185a80",
-          "TimeBuilt": "2025-12-19T22:16:48.2548223+00:00",
-          "EffectiveVersion": "14.0.0.0",
+          "BuiltCommit": "c30367409b38c034eda08fe85da8dfebc3011339",
+          "TimeBuilt": "2026-03-15T07:30:49.2335984+00:00",
+          "EffectiveVersion": "14.745.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.4.0": {
@@ -9139,6 +9139,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "rreminy"
+            },
+            "14.745.1.0": {
+              "TimeReleased": "2026-03-15T07:30:49.2336516+00:00",
+              "Changelog": "- Move to GemPlugins",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "rreminy"
             }
           }
@@ -53667,9 +53683,9 @@
           }
         },
         "PartyPlanner": {
-          "BuiltCommit": "57fcedca16f557d4070ebb4c8dd00fc87e8b12fa",
-          "TimeBuilt": "2026-01-19T19:25:45.7600892+00:00",
-          "EffectiveVersion": "1.6.7.0",
+          "BuiltCommit": "362502d210a22174b4e76e9953e93975bd47c716",
+          "TimeBuilt": "2026-03-15T07:11:57.1464866+00:00",
+          "EffectiveVersion": "1.7.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.1.0": {
@@ -53976,6 +53992,58 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "edg-l"
+            },
+            "1.7.5.0": {
+              "TimeReleased": "2026-03-15T07:11:57.1465254+00:00",
+              "Changelog": "- Event titles are larger and easier to read\r\n- Inline images and formatted descriptions in event details\r\n- Attendee counts shown on events\r\n- Search to quickly find events\r\n- Sort events by your preferred order\r\n- Your home world is auto-selected when you open the plugin\r\n- Regions and data centers with no events are hidden to reduce clutter\r\n- Only the next upcoming event per venue is shown (within the next month)\r\n- Various stability and performance improvements\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "GraphQL.Client",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "GraphQL.Client.Serializer.Newtonsoft",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "GraphQL.Client.Abstractions",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "GraphQL.Client.Abstractions.Websocket",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "GraphQL.Primitives",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "edg-l"
             }
           }
@@ -81711,9 +81779,9 @@
           }
         },
         "QuestMap": {
-          "BuiltCommit": "4c67b202d3126c3de58592df467c3dbff435e2d4",
-          "TimeBuilt": "2025-12-19T22:53:43.3048943+00:00",
-          "EffectiveVersion": "14.0.0.0",
+          "BuiltCommit": "10d35a63fe03626e1dd5d3fb0c1f4eba41f256e9",
+          "TimeBuilt": "2026-03-15T07:31:27.1822566+00:00",
+          "EffectiveVersion": "14.745.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.4.0": {
@@ -81913,6 +81981,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "rreminy"
+            },
+            "14.745.1.0": {
+              "TimeReleased": "2026-03-15T07:31:27.1822577+00:00",
+              "Changelog": "- Move to GemPlugins\r\n- \u0022Fix\u0022 festival filtering",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Msagl",
+                  "Version": "1.2.1"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "rreminy"
             }
           }
@@ -88781,9 +88869,9 @@
           }
         },
         "MiniMappingway": {
-          "BuiltCommit": "b2a83958dc16e97ebc74e8fb42b3f5cb0ccb6c67",
-          "TimeBuilt": "2025-12-30T05:44:29.5004499+00:00",
-          "EffectiveVersion": "1.0.3.2",
+          "BuiltCommit": "7a3024ace63f59fd5d430aa76d6ebe77b01e348a",
+          "TimeBuilt": "2026-03-15T07:30:58.5354652+00:00",
+          "EffectiveVersion": "14.745.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -89068,6 +89156,38 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "rreminy"
+            },
+            "14.745.1.0": {
+              "TimeReleased": "2026-03-15T07:30:58.5354663+00:00",
+              "Changelog": "- Move to GemPlugins",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Pkcs",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Xml",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.ServiceModel.Primitives",
+                  "Version": "8.1.0"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "rreminy"
             }
           }
@@ -178596,9 +178716,9 @@
           }
         },
         "RezoPlugin": {
-          "BuiltCommit": "2f5686e8c42242a414afdd171d77779a8352a988",
-          "TimeBuilt": "2025-12-19T21:55:30.9647731+00:00",
-          "EffectiveVersion": "14.0.0.0",
+          "BuiltCommit": "2f8b478bc417e356e4fdb945c1f8c133d024f5e0",
+          "TimeBuilt": "2026-03-15T07:31:35.4022151+00:00",
+          "EffectiveVersion": "14.745.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.1.0": {
@@ -178663,6 +178783,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "rreminy"
+            },
+            "14.745.1.0": {
+              "TimeReleased": "2026-03-15T07:31:35.4022162+00:00",
+              "Changelog": "- Move to GemPlugins",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "rreminy"
             }
           }
@@ -191244,9 +191380,9 @@
           }
         },
         "IHateCapsLock": {
-          "BuiltCommit": "4acb9e87a091e6d8c16416b0faefeb98e2f56290",
-          "TimeBuilt": "2025-12-19T21:52:48.0535355+00:00",
-          "EffectiveVersion": "14.0.0.0",
+          "BuiltCommit": "d74bae79a4547eb64562de14b8626e454f5edea3",
+          "TimeBuilt": "2026-03-15T07:31:44.8247026+00:00",
+          "EffectiveVersion": "14.745.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
@@ -191295,6 +191431,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "rreminy"
+            },
+            "14.745.1.0": {
+              "TimeReleased": "2026-03-15T07:31:44.8247034+00:00",
+              "Changelog": "- Move to GemPlugins",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "rreminy"
             }
           }
@@ -192720,9 +192872,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "931dba5cad29065bc35532bc0685eea6de20f7bf",
-          "TimeBuilt": "2026-03-07T20:20:12.0496706+00:00",
-          "EffectiveVersion": "1.2.1.9",
+          "BuiltCommit": "abd029a6d816a871daaa3b289b46419e24bb9bcf",
+          "TimeBuilt": "2026-03-15T07:31:17.0300492+00:00",
+          "EffectiveVersion": "1.2.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -196003,6 +196155,46 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.2.1": {
+              "TimeReleased": "2026-03-15T07:31:17.0300503+00:00",
+              "Changelog": "Update Translations\r\n\r\nLoot Window Select Next Item - Now automatically closes loot window when rolling on last item\r\n\r\nCast Bar Countdown - Remove Text Alignment options, (they weren\u0027t respected anyways)\r\n\r\nNew Game Modification Sub Category: \u0022Map\u0022 , for features that effect the main map.\r\n\r\nShow Players - New Feature, shows player markers on the main map\r\n\r\nShow Enemies - New Feature, shows enemies on the main map\r\n\r\nShow Gathering Points - New Feature, shows gathering points on the main map\r\n\r\nShow Treasure Chests - New Feature, shows treasure chests on the main map\r\n\r\nSkip Login Confirm - New Feature, skips the confirmation window popup when logging in to your character\r\n\r\nShow Aether Currents - Reworked feature to use new overlay tech\r\n\r\nQuick Panel Adjustments - Renamed to Command Panel Adjustments\r\n\r\nCommand Panel Adjustments - Fixed flickering issue",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "6079f572e4c2b8b7f4373d78d9f7c40d5a3a9b09"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "MidoriKami"
             }
           }
@@ -205557,9 +205749,9 @@
           "Changelogs": {}
         },
         "RpUtils": {
-          "BuiltCommit": "7e1e0602916837c0d797969a1a5de5969fa077cd",
-          "TimeBuilt": "2025-12-28T20:01:38.5829046+00:00",
-          "EffectiveVersion": "0.3.2.0",
+          "BuiltCommit": "1476e7d23a65e14f138ce8dbed7c6f31deb745c3",
+          "TimeBuilt": "2026-03-15T07:12:07.0060286+00:00",
+          "EffectiveVersion": "0.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.0.0": {
@@ -205872,6 +206064,102 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "KassWasTaken"
+            },
+            "0.4.0.0": {
+              "TimeReleased": "2026-03-15T07:12:07.00603+00:00",
+              "Changelog": "0.4.0 (2026.3.11)\r\n- Major refactor of the plugin\r\n- Adding first pass on roleplay activities to sonar\r\n\r\n0.3.2 (2025.12.27)\r\n- Updated for 7.4, migrated to Dalamud SDK\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "KassWasTaken"
             }
           }
@@ -251055,9 +251343,9 @@
           }
         },
         "AetherGon": {
-          "BuiltCommit": "d027bcf1903e433c274d810ba49714957ba2980e",
-          "TimeBuilt": "2026-03-12T07:17:51.7147039+00:00",
-          "EffectiveVersion": "1.2.0.1",
+          "BuiltCommit": "f1c23da5cbbcde0319e20f815c2903a0e5bd47a0",
+          "TimeBuilt": "2026-03-15T07:31:56.282546+00:00",
+          "EffectiveVersion": "1.2.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.1": {
@@ -251067,6 +251355,46 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "rail2025"
+            },
+            "1.2.0.2": {
+              "TimeReleased": "2026-03-15T07:31:56.2825469+00:00",
+              "Changelog": "v1.2.0.2:api bump\nv1.2.0.1: code clean up, see dalamud app store installer for plugin description\nv1.2.0.0:clean up assets, added seizure warning\nv1.0.0.0: Stable release, music, difficulty, high scores\nv0.0.0.1: Initial release.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -251155,9 +251483,9 @@
           }
         },
         "AscianMusicPlayer": {
-          "BuiltCommit": "900c6e9a471da7cc37735d2af90a9346decda480",
-          "TimeBuilt": "2026-03-13T20:26:39.8486383+00:00",
-          "EffectiveVersion": "1.0.0.1",
+          "BuiltCommit": "959ec4db286321c444442c5480a15022e3934898",
+          "TimeBuilt": "2026-03-15T07:32:06.0169618+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -251254,6 +251582,54 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "GayPotatoEmma"
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2026-03-15T07:32:06.016963+00:00",
+              "Changelog": "**New Features**\r\n- **Playlists**\r\n  - You can now make playlists to listen to your favorite songs without having to keep changing your music folder. Simply create a playlist and right click your favorite songs to add them (or their whole album) to a playlist.\r\n- **Folder browser**\r\n  - Added a browse option to the folder path setting so you don\u0027t have to copy the path from your explorer and paste it in.\r\n- **Search filters**\r\n  - You can now search through your playlist by song name, artist or album name.\r\n\r\n\r\n**Other Changes**\r\n- There is now an option to unbind the music volume from the games sound channels in case you prefer controlling it seperately.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "TagLibSharp",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinForms",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "GayPotatoEmma"
             }
           }
