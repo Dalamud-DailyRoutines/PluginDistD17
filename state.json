@@ -88869,9 +88869,9 @@
           }
         },
         "MiniMappingway": {
-          "BuiltCommit": "7a3024ace63f59fd5d430aa76d6ebe77b01e348a",
-          "TimeBuilt": "2026-03-15T07:30:58.5354652+00:00",
-          "EffectiveVersion": "14.745.1.0",
+          "BuiltCommit": "7025bf99cfd3bb40d53f38e2da713d83b8e5bf3f",
+          "TimeBuilt": "2026-03-17T23:23:15.352837+00:00",
+          "EffectiveVersion": "14.745.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -89188,6 +89188,38 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "rreminy"
+            },
+            "14.745.1.2": {
+              "TimeReleased": "2026-03-17T23:23:15.3528385+00:00",
+              "Changelog": "- Fix repository link URL\r\n- Fix zone scale",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Pkcs",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Xml",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.ServiceModel.Primitives",
+                  "Version": "8.1.0"
+                }
+              ],
+              "Reviewer": "goaaats",
               "Submitter": "rreminy"
             }
           }
@@ -158340,9 +158372,9 @@
           }
         },
         "PvpStats": {
-          "BuiltCommit": "9dee0e1fd100ef97617f01cb5a3730b4c3300bbb",
-          "TimeBuilt": "2025-12-20T03:56:22.8265643+00:00",
-          "EffectiveVersion": "2.6.1.0",
+          "BuiltCommit": "5369a7a4fd7d84c117ee0f1f40b553daf5c8b86d",
+          "TimeBuilt": "2026-03-17T23:23:07.086591+00:00",
+          "EffectiveVersion": "2.6.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.3.2": {
@@ -158962,6 +158994,26 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "wrath16"
+            },
+            "2.6.1.1": {
+              "TimeReleased": "2026-03-17T23:23:07.0865922+00:00",
+              "Changelog": "* Add 7.4 and 7.5 time filter options.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.16"
+                }
+              ],
+              "Reviewer": "goaaats",
               "Submitter": "wrath16"
             }
           }
@@ -193420,9 +193472,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "01b6127aeed2e81b0e95607838ee895f4dedbfab",
-          "TimeBuilt": "2026-03-15T22:10:35.0837883+00:00",
-          "EffectiveVersion": "1.2.2.2",
+          "BuiltCommit": "49b814f5e9dcab31045584edbfbf1586b5978379",
+          "TimeBuilt": "2026-03-17T23:23:28.7620184+00:00",
+          "EffectiveVersion": "1.2.2.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -196784,6 +196836,46 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
+            },
+            "1.2.2.3": {
+              "TimeReleased": "2026-03-17T23:23:28.7620199+00:00",
+              "Changelog": "Party Finder Preset - Disabled \u0022Add\u0022 button in config window that doesn\u0027t do anything. Use the add button in the Party Finder Recruitment window itself.\r\n\r\nAdd Show Aetherytes on Top - New Feature, forces aetherytes to always appear on top of other map icons. (It will not appear above other Vanilla Plus map icons, or other plugin icons.)\r\n\r\nBigger Config Windows - Moved a line node that shows only in certain styles\r\n\r\nLoot Window Select Next - Removed auto-close feature, this was a misunderstanding by me, the window auto closes already. Whoops.\r\n\r\nMap Markers (All Custom Markers) - Limited visibility to 150y spherical distance. Should hide *most* markers that are in other layers, but not all. This is the best I can do with that.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "ddf3981ee399199ab15f3fb5d110011e8aee3077"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "goaaats",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -198988,9 +199080,9 @@
           }
         },
         "FATEhelper": {
-          "BuiltCommit": "4390af5c12be69e1e2ea4bd204b2cd9eff72ec6e",
-          "TimeBuilt": "2026-01-22T10:12:46.9696565+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "095270c14d8dcf11ea177526924a79939768c695",
+          "TimeBuilt": "2026-03-17T23:22:55.9887424+00:00",
+          "EffectiveVersion": "1.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -199023,6 +199115,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "teechep"
+            },
+            "1.0.2.0": {
+              "TimeReleased": "2026-03-17T23:22:55.98878+00:00",
+              "Changelog": "added closest aetheryte shard display for occult crescent, added /fh as secondary command",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "goaaats",
               "Submitter": "teechep"
             }
           }
@@ -252115,9 +252223,9 @@
           }
         },
         "AscianMusicPlayer": {
-          "BuiltCommit": "959ec4db286321c444442c5480a15022e3934898",
-          "TimeBuilt": "2026-03-15T07:32:06.0169618+00:00",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "2aad78e477c728f20c4f510e9e91e54a6c6a874b",
+          "TimeBuilt": "2026-03-17T23:23:38.2552945+00:00",
+          "EffectiveVersion": "1.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -252262,6 +252370,54 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "GayPotatoEmma"
+            },
+            "1.1.0.1": {
+              "TimeReleased": "2026-03-17T23:23:38.2552958+00:00",
+              "Changelog": "**Features**\r\n- Crossfade\r\n  - You can now enable crossfade between songs in the settings. This is set to 0 seconds (disabled) by default and can go up to 10 seconds.\r\n- Added option to print the current song to chat. Disabled by default.\r\n\r\n**Fixes**\r\n- Settings window height now depends on if the Wine warning is shown so there isn\u0027t just an empty bit on Windows\r\n- Improved handling of Dalamud Global Font Scale changes\r\n- Adding a whole album to a playlist no longer adds other albums with the same name. This now checks for album artist if the data exists, otherwise it will fall back on the regular artist field.\r\n  - This may miss songs if the listed artist is different. (i.e. featured artists in the main artist field)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "TagLibSharp",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinForms",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "goaaats",
               "Submitter": "GayPotatoEmma"
             }
           }
@@ -273818,6 +273974,13 @@
       "Version": "edfc28cdf7edff3f3b6b4f1c6a0fdcce33874eca",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-03-15T22:10:35.1649506Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "ddf3981ee399199ab15f3fb5d110011e8aee3077",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2026-03-17T23:23:28.7917116Z"
     }
   ]
 }
