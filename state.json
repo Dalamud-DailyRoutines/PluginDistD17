@@ -95546,9 +95546,9 @@
           }
         },
         "TitleEdit": {
-          "BuiltCommit": "2ba4d40eae7c88f706583ac3752cea00df45a64a",
-          "TimeBuilt": "2026-01-19T19:26:08.2201236+00:00",
-          "EffectiveVersion": "3.0.6.5",
+          "BuiltCommit": "ebe574ceb676438e66596db6a7fe49d2e19dcdaf",
+          "TimeBuilt": "2026-03-22T23:21:47.414491+00:00",
+          "EffectiveVersion": "3.0.6.6",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -96353,6 +96353,22 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "RokasKil"
+            },
+            "3.0.6.6": {
+              "TimeReleased": "2026-03-22T23:21:47.4144923+00:00",
+              "Changelog": "- Maintenace update\n- Added Plo\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -167187,9 +167203,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "4341035c74e61e1a635e32a141fe31a2b52ab935",
-          "TimeBuilt": "2026-02-09T21:49:52.3103274+00:00",
-          "EffectiveVersion": "1.34.3.0",
+          "BuiltCommit": "9f7a6267f6cc05326d4639d15081d1ed1c26a12a",
+          "TimeBuilt": "2026-03-22T19:30:12.0001517+00:00",
+          "EffectiveVersion": "1.34.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -170006,6 +170022,98 @@
             "1.34.3.0": {
               "TimeReleased": "2026-02-09T21:49:52.3103859+00:00",
               "Changelog": "- Fix links not showing up in webinterface\r\n- Switch to debug logging",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.34.4.0": {
+              "TimeReleased": "2026-03-22T19:30:12.0001958+00:00",
+              "Changelog": "- Swap Queue to ConcurrentQueue to prevent async issues ",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -189156,9 +189264,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "08b34d92a1334fe379ef8bff01d5114cb53ab4d0",
-          "TimeBuilt": "2026-03-21T13:23:33.6989938+00:00",
-          "EffectiveVersion": "1.6.0.5",
+          "BuiltCommit": "b826ed9224d965917a4f3b70b33bbf7384e712b1",
+          "TimeBuilt": "2026-03-22T23:21:36.6610301+00:00",
+          "EffectiveVersion": "1.6.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -189463,6 +189571,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "spide-r"
+            },
+            "1.6.0.6": {
+              "TimeReleased": "2026-03-22T23:21:36.6610711+00:00",
+              "Changelog": "Fixed bugs related to shoutcast creation.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "spide-r"
             }
           }
@@ -195216,9 +195340,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "a44da2fd4dbcf13dfffa973d30c505e0187da13b",
-          "TimeBuilt": "2026-03-21T13:23:49.0399708+00:00",
-          "EffectiveVersion": "1.2.2.5",
+          "BuiltCommit": "15868ee0cde0c3dc1593f9b0806721c0c5cce78e",
+          "TimeBuilt": "2026-03-22T19:30:26.0542186+00:00",
+          "EffectiveVersion": "1.2.2.6",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -198699,6 +198823,46 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.2.6": {
+              "TimeReleased": "2026-03-22T19:30:26.0542204+00:00",
+              "Changelog": "Add System Config SearchBar - adds a search bar to the System Config menu to help you more easily find config entries.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "33dc5b07cc65b95cefef51d4896a24e9ed4ecec3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
@@ -276292,6 +276456,13 @@
       "Version": "5.0.1",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-03-21T19:28:53.4890322Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "33dc5b07cc65b95cefef51d4896a24e9ed4ecec3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-03-22T19:30:26.1178255Z"
     }
   ]
 }
