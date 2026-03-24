@@ -508,7 +508,7 @@
     "Author": "Sohtoren",
     "Name": "Altoholic",
     "InternalName": "Altoholic",
-    "AssemblyVersion": "1.8.5.0",
+    "AssemblyVersion": "1.9.3.0",
     "Description": "Get informations (gils, currencies,  items, inventory, retainers, etc) and progress from all your characters",
     "ApplicableVersion": "any",
     "Tags": [
@@ -529,7 +529,7 @@
     "TestingAssemblyVersion": "1.7.7.0",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1772580172",
+    "LastUpdate": "1774296448",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/Altoholic/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Altoholic/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Altoholic/latest.zip"
@@ -8906,7 +8906,7 @@
     "Author": "MidoriKami",
     "Name": "VanillaPlus",
     "InternalName": "VanillaPlus",
-    "AssemblyVersion": "1.2.2.6",
+    "AssemblyVersion": "1.2.2.7",
     "Description": "This plugin is primarily focused on various UI adjustments, behavior adjustments, and adding new native elements to the game",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/MidoriKami/VanillaPlus",
@@ -8926,7 +8926,7 @@
     "TestingAssemblyVersion": "1.0.7.7",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1774207835",
+    "LastUpdate": "1774296108",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/VanillaPlus/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/VanillaPlus/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/VanillaPlus/latest.zip"
