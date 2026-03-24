@@ -195340,9 +195340,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "15868ee0cde0c3dc1593f9b0806721c0c5cce78e",
-          "TimeBuilt": "2026-03-22T19:30:26.0542186+00:00",
-          "EffectiveVersion": "1.2.2.6",
+          "BuiltCommit": "b3704f3fc9a94e836d7546fb57002f9592f1e73e",
+          "TimeBuilt": "2026-03-23T20:01:44.31708+00:00",
+          "EffectiveVersion": "1.2.2.7",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -198864,6 +198864,46 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
+            },
+            "1.2.2.7": {
+              "TimeReleased": "2026-03-23T20:01:44.3171295+00:00",
+              "Changelog": "Currency Warning - Add option to allow showing in duties",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "33dc5b07cc65b95cefef51d4896a24e9ed4ecec3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -200036,9 +200076,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "9e2fcd60fe2cf082f73e8267492f35eaa9d7eb7b",
-          "TimeBuilt": "2026-03-03T23:22:45.3009685+00:00",
-          "EffectiveVersion": "1.8.5.0",
+          "BuiltCommit": "54fdf2c5b139fbdc3cf915099e3081441c1e364d",
+          "TimeBuilt": "2026-03-23T20:07:21.8106032+00:00",
+          "EffectiveVersion": "1.9.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -200620,6 +200660,50 @@
             "1.8.5.0": {
               "TimeReleased": "2026-03-03T23:22:45.3009701+00:00",
               "Changelog": "- **Collection**: Update facewear\n- **Progress**: Update Hildibrant\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.9.3.0": {
+              "TimeReleased": "2026-03-23T20:07:21.8106388+00:00",
+              "Changelog": "- **General**: Add backup cleanup\n- **Progress**: Add Hatching-tide 2026\n- **Timers**: Raids\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
