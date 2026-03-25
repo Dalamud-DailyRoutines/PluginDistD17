@@ -195340,9 +195340,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "b3704f3fc9a94e836d7546fb57002f9592f1e73e",
-          "TimeBuilt": "2026-03-23T20:01:44.31708+00:00",
-          "EffectiveVersion": "1.2.2.7",
+          "BuiltCommit": "679639433b4bf62ba4adda73577d6b9822171224",
+          "TimeBuilt": "2026-03-24T19:57:50.1514508+00:00",
+          "EffectiveVersion": "1.2.2.8",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -198868,6 +198868,46 @@
             "1.2.2.7": {
               "TimeReleased": "2026-03-23T20:01:44.3171295+00:00",
               "Changelog": "Currency Warning - Add option to allow showing in duties",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "33dc5b07cc65b95cefef51d4896a24e9ed4ecec3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.2.8": {
+              "TimeReleased": "2026-03-24T19:57:50.1515209+00:00",
+              "Changelog": "Fix translations breaking sort order on certain windows.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
