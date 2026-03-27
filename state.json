@@ -202898,6 +202898,54 @@
               "Submitter": "rail2025"
             }
           }
+        },
+        "TotalLevelPlugin": {
+          "BuiltCommit": "2a6849f4feedcb976073741faaac6b4ceff6eaf5",
+          "TimeBuilt": "2026-03-27T07:44:14.4234629+00:00",
+          "EffectiveVersion": "0.0.0.3",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.3": {
+              "TimeReleased": "2026-03-27T07:44:14.4234654+00:00",
+              "Changelog": "Adds a suffix to the Character\u0027s Name in the Search Info panel totaling the level of their jobs/classes, similar to Runescape.\n\nVersion 0.0.0.3:\n - Feat: Added a Context Menu entry on player right click to open their Search Info.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "meoiswa"
+            }
+          }
+        },
+        "SteamRecordingEnhanced": {
+          "BuiltCommit": "690b37401cca497f5d3a17df41748581a729221e",
+          "TimeBuilt": "2026-03-27T07:44:22.3182896+00:00",
+          "EffectiveVersion": "0.1.2.8",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.2.8": {
+              "TimeReleased": "2026-03-27T07:44:22.3182913+00:00",
+              "Changelog": "Initial release!\n\nSteam Recording Enhanced is a plugin that integrates with Steam Game Recording feature to automatically add various in-game events to your recording timeline as markers for easy cliping and rewinding.\nSetup instruction for non-steam users included.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "RokasKil"
+            }
+          }
         }
       }
     },
@@ -253583,46 +253631,6 @@
               ],
               "Reviewer": "Critical-Impact",
               "Submitter": "s5bug"
-            }
-          }
-        },
-        "TotalLevelPlugin": {
-          "BuiltCommit": "2a6849f4feedcb976073741faaac6b4ceff6eaf5",
-          "TimeBuilt": "2026-02-10T00:00:00.1475176+00:00",
-          "EffectiveVersion": "0.0.0.3",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "0.0.0.2": {
-              "TimeReleased": "2026-01-07T07:03:23.3143571+00:00",
-              "Changelog": "- Adds a suffix to the Character\u0027s Name in the Search Info panel totaling the level of their jobs/classes, similar to Runescape.\nIt is done entirely with values available in the SocialDetailB Addon, by reading the text fields used to display the levels of each job individually.\n\nVersion 0.0.0.2:\n - Update to API14\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "Critical-Impact",
-              "Submitter": "meoiswa"
-            },
-            "0.0.0.3": {
-              "TimeReleased": "2026-02-10T00:00:00.1475737+00:00",
-              "Changelog": "Adds a suffix to the Character\u0027s Name in the Search Info panel totaling the level of their jobs/classes, similar to Runescape.\n\nVersion 0.0.0.3:\n - Feat: Added a Context Menu entry on player right click to open their Search Info.\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "reiichi001",
-              "Submitter": "meoiswa"
             }
           }
         },
