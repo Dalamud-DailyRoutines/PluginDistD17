@@ -574,7 +574,7 @@
     "Author": "Sohtoren",
     "Name": "Altoholic",
     "InternalName": "Altoholic",
-    "AssemblyVersion": "1.9.3.0",
+    "AssemblyVersion": "1.9.5.0",
     "Description": "Get informations (gils, currencies,  items, inventory, retainers, etc) and progress from all your characters",
     "ApplicableVersion": "any",
     "Tags": [
@@ -595,7 +595,7 @@
     "TestingAssemblyVersion": "1.7.7.0",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1774296448",
+    "LastUpdate": "1774733861",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/Altoholic/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Altoholic/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Altoholic/latest.zip"
@@ -4014,7 +4014,7 @@
     "Author": "Anna, Caitlyn",
     "Name": "Glamaholic",
     "InternalName": "Glamaholic",
-    "AssemblyVersion": "1.13.0.0",
+    "AssemblyVersion": "1.14.0.0",
     "Description": "Create and save as many glamour plates as you want. Activate up to 15 of them\nat once at the Glamour Dresser. Supports exporting and importing plates for\neasy sharing.\n",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/caitlyn-gg/Glamaholic",
@@ -4031,7 +4031,7 @@
     "TestingAssemblyVersion": "1.10.9.0",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1768850845",
+    "LastUpdate": "1774733861",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/Glamaholic/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Glamaholic/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Glamaholic/latest.zip"
@@ -4516,8 +4516,8 @@
     "Author": "Nylfae",
     "Name": "Hyperfocus",
     "InternalName": "Hyperfocus",
-    "AssemblyVersion": "0.1.1.0",
-    "Description": "Out of sight, still in mind.",
+    "AssemblyVersion": "0.1.1.1",
+    "Description": "Points towards your targets when they're off-screen.",
     "ApplicableVersion": "any",
     "Tags": [
       "target"
@@ -4533,7 +4533,7 @@
     "_Dip17Channel": "stable",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdate": "1766143242",
+    "LastUpdate": "1774733861",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/Hyperfocus/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Hyperfocus/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Hyperfocus/latest.zip"
@@ -9057,7 +9057,7 @@
     "Author": "MidoriKami",
     "Name": "VanillaPlus",
     "InternalName": "VanillaPlus",
-    "AssemblyVersion": "1.2.2.8",
+    "AssemblyVersion": "1.2.3.1",
     "Description": "This plugin is primarily focused on various UI adjustments, behavior adjustments, and adding new native elements to the game",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/MidoriKami/VanillaPlus",
@@ -9077,7 +9077,7 @@
     "TestingAssemblyVersion": "1.0.7.7",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1774382274",
+    "LastUpdate": "1774739561",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/VanillaPlus/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/VanillaPlus/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/VanillaPlus/latest.zip"
