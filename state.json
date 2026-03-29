@@ -662,9 +662,9 @@
           }
         },
         "Glamaholic": {
-          "BuiltCommit": "30542e1b1e1b4d41db78996695964b6f2b2b8d93",
-          "TimeBuilt": "2026-01-19T19:26:28.4080103+00:00",
-          "EffectiveVersion": "1.13.0.0",
+          "BuiltCommit": "a208e84fc3328178bed48065d0df23fd2b5fd1c6",
+          "TimeBuilt": "2026-03-28T21:37:27.5710529+00:00",
+          "EffectiveVersion": "1.14.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.9.8.0": {
@@ -1057,6 +1057,34 @@
                 {
                   "Key": "https://github.com/Ottermandias/Glamourer.Api.git",
                   "Version": "5b6730d46f17bdd02a441e23e2141576cf7acf53"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "caitlyn-gg"
+            },
+            "1.14.0.0": {
+              "TimeReleased": "2026-03-28T21:37:27.5710539+00:00",
+              "Changelog": "- The \u0027(Dye)\u0027 suffix is now present in clipboard exports for better interop with other plugins (thanks @SubaruYashiro)\n- Added folder selection to plate creation (thanks @firstmagic)\n  - \u0027New Plate\u0027 button now allows picking a folder to create the plate in\n  - Clipboard and EC imports now allow picking a folder to create the plate in\n  - TryOn/Examine dropdowns now allow picking a folder to create the plate in\n- You can now move plates into folders via the right-click context menu in the list (thanks @firstmagic)\n\nFor troubleshooting, please enable Troubleshooting mode (Settings -\u003E Troubleshooting mode), reproduce the issue, then post any log line from \u0060/xllog\u0060 starting with \u0060[Troubleshooting]\u0060. Thanks!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/Glamourer.Api.git",
+                  "Version": "941dc7e1da694127a4405f4888ae162133131268"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -195592,9 +195620,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "679639433b4bf62ba4adda73577d6b9822171224",
-          "TimeBuilt": "2026-03-24T19:57:50.1514508+00:00",
-          "EffectiveVersion": "1.2.2.8",
+          "BuiltCommit": "ddba2fc7bfaae49ba8565c2c7263f485ac32587c",
+          "TimeBuilt": "2026-03-28T23:12:37.9547534+00:00",
+          "EffectiveVersion": "1.2.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -199196,6 +199224,86 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
+            },
+            "1.2.3.0": {
+              "TimeReleased": "2026-03-28T21:40:52.9218491+00:00",
+              "Changelog": "Usual stuff, some bugfixes, some new features. Enjoy.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "7b078903ea4b85058860fca0583ca5adabd5cdf4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.3.1": {
+              "TimeReleased": "2026-03-28T23:12:37.9547987+00:00",
+              "Changelog": "nofranz\r\n\r\nFix seasonal event trigger being backwards.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "207c4097e40673e4d3ef5b945cbeddf441a4af8b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "goaaats",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -200220,9 +200328,9 @@
           }
         },
         "Hyperfocus": {
-          "BuiltCommit": "358885ec280bdb0d1779c631575ec48171681c0b",
-          "TimeBuilt": "2025-12-19T11:18:19.4652126+00:00",
-          "EffectiveVersion": "0.1.1.0",
+          "BuiltCommit": "9494d683cc26f7477894715b480e0e231af48322",
+          "TimeBuilt": "2026-03-28T21:37:34.6726651+00:00",
+          "EffectiveVersion": "0.1.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -200248,6 +200356,22 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Exter-N"
+            },
+            "0.1.1.1": {
+              "TimeReleased": "2026-03-28T21:37:34.6726679+00:00",
+              "Changelog": "Fix that description",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -200368,9 +200492,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "54fdf2c5b139fbdc3cf915099e3081441c1e364d",
-          "TimeBuilt": "2026-03-23T20:07:21.8106032+00:00",
-          "EffectiveVersion": "1.9.3.0",
+          "BuiltCommit": "13080b74cfb8bfafc81950738f874bcbac960db3",
+          "TimeBuilt": "2026-03-28T21:37:17.0598018+00:00",
+          "EffectiveVersion": "1.9.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -200996,6 +201120,50 @@
             "1.9.3.0": {
               "TimeReleased": "2026-03-23T20:07:21.8106388+00:00",
               "Changelog": "- **General**: Add backup cleanup\n- **Progress**: Add Hatching-tide 2026\n- **Timers**: Raids\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.9.5.0": {
+              "TimeReleased": "2026-03-28T21:37:17.0598429+00:00",
+              "Changelog": "- **General**: Fix database creation for new install\n- **Progress**:\n    - Add Moogle trove of Aphorism\n    - Add event rewards list when clicking on event name (Hatching hide 2026 only, will be retroactively updated)\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -277154,6 +277322,27 @@
       "Version": "2.12.0",
       "ReviewedBy": "Critical-Impact",
       "ReviewedAt": "2026-03-26T11:23:56.7711138Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Ottermandias/Glamourer.Api.git",
+      "Version": "941dc7e1da694127a4405f4888ae162133131268",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-03-28T21:37:27.6319169Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "7b078903ea4b85058860fca0583ca5adabd5cdf4",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-03-28T21:40:52.9893583Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "207c4097e40673e4d3ef5b945cbeddf441a4af8b",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2026-03-28T23:12:38.0313196Z"
     }
   ]
 }
