@@ -195620,9 +195620,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "ddba2fc7bfaae49ba8565c2c7263f485ac32587c",
-          "TimeBuilt": "2026-03-28T23:12:37.9547534+00:00",
-          "EffectiveVersion": "1.2.3.1",
+          "BuiltCommit": "da0b10c960e29249bb67e4146946e7394f3829da",
+          "TimeBuilt": "2026-04-01T00:44:52.3038092+00:00",
+          "EffectiveVersion": "1.2.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -199272,6 +199272,46 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "207c4097e40673e4d3ef5b945cbeddf441a4af8b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "goaaats",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.4.0": {
+              "TimeReleased": "2026-04-01T00:44:52.3038519+00:00",
+              "Changelog": "Made certain features actually disable properly.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "ef8f0ffa23db07ae055482faacfe72ce16ab82d0"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -277343,6 +277383,13 @@
       "Version": "207c4097e40673e4d3ef5b945cbeddf441a4af8b",
       "ReviewedBy": "goaaats",
       "ReviewedAt": "2026-03-28T23:12:38.0313196Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "ef8f0ffa23db07ae055482faacfe72ce16ab82d0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2026-04-01T00:44:52.3717382Z"
     }
   ]
 }
