@@ -4358,7 +4358,7 @@
     "Author": "MidoriKami",
     "Name": "HUDUnlimited",
     "InternalName": "HUDUnlimited",
-    "AssemblyVersion": "1.2.0.0",
+    "AssemblyVersion": "1.2.0.3",
     "Description": "Allows you to modify any and all individual elements of the user interface to allow you to customize it however you wish",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/MidoriKami/HUDUnlimited",
@@ -4382,7 +4382,7 @@
     "TestingAssemblyVersion": "1.1.2.4",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1766184845",
+    "LastUpdate": "1775092964",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/HUDUnlimited/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/HUDUnlimited/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/HUDUnlimited/latest.zip"
