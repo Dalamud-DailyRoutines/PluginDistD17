@@ -83498,9 +83498,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "b60ff6aa65d7c13d1008b5bb745d2c303b21ff06",
-          "TimeBuilt": "2026-03-07T20:19:58.1372706+00:00",
-          "EffectiveVersion": "6.0.1.1",
+          "BuiltCommit": "d6522a26c87942fd748e980d53c6c00becd3c7cd",
+          "TimeBuilt": "2026-04-01T13:29:50.8645629+00:00",
+          "EffectiveVersion": "6.0.1.4",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -84945,6 +84945,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.1.4": {
+              "TimeReleased": "2026-04-01T13:29:50.8645644+00:00",
+              "Changelog": "Fix todolist and timers not showing sometimes",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "207c4097e40673e4d3ef5b945cbeddf441a4af8b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MidoriKami"
             }
           }
@@ -110048,9 +110072,9 @@
           "Changelogs": {}
         },
         "WhosTalking": {
-          "BuiltCommit": "cdabcd06c857ff46e6a0dd2a6e15c0e44484ccbe",
-          "TimeBuilt": "2026-01-12T04:52:47.6607538+00:00",
-          "EffectiveVersion": "0.8.8.0",
+          "BuiltCommit": "3752d7ce5925466e1880835a25e9bd1689718f40",
+          "TimeBuilt": "2026-04-01T13:30:00.1560295+00:00",
+          "EffectiveVersion": "0.8.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.6.7.0": {
@@ -110329,6 +110353,38 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "keysmashes"
+            },
+            "0.8.9.0": {
+              "TimeReleased": "2026-04-01T13:30:00.1560341+00:00",
+              "Changelog": "Voice indicators should now hide properly when hiding the game UI.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2022.3.1"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "keysmashes"
             }
           }
@@ -178036,9 +178092,9 @@
           }
         },
         "CWLSLastSeenTool": {
-          "BuiltCommit": "5c41fca65e2ff47f49aca86196b03fe6bb6bb735",
-          "TimeBuilt": "2025-12-28T15:36:23.493167+00:00",
-          "EffectiveVersion": "1.1.6.1",
+          "BuiltCommit": "a9946dc3f02f4bcc5bf25cc2b7959d6f843983d7",
+          "TimeBuilt": "2026-04-01T20:47:52.308679+00:00",
+          "EffectiveVersion": "1.2.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.2.1": {
@@ -178107,6 +178163,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "radax864"
+            },
+            "1.2.0.1": {
+              "TimeReleased": "2026-04-01T20:47:52.3087274+00:00",
+              "Changelog": "Version 1.2.0.1\r\n\r\n- Added support for regular/home world linkshells.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "radax864"
             }
           }
@@ -195620,9 +195692,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "da0b10c960e29249bb67e4146946e7394f3829da",
-          "TimeBuilt": "2026-04-01T00:44:52.3038092+00:00",
-          "EffectiveVersion": "1.2.4.0",
+          "BuiltCommit": "f68f567f9be147f04ae33f7c7103d8ff3756c571",
+          "TimeBuilt": "2026-04-01T20:48:06.2952706+00:00",
+          "EffectiveVersion": "1.2.4.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -199344,6 +199416,46 @@
               ],
               "Reviewer": "goaaats",
               "Submitter": "MidoriKami"
+            },
+            "1.2.4.1": {
+              "TimeReleased": "2026-04-01T20:48:06.2952719+00:00",
+              "Changelog": "Fix seasonal events not triggering correctly.\r\n\r\nSorry folks, this one will probably be too late.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "ef8f0ffa23db07ae055482faacfe72ce16ab82d0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -200532,9 +200644,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "13080b74cfb8bfafc81950738f874bcbac960db3",
-          "TimeBuilt": "2026-03-28T21:37:17.0598018+00:00",
-          "EffectiveVersion": "1.9.5.0",
+          "BuiltCommit": "1e5d45c1491396f20776933869a33eae6a2cc02d",
+          "TimeBuilt": "2026-04-01T13:29:38.5810218+00:00",
+          "EffectiveVersion": "1.9.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -201243,6 +201355,50 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.9.7.0": {
+              "TimeReleased": "2026-04-01T13:29:38.5810624+00:00",
+              "Changelog": "- **Progress**:\n    * Add missing bucket minion\n    * Add total required tomes for Moogle trove of Aphorism\n    * Change total tomestone a character has in total line to total required tomestone per character taking into account already owned rewards. Value of currently owned tomestone is now put on mousehover tooltip\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Sohtoren"
             }
           }
@@ -218016,9 +218172,9 @@
           }
         },
         "WhosTalking": {
-          "BuiltCommit": "cdabcd06c857ff46e6a0dd2a6e15c0e44484ccbe",
-          "TimeBuilt": "2025-12-20T21:43:45.5443495+00:00",
-          "EffectiveVersion": "0.8.8.0",
+          "BuiltCommit": "3752d7ce5925466e1880835a25e9bd1689718f40",
+          "TimeBuilt": "2026-04-01T13:30:17.9448023+00:00",
+          "EffectiveVersion": "0.8.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -218525,6 +218681,38 @@
                 }
               ],
               "Reviewer": "goaaats",
+              "Submitter": "keysmashes"
+            },
+            "0.8.9.0": {
+              "TimeReleased": "2026-04-01T13:30:17.9448037+00:00",
+              "Changelog": "Voice indicators should now hide properly when hiding the game UI.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2022.3.1"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "keysmashes"
             }
           }
@@ -246267,9 +246455,9 @@
           }
         },
         "ArchipelagoXIV": {
-          "BuiltCommit": "936efa78fa1a448ccc1cc5fd14a134c49e8a0024",
-          "TimeBuilt": "2025-12-31T18:02:44.5432425+00:00",
-          "EffectiveVersion": "0.26.0.0",
+          "BuiltCommit": "b8ca9bf7713df6823b9fa5a0d18b8f8da5b1b58e",
+          "TimeBuilt": "2026-04-01T20:48:16.525632+00:00",
+          "EffectiveVersion": "0.27.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.19.5.0": {
@@ -246426,6 +246614,26 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "silasary"
+            },
+            "0.27.0.0": {
+              "TimeReleased": "2026-04-01T20:48:16.5256332+00:00",
+              "Changelog": "Added A Merchant\u0027s Tale, and fixed a couple of edge-case null-reference bugs.",
+              "UsedNeeds": [
+                {
+                  "Key": "Archipelago.MultiClient.Net",
+                  "Version": "6.6.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "silasary"
             }
           }
@@ -253883,9 +254091,9 @@
           }
         },
         "LapCatCounter": {
-          "BuiltCommit": "b7dcbc5cce591b77741a6b413bb114b685c748ea",
-          "TimeBuilt": "2026-03-21T13:24:02.6152152+00:00",
-          "EffectiveVersion": "1.0.22.0",
+          "BuiltCommit": "45e6e12cc21a5e76dbab5b70283bb57d7027ef0c",
+          "TimeBuilt": "2026-04-01T13:30:08.827823+00:00",
+          "EffectiveVersion": "1.0.24.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.19.0": {
@@ -253950,6 +254158,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "ImOv3rburdened"
+            },
+            "1.0.24.0": {
+              "TimeReleased": "2026-04-01T13:30:08.8278243+00:00",
+              "Changelog": "v1.0.24 - Fixed loops detection pickign the wrongg emotes for lap detection, i.e. usign wringhands and someone sat on you would trigger thinking you were the original sitting lap.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "ImOv3rburdened"
             }
           }
@@ -255471,6 +255695,42 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "GayPotatoEmma"
+            }
+          }
+        },
+        "FFXIV.Venues.Directory": {
+          "BuiltCommit": "3517d7221c138c418559b6abb3c818d6922afd8c",
+          "TimeBuilt": "2026-04-02T00:49:24.735485+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-04-02T00:49:24.7355245+00:00",
+              "Changelog": "## Add FFXIV Venues Directory (testing)\n\nThis PR adds FFXIV Venues Directory to the testing track.\n\n### What the plugin does\n\nFFXIV Venues Directory is an in-game browser for RP/community housing venues in FFXIV.\nIt provides a two-pane UI (list \u002B details) with live refresh, filtering, sorting, and quick actions.\n\n### Main features\n\n- Search venues by name, description text, and tags.\n- Filter venues by region, data center, world, open now, SFW/NSFW, favorites, visited, and house size (apartment/small/medium/large).\n- Sort the table by Venue, Address, Size, and Status.\n- View detailed venue cards with formatted address, schedule, tags, banner, and external links.\n- Support multi-location addresses and apartment parsing.\n- Clickable links detected inside venue descriptions.\n- One-click copy address.\n- Per-venue favorite and visited actions.\n- Optional visit action shown only when a compatible third-party plugin is installed and enabled.\n- Open via \u0060/ffxivvenues\u0060 and plugin UI callbacks.\n\n### Data source\n\n- \u0060https://api.ffxivvenues.com/v1/venue?approved=true\u0060\n- \u0060https://api.ffxivvenues.com/v1/venue/{venueId}/media\u0060 (fallback banner endpoint)\n\n### In-game data handling\n\n- Venue list is fetched at runtime and cached in memory for the current session.\n- Banner textures are loaded on demand and cached in memory.\n- User preference state is stored in plugin config (\u0060FavoriteVenueIds\u0060, \u0060VisitedVenueIds\u0060).\n- Venue dataset is not persisted as a local database.\n- House size resolution uses in-game housing data at runtime.\n\n### Content labels\n\n- SFW/NSFW filtering follows API \u0060sfw\u0060.\n- Warning panel reflects venue content markers, including adult-services warning cases.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "TimeZoneConverter",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "AEBus"
             }
           }
         }
@@ -277390,6 +277650,13 @@
       "Version": "ef8f0ffa23db07ae055482faacfe72ce16ab82d0",
       "ReviewedBy": "goaaats",
       "ReviewedAt": "2026-04-01T00:44:52.3717382Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TimeZoneConverter",
+      "Version": "6.1.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-02T00:49:24.807542Z"
     }
   ]
 }
