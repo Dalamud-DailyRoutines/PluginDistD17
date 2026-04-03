@@ -255757,6 +255757,30 @@
               "Submitter": "AEBus"
             }
           }
+        },
+        "WukLamark": {
+          "BuiltCommit": "a205199e75406add43d7c48a793e0a5a8c8d9c09",
+          "TimeBuilt": "2026-04-03T02:36:31.0470104+00:00",
+          "EffectiveVersion": "1.0.2.2",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.2.2": {
+              "TimeReleased": "2026-04-03T02:36:31.0470545+00:00",
+              "Changelog": "**Initial release of WukLamark to \u0027testing/live\u0027**\n## What\u0027s New\n- Create and manage custom waymarks that display visibly on both the Main Map and Minimap.\n- Highly customizable markers: Use simple shapes (with custom colors) or pick from hundreds of in-game icons.\n- Waymark Groups: Organize your waymarks into nested, collapsible categories.\n- Waymark/Group Scopes: Designate waymarks and/or groups as \u0022Personal\u0022 (locked to your specific character) or \u0022Shared\u0022 (visible to all characters that log in on your PC).\n- Read-Only Waymarks/Groups (for Shared Waymarks/Groups): Protect shared waymarks and groups as \u0022Read-Only\u0022 so you (or someone else) don\u0027t accidentally edit or delete them!\n- Import/Export: Easy clipboard sharing to distribute groups of waymarks to your friends.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            }
+          }
         }
       }
     },
