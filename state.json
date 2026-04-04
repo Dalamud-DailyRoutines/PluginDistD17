@@ -83498,9 +83498,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "d6522a26c87942fd748e980d53c6c00becd3c7cd",
-          "TimeBuilt": "2026-04-01T13:29:50.8645629+00:00",
-          "EffectiveVersion": "6.0.1.4",
+          "BuiltCommit": "afdf5c82c6fc57d12a5dca47770cecc24fdc20e9",
+          "TimeBuilt": "2026-04-03T18:34:01.6093264+00:00",
+          "EffectiveVersion": "6.0.1.7",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -84969,6 +84969,30 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.1.7": {
+              "TimeReleased": "2026-04-03T18:34:01.6093674+00:00",
+              "Changelog": "nofranz\r\n\r\nSystem upgrades, and CI test.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "c9a0cd69e9fcb4c7960e96f778af58608ba0411f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -255759,9 +255783,9 @@
           }
         },
         "WukLamark": {
-          "BuiltCommit": "a205199e75406add43d7c48a793e0a5a8c8d9c09",
-          "TimeBuilt": "2026-04-03T02:36:31.0470104+00:00",
-          "EffectiveVersion": "1.0.2.2",
+          "BuiltCommit": "55aa53508f546e362c35ef1cbc179b041944db59",
+          "TimeBuilt": "2026-04-03T13:52:45.8556705+00:00",
+          "EffectiveVersion": "1.0.2.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.2": {
@@ -255779,6 +255803,134 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Bronya-Rand"
+            },
+            "1.0.2.3": {
+              "TimeReleased": "2026-04-03T13:52:45.8557455+00:00",
+              "Changelog": "**WukLamark 1.0.2.3 Changelog**\n## What\u0027s New\n- Renamed all mentions of \u0027Waymark\u0027 to \u0027Map Marker\u0027/\u0027Marker\u0027 to avoid confusion with XIV\u0027s waymark system.\n\u003E I only realized this existed. Sorry to those who thought this was for raiding purposes or whatnot :(\n\n- Added a \u0027All Icons\u0027 tab to search every icon versus per tab.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "Bronya-Rand"
+            }
+          }
+        },
+        "GearsetSort": {
+          "BuiltCommit": "64c2b4f6c1e04a6a904908d123757b017533db17",
+          "TimeBuilt": "2026-04-03T19:50:14.5569339+00:00",
+          "EffectiveVersion": "0.0.6.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.6.1": {
+              "TimeReleased": "2026-04-03T19:50:14.5569776+00:00",
+              "Changelog": "A clean interface that shows the user\u0027s gearsets in a scrollable table, where gearsets can be rearranged by drag and drop. Once the user is happy with the order of their gearsets, they can click apply to change them in game. The sorter has two methods: insert and swap. The mode method can be changed by clicking the button showing the mode.\r\n\r\nAlso has a window to preview the gearset. Shows the name of the gearsets, item level, items in gearset and attached materia. Once a user selects a gearset it\u0027ll show in the preview block, where they can select \u0022Equip\u0022 to equip the gearset or \u0022Update\u0022 (user must hold Left Ctrl to access) to apply currently equipped gear to the selected gearset.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Ryan-RH"
+            }
+          }
+        },
+        "SimpleTriggers": {
+          "BuiltCommit": "6f1779aba3a82837fead19f1fb0e4ca74ff31af1",
+          "TimeBuilt": "2026-04-03T19:56:40.5131135+00:00",
+          "EffectiveVersion": "0.3.2.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.3.2.0": {
+              "TimeReleased": "2026-04-03T19:56:40.513169+00:00",
+              "Changelog": "- v0.1.0 - Initial public release\n- v0.2.0 - Triggers structure rework. Allowed grouping triggers into parent categories. Includes suggested fixes to the codebase.\n- v0.2.1 - Removed restrictions on the \u0022Default\u0022 category (it was dumb).\n- v0.2.2 - Replaced Serilog with IPluginLog. Also dependency fixes.\n- v0.2.4 - Includes fixes from KokoroSharp for correctly setting the TTS volume in Windows.\n- v0.3.0 - Import/Export triggers, Remove categories option, Config data update. Kokoro language selection, WinSpeech speed selection.\n- v0.3.2 - Minor fixes to chat sanitization. English IPA dictionary loads async.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Brolijah"
             }
           }
         }
@@ -277712,6 +277864,34 @@
       "Version": "d16530ceae401d0480d85b3b6af3460fe19492fb",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-04-02T01:22:41.1515708Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "c9a0cd69e9fcb4c7960e96f778af58608ba0411f",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-03T18:34:01.6734752Z"
+    },
+    {
+      "Type": 1,
+      "Key": "KokoroSharp.CPU",
+      "Version": "0.6.6",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-03T19:56:40.5775416Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Speech",
+      "Version": "10.0.5",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-03T19:56:40.5775797Z"
+    },
+    {
+      "Type": 1,
+      "Key": "KokoroSharp",
+      "Version": "0.6.6",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-03T19:56:40.5775801Z"
     }
   ]
 }
