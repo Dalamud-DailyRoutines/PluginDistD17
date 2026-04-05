@@ -11240,9 +11240,9 @@
           }
         },
         "NoTankYou": {
-          "BuiltCommit": "d95307515b2a5ed7933adc72044b0b625b12110b",
-          "TimeBuilt": "2026-03-13T20:26:15.5934324+00:00",
-          "EffectiveVersion": "7.4.0.8",
+          "BuiltCommit": "c2ee25182b19939b6e1094b4d1562cef59fc296a",
+          "TimeBuilt": "2026-04-05T03:45:28.3232345+00:00",
+          "EffectiveVersion": "7.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "7.1.0.2": {
@@ -12459,6 +12459,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "7.4.1.0": {
+              "TimeReleased": "2026-04-05T03:45:28.323289+00:00",
+              "Changelog": "nofranz\r\n\r\nupdate KTK",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "c9a0cd69e9fcb4c7960e96f778af58608ba0411f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "MidoriKami"
             }
           }
@@ -255823,9 +255847,9 @@
           }
         },
         "FFXIV.Venues.Directory": {
-          "BuiltCommit": "3517d7221c138c418559b6abb3c818d6922afd8c",
-          "TimeBuilt": "2026-04-02T00:49:24.735485+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "010c51ed5fe0992e7f0b045ba7e0874c8c803e5f",
+          "TimeBuilt": "2026-04-05T05:02:15.5999022+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -255854,6 +255878,34 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "AEBus"
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2026-04-05T05:02:15.599945+00:00",
+              "Changelog": "This update makes venue browsing easier and cleaner in everyday use.\n\n- Refined the browser layout for a more readable list and detail view.\n- Improved filters and sorting so it is faster to find the venue you want.\n- Better address and action handling for copying details or opening venue links.\n- Schedule display is clearer and easier to follow in your local timezone.\n- General polish across banners, descriptions, and venue details.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "TimeZoneConverter",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "AEBus"
             }
           }
