@@ -256061,6 +256061,122 @@
               "Submitter": "Brolijah"
             }
           }
+        },
+        "Shrinkage": {
+          "BuiltCommit": "5a3db953435e0c927df72ab28e68e38eb301f7ab",
+          "TimeBuilt": "2026-04-06T05:20:15.3808903+00:00",
+          "EffectiveVersion": "0.1.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.1.0": {
+              "TimeReleased": "2026-04-06T05:20:15.380941+00:00",
+              "Changelog": "initial, characters scale size based on hp and barrier",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "mikelosx"
+            }
+          }
+        },
+        "DiscordBotFFXIV": {
+          "BuiltCommit": "3449b664cbfb54e65dd4d400e29e6e0a062cd604",
+          "TimeBuilt": "2026-04-06T05:32:13.9229992+00:00",
+          "EffectiveVersion": "1.1.2.2",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.1.2.2": {
+              "TimeReleased": "2026-04-06T05:32:13.9230415+00:00",
+              "Changelog": "- first release\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetCord",
+                  "Version": "1.0.0-alpha.475"
+                },
+                {
+                  "Key": "NetCord.Hosting",
+                  "Version": "1.0.0-alpha.475"
+                },
+                {
+                  "Key": "NetCord.Hosting.AspNetCore",
+                  "Version": "1.0.0-alpha.475"
+                },
+                {
+                  "Key": "NetCord.Hosting.Services",
+                  "Version": "1.0.0-alpha.475"
+                },
+                {
+                  "Key": "NetCord.Services",
+                  "Version": "1.0.0-alpha.475"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.DataAnnotations",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "devckuw"
+            }
+          }
         }
       }
     },
@@ -278020,6 +278136,69 @@
       "Version": "0.6.6",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-04-03T19:56:40.5775801Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord",
+      "Version": "1.0.0-alpha.475",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-06T05:32:13.996072Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord.Hosting",
+      "Version": "1.0.0-alpha.475",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-06T05:32:13.9961016Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord.Hosting.AspNetCore",
+      "Version": "1.0.0-alpha.475",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-06T05:32:13.9961018Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord.Hosting.Services",
+      "Version": "1.0.0-alpha.475",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-06T05:32:13.996102Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord.Services",
+      "Version": "1.0.0-alpha.475",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-06T05:32:13.9961022Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+      "Version": "10.0.3",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-06T05:32:13.9961028Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+      "Version": "10.0.3",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-06T05:32:13.9961029Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Hosting.Abstractions",
+      "Version": "10.0.3",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-06T05:32:13.9961032Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options.DataAnnotations",
+      "Version": "10.0.3",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-06T05:32:13.9961037Z"
     }
   ]
 }
