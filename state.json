@@ -113882,9 +113882,9 @@
           }
         },
         "GatherBuddy": {
-          "BuiltCommit": "21669fd9854313b6428c9fd71798d5de80a41f64",
-          "TimeBuilt": "2026-02-23T23:35:36.5179261+00:00",
-          "EffectiveVersion": "3.8.5.2",
+          "BuiltCommit": "160d45fe597bf298ec1fc55d4a3afb87e9a6815f",
+          "TimeBuilt": "2026-04-07T18:11:08.955306+00:00",
+          "EffectiveVersion": "3.8.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.4.15926": {
@@ -114780,6 +114780,42 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Ottermandias"
+            },
+            "3.8.6.0": {
+              "TimeReleased": "2026-04-07T18:11:08.9553486+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "ff1e6543845e3b8c53a5f8b240bc38faffb1b3bf"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "49631aab5c267953f9d442546488ea3bfdf52fa7"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Ottermandias"
             }
           }
@@ -203804,9 +203840,9 @@
           }
         },
         "AscianMusicPlayer": {
-          "BuiltCommit": "8d3bc23e25152517d53a3a83d66611704ce49b14",
-          "TimeBuilt": "2026-03-26T10:50:24.4695606+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "03bcec100bb94c1ea495cea15d6b8d3d55cd1168",
+          "TimeBuilt": "2026-04-07T18:11:20.2342223+00:00",
+          "EffectiveVersion": "1.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.2": {
@@ -203927,6 +203963,78 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "GayPotatoEmma"
+            },
+            "1.2.1.0": {
+              "TimeReleased": "2026-04-07T18:11:20.234224+00:00",
+              "Changelog": "## Features\r\n\r\n- Chat bubbles\r\n  - You can now set the lyric display mode to Chat Bubble. This will show the lyrics as chat bubbles above your character as they happen.\r\n    - Chat Bubble style is customizable and you can pick between all the styles available (Linkshell and CW Linkshell styles are limited to (CW)LS 1).\r\n    - If Chat Bubbles are being cut off, consider using the \u0060Increase max line count in chat bubbles\u0060 tweak available in Simple Tweaks.\r\n- Lip syncing\r\n  - You can enable the option for your character to lip sync to the lyrics.\r\n    - This is all done entirely locally so no other players can see the talking animation.\r\n  - You can choose between Whisper, Normal and Shout to change the intensity of the animations.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "TagLibSharp",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinForms",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "GayPotatoEmma"
             }
           }
@@ -256547,9 +256655,9 @@
           }
         },
         "WukLamark": {
-          "BuiltCommit": "55aa53508f546e362c35ef1cbc179b041944db59",
-          "TimeBuilt": "2026-04-03T13:52:45.8556705+00:00",
-          "EffectiveVersion": "1.0.2.3",
+          "BuiltCommit": "26c42034d8132c8808c34d264225b90a4589cb30",
+          "TimeBuilt": "2026-04-08T00:03:27.6918441+00:00",
+          "EffectiveVersion": "1.0.2.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.2": {
@@ -256582,6 +256690,22 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.0.2.4": {
+              "TimeReleased": "2026-04-08T00:03:27.6918942+00:00",
+              "Changelog": "**WukLamark 1.0.2.4 Changelog**\n## What\u0027s New\n\n### Features\n- Added the ability to make a map marker persistent across all worlds/data centers, no matter the world it was created in.\n\u003E To make a marker global, open the WukLamark window, go to the Marker you want to make global, click the edit button and toggle \u0060Visible Across Worlds/DCs\u0060.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Bronya-Rand"
             }
           }
