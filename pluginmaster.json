@@ -2319,10 +2319,10 @@
   },
   {
     "Author": "radax864",
-    "Name": "CWLSLastSeenTool",
+    "Name": "Linkshell Tools",
     "InternalName": "CWLSLastSeenTool",
-    "AssemblyVersion": "1.2.0.1",
-    "Description": "A tool for tracking when CWLS members were last seen online.",
+    "AssemblyVersion": "2.0.0.0",
+    "Description": "Tools to make managing Linkshells and Cross-world Linkshells easier.",
     "ApplicableVersion": "any",
     "Tags": [
       "cwls",
@@ -2334,7 +2334,7 @@
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "Punchline": "A tool for tracking when CWLS members were last seen online.",
+    "Punchline": "Tools to make managing Linkshells and Cross-world Linkshells easier.",
     "AcceptsFeedback": true,
     "_isDip17Plugin": true,
     "_Dip17Channel": "stable",
@@ -2342,7 +2342,7 @@
     "TestingAssemblyVersion": "1.1.2.1",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1775076508",
+    "LastUpdate": "1775611835",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/CWLSLastSeenTool/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CWLSLastSeenTool/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CWLSLastSeenTool/latest.zip"
