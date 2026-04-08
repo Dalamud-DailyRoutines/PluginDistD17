@@ -178820,9 +178820,9 @@
           }
         },
         "CWLSLastSeenTool": {
-          "BuiltCommit": "a9946dc3f02f4bcc5bf25cc2b7959d6f843983d7",
-          "TimeBuilt": "2026-04-01T20:47:52.308679+00:00",
-          "EffectiveVersion": "1.2.0.1",
+          "BuiltCommit": "ac56998775797d6573ea324d44f5c8f1ff388bd9",
+          "TimeBuilt": "2026-04-08T01:30:32.0555067+00:00",
+          "EffectiveVersion": "2.0.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.2.1": {
@@ -178907,6 +178907,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "radax864"
+            },
+            "2.0.0.0": {
+              "TimeReleased": "2026-04-08T01:30:32.0555476+00:00",
+              "Changelog": "Version 2.0.0.0\r\n\r\n- CWLSLastSeenTool has been renamed to Linkshell Tools\r\n- The /cwlslst command has been renamed to /shelltools\r\n- Data recorded has been standardised between Cross-world and Home World Linkshells\r\n- A lot of the plugin has been rewritten to be easier to maintain and extend going forward\r\n- Cross-world Linkshells now properly support multiple data centers by recording the data center alongside the Cross-world Linkshell name\r\n- Fixed CSV corruption when Linkshell names contained commas (data is now stored as tab separated)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "radax864"
             }
           }
