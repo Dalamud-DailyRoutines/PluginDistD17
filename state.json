@@ -203856,9 +203856,9 @@
           }
         },
         "AscianMusicPlayer": {
-          "BuiltCommit": "03bcec100bb94c1ea495cea15d6b8d3d55cd1168",
-          "TimeBuilt": "2026-04-07T18:11:20.2342223+00:00",
-          "EffectiveVersion": "1.2.1.0",
+          "BuiltCommit": "4ee20c3bd97ab9d0485b013a38e1f98ed1d826ba",
+          "TimeBuilt": "2026-04-08T13:53:58.855506+00:00",
+          "EffectiveVersion": "1.2.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.2": {
@@ -204051,6 +204051,78 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "GayPotatoEmma"
+            },
+            "1.2.1.1": {
+              "TimeReleased": "2026-04-08T13:53:58.855548+00:00",
+              "Changelog": "## Fixes\r\n- Unlink lip sync animations from chat bubble display option",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "TagLibSharp",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinForms",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "GayPotatoEmma"
             }
           }
