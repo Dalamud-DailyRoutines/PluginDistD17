@@ -12764,8 +12764,8 @@
     "Author": "Brolijah",
     "Name": "Simple Triggers",
     "InternalName": "SimpleTriggers",
-    "AssemblyVersion": "0.3.2.0",
-    "Description": "This plugin allows you to create custom responses to in-game messages.\nOptions include responding through in-game chat, in-game sound effects, and even Text-to-Speech.",
+    "AssemblyVersion": "0.3.3.3",
+    "Description": "This plugin allows you to create custom triggers to in-game messages.\nOptions include responding through in-game chat, in-game sound effects, and even Text-to-Speech.",
     "ApplicableVersion": "any",
     "Tags": [
       "chat",
@@ -12783,10 +12783,10 @@
     "_isDip17Plugin": true,
     "_Dip17Channel": "testing-live",
     "IsHide": "False",
-    "TestingAssemblyVersion": "0.3.2.0",
+    "TestingAssemblyVersion": "0.3.3.3",
     "IsTestingExclusive": "True",
     "TestingDalamudApiLevel": 14,
-    "LastUpdate": "1775246214",
+    "LastUpdate": "1775755377",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/SimpleTriggers/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/SimpleTriggers/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/SimpleTriggers/latest.zip"
