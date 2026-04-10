@@ -256823,14 +256823,174 @@
           }
         },
         "SimpleTriggers": {
-          "BuiltCommit": "6f1779aba3a82837fead19f1fb0e4ca74ff31af1",
-          "TimeBuilt": "2026-04-03T19:56:40.5131135+00:00",
-          "EffectiveVersion": "0.3.2.0",
+          "BuiltCommit": "3d0997525249ea8c64f25dcd8ac6270c05a7828a",
+          "TimeBuilt": "2026-04-09T17:22:49.4400594+00:00",
+          "EffectiveVersion": "0.3.3.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.2.0": {
               "TimeReleased": "2026-04-03T19:56:40.513169+00:00",
               "Changelog": "- v0.1.0 - Initial public release\n- v0.2.0 - Triggers structure rework. Allowed grouping triggers into parent categories. Includes suggested fixes to the codebase.\n- v0.2.1 - Removed restrictions on the \u0022Default\u0022 category (it was dumb).\n- v0.2.2 - Replaced Serilog with IPluginLog. Also dependency fixes.\n- v0.2.4 - Includes fixes from KokoroSharp for correctly setting the TTS volume in Windows.\n- v0.3.0 - Import/Export triggers, Remove categories option, Config data update. Kokoro language selection, WinSpeech speed selection.\n- v0.3.2 - Minor fixes to chat sanitization. English IPA dictionary loads async.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Brolijah"
+            },
+            "0.3.3.2": {
+              "TimeReleased": "2026-04-09T16:36:10.1155675+00:00",
+              "Changelog": "## Simple Triggers v0.3.3.2\n* TTS audio playback is now handled by a dedicated AudioPlayer class. Need feedback if it causes any issues but should be fine.\n* You can now specify the output device in the Settings tab. Keep in mind it\u0027ll still show as the game in your OS\u0027s volume mixer.\n* Volume is now more customizable, allowing values above 100%. For safety, by default only goes up to 200%, but there\u0027s a checkbox directly under the volume setting which will allow you to go up to 3000% if you *really* feel like you need it. Since TTS volume is tied to the game\u0027s volume in your OS audio settings, this might give you the boost you need if you keep the game volume really, really low.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Brolijah"
+            },
+            "0.3.3.3": {
+              "TimeReleased": "2026-04-09T17:22:49.4401131+00:00",
+              "Changelog": "## Simple Triggers v0.3.3.3\n* TTS audio playback is now handled by a dedicated AudioPlayer class. Need feedback if it causes any issues but should be fine.\n* You can now specify the output device in the Settings tab. Keep in mind it\u0027ll still show as the game in your OS\u0027s volume mixer.\n* Volume is now more customizable, allowing values above 100%. For safety, by default only goes up to 200%, but there\u0027s a checkbox directly under the volume setting which will allow you to go up to 3000% if you *really* feel like you need it. Since TTS volume is tied to the game\u0027s volume in your OS audio settings, this might give you the boost you need if you keep the game volume really, really low.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
