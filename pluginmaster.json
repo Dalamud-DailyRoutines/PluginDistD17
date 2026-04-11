@@ -1749,7 +1749,7 @@
     "Author": "kelvin124124",
     "Name": "ChatTranslated",
     "InternalName": "ChatTranslated",
-    "AssemblyVersion": "3.5.2.1",
+    "AssemblyVersion": "3.5.2.2",
     "Description": "Ingame chat translator.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kelvin124124/ChatTranslated",
@@ -1769,7 +1769,7 @@
     "_Dip17Channel": "stable",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdate": "1773612676",
+    "LastUpdate": "1775827319",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/ChatTranslated/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ChatTranslated/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ChatTranslated/latest.zip"
@@ -1778,7 +1778,7 @@
     "Author": "Infi, Anna",
     "Name": "Chat 2",
     "InternalName": "ChatTwo",
-    "AssemblyVersion": "1.34.4.0",
+    "AssemblyVersion": "1.34.5.0",
     "Description": "Chat 2 is a complete rewrite of the in-game chat window as a plugin.\nIt supports:\n\n- Unlimited tabs\n- Tabs that always send to a certain channel\n- More flexible filtering\n- RGB channel colouring\n- Completely variable font size\n- Sidebar tabs\n- Unread counts\n- Emotes\n- Screenshot mode (obfuscate names)",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Infiziert90/ChatTwo",
@@ -1802,7 +1802,7 @@
     "TestingAssemblyVersion": "1.22.1.0",
     "TestingDalamudApiLevel": 14,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1774207835",
+    "LastUpdate": "1775868048",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/ChatTwo/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ChatTwo/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ChatTwo/latest.zip"
@@ -10971,6 +10971,40 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/DotPosition/latest.zip"
   },
   {
+    "Author": "EuphoricCrashOut",
+    "Name": "DutySpeed",
+    "InternalName": "DutySpeed",
+    "AssemblyVersion": "1.3.4.0",
+    "Description": "A simple speedrun timer for FFXIV duties.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/EuphoricCrashOut/DutySpeed",
+    "Tags": [
+      "timer",
+      "speedrun",
+      "duty"
+    ],
+    "CategoryTags": [
+      "Utility"
+    ],
+    "DalamudApiLevel": 14,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Track your duty completion speeds with ease.",
+    "AcceptsFeedback": true,
+    "_isDip17Plugin": true,
+    "_Dip17Channel": "testing-live",
+    "IsHide": "False",
+    "TestingAssemblyVersion": "1.3.4.0",
+    "IsTestingExclusive": "True",
+    "TestingDalamudApiLevel": 14,
+    "LastUpdate": "1775853011",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/DutySpeed/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/DutySpeed/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/DutySpeed/latest.zip"
+  },
+  {
     "Author": "Pistachio Herald",
     "Name": "Faded Orchestrion Roll Fixer",
     "InternalName": "FadedRollFixer",
@@ -12764,7 +12798,7 @@
     "Author": "Brolijah",
     "Name": "Simple Triggers",
     "InternalName": "SimpleTriggers",
-    "AssemblyVersion": "0.3.3.3",
+    "AssemblyVersion": "0.3.3.4",
     "Description": "This plugin allows you to create custom triggers to in-game messages.\nOptions include responding through in-game chat, in-game sound effects, and even Text-to-Speech.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -12783,10 +12817,10 @@
     "_isDip17Plugin": true,
     "_Dip17Channel": "testing-live",
     "IsHide": "False",
-    "TestingAssemblyVersion": "0.3.3.3",
+    "TestingAssemblyVersion": "0.3.3.4",
     "IsTestingExclusive": "True",
     "TestingDalamudApiLevel": 14,
-    "LastUpdate": "1775755377",
+    "LastUpdate": "1775827319",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/SimpleTriggers/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/SimpleTriggers/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/SimpleTriggers/latest.zip"
