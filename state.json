@@ -126625,9 +126625,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "e788264942f1d28c17949d71900ec86a221a4d14",
-          "TimeBuilt": "2026-03-15T22:10:51.9825172+00:00",
-          "EffectiveVersion": "3.5.2.1",
+          "BuiltCommit": "017c7af4640847df2afbeb485cd79cbf76c5969e",
+          "TimeBuilt": "2026-04-10T13:21:34.1459549+00:00",
+          "EffectiveVersion": "3.5.2.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -127479,6 +127479,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "kelvin124124"
+            },
+            "3.5.2.2": {
+              "TimeReleased": "2026-04-10T13:21:34.1460025+00:00",
+              "Changelog": "Reduced rates of misclassified EN messages\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "SearchPioneer.Lingua",
+                  "Version": "1.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "kelvin124124"
             }
           }
@@ -168027,9 +168051,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "9f7a6267f6cc05326d4639d15081d1ed1c26a12a",
-          "TimeBuilt": "2026-03-22T19:30:12.0001517+00:00",
-          "EffectiveVersion": "1.34.4.0",
+          "BuiltCommit": "df0773ac650e9927832a873a6469750ede8ffcec",
+          "TimeBuilt": "2026-04-11T00:40:41.1061611+00:00",
+          "EffectiveVersion": "1.34.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -170954,6 +170978,102 @@
                 {
                   "Key": "Microsoft.Data.Sqlite",
                   "Version": "9.0.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.34.5.0": {
+              "TimeReleased": "2026-04-11T00:40:41.1062079+00:00",
+              "Changelog": "### History export\r\n- Simple text file export has been added\r\n  - A more advanced and styled HTML version is planned for the near future\r\n  - HowTo: https://discord.com/channels/581875019861328007/1224865018789761126/1492258414980763798\r\n\r\n### Auto translate commands\r\n- As wished by many users, these are now executed similar to how vanilla chat handles them\r\n\r\n### Other\r\n- Empty auto translate entries are now excluded from the list\r\n- Plugin commands also appear in the command helper window\r\n- Early 7.5 prep, all SeString payloads got replaced with ROSS\r\n\r\n\r\n**Important**\r\nThe database implementation will be switched to ROSS for **7.5**, after this point for 2 month an export period will be granted until all support for the old database format will be dropped!\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "morelinq",
+                  "Version": "4.4.0"
                 },
                 {
                   "Key": "Pidgin",
@@ -256823,9 +256943,9 @@
           }
         },
         "SimpleTriggers": {
-          "BuiltCommit": "3d0997525249ea8c64f25dcd8ac6270c05a7828a",
-          "TimeBuilt": "2026-04-09T17:22:49.4400594+00:00",
-          "EffectiveVersion": "0.3.3.3",
+          "BuiltCommit": "5e226cbddf55c90f890101d9f555058cd1f09121",
+          "TimeBuilt": "2026-04-10T13:21:50.6188048+00:00",
+          "EffectiveVersion": "0.3.3.4",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.2.0": {
@@ -257067,6 +257187,86 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Brolijah"
+            },
+            "0.3.3.4": {
+              "TimeReleased": "2026-04-10T13:21:50.6188063+00:00",
+              "Changelog": "## Simple Triggers v0.3.3.4\n* Addresses a COM conflict error when accessing audio device information in Windows.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Brolijah"
             }
           }
         },
@@ -257183,6 +257383,30 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "devckuw"
+            }
+          }
+        },
+        "DutySpeed": {
+          "BuiltCommit": "b227948f54c2af72ed8add8b4817049f1882da27",
+          "TimeBuilt": "2026-04-10T20:30:04.007302+00:00",
+          "EffectiveVersion": "1.3.4.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.3.4.0": {
+              "TimeReleased": "2026-04-10T20:30:04.0073445+00:00",
+              "Changelog": "DutySpeed is a lightweight, automated \u0022speedrun\u0022 timer for Final Fantasy XIV. It tracks the time it took to complete dungeons, trials, and raids without needing to manually start or stop a stopwatch. This would be my first submission attempt! \\o/\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "EuphoricCrashOut"
             }
           }
         }
@@ -279459,6 +279683,13 @@
       "Version": "2.3.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-04-06T19:58:14.9518087Z"
+    },
+    {
+      "Type": 1,
+      "Key": "morelinq",
+      "Version": "4.4.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-04-11T00:40:41.1675432Z"
     }
   ]
 }
