@@ -126625,9 +126625,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "017c7af4640847df2afbeb485cd79cbf76c5969e",
-          "TimeBuilt": "2026-04-10T13:21:34.1459549+00:00",
-          "EffectiveVersion": "3.5.2.2",
+          "BuiltCommit": "93788239202e970bab80c145d4832f045ae6a766",
+          "TimeBuilt": "2026-04-11T20:38:56.8758789+00:00",
+          "EffectiveVersion": "3.5.2.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -127484,6 +127484,30 @@
             "3.5.2.2": {
               "TimeReleased": "2026-04-10T13:21:34.1460025+00:00",
               "Changelog": "Reduced rates of misclassified EN messages\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "SearchPioneer.Lingua",
+                  "Version": "1.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "kelvin124124"
+            },
+            "3.5.2.4": {
+              "TimeReleased": "2026-04-11T20:38:56.8759367+00:00",
+              "Changelog": "Drop messages without 2 consecutive unicode char / 1 CJK char\r\nDrop messages when it\u0027s already in target language\r\nDrop pure links\r\n\r\nFix CustomTargetLanguage option not working\r\n\r\nCondense code\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -256943,9 +256967,9 @@
           }
         },
         "SimpleTriggers": {
-          "BuiltCommit": "5e226cbddf55c90f890101d9f555058cd1f09121",
-          "TimeBuilt": "2026-04-10T13:21:50.6188048+00:00",
-          "EffectiveVersion": "0.3.3.4",
+          "BuiltCommit": "0c2d615ecd36ef6e02b3bf35159ab0d8907dd932",
+          "TimeBuilt": "2026-04-11T20:39:15.0262852+00:00",
+          "EffectiveVersion": "0.3.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.2.0": {
@@ -257191,6 +257215,86 @@
             "0.3.3.4": {
               "TimeReleased": "2026-04-10T13:21:50.6188063+00:00",
               "Changelog": "## Simple Triggers v0.3.3.4\n* Addresses a COM conflict error when accessing audio device information in Windows.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Brolijah"
+            },
+            "0.3.4.0": {
+              "TimeReleased": "2026-04-11T20:39:15.0262872+00:00",
+              "Changelog": "## Simple Triggers v0.3.4.0\n* Rewrote audio player to use WasapiOut to ensure consistency across the project.\n* Various smaller changes with settings tab.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
