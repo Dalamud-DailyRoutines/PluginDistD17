@@ -196728,9 +196728,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "209c34dcf722755bbda10677a198ac7bcf6db330",
-          "TimeBuilt": "2026-04-12T04:02:53.6788838+00:00",
-          "EffectiveVersion": "1.2.4.4",
+          "BuiltCommit": "f7a5b9ac923f63da6296430a566142054515f4c4",
+          "TimeBuilt": "2026-04-13T00:43:01.6304969+00:00",
+          "EffectiveVersion": "1.2.4.6",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -200500,6 +200500,86 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "c92c6e886a2d8b68b58c1216f414557dcb8dd44f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.4.5": {
+              "TimeReleased": "2026-04-12T16:23:07.4287155+00:00",
+              "Changelog": "BetterSelectString - Improves performance for those of the Penguin inclination.\r\nBetterSelectString - Limits to 10 entries\r\nBetterSelectString - Fixed crash with chocobo porters\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "72c1dbafeaa9958bc7a542d5ba4bb97163dd2ca1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.4.6": {
+              "TimeReleased": "2026-04-13T00:43:01.6305348+00:00",
+              "Changelog": "BetterSelectString - Fix text formatting being broken in some windows. (Looking at you housing)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "72c1dbafeaa9958bc7a542d5ba4bb97163dd2ca1"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -279920,6 +280000,13 @@
       "Version": "4.2.3",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-04-12T04:02:53.7522535Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "72c1dbafeaa9958bc7a542d5ba4bb97163dd2ca1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-12T16:23:07.4937062Z"
     }
   ]
 }
