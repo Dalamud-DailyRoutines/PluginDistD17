@@ -181552,9 +181552,9 @@
           }
         },
         "MogMogCheck": {
-          "BuiltCommit": "803e435b281448bf9b38f7aa6dd491d7cf6b1502",
-          "TimeBuilt": "2026-03-26T11:23:56.6880182+00:00",
-          "EffectiveVersion": "3.2.6.0",
+          "BuiltCommit": "4bdacb1b4ffcec1e96932979ff72ddf5f90436ee",
+          "TimeBuilt": "2026-04-14T15:14:16.0635538+00:00",
+          "EffectiveVersion": "3.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.2.0.0": {
@@ -182111,6 +182111,146 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "Haselnussbomber"
+            },
+            "3.3.0.0": {
+              "TimeReleased": "2026-04-14T15:14:16.063599+00:00",
+              "Changelog": "- **Added:** The checkmark for equippable items is now also displayed when the item is collected in an Outfit.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+                  "Version": "fe0b266defceca59a174aab3097fc387f581c575"
+                },
+                {
+                  "Key": "AutoCtor",
+                  "Version": "2.12.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "5.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Haselnussbomber"
             }
           }
@@ -196920,9 +197060,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "3d41068590883ffbcebcbb2ad1a38a329165d06b",
-          "TimeBuilt": "2026-04-14T02:58:51.557214+00:00",
-          "EffectiveVersion": "1.2.4.7",
+          "BuiltCommit": "d64e791b39a68fa188321a3b8afd6c7ccc817492",
+          "TimeBuilt": "2026-04-15T00:59:45.3296759+00:00",
+          "EffectiveVersion": "1.2.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -200812,6 +200952,86 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "29c4be75dcf5699f792baddd4e01ed56b988bf65"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.4.8": {
+              "TimeReleased": "2026-04-14T14:09:56.2231652+00:00",
+              "Changelog": "nofranz\r\n\r\nFixes crashing caused by bad KTK change.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "fb490774a5ef0d660ed34118cddbca0d15d91355"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.5.0": {
+              "TimeReleased": "2026-04-15T00:59:45.3297125+00:00",
+              "Changelog": "Add \u0022Flag on Mouse Cursor\u0022 - Allows you to place a map flag where your cursor is pointing via the command \u0022/flagthere\u0022",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "fb490774a5ef0d660ed34118cddbca0d15d91355"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -252311,9 +252531,9 @@
           }
         },
         "BetterFriendList": {
-          "BuiltCommit": "e1e0df1a4b5bc3b2d4e65a760bc10a3c2aad9299",
-          "TimeBuilt": "2025-09-27T13:34:44.3047456+00:00",
-          "EffectiveVersion": "1.0.2.2",
+          "BuiltCommit": "6768dfbff0a8fea08ccb9f2f7973aa9edab8d1eb",
+          "TimeBuilt": "2026-04-14T20:40:02.3709257+00:00",
+          "EffectiveVersion": "2.1.3.6",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.2.1": {
@@ -252482,6 +252702,34 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "devckuw"
+            },
+            "2.1.3.6": {
+              "TimeReleased": "2026-04-14T20:40:02.3709724+00:00",
+              "Changelog": "add:\r\n    refresh button in native friend list\r\n    collapse button on social (player search / friend list / party members)\r\n    option to prevent friendlist to refresh on open\r\n    option to show notes in native friend list\r\n    option to use color in native friend list\r\n    option to keep same keybind for both native and plugin friend list\r\n    restriction when requesting data (gpose, disconnected, offline, cutscene, afk, camera mode)\r\nfix:\r\n    fix refresh when used on specific player\r\n    fix lodestone page with name with special chars\r\n    fix icons for crossworld party leader and memeber\r\n    fix condions for pf button\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "d16530ceae401d0480d85b3b6af3460fe19492fb"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.12.2"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "devckuw"
             }
           }
@@ -280246,6 +280494,20 @@
       "Version": "29c4be75dcf5699f792baddd4e01ed56b988bf65",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-04-14T02:58:51.6220272Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "fb490774a5ef0d660ed34118cddbca0d15d91355",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-04-14T14:09:56.29367Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+      "Version": "fe0b266defceca59a174aab3097fc387f581c575",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-14T15:14:16.132787Z"
     }
   ]
 }
