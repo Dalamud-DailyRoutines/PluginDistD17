@@ -175532,9 +175532,9 @@
           }
         },
         "HUDUnlimited": {
-          "BuiltCommit": "fb18f5f03d45c7d70b8def647751fdbead628796",
-          "TimeBuilt": "2026-04-02T01:22:41.0854879+00:00",
-          "EffectiveVersion": "1.2.0.3",
+          "BuiltCommit": "6e4f5056ab3d16e24010b844aabcf78257127ee3",
+          "TimeBuilt": "2026-04-15T14:51:32.0402658+00:00",
+          "EffectiveVersion": "1.2.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
@@ -176136,6 +176136,30 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.1.2": {
+              "TimeReleased": "2026-04-15T14:51:32.0403056+00:00",
+              "Changelog": "New Plugin UI !\r\n\r\nThis should make it **much** easier to find and adjust things to your preference!\r\n\r\nThis update does not effect any existing settings in any way, it\u0027s entirely just a new configuration UI.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "29c4be75dcf5699f792baddd4e01ed56b988bf65"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -204404,9 +204428,9 @@
           }
         },
         "MusicalGuide": {
-          "BuiltCommit": "4af34ff917dbed6f3589582bd160e34b281b32fa",
-          "TimeBuilt": "2026-03-03T23:22:30.8341207+00:00",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "cb7790631725047ba8d78b902266d8e4953f461b",
+          "TimeBuilt": "2026-04-15T20:43:41.5786725+00:00",
+          "EffectiveVersion": "1.6.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.6.0": {
@@ -204456,6 +204480,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Sidiousious"
+            },
+            "1.6.1.0": {
+              "TimeReleased": "2026-04-15T20:43:41.5787135+00:00",
+              "Changelog": "Added chat commands:\n- \u0060/mguide help\u0060 to show available commands\n- \u0060/mguide gpose\u0060 to toggle first person tracking in gpose\n- \u0060/mguide toggle\u0060 to toggle the plugin on and off\n- \u0060/mguide 1pp\u0060 to toggle real first person mode\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "yfthbr"
             }
           }
         },
@@ -255999,9 +256039,9 @@
           }
         },
         "MusicalGuide": {
-          "BuiltCommit": "4af34ff917dbed6f3589582bd160e34b281b32fa",
-          "TimeBuilt": "2026-02-27T00:27:22.3119794+00:00",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "cb7790631725047ba8d78b902266d8e4953f461b",
+          "TimeBuilt": "2026-04-15T20:43:52.0931841+00:00",
+          "EffectiveVersion": "1.6.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.2.0": {
@@ -256083,6 +256123,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Sidiousious"
+            },
+            "1.6.1.0": {
+              "TimeReleased": "2026-04-15T20:43:52.0931851+00:00",
+              "Changelog": "Added chat commands:\n- \u0060/mguide help\u0060 to show available commands\n- \u0060/mguide gpose\u0060 to toggle first person tracking in gpose\n- \u0060/mguide toggle\u0060 to toggle the plugin on and off\n- \u0060/mguide 1pp\u0060 to toggle real first person mode\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "yfthbr"
             }
           }
         },
@@ -257639,9 +257695,9 @@
           }
         },
         "SimpleTriggers": {
-          "BuiltCommit": "0c2d615ecd36ef6e02b3bf35159ab0d8907dd932",
-          "TimeBuilt": "2026-04-11T20:39:15.0262852+00:00",
-          "EffectiveVersion": "0.3.4.0",
+          "BuiltCommit": "4951de870d67e3ef73c8bd6aec4b1a21e7b6ccec",
+          "TimeBuilt": "2026-04-16T00:15:44.1398071+00:00",
+          "EffectiveVersion": "0.3.4.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.2.0": {
@@ -257967,6 +258023,86 @@
             "0.3.4.0": {
               "TimeReleased": "2026-04-11T20:39:15.0262872+00:00",
               "Changelog": "## Simple Triggers v0.3.4.0\n* Rewrote audio player to use WasapiOut to ensure consistency across the project.\n* Various smaller changes with settings tab.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Brolijah"
+            },
+            "0.3.4.2": {
+              "TimeReleased": "2026-04-16T00:15:44.1398548+00:00",
+              "Changelog": "## Simple Triggers v0.3.4.2\n* New command \u0060/strig toggle\u0060\n* Improvements to audio device scanning. Now operates in the background.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
