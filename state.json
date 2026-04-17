@@ -175568,9 +175568,9 @@
           }
         },
         "HUDUnlimited": {
-          "BuiltCommit": "a9359c976a87780fa8d9cc81382963385b054ea1",
-          "TimeBuilt": "2026-04-16T15:10:41.9653025+00:00",
-          "EffectiveVersion": "1.2.1.4",
+          "BuiltCommit": "a35ef84f9765a139e1c01158a401d0e323808d7b",
+          "TimeBuilt": "2026-04-17T05:13:00.3921137+00:00",
+          "EffectiveVersion": "1.2.1.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
@@ -176212,6 +176212,30 @@
             "1.2.1.4": {
               "TimeReleased": "2026-04-16T15:10:41.9653035+00:00",
               "Changelog": "Add line thickness adjuster",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "29c4be75dcf5699f792baddd4e01ed56b988bf65"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.1.5": {
+              "TimeReleased": "2026-04-17T05:13:00.3921161+00:00",
+              "Changelog": "Move outlines to background draw, unless focused.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
@@ -197284,9 +197308,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "7295b71b7844888b195a32b7e1667450ba80bde9",
-          "TimeBuilt": "2026-04-16T15:10:28.7136975+00:00",
-          "EffectiveVersion": "1.2.5.2",
+          "BuiltCommit": "cf8bf5ad3bd55e97be6ff0e61cf9b069670eec85",
+          "TimeBuilt": "2026-04-17T05:12:40.7811025+00:00",
+          "EffectiveVersion": "1.2.5.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -201292,6 +201316,46 @@
             "1.2.5.2": {
               "TimeReleased": "2026-04-16T15:10:28.7136989+00:00",
               "Changelog": "nofranz\r\n\r\nImprove behavior of SkipLoginConfirm and SkipTeleportConfirm to more directly trigger button interaction instead of agent trigger.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "0728960af46db711c9b201dcaea4b428f71dbaeb"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.5.3": {
+              "TimeReleased": "2026-04-17T05:12:40.7811514+00:00",
+              "Changelog": "Add Gearset Reorder Buttons - Adds up and down buttons to the gearset list window to let you more easily reorder and move things around.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
@@ -205424,6 +205488,30 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Bronya-Rand"
+            }
+          }
+        },
+        "GearsetSort": {
+          "BuiltCommit": "db45e3c13aad45395a60f5db55e3deb95bb9ecdf",
+          "TimeBuilt": "2026-04-17T05:12:49.2601232+00:00",
+          "EffectiveVersion": "0.0.7.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.7.0": {
+              "TimeReleased": "2026-04-17T05:12:49.2601271+00:00",
+              "Changelog": "[0.0.7.0]\nGearsetSort Stable Release\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Ryan-RH"
             }
           }
         }
@@ -258035,9 +258123,9 @@
           }
         },
         "SimpleTriggers": {
-          "BuiltCommit": "4951de870d67e3ef73c8bd6aec4b1a21e7b6ccec",
-          "TimeBuilt": "2026-04-16T00:15:44.1398071+00:00",
-          "EffectiveVersion": "0.3.4.2",
+          "BuiltCommit": "83f4a75153ef7f6e8b661dc1a39b0fef6d8dba44",
+          "TimeBuilt": "2026-04-17T05:13:20.8530396+00:00",
+          "EffectiveVersion": "0.3.5.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.2.0": {
@@ -258443,6 +258531,86 @@
             "0.3.4.2": {
               "TimeReleased": "2026-04-16T00:15:44.1398548+00:00",
               "Changelog": "## Simple Triggers v0.3.4.2\n* New command \u0060/strig toggle\u0060\n* Improvements to audio device scanning. Now operates in the background.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Brolijah"
+            },
+            "0.3.5.2": {
+              "TimeReleased": "2026-04-17T05:13:20.8530422+00:00",
+              "Changelog": "## Simple Triggers v0.3.5.2\n* New settings for filtering chat messages based on XivChatType.\n  * Added setting to ignore messages from Damage and Healing sources.\n  * Added a debug setting for the chat log history to include XivChatType information.\n  * You can manually select what channels the trigger system reads from, however note that documented types are missing several, if not most, of the game\u0027s actual list of combat related message types. It is suggested to leave the channel settings as default.\n* Chat history now shows the size of the log next to it.\n* Disabling chat logging does not clear the log anymore. Log is now only cleared when the user clicks \u0022Clear Log\u0022\n* Fix for audio device scanning: Devices are scanned when the plugin initializes the window. This fixes devices not being cached if the plugin is restarted and opens on the settings tab first.\n* Various little clean ups inside MainWindow.cs\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
