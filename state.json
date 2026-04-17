@@ -155704,9 +155704,9 @@
           }
         },
         "Dalamud.FindAnything": {
-          "BuiltCommit": "2915c2025d5f5b50c094122227794c7451bb717a",
-          "TimeBuilt": "2026-01-28T09:33:25.962157+00:00",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "cdb676218d3eb77506b6f2d8548fcd2a75d4c31a",
+          "TimeBuilt": "2026-04-16T19:24:17.8874397+00:00",
+          "EffectiveVersion": "1.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.5.3": {
@@ -156892,6 +156892,42 @@
             "1.1.1.0": {
               "TimeReleased": "2026-01-28T09:33:25.9621975+00:00",
               "Changelog": "- New search type: Coordinates. Just paste a zone name and some X/Y coordinates (such as those found on many wikis) directly into search and Wotsit will try to find that location, offering to place a flag and teleport to a nearby aetheryte when possible. Entering coordinates without a zone name uses your current zone.\r\n- New search type: Facewear.\r\n- Add search history for wiki mode.\r\n- Add more options for customizing the scroll speed and delay when scrolling with the keyboard.\r\n- Add new \u0022system\u0022 scrolling style which tries to replicate your operating system\u0027s scroll speed and delay when scrolling with the keyboard. This is the new default setting. If you had previously set a custom scroll speed, change the scrolling style to \u0022custom\u0022 to restore it.\r\n- Add the ability to merge multiple crafting recipes for the same item into a single result. This option is enabled by default, and its behavior can be customized in the \u0022Crafting recipes\u0022 section of Wotsit Settings. The old \u0022jump to recipe\u0022 option is removed and replaced by new settings in this section.\r\n- Add fallback teleport mechanism for cases where the Teleporter plugin is not available.\r\n- Add search filter to key selection combo box.\r\n- Add an option to use shorter name matching when searching for other plugins\u0027 settings and interface.\r\n- Show different search icon for alternate search modes.\r\n- Improve how certain special characters are matched, in particular the French \u0022oe\u0022 ligature.\r\n- Fix an issue where clearing the search box wouldn\u0027t re-display search history.\r\n- Re-organized code into modules based on search type.\r\n- Performance improvements.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "NCalcSync",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Antlr3.Runtime",
+                  "Version": "3.5.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "nebel"
+            },
+            "1.1.2.0": {
+              "TimeReleased": "2026-04-16T19:24:17.8875984+00:00",
+              "Changelog": "- Make the Wotsit search window properly utilize Dalamud\u0027s window system, allowing it to optionally benefit from window sounds,  fade in/fade out, and background blur. The new defaults closely mimic the old behavior (no sounds, no fade, etc.).\r\n- Add a new \u0022Search window\u0022 section to the settings:\r\n  - Add new setting to disable window sounds (enabled by default)\r\n  - Add new setting to disable fade in/fade out (enabled by default)\r\n  - Add new setting to disable background blur (disabled by default)\r\n  - Add new setting to override background opacity (disabled by default)\r\n  - Moved search window position offset to new section",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -175532,9 +175568,9 @@
           }
         },
         "HUDUnlimited": {
-          "BuiltCommit": "6e4f5056ab3d16e24010b844aabcf78257127ee3",
-          "TimeBuilt": "2026-04-15T14:51:32.0402658+00:00",
-          "EffectiveVersion": "1.2.1.2",
+          "BuiltCommit": "a9359c976a87780fa8d9cc81382963385b054ea1",
+          "TimeBuilt": "2026-04-16T15:10:41.9653025+00:00",
+          "EffectiveVersion": "1.2.1.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
@@ -176152,6 +176188,30 @@
             "1.2.1.2": {
               "TimeReleased": "2026-04-15T14:51:32.0403056+00:00",
               "Changelog": "New Plugin UI !\r\n\r\nThis should make it **much** easier to find and adjust things to your preference!\r\n\r\nThis update does not effect any existing settings in any way, it\u0027s entirely just a new configuration UI.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "29c4be75dcf5699f792baddd4e01ed56b988bf65"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.1.4": {
+              "TimeReleased": "2026-04-16T15:10:41.9653035+00:00",
+              "Changelog": "Add line thickness adjuster",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
@@ -181576,9 +181636,9 @@
           }
         },
         "MogMogCheck": {
-          "BuiltCommit": "4bdacb1b4ffcec1e96932979ff72ddf5f90436ee",
-          "TimeBuilt": "2026-04-14T15:14:16.0635538+00:00",
-          "EffectiveVersion": "3.3.0.0",
+          "BuiltCommit": "f7e21a7c3d4fc6411d514a2a83a7c54e19333ed4",
+          "TimeBuilt": "2026-04-16T15:10:57.4432615+00:00",
+          "EffectiveVersion": "3.3.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.2.0.0": {
@@ -182144,6 +182204,146 @@
                 {
                   "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
                   "Version": "fe0b266defceca59a174aab3097fc387f581c575"
+                },
+                {
+                  "Key": "AutoCtor",
+                  "Version": "2.12.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "5.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
+            },
+            "3.3.1.0": {
+              "TimeReleased": "2026-04-16T15:10:57.4432635+00:00",
+              "Changelog": "nofranz\r\n\r\nMore uninteresting, internal style-related changes. Only one thing I wanted to push an update for:\r\n\r\n- **Fixed:** The title in the Triple Triad Card tooltip was incorrectly positioned.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+                  "Version": "9952a253a5bc696f60c0829e408fe17ebf131433"
                 },
                 {
                   "Key": "AutoCtor",
@@ -197084,9 +197284,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "d64e791b39a68fa188321a3b8afd6c7ccc817492",
-          "TimeBuilt": "2026-04-15T00:59:45.3296759+00:00",
-          "EffectiveVersion": "1.2.5.0",
+          "BuiltCommit": "7295b71b7844888b195a32b7e1667450ba80bde9",
+          "TimeBuilt": "2026-04-16T15:10:28.7136975+00:00",
+          "EffectiveVersion": "1.2.5.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -201088,6 +201288,46 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
+            },
+            "1.2.5.2": {
+              "TimeReleased": "2026-04-16T15:10:28.7136989+00:00",
+              "Changelog": "nofranz\r\n\r\nImprove behavior of SkipLoginConfirm and SkipTeleportConfirm to more directly trigger button interaction instead of agent trigger.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "0728960af46db711c9b201dcaea4b428f71dbaeb"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -202276,9 +202516,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "1e5d45c1491396f20776933869a33eae6a2cc02d",
-          "TimeBuilt": "2026-04-01T13:29:38.5810218+00:00",
-          "EffectiveVersion": "1.9.7.0",
+          "BuiltCommit": "dda6b7d430c54d8675490a0dfd91d82fded0a3bc",
+          "TimeBuilt": "2026-04-16T15:10:01.1071023+00:00",
+          "EffectiveVersion": "1.9.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -203031,6 +203271,50 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Sohtoren"
+            },
+            "1.9.9.0": {
+              "TimeReleased": "2026-04-16T15:10:01.1071433+00:00",
+              "Changelog": "- **Character**: Add housing last entry tracking, enable in setting, set the number of days and an icon will show on character tab list if last entry was older\n- **Timer**: Add loot tracking for current normal raid tier (Arcadion Heavyweight).\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.66"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Sohtoren"
             }
           }
@@ -205100,6 +205384,46 @@
               ],
               "Reviewer": "Critical-Impact",
               "Submitter": "RokasKil"
+            }
+          }
+        },
+        "WukLamark": {
+          "BuiltCommit": "e3b670546959e4b980c842cbda178c6bf59b3112",
+          "TimeBuilt": "2026-04-16T19:47:47.8025592+00:00",
+          "EffectiveVersion": "1.0.2.6",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.2.5": {
+              "TimeReleased": "2026-04-16T17:46:21.1526317+00:00",
+              "Changelog": "**WukLamark 1.0.2.5 Changelog**\n## What\u0027s New\nFirst stable release of WukLamark.\n\n### Features\n- Added batch import/export of map markers.\n- Added the ability to use the shape color as a tint for in-game map icons. (Toggle \u0060Apply Shape Color to Icon\u0060 in Edit Marker to enable this for a marker)\n- Added multi-selection of map markers for batch exporting and deletion.\n- Added the ability to change the size of map markers on the in-game map/minimap over the default size in Settings.\n- Added the ability to import map markers into a specific group.\n- Added the ability to create a crossworld map marker (hold Shift whilst creating a marker in the UI to make it crossworld).\n\n### Changes\n- Renamed \u0060Visible Across Worlds/DCs\u0060 to \u0060Visible Crossworld\u0060.\n\n### Fixes\n- Fixed importing conflict detection.\n- Fixed permission logic.\n- Fixed a bug where some in-game icons displayed overly large.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.0.2.6": {
+              "TimeReleased": "2026-04-16T19:47:47.8026015+00:00",
+              "Changelog": "**WukLamark 1.0.2.5 Changelog**\n## What\u0027s New\nFirst stable release of WukLamark.\n\n### Features\n- Added batch import/export of map markers.\n- Added the ability to use the shape color as a tint for in-game map icons. (Toggle \u0060Apply Shape Color to Icon\u0060 in Edit Marker to enable this for a marker)\n- Added multi-selection of map markers for batch exporting and deletion.\n- Added the ability to change the size of map markers on the in-game map/minimap over the default size in Settings.\n- Added the ability to import map markers into a specific group.\n- Added the ability to create a crossworld map marker (hold Shift whilst creating a marker in the UI to make it crossworld).\n\n### Changes\n- Renamed \u0060Visible Across Worlds/DCs\u0060 to \u0060Visible Crossworld\u0060.\n\n### Fixes\n- Fixed importing conflict detection.\n- Fixed permission logic.\n- Fixed a bug where some in-game icons displayed overly large.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Bronya-Rand"
             }
           }
         }
@@ -257615,9 +257939,9 @@
           }
         },
         "WukLamark": {
-          "BuiltCommit": "26c42034d8132c8808c34d264225b90a4589cb30",
-          "TimeBuilt": "2026-04-08T00:03:27.6918441+00:00",
-          "EffectiveVersion": "1.0.2.4",
+          "BuiltCommit": "1c69499bd122c91cf4b233f2c155f8c1523b699e",
+          "TimeBuilt": "2026-04-16T17:46:30.7933645+00:00",
+          "EffectiveVersion": "1.0.2.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.2": {
@@ -257666,6 +257990,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.0.2.5": {
+              "TimeReleased": "2026-04-16T17:46:30.7933657+00:00",
+              "Changelog": "**WukLamark 1.0.2.5 Changelog**\n## What\u0027s New\n\n### Features\n- Added batch import/export of map markers.\n- Added the ability to use the shape color as a tint for in-game map icons. (Toggle \u0060Apply Shape Color to Icon\u0060 in Edit Marker to enable this for a marker)\n- Added multi-selection of map markers for batch exporting and deletion.\n- Added the ability to change the size of map markers on the in-game map/minimap over the default size in Settings.\n- Added the ability to import map markers into a specific group.\n- Added the ability to create a crossworld map marker (hold Shift whilst creating a marker in the UI to make it crossworld).\n\n### Changes\n- Renamed \u0060Visible Across Worlds/DCs\u0060 to \u0060Visible Crossworld\u0060.\n\n### Fixes\n- Fixed importing conflict detection.\n- Fixed permission logic.\n- Fixed a bug where some in-game icons displayed overly large.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Bronya-Rand"
             }
           }
@@ -280644,6 +280984,20 @@
       "Version": "fe0b266defceca59a174aab3097fc387f581c575",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-04-14T15:14:16.132787Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "0728960af46db711c9b201dcaea4b428f71dbaeb",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-16T15:10:28.7739366Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+      "Version": "9952a253a5bc696f60c0829e408fe17ebf131433",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-16T15:10:57.4750995Z"
     }
   ]
 }
