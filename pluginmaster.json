@@ -2449,7 +2449,7 @@
     "Author": "goat",
     "Name": "Wotsit",
     "InternalName": "Dalamud.FindAnything",
-    "AssemblyVersion": "1.1.2.0",
+    "AssemblyVersion": "1.1.2.1",
     "Description": "Finder of anything",
     "ApplicableVersion": "any",
     "Tags": [
@@ -2468,7 +2468,7 @@
     "_Dip17Channel": "stable",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdate": "1776367460",
+    "LastUpdate": "1776499274",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/Dalamud.FindAnything/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Dalamud.FindAnything/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Dalamud.FindAnything/latest.zip"
@@ -9958,7 +9958,7 @@
     "Author": "Callum Carmicheal (with help from Aida Enna)",
     "Name": "The Great Controller HUD Switcher",
     "InternalName": "XIVControllerToggle",
-    "AssemblyVersion": "1.2.3.0",
+    "AssemblyVersion": "1.2.4.0",
     "Description": "The Great Controller HUD Switcher",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/CallumCarmicheal/XIVControllerToggle",
@@ -9980,7 +9980,7 @@
     "_Dip17Channel": "stable",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdate": "1766799068",
+    "LastUpdate": "1776496770",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/XIVControllerToggle/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/XIVControllerToggle/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/XIVControllerToggle/latest.zip"
