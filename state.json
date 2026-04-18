@@ -164523,9 +164523,9 @@
           }
         },
         "CharacterPanelRefined": {
-          "BuiltCommit": "dfb19665385ed85cb3b30b45684aa05feff5b98d",
-          "TimeBuilt": "2025-12-20T04:04:27.3956134+00:00",
-          "EffectiveVersion": "1.8.5.0",
+          "BuiltCommit": "7423e918c6d5c80c6319c8e902aefc64e34ce148",
+          "TimeBuilt": "2026-04-17T19:58:23.8029034+00:00",
+          "EffectiveVersion": "1.8.5.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.2.0": {
@@ -164806,6 +164806,26 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "Kouzukii"
+            },
+            "1.8.5.1": {
+              "TimeReleased": "2026-04-17T19:58:23.8029464+00:00",
+              "Changelog": "- Fix incorrect Item Level Sync calculation (long overdue, sorry)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.8"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Kouzukii"
             }
           }
@@ -197308,9 +197328,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "cf8bf5ad3bd55e97be6ff0e61cf9b069670eec85",
-          "TimeBuilt": "2026-04-17T05:12:40.7811025+00:00",
-          "EffectiveVersion": "1.2.5.3",
+          "BuiltCommit": "db97c8f3df897a49a24cb83e013d52fcccd1b58c",
+          "TimeBuilt": "2026-04-17T19:58:40.9671519+00:00",
+          "EffectiveVersion": "1.2.5.5",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -201392,6 +201412,46 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
+            },
+            "1.2.5.5": {
+              "TimeReleased": "2026-04-17T19:58:40.9671539+00:00",
+              "Changelog": "Add Inventory Cooldowns - Shows the cooldown on items in the inventory!",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "0728960af46db711c9b201dcaea4b428f71dbaeb"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -201652,9 +201712,9 @@
           }
         },
         "BeastieBuddy": {
-          "BuiltCommit": "9b3f5f46ea0ff49bebe97e452bda14d9944a611f",
-          "TimeBuilt": "2026-03-21T19:29:03.0557174+00:00",
-          "EffectiveVersion": "1.3.3.1",
+          "BuiltCommit": "bed5e49981af8ace0fe75f43f36b001d9147a5bf",
+          "TimeBuilt": "2026-04-17T21:09:20.7228563+00:00",
+          "EffectiveVersion": "7.45.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -201915,6 +201975,58 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "rail2025"
+            },
+            "7.45.1.0": {
+              "TimeReleased": "2026-04-17T21:09:20.7228975+00:00",
+              "Changelog": "v7.45.1: version match to game patch, BST icon",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.3.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "rail2025"
             }
           }
@@ -205452,9 +205564,9 @@
           }
         },
         "WukLamark": {
-          "BuiltCommit": "e3b670546959e4b980c842cbda178c6bf59b3112",
-          "TimeBuilt": "2026-04-16T19:47:47.8025592+00:00",
-          "EffectiveVersion": "1.0.2.6",
+          "BuiltCommit": "4c2858448c186d9178a86fd3e94019feea0076d9",
+          "TimeBuilt": "2026-04-17T20:40:39.0418393+00:00",
+          "EffectiveVersion": "1.0.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.5": {
@@ -205476,6 +205588,22 @@
             "1.0.2.6": {
               "TimeReleased": "2026-04-16T19:47:47.8026015+00:00",
               "Changelog": "**WukLamark 1.0.2.5 Changelog**\n## What\u0027s New\nFirst stable release of WukLamark.\n\n### Features\n- Added batch import/export of map markers.\n- Added the ability to use the shape color as a tint for in-game map icons. (Toggle \u0060Apply Shape Color to Icon\u0060 in Edit Marker to enable this for a marker)\n- Added multi-selection of map markers for batch exporting and deletion.\n- Added the ability to change the size of map markers on the in-game map/minimap over the default size in Settings.\n- Added the ability to import map markers into a specific group.\n- Added the ability to create a crossworld map marker (hold Shift whilst creating a marker in the UI to make it crossworld).\n\n### Changes\n- Renamed \u0060Visible Across Worlds/DCs\u0060 to \u0060Visible Crossworld\u0060.\n\n### Fixes\n- Fixed importing conflict detection.\n- Fixed permission logic.\n- Fixed a bug where some in-game icons displayed overly large.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.0.3.0": {
+              "TimeReleased": "2026-04-17T20:40:39.0418851+00:00",
+              "Changelog": "## What\u0027s New\r\n\r\n### Features\r\n- Added the ability for notes to be displayed on the map marker.\r\n   \u003E The UI tooltip on the map/minimap is limited to 80 characters before truncation. All other display of text should be rendered fine.\n\nThis is also meant to be a bump in minor version.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
