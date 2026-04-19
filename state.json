@@ -175640,9 +175640,9 @@
           }
         },
         "HUDUnlimited": {
-          "BuiltCommit": "a35ef84f9765a139e1c01158a401d0e323808d7b",
-          "TimeBuilt": "2026-04-17T05:13:00.3921137+00:00",
-          "EffectiveVersion": "1.2.1.5",
+          "BuiltCommit": "4cab332e89e26a15ea25a4e197aa291406b7fa82",
+          "TimeBuilt": "2026-04-18T21:13:33.9148438+00:00",
+          "EffectiveVersion": "1.2.1.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
@@ -176327,6 +176327,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.1.7": {
+              "TimeReleased": "2026-04-18T21:13:33.9148827+00:00",
+              "Changelog": "Some ui adjustements",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "804bad7cddbf79292c24f3925dc51f2f7147271b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
@@ -197380,9 +197404,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "db97c8f3df897a49a24cb83e013d52fcccd1b58c",
-          "TimeBuilt": "2026-04-17T19:58:40.9671519+00:00",
-          "EffectiveVersion": "1.2.5.5",
+          "BuiltCommit": "154dda82e5118d05379656090743f9dd0b045c20",
+          "TimeBuilt": "2026-04-18T21:17:37.3894189+00:00",
+          "EffectiveVersion": "1.2.5.8",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -201472,6 +201496,86 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "0728960af46db711c9b201dcaea4b428f71dbaeb"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.5.6": {
+              "TimeReleased": "2026-04-18T16:41:46.5194677+00:00",
+              "Changelog": "Update Translations\r\n\r\nPrevent BetterSelectString from effecting things that are not SelectString.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "32ab06970ee9d009b55ac5e3174764f1d562303a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.5.8": {
+              "TimeReleased": "2026-04-18T21:17:37.389459+00:00",
+              "Changelog": "Fix Map Overlays not using correct offsets for some maps.\r\n\r\nFix BetterSelectString bug from last update.\r\n\r\nMore Translations.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "804bad7cddbf79292c24f3925dc51f2f7147271b"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -258303,9 +258407,9 @@
           }
         },
         "SimpleTriggers": {
-          "BuiltCommit": "83f4a75153ef7f6e8b661dc1a39b0fef6d8dba44",
-          "TimeBuilt": "2026-04-17T05:13:20.8530396+00:00",
-          "EffectiveVersion": "0.3.5.2",
+          "BuiltCommit": "03ad9c54fb708abf476a5fa0d7536486856bb48d",
+          "TimeBuilt": "2026-04-18T16:42:03.8042744+00:00",
+          "EffectiveVersion": "0.3.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.2.0": {
@@ -258791,6 +258895,86 @@
             "0.3.5.2": {
               "TimeReleased": "2026-04-17T05:13:20.8530422+00:00",
               "Changelog": "## Simple Triggers v0.3.5.2\n* New settings for filtering chat messages based on XivChatType.\n  * Added setting to ignore messages from Damage and Healing sources.\n  * Added a debug setting for the chat log history to include XivChatType information.\n  * You can manually select what channels the trigger system reads from, however note that documented types are missing several, if not most, of the game\u0027s actual list of combat related message types. It is suggested to leave the channel settings as default.\n* Chat history now shows the size of the log next to it.\n* Disabling chat logging does not clear the log anymore. Log is now only cleared when the user clicks \u0022Clear Log\u0022\n* Fix for audio device scanning: Devices are scanned when the plugin initializes the window. This fixes devices not being cached if the plugin is restarted and opens on the settings tab first.\n* Various little clean ups inside MainWindow.cs\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Brolijah"
+            },
+            "0.3.6.0": {
+              "TimeReleased": "2026-04-18T16:42:03.8042764+00:00",
+              "Changelog": "nofranz\r\n\r\n* Rewrote AudioPlayer.cs (again) to allow switching audio backends between Wasapi, DirectSound, and WaveOut (as a last resort).\r\n* Device enumeration in the settings window will prefer Wasapi if it can, otherwise it will fallback to DirectSound enumeration (less preferable, 32 char limit on device names).\r\n* Updated channel settings using LogKind for the filters. (Thanks Midori and Infi)\r\n* Added RepoUrl and IconUrl to the json",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -281346,6 +281530,20 @@
       "Version": "9952a253a5bc696f60c0829e408fe17ebf131433",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-04-16T15:10:57.4750995Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "32ab06970ee9d009b55ac5e3174764f1d562303a",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-18T16:41:46.5845707Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "804bad7cddbf79292c24f3925dc51f2f7147271b",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-04-18T21:13:33.9861322Z"
     }
   ]
 }
