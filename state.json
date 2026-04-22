@@ -182496,9 +182496,9 @@
           }
         },
         "MogMogCheck": {
-          "BuiltCommit": "f7e21a7c3d4fc6411d514a2a83a7c54e19333ed4",
-          "TimeBuilt": "2026-04-16T15:10:57.4432615+00:00",
-          "EffectiveVersion": "3.3.1.0",
+          "BuiltCommit": "c98a1d0d44442b490667ab944078f3cd3edb0f4b",
+          "TimeBuilt": "2026-04-21T13:21:03.7947365+00:00",
+          "EffectiveVersion": "3.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.2.0.0": {
@@ -183204,6 +183204,146 @@
                 {
                   "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
                   "Version": "9952a253a5bc696f60c0829e408fe17ebf131433"
+                },
+                {
+                  "Key": "AutoCtor",
+                  "Version": "2.12.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "5.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
+            },
+            "3.4.0.0": {
+              "TimeReleased": "2026-04-21T13:21:03.7947832+00:00",
+              "Changelog": "- **Added:** The required quest for item exchange is now displayed.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+                  "Version": "a995abf8b15db5818de52f13ecc48cca86c45f76"
                 },
                 {
                   "Key": "AutoCtor",
@@ -206854,6 +206994,94 @@
               "Submitter": "devckuw"
             }
           }
+        },
+        "SimpleTriggers": {
+          "BuiltCommit": "6e718dfd22d1c9ea392ce92765ba9d579d33289f",
+          "TimeBuilt": "2026-04-21T13:16:47.9357083+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-04-21T13:16:47.9357552+00:00",
+              "Changelog": "Migrate to stable! \uD83C\uDF89\n### About\nThis plugin aims to provide a simple means of creating in-game triggers to chat messages.\nResponses can be done in one of the below methods or any combination of the three:\n* Chat Message\n* In-Game SFX\n* Text-to-Speech\n  * Kokoro\n  * Windows System\n\n* Commands:\n  * \u0060/simpletriggers\u0060 or \u0060/strig\u0060 and the optional arguments:\n    * \u0060enable\u0060/\u0060on\u0060 or \u0060disable\u0060/\u0060off\u0060 to activate or deactivate the whole trigger system.\n    * \u0060toggle\u0060 flips the trigger system to active or inactive (same as above but as a 1-command toggle)\n    * \u0060stop\u0060 will stop the current audio playback and any queued streams in waiting.\n    * \u0060speak \u003Cphrase\u003E\u0060 will read aloud the requested phrase using your configured TTS.\n  * Shorter versions of the above:\n    * \u0060/sttoggle\u0060\n    * \u0060/ststop\u0060\n    * \u0060/stspeak \u003Cphrase\u003E\u0060\n\n### Changes from Testing\n* Audio settings have been grouped into their own collapsing header\n* Added a checkbox for users to choose if they want TTS streams to overlap (default) vs play in sequence\n* Added a \u0022stop playback\u0022 button to the settings aka \u0022I am suffering from the consequences of my actions\u0022 button.\n* Removed random questions marks on a bunch of UI labels\n* Some new commands for toggling triggers \u0060/sttoggle\u0060 and stopping TTS playback \u0060/ststop\u0060\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Brolijah"
+            }
+          }
         }
       }
     },
@@ -213073,9 +213301,9 @@
           "Changelogs": {}
         },
         "RpUtils": {
-          "BuiltCommit": "1476e7d23a65e14f138ce8dbed7c6f31deb745c3",
-          "TimeBuilt": "2026-03-15T07:12:07.0060286+00:00",
-          "EffectiveVersion": "0.4.0.0",
+          "BuiltCommit": "2b526226a9e6f6b7d735e62227bee29852f19357",
+          "TimeBuilt": "2026-04-21T13:21:14.7545384+00:00",
+          "EffectiveVersion": "0.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.0.0": {
@@ -213485,6 +213713,102 @@
               ],
               "Reviewer": "Critical-Impact",
               "Submitter": "KassWasTaken"
+            },
+            "0.5.0.0": {
+              "TimeReleased": "2026-04-21T13:21:14.7545397+00:00",
+              "Changelog": "0.5.0 (2026.4.16)\r\n- First pass at lobbies\r\n- First pass at encounters\r\n- First pass at dice rolls\r\n- Adding changelog window and more configuration options\r\n\r\n0.4.0 (2026.3.11)\r\n- Major refactor of the plugin\r\n- Adding first pass on roleplay activities to sonar\r\n\r\n0.3.2 (2025.12.27)\r\n- Updated for 7.4, migrated to Dalamud SDK\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Nerifyra"
             }
           }
         },
@@ -259503,9 +259827,9 @@
           }
         },
         "SimpleTriggers": {
-          "BuiltCommit": "03ad9c54fb708abf476a5fa0d7536486856bb48d",
-          "TimeBuilt": "2026-04-18T16:42:03.8042744+00:00",
-          "EffectiveVersion": "0.3.6.0",
+          "BuiltCommit": "6e718dfd22d1c9ea392ce92765ba9d579d33289f",
+          "TimeBuilt": "2026-04-21T13:17:04.029523+00:00",
+          "EffectiveVersion": "1.0.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.2.0": {
@@ -260071,6 +260395,86 @@
             "0.3.6.0": {
               "TimeReleased": "2026-04-18T16:42:03.8042764+00:00",
               "Changelog": "nofranz\r\n\r\n* Rewrote AudioPlayer.cs (again) to allow switching audio backends between Wasapi, DirectSound, and WaveOut (as a last resort).\r\n* Device enumeration in the settings window will prefer Wasapi if it can, otherwise it will fallback to DirectSound enumeration (less preferable, 32 char limit on device names).\r\n* Updated channel settings using LogKind for the filters. (Thanks Midori and Infi)\r\n* Added RepoUrl and IconUrl to the json",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Brolijah"
+            },
+            "1.0.0.0": {
+              "TimeReleased": "2026-04-21T13:17:04.0295261+00:00",
+              "Changelog": "Migrate to stable! \uD83C\uDF89\n* Audio settings have been grouped into their own collapsing header\n* Added a checkbox for users to choose if they want TTS streams to overlap (default) vs play in sequence\n* Added a \u0022stop playback\u0022 button to the settings aka \u0022I am suffering from the consequences of my actions\u0022 button.\n* Removed random questions marks on a bunch of UI labels\n* Some new commands for toggling triggers \u0060/sttoggle\u0060 and stopping TTS playback \u0060/ststop\u0060\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -282757,6 +283161,13 @@
       "Version": "094722d68cc0affef18ec26917f75567bde372a7",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-04-20T23:03:33.9698976Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+      "Version": "a995abf8b15db5818de52f13ecc48cca86c45f76",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-21T13:21:03.8658832Z"
     }
   ]
 }
