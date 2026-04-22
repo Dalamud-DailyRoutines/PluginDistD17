@@ -198284,9 +198284,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "88b7188aa9200545c4a1bebffc081b4a4fbb0b4e",
-          "TimeBuilt": "2026-04-20T23:03:33.9017714+00:00",
-          "EffectiveVersion": "1.2.5.10",
+          "BuiltCommit": "09f6ccbb5d61d5cf687af32f51118d9851de91ff",
+          "TimeBuilt": "2026-04-22T03:26:22.2103469+00:00",
+          "EffectiveVersion": "1.2.5.11",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -202532,6 +202532,46 @@
             "1.2.5.10": {
               "TimeReleased": "2026-04-20T23:03:33.9018416+00:00",
               "Changelog": "nofranz\r\n\r\nSystem changes to replace hardcoded strings with enums",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "094722d68cc0affef18ec26917f75567bde372a7"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.5.11": {
+              "TimeReleased": "2026-04-22T03:26:22.2103948+00:00",
+              "Changelog": "nofranz\r\n\r\nFix LockChatButton being forced to unlocked on load.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
