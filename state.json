@@ -44191,9 +44191,9 @@
           }
         },
         "Collections": {
-          "BuiltCommit": "ba169cf37357b8d4c325103a13cc51b92fa271ce",
-          "TimeBuilt": "2025-12-30T21:42:16.3616996+00:00",
-          "EffectiveVersion": "1.0.2.12",
+          "BuiltCommit": "2fec161f36e8ee29397191378c10dccf4a9c81d8",
+          "TimeBuilt": "2026-04-22T22:08:05.5336265+00:00",
+          "EffectiveVersion": "1.0.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.2": {
@@ -46569,6 +46569,38 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "seventhxiv"
+            },
+            "1.0.3.0": {
+              "TimeReleased": "2026-04-22T22:08:05.5336762+00:00",
+              "Changelog": "Collections v1.0.3.0\r\n- Additional \u0026 improved Tooltips and Filters\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.2"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "seventhxiv"
             }
           }
@@ -65539,9 +65571,9 @@
           }
         },
         "BetterMountRoulette": {
-          "BuiltCommit": "c9d3efb1717bd7036a2aa994b80231f2523efdc6",
-          "TimeBuilt": "2025-12-18T22:57:02.4067633+00:00",
-          "EffectiveVersion": "1.8.0.30",
+          "BuiltCommit": "f04323fa9383d429130aab6abdf7ad5fcea5fbb9",
+          "TimeBuilt": "2026-04-22T22:05:26.2599149+00:00",
+          "EffectiveVersion": "1.8.1.31",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -65748,6 +65780,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "CMDRNuffin"
+            },
+            "1.8.1.31": {
+              "TimeReleased": "2026-04-22T22:05:26.2599566+00:00",
+              "Changelog": "Add Hardy-Daytona to the list of fast ground mounts\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/CMDRNuffin/BetterMinionMountRouletteShared.git",
+                  "Version": "ae0dba25f46e2c71aa9c15a398250f28f3c9343c"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "CMDRNuffin"
             }
           }
@@ -283208,6 +283260,13 @@
       "Version": "a995abf8b15db5818de52f13ecc48cca86c45f76",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-04-21T13:21:03.8658832Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/CMDRNuffin/BetterMinionMountRouletteShared.git",
+      "Version": "ae0dba25f46e2c71aa9c15a398250f28f3c9343c",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-22T22:05:26.3316478Z"
     }
   ]
 }
