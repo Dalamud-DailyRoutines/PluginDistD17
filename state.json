@@ -207210,6 +207210,34 @@
               "Submitter": "Brolijah"
             }
           }
+        },
+        "BetterMinionRoulette": {
+          "BuiltCommit": "6a7375341f963d208a76c53c108e412a3032f325",
+          "TimeBuilt": "2026-04-24T02:49:00.7317984+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-04-24T02:49:00.7318359+00:00",
+              "Changelog": "Allows any number of minions to be enabled for the minion roulette, instead of having to choose between the \u0022up to 30\u0022 and \u0022EVERYTHING\u0022 modes supported by the game.\r\n\r\nA lot like my existing plugin BetterMountRoulette, except simpler (there\u0027s no hidden second roulette to worry about, nor are there any cast bars to finagle).",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/CMDRNuffin/BetterMinionMountRouletteShared.git",
+                  "Version": "ae0dba25f46e2c71aa9c15a398250f28f3c9343c"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "CMDRNuffin"
+            }
+          }
         }
       }
     },
@@ -231305,9 +231333,9 @@
           "Changelogs": {}
         },
         "Pathfinder": {
-          "BuiltCommit": "047c3ea23d305c618dc24ac23a863f92adace0ec",
-          "TimeBuilt": "2025-12-18T23:18:45.3116443+00:00",
-          "EffectiveVersion": "0.1.5.0",
+          "BuiltCommit": "d2496772afa37d66765481ee17a0abde6fea9687",
+          "TimeBuilt": "2026-04-24T02:49:22.6503903+00:00",
+          "EffectiveVersion": "0.1.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.0": {
@@ -231390,6 +231418,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "sleepybnuuy"
+            },
+            "0.1.6.0": {
+              "TimeReleased": "2026-04-24T02:49:22.6503929+00:00",
+              "Changelog": "Added highlighting on hover, plus Dynamis IPC support",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "sleepybnuuy"
             }
           }
@@ -259859,9 +259911,9 @@
           }
         },
         "WukLamark": {
-          "BuiltCommit": "1c69499bd122c91cf4b233f2c155f8c1523b699e",
-          "TimeBuilt": "2026-04-16T17:46:30.7933645+00:00",
-          "EffectiveVersion": "1.0.2.5",
+          "BuiltCommit": "5dc7efb09d67b4aba92eabdd0d17b835348cfaf6",
+          "TimeBuilt": "2026-04-24T02:49:13.7607594+00:00",
+          "EffectiveVersion": "1.0.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.2": {
@@ -259926,6 +259978,30 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.0.4.0": {
+              "TimeReleased": "2026-04-24T02:49:13.7607608+00:00",
+              "Changelog": "## What\u0027s New\r\n\r\n### Features\r\n- Added Native support for map markers on the game map.\r\n   \u003E **This feature is experimental and may not be stable.** No KTK/Native support for minimap. Just the map itself. No Icon map markers that use custom shapes in Native/KTK mode will default to a circle, pending suggestions for default icons for said shapes.\r\nTo use Native/KTK, go to WukLamark Settings -\u003E Experimental and toggle \u0060Use Native (KamiToolkit)\u0060\r\n\r\n### Fixes\r\n- Fixed a bug related to icon caching.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "415dfde08f8212a12f281b0bc4acf13d8d19ee3e"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Bronya-Rand"
             }
           }
@@ -283310,6 +283386,13 @@
       "Version": "eb3aa1d58dde8dd7ae3c5c1d49079920dadc632e",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-04-23T16:21:56.3312564Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "415dfde08f8212a12f281b0bc4acf13d8d19ee3e",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-24T02:49:13.8192742Z"
     }
   ]
 }
