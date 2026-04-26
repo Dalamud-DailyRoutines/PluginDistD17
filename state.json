@@ -198372,9 +198372,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "09f6ccbb5d61d5cf687af32f51118d9851de91ff",
-          "TimeBuilt": "2026-04-22T03:26:22.2103469+00:00",
-          "EffectiveVersion": "1.2.5.11",
+          "BuiltCommit": "9e3c3e11baca96a8575ffadf210f2707ad757554",
+          "TimeBuilt": "2026-04-25T17:54:10.5678488+00:00",
+          "EffectiveVersion": "1.2.5.13",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -202695,6 +202695,46 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.5.13": {
+              "TimeReleased": "2026-04-25T17:54:10.5678897+00:00",
+              "Changelog": "Add Suppress Strategy Board - Completely suppresses shared strategy boards, no sound effect, no popup!\r\n\r\nRemove Fade Strategy Board - Removed in favor of Suppress Strategy Board\r\n\r\nUpdate Translations",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "1787868c5e825782bb25a1feebf0535a7262116f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -207124,14 +207164,94 @@
           }
         },
         "SimpleTriggers": {
-          "BuiltCommit": "6e718dfd22d1c9ea392ce92765ba9d579d33289f",
-          "TimeBuilt": "2026-04-21T13:16:47.9357083+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "626956126da3d062d839c04ad04e9df66df3c20b",
+          "TimeBuilt": "2026-04-25T17:59:04.1005424+00:00",
+          "EffectiveVersion": "1.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
               "TimeReleased": "2026-04-21T13:16:47.9357552+00:00",
               "Changelog": "Migrate to stable! \uD83C\uDF89\n### About\nThis plugin aims to provide a simple means of creating in-game triggers to chat messages.\nResponses can be done in one of the below methods or any combination of the three:\n* Chat Message\n* In-Game SFX\n* Text-to-Speech\n  * Kokoro\n  * Windows System\n\n* Commands:\n  * \u0060/simpletriggers\u0060 or \u0060/strig\u0060 and the optional arguments:\n    * \u0060enable\u0060/\u0060on\u0060 or \u0060disable\u0060/\u0060off\u0060 to activate or deactivate the whole trigger system.\n    * \u0060toggle\u0060 flips the trigger system to active or inactive (same as above but as a 1-command toggle)\n    * \u0060stop\u0060 will stop the current audio playback and any queued streams in waiting.\n    * \u0060speak \u003Cphrase\u003E\u0060 will read aloud the requested phrase using your configured TTS.\n  * Shorter versions of the above:\n    * \u0060/sttoggle\u0060\n    * \u0060/ststop\u0060\n    * \u0060/stspeak \u003Cphrase\u003E\u0060\n\n### Changes from Testing\n* Audio settings have been grouped into their own collapsing header\n* Added a checkbox for users to choose if they want TTS streams to overlap (default) vs play in sequence\n* Added a \u0022stop playback\u0022 button to the settings aka \u0022I am suffering from the consequences of my actions\u0022 button.\n* Removed random questions marks on a bunch of UI labels\n* Some new commands for toggling triggers \u0060/sttoggle\u0060 and stopping TTS playback \u0060/ststop\u0060\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Brolijah"
+            },
+            "1.0.0.2": {
+              "TimeReleased": "2026-04-25T17:59:04.1005901+00:00",
+              "Changelog": "* UI Fix for DirectSound device enumeration under Windows. \n* Fixes to WinSpeech when multiple messages were queued at once.\n* TTS messages are now ensured FIFO through the audio player. Fixes a race condition where one message could finish rendering first and play before a prior, longer message.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -258579,9 +258699,9 @@
           }
         },
         "WachuMakeyMaking": {
-          "BuiltCommit": "5c50219dfa16b6d1ab1732b189c811296809b138",
-          "TimeBuilt": "2026-03-08T19:31:50.9513603+00:00",
-          "EffectiveVersion": "1.0.8.0",
+          "BuiltCommit": "88ba81bb14728605dbac34f7064fd1ecbd4255b7",
+          "TimeBuilt": "2026-04-25T17:54:19.8750305+00:00",
+          "EffectiveVersion": "1.0.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.6.0": {
@@ -258630,6 +258750,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "ArcaneAj"
+            },
+            "1.0.9.0": {
+              "TimeReleased": "2026-04-25T17:54:19.8750324+00:00",
+              "Changelog": "Better handles large numbers of recipes with Universalis, while giving progress updates on requests.\r\nFixed bug where switching gearset reset the resource overrides. Changes that don\u0027t affect total amounts shouldn\u0027t reset them.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "ArcaneAj"
             }
           }
@@ -260055,9 +260191,9 @@
           }
         },
         "SimpleTriggers": {
-          "BuiltCommit": "6e718dfd22d1c9ea392ce92765ba9d579d33289f",
-          "TimeBuilt": "2026-04-21T13:17:04.029523+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "626956126da3d062d839c04ad04e9df66df3c20b",
+          "TimeBuilt": "2026-04-25T17:59:20.5469735+00:00",
+          "EffectiveVersion": "1.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.2.0": {
@@ -260703,6 +260839,86 @@
             "1.0.0.0": {
               "TimeReleased": "2026-04-21T13:17:04.0295261+00:00",
               "Changelog": "Migrate to stable! \uD83C\uDF89\n* Audio settings have been grouped into their own collapsing header\n* Added a checkbox for users to choose if they want TTS streams to overlap (default) vs play in sequence\n* Added a \u0022stop playback\u0022 button to the settings aka \u0022I am suffering from the consequences of my actions\u0022 button.\n* Removed random questions marks on a bunch of UI labels\n* Some new commands for toggling triggers \u0060/sttoggle\u0060 and stopping TTS playback \u0060/ststop\u0060\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Brolijah"
+            },
+            "1.0.0.2": {
+              "TimeReleased": "2026-04-25T17:59:20.546975+00:00",
+              "Changelog": "* UI Fix for DirectSound device enumeration under Windows. \n* Fixes to WinSpeech when multiple messages were queued at once.\n* TTS messages are now ensured FIFO through the audio player. Fixes a race condition where one message could finish rendering first and play before a prior, longer message.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -283417,6 +283633,13 @@
       "Version": "415dfde08f8212a12f281b0bc4acf13d8d19ee3e",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-04-24T02:49:13.8192742Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "1787868c5e825782bb25a1feebf0535a7262116f",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-25T17:54:10.6366601Z"
     }
   ]
 }
