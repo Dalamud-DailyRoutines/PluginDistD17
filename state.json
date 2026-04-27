@@ -44679,9 +44679,9 @@
           }
         },
         "Collections": {
-          "BuiltCommit": "2fec161f36e8ee29397191378c10dccf4a9c81d8",
-          "TimeBuilt": "2026-04-22T22:08:05.5336265+00:00",
-          "EffectiveVersion": "1.0.3.0",
+          "BuiltCommit": "bf870a7df7b1a8296d9f5a758f27a2f0a984c56a",
+          "TimeBuilt": "2026-04-26T21:59:47.9418014+00:00",
+          "EffectiveVersion": "1.0.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.2": {
@@ -47062,6 +47062,38 @@
             "1.0.3.0": {
               "TimeReleased": "2026-04-22T22:08:05.5336762+00:00",
               "Changelog": "Collections v1.0.3.0\r\n- Additional \u0026 improved Tooltips and Filters\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.2"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "seventhxiv"
+            },
+            "1.0.3.1": {
+              "TimeReleased": "2026-04-26T21:59:47.9418375+00:00",
+              "Changelog": "Collections v1.0.3.1\r\n- Fix localization error\r\n",
               "UsedNeeds": [
                 {
                   "Key": "CSVFile",
@@ -105979,9 +106011,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "e819cc7a2461621e03c357b0267e5c3d5656ef6f",
-          "TimeBuilt": "2026-04-23T16:21:56.2667503+00:00",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "726ed292e2ac6bdfba7226255d0134c9798eef59",
+          "TimeBuilt": "2026-04-26T18:09:09.0008083+00:00",
+          "EffectiveVersion": "1.7.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -106750,6 +106782,42 @@
             "1.7.0.0": {
               "TimeReleased": "2026-04-23T16:21:56.2667896+00:00",
               "Changelog": "### New Marker System\r\n- A free selection of any combination of occult markers is now possible\r\n  - The fast switch overlay has been adjusted for this\r\n  - Automatic pot set can be freely adjusted\r\n  - Old occult default had to be replaced with a new selection\r\n  - All this is possible thanks to Kami :)\r\n\r\n\u003Cimg width=\u0022768\u0022 height=\u0022753\u0022 alt=\u0022ffxiv_dx11_MO2AR3cuQt\u0022 src=\u0022https://github.com/user-attachments/assets/0702c902-4d79-4a04-b61c-33825d87f497\u0022 /\u003E\r\n\r\n\r\n### Fixes\r\n- Fixed an issue that would create a black box carrot icon\r\n- Fixed an issue that would not show icons if Penumbra was unloaded \r\n- Fixed multiple issues with chat prints ",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "eb3aa1d58dde8dd7ae3c5c1d49079920dadc632e"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.13.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.0.1": {
+              "TimeReleased": "2026-04-26T18:09:09.0008651+00:00",
+              "Changelog": "- Prevent flag being covered by markers ",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
@@ -207480,9 +207548,9 @@
           }
         },
         "WukLamark": {
-          "BuiltCommit": "ee4b2808e04a58ffa25c213600da8b0969b5f08c",
-          "TimeBuilt": "2026-04-26T06:49:40.9684092+00:00",
-          "EffectiveVersion": "1.0.4.0",
+          "BuiltCommit": "37734d8c2911700e8a27293130ed03c4ba6db9ea",
+          "TimeBuilt": "2026-04-26T21:56:00.2685941+00:00",
+          "EffectiveVersion": "1.0.4.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.5": {
@@ -207536,6 +207604,22 @@
             "1.0.4.0": {
               "TimeReleased": "2026-04-26T06:49:40.968411+00:00",
               "Changelog": "## What\u0027s New\r\n\u003E This update log applies to both Stable and Testing Branches\r\n\r\n### Features\r\n- Custom map marker icons! Now instead of being limited to XIV or regular shapes, you can just use any custom icon you desire! Simply select a PNG file using the File Picker and it should appear in the Custom Icon\u0027s Icon Picker!\r\n   \u003E To use this feature, you will have to toggle \u0060Marker Type\u0060 to *Custom*. Ideally these markers should be small in size and be a 1:1 aspect ratio. Exporting custom icon markers will default to the Shape itself.\r\n- Marker Types - Set what type of marker icon to use from Shape to In-Game Icons to Custom Icons.\r\n   \u003E Setting Marker Type to \u0060Game\u0060 will only show XIV game icons. Setting it to Custom will show custom icons.\r\n\r\n### Changes\r\n- Refactored Marker layout and exporting rules. Old schema will be deprecated in the future.\r\n- Base64 strings are not GZIP compressed to save on characters for multiple map markers.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.0.4.1": {
+              "TimeReleased": "2026-04-26T21:56:00.2686342+00:00",
+              "Changelog": "## What\u0027s New?\r\n\u003E Changelog for both versions but stating what changes applies to which builds in parenthesis.\r\n\r\n## Fixes\r\n- **(Stable/Testing)**: Fixed a bug where some icons in Lumina sheets are invalid and causes Icon Picker to crash.\r\n- **(Testing)**: Bumped KTK commit to fix map markers being placed incorrectly compared to their ImGui counterparts.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -224486,9 +224570,9 @@
           }
         },
         "Collections": {
-          "BuiltCommit": "2fec161f36e8ee29397191378c10dccf4a9c81d8",
-          "TimeBuilt": "2026-03-26T11:08:07.9921861+00:00",
-          "EffectiveVersion": "1.0.3.0",
+          "BuiltCommit": "bf870a7df7b1a8296d9f5a758f27a2f0a984c56a",
+          "TimeBuilt": "2026-04-26T21:59:58.9003029+00:00",
+          "EffectiveVersion": "1.0.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -226928,6 +227012,38 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "seventhxiv"
+            },
+            "1.0.3.1": {
+              "TimeReleased": "2026-04-26T21:59:58.900304+00:00",
+              "Changelog": "Collections v1.0.3.1\r\n- Fix localization error\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.2"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "seventhxiv"
             }
           }
@@ -260551,9 +260667,9 @@
           }
         },
         "WukLamark": {
-          "BuiltCommit": "b0a90206640971bc7923cade33aa38696be293b3",
-          "TimeBuilt": "2026-04-26T06:49:51.8265655+00:00",
-          "EffectiveVersion": "1.0.5.0",
+          "BuiltCommit": "9784df3122a6143944003553f8c74b1d38bf1a73",
+          "TimeBuilt": "2026-04-26T21:56:15.2148628+00:00",
+          "EffectiveVersion": "1.0.5.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.2": {
@@ -260675,6 +260791,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "415dfde08f8212a12f281b0bc4acf13d8d19ee3e"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.0.5.1": {
+              "TimeReleased": "2026-04-26T21:56:15.2148639+00:00",
+              "Changelog": "## What\u0027s New?\r\n\u003E Changelog for both versions but stating what changes applies to which builds in parenthesis.\r\n\r\n## Fixes\r\n- **(Stable/Testing)**: Fixed a bug where some icons in Lumina sheets are invalid and causes Icon Picker to crash.\r\n- **(Testing)**: Bumped KTK commit to fix map markers being placed incorrectly compared to their ImGui counterparts.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "0e9ac7ee664eef917b6ebc81e26fa69bc0616501"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -284247,6 +284387,13 @@
       "Version": "5.0.2",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-04-26T06:49:31.6296786Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "0e9ac7ee664eef917b6ebc81e26fa69bc0616501",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-26T21:56:15.277259Z"
     }
   ]
 }
