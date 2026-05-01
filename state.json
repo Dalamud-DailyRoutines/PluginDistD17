@@ -3077,9 +3077,9 @@
           }
         },
         "EmoteLog": {
-          "BuiltCommit": "9ff38f9e404eaec37ce863aa6073a0b4c916ce52",
-          "TimeBuilt": "2026-01-19T19:26:46.7173678+00:00",
-          "EffectiveVersion": "1.1.6.2",
+          "BuiltCommit": "4352901e6b647f265814c4a03e67af105de11f46",
+          "TimeBuilt": "2026-04-30T20:55:13.3415465+00:00",
+          "EffectiveVersion": "1.1.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -3214,6 +3214,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "RokasKil"
+            },
+            "1.1.7.0": {
+              "TimeReleased": "2026-04-30T20:55:13.3415891+00:00",
+              "Changelog": "- 7.5 and API15 update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "RokasKil"
             }
           }
@@ -9193,9 +9209,9 @@
           }
         },
         "WinTitle": {
-          "BuiltCommit": "c30367409b38c034eda08fe85da8dfebc3011339",
-          "TimeBuilt": "2026-03-15T07:30:49.2335984+00:00",
-          "EffectiveVersion": "14.745.1.0",
+          "BuiltCommit": "fb993e75599c996d76d2eda0b0195afb44dde1d0",
+          "TimeBuilt": "2026-04-30T21:05:49.0249208+00:00",
+          "EffectiveVersion": "15.750.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.4.0": {
@@ -9363,6 +9379,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "rreminy"
+            },
+            "15.750.0.0": {
+              "TimeReleased": "2026-04-30T21:05:49.024923+00:00",
+              "Changelog": "- MiniMappingway v15.750.0.0\r\n- QuestMap v15.750.0.0\r\n- RezoPlugin v15.750.0.0\r\n- IHateCapsLock v15.750.0.0\r\n- WinTitle v15.750.0.0\r\n\r\nAPI 15 Updates",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "rreminy"
             }
           }
@@ -12716,9 +12748,9 @@
           }
         },
         "PushyFinder": {
-          "BuiltCommit": "01c81a50d477ade48d8e37e47e6a95d60190acf3",
-          "TimeBuilt": "2026-01-05T13:44:19.5440982+00:00",
-          "EffectiveVersion": "1.3.2.0",
+          "BuiltCommit": "7f8302510f5c61bf1d3bb36f3a8d0362742bed57",
+          "TimeBuilt": "2026-04-30T15:32:55.9464646+00:00",
+          "EffectiveVersion": "1.3.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -12862,6 +12894,30 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "snightshade"
+            },
+            "1.3.2.1": {
+              "TimeReleased": "2026-04-30T15:32:55.9464658+00:00",
+              "Changelog": "API 15 (FFXIV 7.5)\n\nThank you to @Dregan234 for submitting a pull request for this version!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Flurl.Http",
+                  "Version": "4.0.2"
+                },
+                {
+                  "Key": "Flurl",
+                  "Version": "4.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "snightshade"
             }
           }
@@ -14091,9 +14147,9 @@
           }
         },
         "Honorific": {
-          "BuiltCommit": "78081686085e31b150507b2bdd9a8a5e02805e4b",
-          "TimeBuilt": "2026-01-29T11:57:57.3249768+00:00",
-          "EffectiveVersion": "1.7.4.0",
+          "BuiltCommit": "9d66b6330eb724fc3959f5c37e7696a41d37a946",
+          "TimeBuilt": "2026-04-30T15:32:47.0391053+00:00",
+          "EffectiveVersion": "1.7.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.3": {
@@ -14374,6 +14430,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "Caraxi"
+            },
+            "1.7.5.0": {
+              "TimeReleased": "2026-04-30T15:32:47.0391067+00:00",
+              "Changelog": "API15 / 7.5",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Caraxi"
             }
           }
@@ -15912,9 +15984,9 @@
           }
         },
         "NOTED": {
-          "BuiltCommit": "51ee34fa9f3c8a73596d69a4d1da2f01ace17fd0",
-          "TimeBuilt": "2025-12-19T02:56:56.8150927+00:00",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "5900af34c3031e3681196d1dcb9ba8fcd249f91d",
+          "TimeBuilt": "2026-04-30T18:30:13.3200803+00:00",
+          "EffectiveVersion": "1.8.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -16027,6 +16099,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Tischel"
+            },
+            "1.8.0.0": {
+              "TimeReleased": "2026-04-30T18:30:13.3200822+00:00",
+              "Changelog": "- Added support for Patch 7.5 and Dalamud API 15.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Tischel"
             }
           }
@@ -47616,9 +47704,9 @@
           }
         },
         "ChatProximity": {
-          "BuiltCommit": "cf20a994dda4bf3fca5db1a7cbcff2efcefa6c55",
-          "TimeBuilt": "2025-12-18T22:48:35.0113319+00:00",
-          "EffectiveVersion": "1.4.2.0",
+          "BuiltCommit": "c6ea3676c562c0bbaba3c8d99235454e73509573",
+          "TimeBuilt": "2026-04-30T18:29:31.2273664+00:00",
+          "EffectiveVersion": "1.4.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -47757,6 +47845,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "iv230"
+            },
+            "1.4.3.0": {
+              "TimeReleased": "2026-04-30T18:29:31.2273682+00:00",
+              "Changelog": "### 1.4.3\n- Updated to game v7.5 and SDK v15.0.0\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "iv230"
             }
           }
         },
@@ -47856,9 +47960,9 @@
           }
         },
         "BeegWindow": {
-          "BuiltCommit": "d1aefed81bc87d7d3001a06bf287602f5a21ebf0",
-          "TimeBuilt": "2026-01-09T12:33:58.0476549+00:00",
-          "EffectiveVersion": "0.0.0.7",
+          "BuiltCommit": "fd6d497399c8df610338fb23611b181104ea6c39",
+          "TimeBuilt": "2026-04-30T15:32:20.738069+00:00",
+          "EffectiveVersion": "0.0.0.8",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -47958,6 +48062,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "ArcaneDisgea"
+            },
+            "0.0.0.8": {
+              "TimeReleased": "2026-04-30T15:32:20.738114+00:00",
+              "Changelog": "Api Bump",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "ArcaneDisgea"
             }
           }
@@ -48358,9 +48478,9 @@
           }
         },
         "Messenger": {
-          "BuiltCommit": "4b144a3f41d464f61a5425199fe40d89c394eebc",
-          "TimeBuilt": "2026-04-30T10:10:37.8221882+00:00",
-          "EffectiveVersion": "1.5.0.17",
+          "BuiltCommit": "5888978dc641bda69bd89070cbcd9ac719bb99e7",
+          "TimeBuilt": "2026-04-30T22:22:26.0816865+00:00",
+          "EffectiveVersion": "1.5.0.19",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.2": {
@@ -50469,6 +50589,50 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Limiana"
+            },
+            "1.5.0.19": {
+              "TimeReleased": "2026-04-30T22:22:26.0817283+00:00",
+              "Changelog": "- Fixed loading error / prevent similar from happening in future",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/NightmareUI",
+                  "Version": "d0b39d12852ed0414677f5e284990764bfe94851"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "ECommons",
+                  "Version": "3.2.0.6"
+                },
+                {
+                  "Key": "SharpDX.Direct2D1",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.DXGI",
+                  "Version": "4.2.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Limiana"
             }
           }
@@ -57460,9 +57624,9 @@
           }
         },
         "OpenerCreator": {
-          "BuiltCommit": "102c2ca09a85ba0b171e66d390e1eb345b47f52e",
-          "TimeBuilt": "2025-12-19T20:00:33.7439623+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "93d2ebf392506805951b2e037dafd943b9dd25f8",
+          "TimeBuilt": "2026-04-30T21:09:29.1030943+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.0.0": {
@@ -57801,6 +57965,78 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2026-04-30T21:09:29.1030967+00:00",
+              "Changelog": "API 15",
+              "UsedNeeds": [
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "6.0.3"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "17.12.0"
+                },
+                {
+                  "Key": "xunit",
+                  "Version": "2.9.2"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "17.12.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "17.12.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "17.12.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "xunit.abstractions",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.16.0"
+                },
+                {
+                  "Key": "xunit.assert",
+                  "Version": "2.9.2"
+                },
+                {
+                  "Key": "xunit.core",
+                  "Version": "2.9.2"
+                },
+                {
+                  "Key": "xunit.extensibility.core",
+                  "Version": "2.9.2"
+                },
+                {
+                  "Key": "xunit.extensibility.execution",
+                  "Version": "2.9.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
             }
           }
@@ -62506,9 +62742,9 @@
           }
         },
         "LogogramHelper": {
-          "BuiltCommit": "885913de61b1a01b101f6606b61c6382fa28c41f",
-          "TimeBuilt": "2025-12-23T03:51:56.9880203+00:00",
-          "EffectiveVersion": "0.0.3.7",
+          "BuiltCommit": "022035a066ca11539f6fdfde1f5d6b9e88bd5962",
+          "TimeBuilt": "2026-04-30T23:05:36.7680464+00:00",
+          "EffectiveVersion": "0.0.3.8",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.8": {
@@ -62641,6 +62877,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "apetih"
+            },
+            "0.0.3.8": {
+              "TimeReleased": "2026-04-30T23:05:36.7680883+00:00",
+              "Changelog": "- API 15\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "apetih"
             }
           }
@@ -66947,9 +67199,9 @@
           }
         },
         "BetterMountRoulette": {
-          "BuiltCommit": "f04323fa9383d429130aab6abdf7ad5fcea5fbb9",
-          "TimeBuilt": "2026-04-22T22:05:26.2599149+00:00",
-          "EffectiveVersion": "1.8.1.31",
+          "BuiltCommit": "ea8cacd4823653bb8b02e5db5664a836dc0f0e4a",
+          "TimeBuilt": "2026-04-30T15:49:37.7329131+00:00",
+          "EffectiveVersion": "1.8.1.32",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -67173,6 +67425,26 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "CMDRNuffin"
+            },
+            "1.8.1.32": {
+              "TimeReleased": "2026-04-30T15:49:37.7329147+00:00",
+              "Changelog": "Update for 7.5",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/CMDRNuffin/BetterMinionMountRouletteShared.git",
+                  "Version": "4bcec02d27521342ef25d61ebf7b4346eee2f2d6"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -82332,9 +82604,9 @@
           }
         },
         "CameraLoader": {
-          "BuiltCommit": "f4a0970b5f684595dd309fb44b924848e82af8bb",
-          "TimeBuilt": "2025-12-19T00:42:17.233478+00:00",
-          "EffectiveVersion": "1.0.5.0",
+          "BuiltCommit": "a68485bd2103955ba437bcf950645c43e05b6579",
+          "TimeBuilt": "2026-04-30T18:29:22.9108215+00:00",
+          "EffectiveVersion": "1.0.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -82395,6 +82667,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "NeNeppie"
+            },
+            "1.0.6.0": {
+              "TimeReleased": "2026-04-30T18:29:22.9108234+00:00",
+              "Changelog": "Update for Patch 7.5 / API 15",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "NeNeppie"
             }
           }
@@ -84125,9 +84413,9 @@
           }
         },
         "DeepDungeonTracker": {
-          "BuiltCommit": "fd8e0e1682f810b6274365d45359bf54d678ba8e",
-          "TimeBuilt": "2025-12-23T21:01:17.097022+00:00",
-          "EffectiveVersion": "1.0.1.9",
+          "BuiltCommit": "fbf01868160b797a273b87d902d9aa7931887a8e",
+          "TimeBuilt": "2026-04-30T18:47:39.8967839+00:00",
+          "EffectiveVersion": "1.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -84435,13 +84723,37 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "marconsou"
+            },
+            "1.0.2.0": {
+              "TimeReleased": "2026-04-30T18:47:39.8968222+00:00",
+              "Changelog": "- Patch 7.5 / Dalamud API 15 update.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "marconsou"
             }
           }
         },
         "BurntToast": {
-          "BuiltCommit": "52cc786120bc18c50a65ef98cf01e5d36207690f",
-          "TimeBuilt": "2025-12-21T23:40:46.8757677+00:00",
-          "EffectiveVersion": "1.4.4.0",
+          "BuiltCommit": "8cb050c350c1af3799b37070bc915890a9026a56",
+          "TimeBuilt": "2026-04-30T22:46:06.8666377+00:00",
+          "EffectiveVersion": "1.4.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.5": {
@@ -84823,13 +85135,85 @@
               ],
               "Reviewer": "perchbirdd",
               "Submitter": "Xpahtalo"
+            },
+            "1.4.5.0": {
+              "TimeReleased": "2026-04-30T22:46:06.8666896+00:00",
+              "Changelog": "Patch 7.5/API15 support.",
+              "UsedNeeds": [
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "17.10.0"
+                },
+                {
+                  "Key": "xunit",
+                  "Version": "2.9.0"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "2.8.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "17.10.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "17.10.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "17.10.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "xunit.abstractions",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.15.0"
+                },
+                {
+                  "Key": "xunit.assert",
+                  "Version": "2.9.0"
+                },
+                {
+                  "Key": "xunit.core",
+                  "Version": "2.9.0"
+                },
+                {
+                  "Key": "xunit.extensibility.core",
+                  "Version": "2.9.0"
+                },
+                {
+                  "Key": "xunit.extensibility.execution",
+                  "Version": "2.9.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Xpahtalo"
             }
           }
         },
         "QuestMap": {
-          "BuiltCommit": "10d35a63fe03626e1dd5d3fb0c1f4eba41f256e9",
-          "TimeBuilt": "2026-03-15T07:31:27.1822566+00:00",
-          "EffectiveVersion": "14.745.1.0",
+          "BuiltCommit": "5f1010511b79ec076c0f572537b245d3e67c87fa",
+          "TimeBuilt": "2026-04-30T21:04:58.5681176+00:00",
+          "EffectiveVersion": "15.750.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.4.0": {
@@ -85049,6 +85433,26 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "rreminy"
+            },
+            "15.750.0.0": {
+              "TimeReleased": "2026-04-30T21:04:58.568119+00:00",
+              "Changelog": "- MiniMappingway v15.750.0.0\r\n- QuestMap v15.750.0.0\r\n- RezoPlugin v15.750.0.0\r\n- IHateCapsLock v15.750.0.0\r\n- WinTitle v15.750.0.0\r\n\r\nAPI 15 Updates",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Msagl",
+                  "Version": "1.2.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "rreminy"
             }
           }
@@ -89866,9 +90270,9 @@
           }
         },
         "TPie": {
-          "BuiltCommit": "34681ec94302d08e6859b0f9ec2d94ff29af9743",
-          "TimeBuilt": "2025-12-23T09:11:20.9148853+00:00",
-          "EffectiveVersion": "1.13.0.2",
+          "BuiltCommit": "94c894a31d3bc0401f132dea80d8d82c19b8edcb",
+          "TimeBuilt": "2026-04-30T18:29:14.7681404+00:00",
+          "EffectiveVersion": "1.14.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.0": {
@@ -90067,6 +90471,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Tischel"
+            },
+            "1.14.0.0": {
+              "TimeReleased": "2026-04-30T18:29:14.7681425+00:00",
+              "Changelog": "- Added support for Patch 7.5 and Dalamud API 15.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Tischel"
             }
           }
@@ -92237,9 +92657,9 @@
           }
         },
         "MiniMappingway": {
-          "BuiltCommit": "7025bf99cfd3bb40d53f38e2da713d83b8e5bf3f",
-          "TimeBuilt": "2026-03-17T23:23:15.352837+00:00",
-          "EffectiveVersion": "14.745.1.2",
+          "BuiltCommit": "391540abf9790f9cb3ab9ba64016ea92b07a90ac",
+          "TimeBuilt": "2026-04-30T21:05:06.3346567+00:00",
+          "EffectiveVersion": "15.750.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -92588,6 +93008,22 @@
                 }
               ],
               "Reviewer": "goaaats",
+              "Submitter": "rreminy"
+            },
+            "15.750.0.0": {
+              "TimeReleased": "2026-04-30T21:05:06.334658+00:00",
+              "Changelog": "- MiniMappingway v15.750.0.0\r\n- QuestMap v15.750.0.0\r\n- RezoPlugin v15.750.0.0\r\n- IHateCapsLock v15.750.0.0\r\n- WinTitle v15.750.0.0\r\n\r\nAPI 15 Updates",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "rreminy"
             }
           }
@@ -97426,9 +97862,9 @@
           }
         },
         "TitleEdit": {
-          "BuiltCommit": "ebe574ceb676438e66596db6a7fe49d2e19dcdaf",
-          "TimeBuilt": "2026-03-22T23:21:47.414491+00:00",
-          "EffectiveVersion": "3.0.6.6",
+          "BuiltCommit": "43c49558c4aba48b8fb197dbaf86d8f784a215a4",
+          "TimeBuilt": "2026-04-30T22:18:48.3955644+00:00",
+          "EffectiveVersion": "3.0.6.8",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -98257,6 +98693,38 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "RokasKil"
+            },
+            "3.0.6.7": {
+              "TimeReleased": "2026-04-30T20:55:23.1054939+00:00",
+              "Changelog": "- 7.5 and API15 update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "RokasKil"
+            },
+            "3.0.6.8": {
+              "TimeReleased": "2026-04-30T22:18:48.3956124+00:00",
+              "Changelog": "- Extra preset loading logging on failure\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "RokasKil"
             }
           }
         },
@@ -98678,9 +99146,9 @@
           }
         },
         "Dalamud.CharacterSync": {
-          "BuiltCommit": "5a1ddebb77a0762e772a7c7abcb1e40a85d4e225",
-          "TimeBuilt": "2026-02-23T23:35:10.9959589+00:00",
-          "EffectiveVersion": "2.1.0.0",
+          "BuiltCommit": "2a9f15e52b833d7b4c36be111bd9aff3d3411403",
+          "TimeBuilt": "2026-04-30T23:40:25.9350479+00:00",
+          "EffectiveVersion": "2.1.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.11": {
@@ -98873,6 +99341,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Xpahtalo"
+            },
+            "2.1.1.1": {
+              "TimeReleased": "2026-04-30T23:40:25.9350939+00:00",
+              "Changelog": "You can now configure how many backups are saved. There\u0027s also a button in the /pcharsync menu to open up the backups folder for easier access.\nPatch 7.5/API15 support.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.333"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.333"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Xpahtalo"
             }
           }
@@ -105210,9 +105702,9 @@
           }
         },
         "PeepingTom": {
-          "BuiltCommit": "ac4201d1133ab8de20cffe9a30a0f456790176da",
-          "TimeBuilt": "2025-12-21T05:25:30.9365165+00:00",
-          "EffectiveVersion": "1.7.23",
+          "BuiltCommit": "82bbbc87dca4d8d0e20345259dfe0fade1eb0884",
+          "TimeBuilt": "2026-05-01T01:13:32.659605+00:00",
+          "EffectiveVersion": "1.7.24",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.11": {
@@ -105427,6 +105919,30 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Caraxi"
+            },
+            "1.7.24": {
+              "TimeReleased": "2026-05-01T01:13:32.6596467+00:00",
+              "Changelog": "Update for 7.5",
+              "UsedNeeds": [
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Caraxi"
             }
           }
         },
@@ -105531,9 +106047,9 @@
           }
         },
         "HybridCamera": {
-          "BuiltCommit": "88ca556ec88caba226e756b86ea51b052104dbfd",
-          "TimeBuilt": "2025-12-22T21:36:40.9600912+00:00",
-          "EffectiveVersion": "1.8.0.0",
+          "BuiltCommit": "fcf9861709fa2192144d7e210acac8190afbafdf",
+          "TimeBuilt": "2026-04-30T22:09:16.5236002+00:00",
+          "EffectiveVersion": "1.9.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.1.0": {
@@ -105655,6 +106171,26 @@
                 }
               ],
               "Reviewer": "perchbirdd",
+              "Submitter": "Drahsid"
+            },
+            "1.9.0.0": {
+              "TimeReleased": "2026-04-30T22:09:16.523643+00:00",
+              "Changelog": "API 15 update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Drahsid/DrahsidLib.git",
+                  "Version": "a9a29f06a4b2e3b13156296d95b3449677747aa4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Drahsid"
             }
           }
@@ -106014,9 +106550,9 @@
           }
         },
         "PennyPincher": {
-          "BuiltCommit": "4b0eb9599ee9a7fa457f0c0da00f030b10abffa8",
-          "TimeBuilt": "2025-12-21T06:23:09.5400053+00:00",
-          "EffectiveVersion": "1.9.0.0",
+          "BuiltCommit": "164e362962c65dec3f0ba6cba9f296777c300862",
+          "TimeBuilt": "2026-04-30T15:49:10.3134465+00:00",
+          "EffectiveVersion": "1.9.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.1": {
@@ -106250,6 +106786,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "tesu"
+            },
+            "1.9.0.1": {
+              "TimeReleased": "2026-04-30T15:49:10.3135165+00:00",
+              "Changelog": "API 15",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "tesu"
             }
           }
@@ -113584,9 +114136,9 @@
           }
         },
         "ActionTimeline": {
-          "BuiltCommit": "ef3eeb051b96459c8bd70fc1340a81682324250b",
-          "TimeBuilt": "2025-12-19T02:56:23.756035+00:00",
-          "EffectiveVersion": "1.8.0.0",
+          "BuiltCommit": "6392e3ebebbb3ba9f3aab51bca792ff64f2e10e1",
+          "TimeBuilt": "2026-04-30T18:29:50.822407+00:00",
+          "EffectiveVersion": "1.9.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -113685,6 +114237,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Tischel"
+            },
+            "1.9.0.0": {
+              "TimeReleased": "2026-04-30T18:29:50.8224092+00:00",
+              "Changelog": "- Added support for Patch 7.5 and Dalamud API 15.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Tischel"
             }
           }
@@ -120890,9 +121458,9 @@
           }
         },
         "DelvUI": {
-          "BuiltCommit": "1ae210dcf2eadb2f26e8808535408a1a8505bdc3",
-          "TimeBuilt": "2025-12-27T01:31:04.3966111+00:00",
-          "EffectiveVersion": "2.6.2.1",
+          "BuiltCommit": "1b66421f882498573f572577951fed7d0c2b9b83",
+          "TimeBuilt": "2026-04-30T18:29:42.7095942+00:00",
+          "EffectiveVersion": "2.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -121246,13 +121814,33 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Tischel"
+            },
+            "2.7.0.0": {
+              "TimeReleased": "2026-04-30T18:29:42.7095962+00:00",
+              "Changelog": "- Added support for Patch 7.5 and Dalamud API 15.\r\n- Fixed a bug with status tooltips sometimes missing information in the description.",
+              "UsedNeeds": [
+                {
+                  "Key": "Colourful",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Tischel"
             }
           }
         },
         "AvantGarde": {
-          "BuiltCommit": "be3c6bdffc9c3c1cd4860eadc61eb41c9125788d",
-          "TimeBuilt": "2025-12-19T00:42:08.0385416+00:00",
-          "EffectiveVersion": "1.0.5.0",
+          "BuiltCommit": "e849811662279877608c0b274aa14399217b9692",
+          "TimeBuilt": "2026-04-30T18:30:21.3380376+00:00",
+          "EffectiveVersion": "1.0.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.1": {
@@ -121346,6 +121934,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "NeNeppie"
+            },
+            "1.0.6.0": {
+              "TimeReleased": "2026-04-30T18:30:21.3380398+00:00",
+              "Changelog": "Update for Patch 7.5 / API 15\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "NeNeppie"
             }
           }
@@ -129173,9 +129777,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "93788239202e970bab80c145d4832f045ae6a766",
-          "TimeBuilt": "2026-04-11T20:38:56.8758789+00:00",
-          "EffectiveVersion": "3.5.2.4",
+          "BuiltCommit": "f2586ff5a34d10642ff952e409bc23a8f9ee5280",
+          "TimeBuilt": "2026-04-30T18:36:04.6658422+00:00",
+          "EffectiveVersion": "3.5.2.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -130060,6 +130664,30 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "SearchPioneer.Lingua",
+                  "Version": "1.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "kelvin124124"
+            },
+            "3.5.2.5": {
+              "TimeReleased": "2026-04-30T18:36:04.6658922+00:00",
+              "Changelog": "migrate to api 15\r\nreplace hardcoded values for payload skipping with a safer implementation\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -161644,9 +162272,9 @@
           }
         },
         "HuntBuddy": {
-          "BuiltCommit": "baf609914c482dbcfd48262377a6f50cc7ad93c3",
-          "TimeBuilt": "2026-01-05T13:44:28.1650904+00:00",
-          "EffectiveVersion": "1.2.2.1",
+          "BuiltCommit": "1de61e25b99b6473f4d2c75b4023e588016f0aa4",
+          "TimeBuilt": "2026-04-30T21:05:21.3916139+00:00",
+          "EffectiveVersion": "1.2.2.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -161777,6 +162405,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "SheepGoMeh"
+            },
+            "1.2.2.2": {
+              "TimeReleased": "2026-04-30T21:05:21.3916152+00:00",
+              "Changelog": "API 15 update",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "SheepGoMeh"
             }
           }
@@ -171423,9 +172067,9 @@
           }
         },
         "autoSweep": {
-          "BuiltCommit": "5d8ce74bfe1cd76326693be8d415203dba89701b",
-          "TimeBuilt": "2025-12-19T22:25:26.6238474+00:00",
-          "EffectiveVersion": "1.4.9.0",
+          "BuiltCommit": "2ac7ba9c20cf087a6e28199ed9e59f12a1716ccb",
+          "TimeBuilt": "2026-04-30T15:49:18.1110173+00:00",
+          "EffectiveVersion": "1.4.10.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.2.0": {
@@ -171546,6 +172190,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "zhudotexe"
+            },
+            "1.4.10.0": {
+              "TimeReleased": "2026-04-30T15:49:18.1110188+00:00",
+              "Changelog": "Updated for 7.5",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DebounceThrottle",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "WebSocketSharp.Standard",
+                  "Version": "1.0.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "zhudotexe"
             }
           }
@@ -171668,9 +172336,9 @@
           }
         },
         "MacroChain": {
-          "BuiltCommit": "c6276873adeec938e3729ecc6a0c81bdd31bca15",
-          "TimeBuilt": "2025-12-19T06:09:53.2964016+00:00",
-          "EffectiveVersion": "2.2.0.14",
+          "BuiltCommit": "b6460ece05b0cd21b91164bd659e7dbd497900be",
+          "TimeBuilt": "2026-05-01T01:28:53.8325545+00:00",
+          "EffectiveVersion": "2.2.0.15",
           "MinimumVersion": null,
           "Changelogs": {
             "2.2.0.1": {
@@ -171716,6 +172384,22 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Caraxi"
+            },
+            "2.2.0.15": {
+              "TimeReleased": "2026-05-01T01:28:53.8325561+00:00",
+              "Changelog": "Update for 7.5",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -173275,9 +173959,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "b4cb8b25ecf0f526b8e88395f13434b49fe94c52",
-          "TimeBuilt": "2026-04-30T04:27:30.7617576+00:00",
-          "EffectiveVersion": "1.35.0.0",
+          "BuiltCommit": "33c922aaf738ead936ac735259550f91cff076a4",
+          "TimeBuilt": "2026-04-30T21:05:41.6703398+00:00",
+          "EffectiveVersion": "1.35.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -176562,6 +177246,198 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
+            },
+            "1.35.1.0": {
+              "TimeReleased": "2026-04-30T18:30:04.9723512+00:00",
+              "Changelog": "- Fix a migration issue\r\n- Fix off main thread usage",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "morelinq",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.35.2.0": {
+              "TimeReleased": "2026-04-30T21:05:41.6703421+00:00",
+              "Changelog": "- Potential fix for null ref error\r\n- Add logging around migration",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "morelinq",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
             }
           }
         },
@@ -176845,9 +177721,9 @@
           }
         },
         "DelvCD": {
-          "BuiltCommit": "e6ef85207ebbf6bde1719a40ac884adc07083c4c",
-          "TimeBuilt": "2025-12-19T02:57:14.1990912+00:00",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "1bac31f7bf2284c26bfd48066d065cd6064afda2",
+          "TimeBuilt": "2026-04-30T18:28:25.9916876+00:00",
+          "EffectiveVersion": "1.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -176917,13 +177793,29 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Tischel"
+            },
+            "1.6.0.0": {
+              "TimeReleased": "2026-04-30T18:28:25.9917407+00:00",
+              "Changelog": "- Added support for Patch 7.5 and Dalamud API 15.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Tischel"
             }
           }
         },
         "Umbra": {
-          "BuiltCommit": "b131ee3f9225b72773e4def862b19319c89330b3",
-          "TimeBuilt": "2026-03-03T19:47:56.0585097+00:00",
-          "EffectiveVersion": "3.1.12.0",
+          "BuiltCommit": "8bb134369f7c8692c35161805150d82582f379d3",
+          "TimeBuilt": "2026-04-30T15:33:32.5669426+00:00",
+          "EffectiveVersion": "3.1.13.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -178371,6 +179263,42 @@
               ],
               "Reviewer": "goaaats",
               "Submitter": "Bloodsoul"
+            },
+            "3.1.13.0": {
+              "TimeReleased": "2026-04-30T15:33:32.566944+00:00",
+              "Changelog": "# Umbra 3.1.13\n\n## Fixes \u0026 Improvements\n\n- Added an option to hide the toolbar while editing the native HUD (By [wolfcomp](https://github.com/wolfcomp)).\n- Unified Main Menu: Fixed character name for non-global players that can have a single name (By [pyreymo](https://github.com/pyreymo)).\n- Currencies: Fixed grand company currency not updating max size when rank changes (By [wolfcomp](https://github.com/wolfcomp)).\n- Societies: Progress bar now uses the progress bar color instead of accent color (By [GayPotatoEmma](https://github.com/GayPotatoEmma)).\n- Add compatibility to 7.5 and API15 (By [wolfcomp](https://github.com/wolfcomp), [alexpado](https://github.com/alexpado), [Bloodsoul](https://github.com/Bloodsoul)).\n\n---\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "f0d699ca17b44973e161135594fb951d0a0af353"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "System.Reflection.MetadataLoadContext",
+                  "Version": "9.0.4"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bloodsoul"
             }
           }
         },
@@ -178815,9 +179743,9 @@
           }
         },
         "EngageTimer": {
-          "BuiltCommit": "7e718368bbb73c750f2ba8fa801bb4c900e72729",
-          "TimeBuilt": "2025-12-20T01:38:11.8562856+00:00",
-          "EffectiveVersion": "2.4.5.0",
+          "BuiltCommit": "1fdf6679e3c42ee53c2cd938efd34f25cd635f00",
+          "TimeBuilt": "2026-04-30T18:36:16.370286+00:00",
+          "EffectiveVersion": "2.4.5.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.2.2.2": {
@@ -179125,6 +180053,42 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "xorus"
+            },
+            "2.4.5.2": {
+              "TimeReleased": "2026-04-30T18:36:16.3702877+00:00",
+              "Changelog": "- Update for API15\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "EmbedIO",
+                  "Version": "3.5.2"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2025.2.4"
+                },
+                {
+                  "Key": "StbiSharp",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.6.2"
+                },
+                {
+                  "Key": "Unosquare.Swan.Lite",
+                  "Version": "3.1.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "xorus"
             }
           }
@@ -186712,9 +187676,9 @@
           }
         },
         "SimpleMapTracker": {
-          "BuiltCommit": "a64837cfd121064b3cc4f5578665dd8112fda2d1",
-          "TimeBuilt": "2025-12-19T06:17:08.9965535+00:00",
-          "EffectiveVersion": "1.0.4.0",
+          "BuiltCommit": "1dd5f3d7918da8b859c8c5ceacdbff2085a9f588",
+          "TimeBuilt": "2026-05-01T01:28:45.2873251+00:00",
+          "EffectiveVersion": "1.0.4.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
@@ -186960,6 +187924,42 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Caraxi"
+            },
+            "1.0.4.1": {
+              "TimeReleased": "2026-05-01T01:28:45.2873699+00:00",
+              "Changelog": "Update for 7.5",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Caraxi"
             }
           }
         },
@@ -187132,9 +188132,9 @@
           }
         },
         "ContactsTracker": {
-          "BuiltCommit": "6bdd36812cec3e598d2c6f976fee123e38ee58f4",
-          "TimeBuilt": "2026-02-18T19:51:16.2017187+00:00",
-          "EffectiveVersion": "1.0.9.0",
+          "BuiltCommit": "74877d09022e13298cff8c6ca776884a14f25c5e",
+          "TimeBuilt": "2026-04-30T15:49:26.2950743+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -187356,13 +188356,33 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "DueDine"
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2026-04-30T15:49:26.2950761+00:00",
+              "Changelog": "[1.1.0.0]\r\n- API15 Update\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "DueDine"
             }
           }
         },
         "RezoPlugin": {
-          "BuiltCommit": "2f8b478bc417e356e4fdb945c1f8c133d024f5e0",
-          "TimeBuilt": "2026-03-15T07:31:35.4022151+00:00",
-          "EffectiveVersion": "14.745.1.0",
+          "BuiltCommit": "4b487f1f08356b03c4c4aaf155c99260c4aa7f5c",
+          "TimeBuilt": "2026-04-30T21:05:13.7252467+00:00",
+          "EffectiveVersion": "15.750.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.1.0": {
@@ -187443,6 +188463,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "rreminy"
+            },
+            "15.750.0.0": {
+              "TimeReleased": "2026-04-30T21:05:13.7252478+00:00",
+              "Changelog": "- MiniMappingway v15.750.0.0\r\n- QuestMap v15.750.0.0\r\n- RezoPlugin v15.750.0.0\r\n- IHateCapsLock v15.750.0.0\r\n- WinTitle v15.750.0.0\r\n\r\nAPI 15 Updates",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "rreminy"
             }
           }
@@ -202540,9 +203576,9 @@
           }
         },
         "IHateCapsLock": {
-          "BuiltCommit": "d74bae79a4547eb64562de14b8626e454f5edea3",
-          "TimeBuilt": "2026-03-15T07:31:44.8247026+00:00",
-          "EffectiveVersion": "14.745.1.0",
+          "BuiltCommit": "3e1a0a1e22617612824934dc22078e38979c02c4",
+          "TimeBuilt": "2026-04-30T21:05:28.8504281+00:00",
+          "EffectiveVersion": "15.750.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
@@ -202607,6 +203643,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "rreminy"
+            },
+            "15.750.0.0": {
+              "TimeReleased": "2026-04-30T21:05:28.8504292+00:00",
+              "Changelog": "- MiniMappingway v15.750.0.0\r\n- QuestMap v15.750.0.0\r\n- RezoPlugin v15.750.0.0\r\n- IHateCapsLock v15.750.0.0\r\n- WinTitle v15.750.0.0\r\n\r\nAPI 15 Updates",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "rreminy"
             }
           }
@@ -209844,9 +210896,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "dda6b7d430c54d8675490a0dfd91d82fded0a3bc",
-          "TimeBuilt": "2026-04-16T15:10:01.1071023+00:00",
-          "EffectiveVersion": "1.9.9.0",
+          "BuiltCommit": "81852755b4c4ff6a91b2ac581b82bc03329b0e05",
+          "TimeBuilt": "2026-04-30T23:15:25.462934+00:00",
+          "EffectiveVersion": "1.10.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -210644,6 +211696,94 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Sohtoren"
+            },
+            "1.10.0.0": {
+              "TimeReleased": "2026-04-30T15:32:37.5719831+00:00",
+              "Changelog": "- **General**: Add 7.5\n- **Timer**: Add setting to display remaining timers in chat on zone change.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.72"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.10.1.0": {
+              "TimeReleased": "2026-04-30T23:15:25.4629756+00:00",
+              "Changelog": "- **Inventory**: Add armoire icon on gear icon that can be placed into the armoire for the glamour dresser inventory\n- **Timer**: Remove M4 from double reward check\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.72"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
             }
           }
         },
@@ -210916,9 +212056,9 @@
           }
         },
         "LazyGatherer": {
-          "BuiltCommit": "8725edce93f3bf5a20119752e7021828df05441f",
-          "TimeBuilt": "2026-01-11T03:37:23.3497315+00:00",
-          "EffectiveVersion": "1.3.3.0",
+          "BuiltCommit": "eda496e6e60ffa3020288c6f00c1c933f67231c3",
+          "TimeBuilt": "2026-04-30T21:04:50.0201801+00:00",
+          "EffectiveVersion": "1.3.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.1.0": {
@@ -211031,6 +212171,34 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Hiroa"
+            },
+            "1.3.4.0": {
+              "TimeReleased": "2026-04-30T21:04:50.0202208+00:00",
+              "Changelog": "Version 1.3.4: \nUpdate for API 15\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "68d002993a2e1245830167052cba005ff285a939"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Hiroa"
             }
           }
@@ -212416,9 +213584,9 @@
           }
         },
         "JobAutoSwitcher": {
-          "BuiltCommit": "0ce628b135896c133fc5ee30eeeee93381b6972b",
-          "TimeBuilt": "2026-02-27T00:26:59.4165567+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "ccf73c9db2c4b5c4f694d33624ebbea51880cbfe",
+          "TimeBuilt": "2026-04-30T15:33:41.8585877+00:00",
+          "EffectiveVersion": "1.3.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -212435,6 +213603,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Valiice"
+            },
+            "1.3.1.0": {
+              "TimeReleased": "2026-04-30T15:33:41.8585893+00:00",
+              "Changelog": "Update for Dalamud API15 / patch 7.5",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Valiice"
             }
           }
@@ -213456,9 +214640,9 @@
           }
         },
         "SimpleTriggers": {
-          "BuiltCommit": "a9b1cebfa4f4728faac6c0541b8eaabfb4889478",
-          "TimeBuilt": "2026-04-30T09:59:38.8663445+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "b8ae28c0ebd49ed074f4a9f7b1c5cc1a8d910ea4",
+          "TimeBuilt": "2026-04-30T15:33:12.5454535+00:00",
+          "EffectiveVersion": "1.0.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -213700,6 +214884,86 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Brolijah"
+            },
+            "1.0.1.1": {
+              "TimeReleased": "2026-04-30T15:33:12.5454548+00:00",
+              "Changelog": "* tweaks to trigger structure\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Brolijah"
             }
           }
         },
@@ -213796,6 +215060,30 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Aida-Enna"
+            }
+          }
+        },
+        "GlamSwapCommand": {
+          "BuiltCommit": "747a0d2e6b5c9d813a8c9aa6f378ff71d896c29b",
+          "TimeBuilt": "2026-04-30T21:09:20.118096+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-04-30T21:09:20.1180996+00:00",
+              "Changelog": "API 14 -\u003E 15",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Skyde789"
             }
           }
         }
@@ -218014,9 +219302,9 @@
           }
         },
         "ScoutHelper": {
-          "BuiltCommit": "d173507372db6f346e0196bffe89d732a9cceef8",
-          "TimeBuilt": "2025-12-21T21:59:31.4795068+00:00",
-          "EffectiveVersion": "1.11.1.0",
+          "BuiltCommit": "b38517c67a5b315e432bde71f6e0d174e90e2787",
+          "TimeBuilt": "2026-04-30T23:05:51.1973376+00:00",
+          "EffectiveVersion": "1.12.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -220025,6 +221313,166 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "dit-zy"
+            },
+            "1.12.0.0": {
+              "TimeReleased": "2026-04-30T23:05:51.1973392+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/dit-zy/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "CSharpFunctionalExtensions",
+                  "Version": "3.6.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DitzyExtensions",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "XIVHuntUtils",
+                  "Version": "1.6.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "dit-zy"
             }
           }
@@ -228776,9 +230224,9 @@
           }
         },
         "WhosTalking": {
-          "BuiltCommit": "3752d7ce5925466e1880835a25e9bd1689718f40",
-          "TimeBuilt": "2026-04-01T13:30:17.9448023+00:00",
-          "EffectiveVersion": "0.8.9.0",
+          "BuiltCommit": "65e13c87edcd76ba880b756f2ac46e295a1652b9",
+          "TimeBuilt": "2026-04-30T20:55:43.5545168+00:00",
+          "EffectiveVersion": "0.8.10.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -229317,6 +230765,38 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "keysmashes"
+            },
+            "0.8.10.0": {
+              "TimeReleased": "2026-04-30T20:55:43.5545197+00:00",
+              "Changelog": "Updated for API 15 (patch 7.5).\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2022.3.1"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "keysmashes"
             }
           }
@@ -235422,9 +236902,9 @@
           }
         },
         "FCNameColor": {
-          "BuiltCommit": "8c233c09175c9e524ffa45eef271526d0607c3ba",
-          "TimeBuilt": "2025-03-27T23:07:25.4130152+00:00",
-          "EffectiveVersion": "5.1.0.2",
+          "BuiltCommit": "179af7289022749806aa525156d64ccd439c0028",
+          "TimeBuilt": "2026-04-30T21:29:28.5851818+00:00",
+          "EffectiveVersion": "5.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.0.0": {
@@ -235546,6 +237026,38 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "WesselKuipers"
+            },
+            "5.1.2.0": {
+              "TimeReleased": "2026-04-30T21:29:28.5852132+00:00",
+              "Changelog": "- Add nameplate hiding feature\n\nFeedback and suggestions on this feature would be appreciated!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "WesselKuipers"
             }
           }
@@ -243056,9 +244568,9 @@
           }
         },
         "rtyping": {
-          "BuiltCommit": "684ed7adf6335d14479c1074f72c9174552f8b34",
-          "TimeBuilt": "2025-12-23T03:52:08.0929139+00:00",
-          "EffectiveVersion": "0.2.0.2",
+          "BuiltCommit": "cf66eb2611ffb972325119908121467ae94ae7da",
+          "TimeBuilt": "2026-04-30T23:06:02.0769051+00:00",
+          "EffectiveVersion": "0.2.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.5": {
@@ -243554,6 +245066,130 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "apetih"
+            },
+            "0.2.0.3": {
+              "TimeReleased": "2026-04-30T23:06:02.0769069+00:00",
+              "Changelog": "- API 15\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "SocketIOClient",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Abstractions",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Analyzers",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Relational",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyModel",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "SocketIO.Core",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "SocketIO.Serializer.Core",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "SocketIO.Serializer.SystemTextJson",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "9.0.8"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "apetih"
             }
           }
@@ -263231,9 +264867,9 @@
           }
         },
         "LazyGatherer": {
-          "BuiltCommit": "8725edce93f3bf5a20119752e7021828df05441f",
-          "TimeBuilt": "2026-01-11T03:37:35.7060618+00:00",
-          "EffectiveVersion": "1.3.3.0",
+          "BuiltCommit": "eda496e6e60ffa3020288c6f00c1c933f67231c3",
+          "TimeBuilt": "2026-04-30T21:05:59.7513434+00:00",
+          "EffectiveVersion": "1.3.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -263542,6 +265178,34 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Hiroa"
+            },
+            "1.3.4.0": {
+              "TimeReleased": "2026-04-30T21:05:59.7513446+00:00",
+              "Changelog": "Version 1.3.4: \nUpdate for API 15\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "68d002993a2e1245830167052cba005ff285a939"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Hiroa"
             }
           }
@@ -264247,9 +265911,9 @@
           }
         },
         "LimitBreakNow": {
-          "BuiltCommit": "d3622945e5ea612dc52c559077a1750a638068e2",
-          "TimeBuilt": "2025-12-20T21:43:35.8980187+00:00",
-          "EffectiveVersion": "0.0.0.2",
+          "BuiltCommit": "c3238768929dc32c25201a24a66a9b9329e44909",
+          "TimeBuilt": "2026-04-30T20:55:53.5377075+00:00",
+          "EffectiveVersion": "0.0.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -264290,6 +265954,26 @@
                 }
               ],
               "Reviewer": "goaaats",
+              "Submitter": "keysmashes"
+            },
+            "0.0.0.3": {
+              "TimeReleased": "2026-04-30T20:55:53.5377096+00:00",
+              "Changelog": "Updated for API 15 (patch 7.5).\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2025.2.2"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "keysmashes"
             }
           }
@@ -264491,9 +266175,9 @@
           }
         },
         "NoPolice": {
-          "BuiltCommit": "c4d6144bef5d18834ded7f4a71a7dfade0596c85",
-          "TimeBuilt": "2026-03-14T18:21:38.814115+00:00",
-          "EffectiveVersion": "1.0.0.3",
+          "BuiltCommit": "5570aa5958fbfabae79243a0a697b4f117584c21",
+          "TimeBuilt": "2026-04-30T21:09:38.0593904+00:00",
+          "EffectiveVersion": "1.0.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -264558,6 +266242,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Noctrepo"
+            },
+            "1.0.0.5": {
+              "TimeReleased": "2026-04-30T21:09:38.0593928+00:00",
+              "Changelog": "Update to v15",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Noctrepo"
             }
           }
@@ -265199,9 +266899,9 @@
           }
         },
         "LapCatCounter": {
-          "BuiltCommit": "45e6e12cc21a5e76dbab5b70283bb57d7027ef0c",
-          "TimeBuilt": "2026-04-01T13:30:08.827823+00:00",
-          "EffectiveVersion": "1.0.24.0",
+          "BuiltCommit": "1c584bfa3b677c75a2777c4be36572f59d1aa48c",
+          "TimeBuilt": "2026-04-30T20:56:02.5134042+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.19.0": {
@@ -265282,6 +266982,22 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "ImOv3rburdened"
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2026-04-30T20:56:02.5134059+00:00",
+              "Changelog": "v1.1.0.0. Updated dalamud API level. Removed fallback code for lap detection that was removed in the latest API. Version bump  and new icon",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "ImOv3rburdened"
             }
           }
@@ -265439,30 +267155,6 @@
               ],
               "Reviewer": "Critical-Impact",
               "Submitter": "sub07"
-            }
-          }
-        },
-        "GlamSwapCommand": {
-          "BuiltCommit": "810db21f039ef3587b2ac4c42292b7a9e5220329",
-          "TimeBuilt": "2026-01-31T13:58:41.8774286+00:00",
-          "EffectiveVersion": "1.0.0.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.0.0": {
-              "TimeReleased": "2026-01-31T13:58:41.8774508+00:00",
-              "Changelog": "Added new command",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "Critical-Impact",
-              "Submitter": "Skyde789"
             }
           }
         },
@@ -266359,9 +268051,9 @@
           }
         },
         "SteamRecordingEnhanced": {
-          "BuiltCommit": "690b37401cca497f5d3a17df41748581a729221e",
-          "TimeBuilt": "2026-03-12T07:07:03.2893851+00:00",
-          "EffectiveVersion": "0.1.2.8",
+          "BuiltCommit": "fcbbeb25ee5f29a08a038791ca217fc80d977260",
+          "TimeBuilt": "2026-04-30T20:55:32.3306682+00:00",
+          "EffectiveVersion": "1.0.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.2.8": {
@@ -266378,6 +268070,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "RokasKil"
+            },
+            "1.0.0.0": {
+              "TimeReleased": "2026-04-30T20:55:32.3306699+00:00",
+              "Changelog": "- 7.5 and API15 update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "RokasKil"
             }
           }
@@ -291203,6 +292911,55 @@
       "Version": "d0b39d12852ed0414677f5e284990764bfe94851",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-04-30T10:10:37.9097412Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Dapper",
+      "Version": "2.1.72",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-30T15:32:37.638358Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite",
+      "Version": "10.0.7",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-30T15:32:37.6384025Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite.Core",
+      "Version": "10.0.7",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-30T15:32:37.6384027Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/una-xiv/drawing.git",
+      "Version": "f0d699ca17b44973e161135594fb951d0a0af353",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-30T15:33:32.5988991Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.ValueTuple",
+      "Version": "4.6.2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-30T18:36:16.4328827Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Drahsid/DrahsidLib.git",
+      "Version": "a9a29f06a4b2e3b13156296d95b3449677747aa4",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-30T22:09:16.599396Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/dit-zy/OtterGui.git",
+      "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-04-30T23:05:51.2553666Z"
     }
   ]
 }
