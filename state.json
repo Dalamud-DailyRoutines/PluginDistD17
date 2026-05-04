@@ -14694,9 +14694,9 @@
           }
         },
         "Waitingway.Dalamud": {
-          "BuiltCommit": "9b329e17159f26e8b30cb7eb64f438b17023f8f0",
-          "TimeBuilt": "2025-12-22T13:52:08.0294375+00:00",
-          "EffectiveVersion": "2.4.0.0",
+          "BuiltCommit": "1fc6d43414f931b89fd85a5ee2a4c32a9f83d9ab",
+          "TimeBuilt": "2026-05-04T01:53:35.595218+00:00",
+          "EffectiveVersion": "2.4.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.4": {
@@ -14934,6 +14934,34 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "WorkingRobot"
+            },
+            "2.4.2.0": {
+              "TimeReleased": "2026-05-04T01:53:35.5952577+00:00",
+              "Changelog": "Bump to API 15",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/WorkingRobot/TemporalStasis.git",
+                  "Version": "324cbda908e75f8fc1c533c721998f06f48f2272"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.61"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "WorkingRobot"
             }
           }
@@ -124516,9 +124544,9 @@
           }
         },
         "DistantSeas": {
-          "BuiltCommit": "2d24f0aaed056079de347989e7f007c06813cbca",
-          "TimeBuilt": "2026-04-29T22:06:02.3754219+00:00",
-          "EffectiveVersion": "1.1.0.7",
+          "BuiltCommit": "4242f47e5b2c2ffa0bea8f94696f94c0db2fb18a",
+          "TimeBuilt": "2026-05-04T01:47:08.2671779+00:00",
+          "EffectiveVersion": "1.1.0.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.2": {
@@ -124639,6 +124667,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "NotNite"
+            },
+            "1.1.0.8": {
+              "TimeReleased": "2026-05-04T01:47:08.2672297+00:00",
+              "Changelog": "- Updated fishing data (as always, thanks to the kind souls in the Fisherman\u0027s Horizon Discord server \u003C3)\r\n- Added support for the Thavnair Margin\r\n- Fixed newer voyage missions not displaying properly",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "NotNite"
             }
           }
@@ -188424,9 +188468,9 @@
           }
         },
         "VenueManager": {
-          "BuiltCommit": "8fd73c3f8773e8a20d672c3d938bffdb8cf0a6c3",
-          "TimeBuilt": "2026-02-23T23:35:02.5660626+00:00",
-          "EffectiveVersion": "3.1.1",
+          "BuiltCommit": "38645869ebe52d9daaf9e4949749aa88b85200ab",
+          "TimeBuilt": "2026-05-04T02:10:17.6281818+00:00",
+          "EffectiveVersion": "3.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.4": {
@@ -188792,6 +188836,34 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JsonPoke.MSBuild",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "System.Resources.Extensions",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Jrogo7"
+            },
+            "3.2.1": {
+              "TimeReleased": "2026-05-04T02:10:17.6282212+00:00",
+              "Changelog": "\r\n- Dalamud 15 \r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -273243,9 +273315,9 @@
           }
         },
         "BackseatDriver": {
-          "BuiltCommit": "df04db1c08c07e7d269fd08ad4c94dabc6136205",
-          "TimeBuilt": "2025-12-21T23:41:16.1182836+00:00",
-          "EffectiveVersion": "0.2.1.2",
+          "BuiltCommit": "94e76b5c7de01c482223f58f352c516a5ce00644",
+          "TimeBuilt": "2026-05-04T01:53:45.9890477+00:00",
+          "EffectiveVersion": "0.2.1.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.2": {
@@ -273303,6 +273375,22 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "rae-destil"
+            },
+            "0.2.1.3": {
+              "TimeReleased": "2026-05-04T01:53:45.9890493+00:00",
+              "Changelog": "# v0.2.1.3\n\n- Greater duty coverage.\n- Coach mode coverage for more duties.\n- API update.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -278479,6 +278567,238 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Miu-B"
+            }
+          }
+        },
+        "CustomResolution2782": {
+          "BuiltCommit": "096692c4be94f0959635836d693d72e4cf49dd4f",
+          "TimeBuilt": "2026-05-04T01:56:31.2265873+00:00",
+          "EffectiveVersion": "1.1.5.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.1.5.0": {
+              "TimeReleased": "2026-05-04T01:56:31.2266293+00:00",
+              "Changelog": "- Low-level change: Use new Dalamud API15 interface for async plugins.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://git.0x0a.de/0x0ade/DP-FloppyUtils.git",
+                  "Version": "e167947dbf4dc3345024630bd6d7c2ba708dcdfa"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.D3DCompiler",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "PolySharp",
+                  "Version": "1.15.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.11.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.6.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Framework",
+                  "Version": "16.11.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Utilities.Core",
+                  "Version": "16.11.0"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "1.0.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.6.1"
+                },
+                {
+                  "Key": "System.Collections",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Configuration.ConfigurationManager",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Globalization",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.Pipelines",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.6.3"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.1"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Resources.ResourceManager",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.1.2"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Handles",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.ProtectedData",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Permissions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "System.Threading",
+                  "Version": "4.0.11"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.6.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "0x0ade"
             }
           }
         }
@@ -301784,6 +302104,27 @@
       "Version": "a8631b2053b7d03c4f7fd5ba7c4d781ec34aa9de",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-05-03T17:37:11.5425048Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/WorkingRobot/TemporalStasis.git",
+      "Version": "324cbda908e75f8fc1c533c721998f06f48f2272",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-05-04T01:53:35.6690123Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Meziantou.Analyzer",
+      "Version": "3.0.61",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-05-04T01:53:35.6690431Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://git.0x0a.de/0x0ade/DP-FloppyUtils.git",
+      "Version": "e167947dbf4dc3345024630bd6d7c2ba708dcdfa",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-05-04T01:56:31.2991444Z"
     }
   ]
 }
