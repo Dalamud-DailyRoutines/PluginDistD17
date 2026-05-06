@@ -280819,14 +280819,30 @@
           }
         },
         "DeviceChangeFix": {
-          "BuiltCommit": "0d6bbb7e9fdbcdf5ca650b838e9ddb750e1846a0",
-          "TimeBuilt": "2026-05-05T03:56:57.7646958+00:00",
-          "EffectiveVersion": "3.1.0.0",
+          "BuiltCommit": "a3f97d0afdc000c77c932a2fbccf5ccd91b07ca4",
+          "TimeBuilt": "2026-05-06T02:51:15.5562558+00:00",
+          "EffectiveVersion": "3.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.0.0": {
               "TimeReleased": "2026-05-05T03:56:57.7647362+00:00",
               "Changelog": "# 3.1.0\n\t\t- Updated for API15\n        - This is now filtering WM_DEVICECHANGE messages to only controller events\n\t\t",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "nopjmp"
+            },
+            "3.1.1.0": {
+              "TimeReleased": "2026-05-06T02:51:15.5563066+00:00",
+              "Changelog": "# 3.1.1\n\t\t- Updated for API15\n        - This is now filtering WM_DEVICECHANGE messages to only controller events\n\t\t",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
