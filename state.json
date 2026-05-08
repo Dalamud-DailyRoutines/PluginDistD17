@@ -103461,9 +103461,9 @@
           }
         },
         "Ffxiv2Mqtt": {
-          "BuiltCommit": "650529b8730c2b375b3fbaca7028a2e1d894c20b",
-          "TimeBuilt": "2025-12-21T22:28:31.3183055+00:00",
-          "EffectiveVersion": "1.0.8.2",
+          "BuiltCommit": "43edbd4d22939fb7b4a0bd3d7b8dceb5bc214cdd",
+          "TimeBuilt": "2026-05-08T04:04:43.7754173+00:00",
+          "EffectiveVersion": "1.0.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.4.3": {
@@ -103597,6 +103597,30 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MQTTnet",
+                  "Version": "4.3.6.1152"
+                },
+                {
+                  "Key": "MQTTnet.Extensions.ManagedClient",
+                  "Version": "4.3.6.1152"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Xpahtalo"
+            },
+            "1.0.9.0": {
+              "TimeReleased": "2026-05-08T04:04:43.7754184+00:00",
+              "Changelog": "7.5/API15 support.\nAdded support ready checks.\nParty topic now handles cross-world parties.\nBREAKING CHANGE: Player names are no longer in the party topic. If you actually use this, let me know and I\u0027ll try to get it back in.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -116391,9 +116415,9 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "8671ec89510363a7dc47f599f5a5e42527de055e",
-          "TimeBuilt": "2026-01-03T03:57:06.7963077+00:00",
-          "EffectiveVersion": "1.14.0.3",
+          "BuiltCommit": "3d419516fc4db8d52a112ad73d54f3dde53e31c8",
+          "TimeBuilt": "2026-05-08T08:31:15.2270376+00:00",
+          "EffectiveVersion": "1.15.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.3.1": {
@@ -116994,6 +117018,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Caraxi"
+            },
+            "1.15.0.0": {
+              "TimeReleased": "2026-05-08T08:31:15.2270903+00:00",
+              "Changelog": "Updated for 7.5\r\n\r\n***New Tweaks***\r\n- **\u0060Armoire Tooltip for Glamour Dresser\u0060** - Show a hint on the tooltip of items stored in the glamour dresser when they could be stored in armoire.\r\n\r\n\r\n***Tweak Changes***\r\n- **\u0060Chat Name Colours\u0060** - Added option to reduce saturation of random names to improve readability. *(Ennea)*\r\n- **\u0060Track Outfits\u0060** - Added support for partial outfits.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "1.1.14"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Caraxi"
             }
           }
@@ -128809,9 +128857,9 @@
           }
         },
         "Accountant": {
-          "BuiltCommit": "07c007735ce22e2a8b47bc8e6e32e6043aebbda1",
-          "TimeBuilt": "2026-04-29T22:50:02.6779471+00:00",
-          "EffectiveVersion": "1.8.3.0",
+          "BuiltCommit": "f6184b4c35867acbb3e97e70013ac6f9dd086621",
+          "TimeBuilt": "2026-05-08T04:04:34.5514209+00:00",
+          "EffectiveVersion": "1.8.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.2.0": {
@@ -128995,6 +129043,22 @@
             },
             "1.8.3.0": {
               "TimeReleased": "2026-04-29T22:50:02.6779487+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Ottermandias"
+            },
+            "1.8.3.1": {
+              "TimeReleased": "2026-05-08T04:04:34.5514222+00:00",
               "Changelog": "nofranz",
               "UsedNeeds": [
                 {
@@ -191256,9 +191320,9 @@
           }
         },
         "QuestTracker": {
-          "BuiltCommit": "e7bfa7fc0f2125389a70b1761fe2a72c751e501d",
-          "TimeBuilt": "2024-11-21T08:02:33.9388448+00:00",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "af717d08c27e225c6831c9f787c8207fdfa43db6",
+          "TimeBuilt": "2026-05-08T11:17:33.6734959+00:00",
+          "EffectiveVersion": "1.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.1": {
@@ -191296,6 +191360,262 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-05-08T04:44:29.2087051+00:00",
+              "Changelog": "- Updated for 7.5/API15\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "isaiahcat"
+            },
+            "1.2.1.0": {
+              "TimeReleased": "2026-05-08T11:17:33.6735476+00:00",
+              "Changelog": "- Added Quasi-Quests\n- Fixed section names for some sidequest categories\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "keifufu"
             }
           }
         },
@@ -215020,9 +215340,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "455e0869b0f98931d9a7d7734be06ae5c53df0d5",
-          "TimeBuilt": "2026-05-07T21:28:43.7624148+00:00",
-          "EffectiveVersion": "1.3.1.14",
+          "BuiltCommit": "267427f2523180c37623c64f1d14702c094f12be",
+          "TimeBuilt": "2026-05-08T04:04:21.6900293+00:00",
+          "EffectiveVersion": "1.3.1.15",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -220024,6 +220344,46 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
+            },
+            "1.3.1.15": {
+              "TimeReleased": "2026-05-08T04:04:21.6900307+00:00",
+              "Changelog": "Better Teleport Window - Remember last selected primary mode (All, Cities, Favorites) when re-opening\r\nInventory Search Bar - Took additional steps to reduce crashing issues",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "cea6220cd82e6435fcd6f7bcef7d570ec6ea3cdc"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.1"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -221136,9 +221496,9 @@
           }
         },
         "OhHey": {
-          "BuiltCommit": "e286a389f4e6abb2b004f8d5c9abbf6e48cc05e3",
-          "TimeBuilt": "2026-03-21T13:23:23.7189276+00:00",
-          "EffectiveVersion": "0.2.0.0",
+          "BuiltCommit": "ebe7e5c9f1a5b7631c0dccdd301bfbfe96e63bf4",
+          "TimeBuilt": "2026-05-08T04:04:05.8786108+00:00",
+          "EffectiveVersion": "0.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.3.0": {
@@ -221223,6 +221583,34 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "MeiHasCrashed"
+            },
+            "0.2.1.0": {
+              "TimeReleased": "2026-05-08T04:04:05.8786536+00:00",
+              "Changelog": "# Oh Hey 0.2.1\n\n- API15 support\n\nHave fun !\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2025.2.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.7"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MeiHasCrashed"
             }
           }
@@ -260108,101 +260496,6 @@
             }
           }
         },
-        "QuestTracker": {
-          "BuiltCommit": "afd8bc81079ff339574931430d892c9678cb03a7",
-          "TimeBuilt": "2025-08-24T17:14:50.1707362+00:00",
-          "EffectiveVersion": "1.1.2.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.0.0": {
-              "TimeReleased": "2024-09-15T16:03:53.925",
-              "Changelog": "New plugin",
-              "UsedNeeds": null,
-              "Reviewer": null,
-              "Submitter": null
-            },
-            "1.0.1.0": {
-              "TimeReleased": "2024-10-22T02:56:01.3315469+00:00",
-              "Changelog": "Bug fixes, update icon",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                }
-              ],
-              "Reviewer": "reiichi001",
-              "Submitter": null
-            },
-            "1.0.1.1": {
-              "TimeReleased": "2024-10-23T00:24:21.9919663+00:00",
-              "Changelog": "Initial stable release, added images to description",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                }
-              ],
-              "Reviewer": "goaaats",
-              "Submitter": null
-            },
-            "1.0.1.2": {
-              "TimeReleased": "2024-11-02T19:11:58.4232164+00:00",
-              "Changelog": "Update seasonal quests",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                }
-              ],
-              "Reviewer": "philpax",
-              "Submitter": null
-            },
-            "1.1.0.0": {
-              "TimeReleased": "2024-11-21T08:03:02.100632+00:00",
-              "Changelog": "Support for Dalamud 11.0.0 and 7.1",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                }
-              ],
-              "Reviewer": "reiichi001",
-              "Submitter": null
-            },
-            "1.1.1.0": {
-              "TimeReleased": "2025-08-16T01:44:36.636406+00:00",
-              "Changelog": "Updated for 7.30 quests and Dalamud API13",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "13.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.25"
-                }
-              ],
-              "Reviewer": "philpax",
-              "Submitter": "isaiahcat"
-            },
-            "1.1.2.0": {
-              "TimeReleased": "2025-08-24T17:14:50.1707378+00:00",
-              "Changelog": "Updated for 7.30 quests and Dalamud API13",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "13.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.25"
-                }
-              ],
-              "Reviewer": "philpax",
-              "Submitter": "isaiahcat"
-            }
-          }
-        },
         "HUDUnlimited": {
           "BuiltCommit": "2500217d4d1a4a78410309f5fd2aeb1929b99ac7",
           "TimeBuilt": "2025-08-27T12:14:10.1960351+00:00",
@@ -282952,9 +283245,9 @@
           }
         },
         "AetherBags": {
-          "BuiltCommit": "bfc93767757ad448d7151aca36924d85fdad0487",
-          "TimeBuilt": "2026-05-07T21:49:03.9290799+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "3ad0400c8b09c3b2839a7cef6a20341dd6fc4a13",
+          "TimeBuilt": "2026-05-08T05:11:08.6458671+00:00",
+          "EffectiveVersion": "1.0.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -282979,6 +283272,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.0.1": {
+              "TimeReleased": "2026-05-08T05:11:08.6459168+00:00",
+              "Changelog": "# 1.0.0.1\n- Update KTK\n- Added a toggle to enable/disable recently looted items section.\n- Added an option to highlight recently looted items.\n- Improved currency editor.\n- Fix compact lookahead overflow.\n- Fix item rarity not properly mapping to item quality.\n- Fix \u0022ghost hovers\u0022 when hovering over items in the retainer inventory with official retainer inventory disabled.\n- Fix Recently Looted Items hover \u0022jumping\u0022\n- Fix Recently Looted Items quantity text color being wrong.\n- The header search bar should now be more centered.\n- Added tooltips to explain compact packing options.\n- Fixed certain errors in the log.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "3a3509d95a1896dbe05828d6e7f60596d8ad6d4b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Zeffuro"
             }
           }
@@ -306600,6 +306917,20 @@
       "Version": "4.0.1",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-05-07T21:02:44.3093051Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "cea6220cd82e6435fcd6f7bcef7d570ec6ea3cdc",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-05-08T04:04:21.7548199Z"
+    },
+    {
+      "Type": 1,
+      "Key": "KamiToolKit",
+      "Version": "1.1.14",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-05-08T08:31:15.3003038Z"
     }
   ]
 }
