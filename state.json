@@ -17232,9 +17232,9 @@
           }
         },
         "InventoryTools": {
-          "BuiltCommit": "057c10316395899a5ebdc2d4fd3129fe3f994370",
-          "TimeBuilt": "2026-05-05T06:53:17.4075901+00:00",
-          "EffectiveVersion": "1.15.0.1",
+          "BuiltCommit": "353d51f01befc347e3404f7a4af886e758cd55cf",
+          "TimeBuilt": "2026-05-09T06:33:45.4438929+00:00",
+          "EffectiveVersion": "1.15.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.2": {
@@ -47052,6 +47052,518 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Critical-Impact"
+            },
+            "1.15.0.2": {
+              "TimeReleased": "2026-05-09T06:33:45.4439492+00:00",
+              "Changelog": "### Added\n- Coffer Loot tooltip, showing you how many items you have from a coffer or if an item is part of a coffer which one and how many items you have from it. The location is configurable.\n- Outfit Glamour tooltip, shows you how many items of a outfit glamour you already have in your armoire/glamour chest.\n- Recipe Unlocked column/filter, shows whether all requirements to craft this item (job level, mastery book, specialization) are met by the current character.\n- Compendium View windows can have their section layout edited, you can reorder/alter the visibility of individual sections.\n- Added a Hand-ins column to the Leve Compendium \u002B View window\n- Added a /compendiumlist command for opening a specific compendium listing screen\n### Changed\n- Plugin now uses async loading though some parts of the plugin still load sync(being worked on)\n- References to \u0022Glamour Ready\u0022 where renamed to \u0022Outfit Glamour\u0022 to match the game\u0027s naming\n### Fixed\n- Fixed a bug when closing certain windows that would throw an exception\n- When venture is the selected source in a craft list it\u0027ll now show how many you need to get along with the venture you need instead of just showing the venture name.\n- Fix the EXP reward shown for craft leves in the leve compendium\n- Fixed the required items shown in the Custom Deliveries NPCs compendium view \u002B split the items into tiers",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Critical-Impact/CriticalCommonLib.git",
+                  "Version": "d35ff74b98463896be9524ec99cc2285fcf1aac5"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "AllaganLib.GameSheets",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "AllaganLib.Monitors",
+                  "Version": "2.2.0"
+                },
+                {
+                  "Key": "AllaganLib.Shared",
+                  "Version": "2.2.0"
+                },
+                {
+                  "Key": "DalaMock.Host",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "NaturalSort.Extension",
+                  "Version": "4.4.1"
+                },
+                {
+                  "Key": "SerialQueue",
+                  "Version": "2.1.0"
+                },
+                {
+                  "Key": "SonarAnalyzer.CSharp",
+                  "Version": "10.17.0.131074"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Autofac",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Autofac.Extensions.DependencyInjection",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "DalaMock.Shared",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "AllaganLib.Interface",
+                  "Version": "2.2.0"
+                },
+                {
+                  "Key": "Autofac",
+                  "Version": "9.1.0"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Ionide.KeepAChangelog",
+                  "Version": "0.2.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.BannedApiAnalyzers",
+                  "Version": "4.14.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "SonarAnalyzer.CSharp",
+                  "Version": "10.16.1.129956"
+                },
+                {
+                  "Key": "AllaganLib.Data",
+                  "Version": "2.2.0"
+                },
+                {
+                  "Key": "FParsec",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "FSharp.Core",
+                  "Version": "6.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "SemanticVersion",
+                  "Version": "2.1.0"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "DalaMock.Core",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.TestHost",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.DotNet.PlatformAbstractions",
+                  "Version": "5.0.0-preview.5.20278.1"
+                },
+                {
+                  "Key": "Serilog.Sinks.Async",
+                  "Version": "2.1.0"
+                },
+                {
+                  "Key": "Serilog.Sinks.Console",
+                  "Version": "6.1.1"
+                },
+                {
+                  "Key": "Serilog.Sinks.File",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "StbiSharp",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Veldrid",
+                  "Version": "4.9.0"
+                },
+                {
+                  "Key": "Veldrid.SDL2",
+                  "Version": "4.9.0"
+                },
+                {
+                  "Key": "Veldrid.StartupUtilities",
+                  "Version": "4.9.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyModel",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Localization",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Localization.Abstractions",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "NativeFileDialogSharp",
+                  "Version": "0.5.0"
+                },
+                {
+                  "Key": "NativeLibraryLoader",
+                  "Version": "1.0.13"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "PolySharp",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "Serilog",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "Serilog.Extensions.Logging",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "SharpGen.Runtime",
+                  "Version": "2.0.0-beta.13"
+                },
+                {
+                  "Key": "SharpGen.Runtime.COM",
+                  "Version": "2.0.0-beta.13"
+                },
+                {
+                  "Key": "Veldrid.MetalBindings",
+                  "Version": "4.9.0"
+                },
+                {
+                  "Key": "Veldrid.OpenGLBindings",
+                  "Version": "4.9.0"
+                },
+                {
+                  "Key": "Vk",
+                  "Version": "1.0.25"
+                },
+                {
+                  "Key": "Vortice.D3DCompiler",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Vortice.Direct3D11",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Vortice.DirectX",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Vortice.DXGI",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Vortice.Mathematics",
+                  "Version": "1.4.25"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Critical-Impact"
             }
           }
         },
@@ -53679,9 +54191,9 @@
           }
         },
         "MacroMate": {
-          "BuiltCommit": "c865873388f0dbf36a406685b01eef3b8bf4e61f",
-          "TimeBuilt": "2026-05-05T20:12:46.5931947+00:00",
-          "EffectiveVersion": "1.0.27.2",
+          "BuiltCommit": "ffb573944d064ddbf3e795cd423a88c970846943",
+          "TimeBuilt": "2026-05-09T06:33:58.1834334+00:00",
+          "EffectiveVersion": "1.0.27.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.7.0": {
@@ -57747,6 +58259,58 @@
             "1.0.27.2": {
               "TimeReleased": "2026-05-05T20:12:46.5932373+00:00",
               "Changelog": "- Fix issue loading config containing certain conditions (i.e. Target == Pc)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Generator.Equals",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "KTrie",
+                  "Version": "2.6.0"
+                },
+                {
+                  "Key": "Markdig",
+                  "Version": "0.37.0"
+                },
+                {
+                  "Key": "OneOf",
+                  "Version": "3.0.263"
+                },
+                {
+                  "Key": "Sprache",
+                  "Version": "2.3.1"
+                },
+                {
+                  "Key": "XSerializer",
+                  "Version": "0.4.4"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.0.0"
+                },
+                {
+                  "Key": "Generator.Equals.Runtime",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "Microsoft.Bcl.HashCode",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "grittyfrog"
+            },
+            "1.0.27.3": {
+              "TimeReleased": "2026-05-09T06:33:58.1834347+00:00",
+              "Changelog": "- Add Gearset link condition\n- Fix \u0022Run Selected\u0022 printing C# types instead of selected text\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -86988,9 +87552,9 @@
           }
         },
         "FCNameColor": {
-          "BuiltCommit": "a2795c6da72d72bd783b2f10487155bfb5e3939a",
-          "TimeBuilt": "2026-05-05T22:26:21.939478+00:00",
-          "EffectiveVersion": "5.1.2.0",
+          "BuiltCommit": "2175e00d3faf49d26f8926e430b31cb055a3e9ee",
+          "TimeBuilt": "2026-05-09T03:12:34.3268666+00:00",
+          "EffectiveVersion": "5.1.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.0.1": {
@@ -87299,6 +87863,38 @@
             "5.1.2.0": {
               "TimeReleased": "2026-05-05T22:26:21.9395156+00:00",
               "Changelog": "- Add nameplate hiding feature\n\nFeedback and suggestions on this feature would be appreciated!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "WesselKuipers"
+            },
+            "5.1.3.0": {
+              "TimeReleased": "2026-05-09T03:12:34.3269112+00:00",
+              "Changelog": "- Rewrite config menu entirely to use tabs instead of various windows\n- Rewrite the way the ignore list works, it now picks from members in every tracked FC, not just your own. You can now search within the list and add and remove multiple players at once as well as the currently targeted player.\n- Add color preview when assigning groups to FCs\n\nFeedback and suggestions on the previous nameplate highlight feature as well as the new config and ignore feature would be appreciated!\nSpecial thanks to MidoriKami for answering my questions when working on this\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -175228,9 +175824,9 @@
           }
         },
         "PvpStats": {
-          "BuiltCommit": "b9d9c3e0a10a84fb11fdb80eda1454af9ee26c5e",
-          "TimeBuilt": "2026-05-06T14:34:14.5641749+00:00",
-          "EffectiveVersion": "2.6.2.0",
+          "BuiltCommit": "2c8c3136225dea26851a2cae8482d011611467fb",
+          "TimeBuilt": "2026-05-09T03:09:33.4871058+00:00",
+          "EffectiveVersion": "2.6.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.3.2": {
@@ -175890,6 +176486,26 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "wrath16"
+            },
+            "2.6.2.1": {
+              "TimeReleased": "2026-05-09T03:09:33.4871492+00:00",
+              "Changelog": "* Patch 7.5 update.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.16"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "wrath16"
             }
           }
@@ -192244,9 +192860,9 @@
           }
         },
         "QuestTracker": {
-          "BuiltCommit": "af717d08c27e225c6831c9f787c8207fdfa43db6",
-          "TimeBuilt": "2026-05-08T11:17:33.6734959+00:00",
-          "EffectiveVersion": "1.2.1.0",
+          "BuiltCommit": "58ea84393a18693300b623b6d9078cb7bd16d291",
+          "TimeBuilt": "2026-05-09T06:34:08.8483747+00:00",
+          "EffectiveVersion": "1.2.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.1": {
@@ -192539,6 +193155,134 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "keifufu"
+            },
+            "1.2.2.1": {
+              "TimeReleased": "2026-05-09T06:34:08.8483764+00:00",
+              "Changelog": "- Added Levequests\n- Improved category and section sorting\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "keifufu"
             }
           }
@@ -208788,9 +209532,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "0b9895d73b9d59efec83711212fef1dd8f51659e",
-          "TimeBuilt": "2026-05-01T01:57:50.7632199+00:00",
-          "EffectiveVersion": "1.6.1.0",
+          "BuiltCommit": "b50671878e6fd5e05b7dc88b9dcffac87396c7b6",
+          "TimeBuilt": "2026-05-09T06:34:19.1064366+00:00",
+          "EffectiveVersion": "1.6.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -209115,6 +209859,22 @@
             },
             "1.6.1.0": {
               "TimeReleased": "2026-05-01T01:57:50.7632212+00:00",
+              "Changelog": "Updated to 7.5 - Zero has been added!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "spide-r"
+            },
+            "1.6.1.1": {
+              "TimeReleased": "2026-05-09T06:34:19.1064378+00:00",
               "Changelog": "Updated to 7.5 - Zero has been added!",
               "UsedNeeds": [
                 {
@@ -284189,9 +284949,9 @@
           }
         },
         "Clock": {
-          "BuiltCommit": "9eb150eaa225a48d4b7d83ed06138d58ee093e5a",
-          "TimeBuilt": "2026-05-08T00:00:59.1578948+00:00",
-          "EffectiveVersion": "1.0.6.4",
+          "BuiltCommit": "c071c855c5f62e45138ac93bbafc3f51753e0f5e",
+          "TimeBuilt": "2026-05-09T03:09:43.6526586+00:00",
+          "EffectiveVersion": "1.0.6.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.6.2": {
@@ -284213,6 +284973,22 @@
             "1.0.6.4": {
               "TimeReleased": "2026-05-08T00:00:59.157959+00:00",
               "Changelog": "Oficial Release \u003E Update by review feedback",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "seventity7"
+            },
+            "1.0.6.5": {
+              "TimeReleased": "2026-05-09T03:09:43.6526599+00:00",
+              "Changelog": "- Added optional \u0022snooze\u0022 option for alarms with configurable durations\n  - Snoozed alarms trigger after the configurated time\n- Added more time format options\n  - Includes seconds, weekday and date display presets\n  - /clock format now supports the new presets\n- Added plugin UI language selection\n  - Plugin text can now be changed from the settings window\n### Important:\n- Added manual Lodestone maintenance checks\n  - Includes selectable Lodestone notice language\n  - Shows feedback when no active or upcoming maintenance is found\n  - Improved notice parsing to better support localized Lodestone date formats\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -307979,6 +308755,27 @@
       "Version": "1.1.14",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-05-08T08:31:15.3003038Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Critical-Impact/CriticalCommonLib.git",
+      "Version": "d35ff74b98463896be9524ec99cc2285fcf1aac5",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-05-09T06:33:45.5219711Z"
+    },
+    {
+      "Type": 1,
+      "Key": "AllaganLib.GameSheets",
+      "Version": "2.2.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-05-09T06:33:45.5220145Z"
+    },
+    {
+      "Type": 1,
+      "Key": "LuminaSupplemental.Excel",
+      "Version": "4.3.2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-05-09T06:33:45.5220154Z"
     }
   ]
 }
