@@ -90165,9 +90165,9 @@
           }
         },
         "MapPartyAssist": {
-          "BuiltCommit": "620731282ebf17029afa2cf37733816dafcacb75",
-          "TimeBuilt": "2026-05-12T06:01:27.8310561+00:00",
-          "EffectiveVersion": "2.5.2.0",
+          "BuiltCommit": "65238819be47e0bcfc2f6901d08cba983864b2e6",
+          "TimeBuilt": "2026-05-13T08:20:31.9861942+00:00",
+          "EffectiveVersion": "2.5.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -90498,6 +90498,26 @@
             },
             "2.5.2.0": {
               "TimeReleased": "2026-05-12T06:01:27.8311055+00:00",
+              "Changelog": "* Patch 7.5 update.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.16"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "wrath16"
+            },
+            "2.5.2.1": {
+              "TimeReleased": "2026-05-13T08:20:31.9862372+00:00",
               "Changelog": "* Patch 7.5 update.\r\n",
               "UsedNeeds": [
                 {
@@ -171972,9 +171992,9 @@
           }
         },
         "ItemVendorLocation": {
-          "BuiltCommit": "8ae09803449a4c72f42756819213a401cdfd5a1d",
-          "TimeBuilt": "2026-05-03T18:41:34.8693134+00:00",
-          "EffectiveVersion": "2.14.0.0",
+          "BuiltCommit": "ee5417a7e3645e322d53e6ae84584c2897c607b3",
+          "TimeBuilt": "2026-05-13T04:00:51.2938129+00:00",
+          "EffectiveVersion": "2.14.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -172367,6 +172387,34 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Nukoooo"
+            },
+            "2.14.0.1": {
+              "TimeReleased": "2026-05-13T04:00:51.2938141+00:00",
+              "Changelog": "- Fix ChatLog context menu\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CheapLoc",
+                  "Version": "1.1.8"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "Mono.Cecil",
+                  "Version": "0.11.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "electr0sheep"
             }
           }
         },
@@ -225448,9 +225496,9 @@
           }
         },
         "BeastieBuddy": {
-          "BuiltCommit": "b7eb7c028687778940260edd59104b144cc93ac4",
-          "TimeBuilt": "2026-04-30T01:11:51.5688728+00:00",
-          "EffectiveVersion": "7.50.1.0",
+          "BuiltCommit": "4b6a59edbf3e84343dbdb546f5dad0a5c9e8f60a",
+          "TimeBuilt": "2026-05-13T04:00:40.4888061+00:00",
+          "EffectiveVersion": "7.50.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -225768,6 +225816,58 @@
             "7.50.1.0": {
               "TimeReleased": "2026-04-30T01:11:51.5688744+00:00",
               "Changelog": "v7.50.1: api bump\u002B",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.3.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "rail2025"
+            },
+            "7.50.1.1": {
+              "TimeReleased": "2026-05-13T04:00:40.4888546+00:00",
+              "Changelog": "v7.50.1.1: added toggle mainwindow with /bbuddy\nv7.50.1: api bump\u002B",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
