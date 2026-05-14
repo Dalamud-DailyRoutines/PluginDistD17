@@ -3591,9 +3591,9 @@
           }
         },
         "PingPlugin": {
-          "BuiltCommit": "6bf71a3cfc84c80d721ae776c5055bc9ce9fa028",
-          "TimeBuilt": "2026-04-30T04:14:08.4672052+00:00",
-          "EffectiveVersion": "2.11.0.0",
+          "BuiltCommit": "b3d60aa91a691405d10679297e47afe6dc18efba",
+          "TimeBuilt": "2026-05-14T03:19:59.4347276+00:00",
+          "EffectiveVersion": "2.11.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.0.0": {
@@ -3784,6 +3784,22 @@
             "2.11.0.0": {
               "TimeReleased": "2026-04-30T04:14:08.4672559+00:00",
               "Changelog": "- Updated for 7.5\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "karashiiro"
+            },
+            "2.11.1.0": {
+              "TimeReleased": "2026-05-14T03:19:59.434764+00:00",
+              "Changelog": "- Fixed Wine detection mechanism.\n- Locked ping tracker to Win32 (\u0060Iphlpapi\u0060) when running under Wine for compatibility.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
