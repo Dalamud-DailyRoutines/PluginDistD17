@@ -6280,7 +6280,7 @@
     "Author": "karashiiro",
     "Name": "PingPlugin",
     "InternalName": "PingPlugin",
-    "AssemblyVersion": "2.11.0.0",
+    "AssemblyVersion": "2.11.1.0",
     "Description": "A ping display plugin for Dalamud.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/karashiiro/PingPlugin",
@@ -6306,7 +6306,7 @@
     "_Dip17Channel": "stable",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdate": "1777522481",
+    "LastUpdate": "1778728802",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/PingPlugin/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/PingPlugin/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/PingPlugin/latest.zip"
