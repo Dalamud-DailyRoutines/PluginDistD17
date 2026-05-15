@@ -186451,9 +186451,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "3482afe4a9b4c170da24d2e8f33208f3b366f9c8",
-          "TimeBuilt": "2026-05-13T20:18:50.7342558+00:00",
-          "EffectiveVersion": "1.35.6.0",
+          "BuiltCommit": "87f76cb1f5c6830c2ed5cc3eaa311e85b00bffac",
+          "TimeBuilt": "2026-05-15T05:21:34.6053349+00:00",
+          "EffectiveVersion": "1.40.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -190314,6 +190314,102 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
+            },
+            "1.40.0.0": {
+              "TimeReleased": "2026-05-15T05:21:34.6053379+00:00",
+              "Changelog": "This is the first in a series of updates :)\r\n\r\n### Popouts with input\r\n- Popouts can now have input fields, with simplified channel switch or even tell targets\r\n\r\n\u003Cimg width=\u0022595\u0022 height=\u0022536\u0022 alt=\u0022image\u0022 src=\u0022https://github.com/user-attachments/assets/2c09c29f-09d6-49c3-8708-32173fa0c361\u0022 /\u003E\r\n\r\n### Tell targets\r\n- Make a tab fully focused on a single person\r\n\r\n### HTML export\r\n- Include the main svelte project \r\n- Export will be released with the next update\r\n\r\n\u003Cimg width=\u00221028\u0022 height=\u0022822\u0022 alt=\u0022image\u0022 src=\u0022https://github.com/user-attachments/assets/f1721d88-d92f-4489-99c2-9ba584813163\u0022 /\u003E\r\n\r\n\r\n### Misc\r\n- Fix a small memory leak\r\n- Improve performance by not converting colors every frame\r\n- Adjust button sizes\r\n- Update locs",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "morelinq",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
             }
           }
         },
@@ -190753,9 +190849,9 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "4bce94cfcd90950089beacebb8a3b5542e50b984",
-          "TimeBuilt": "2026-05-08T21:33:58.4420172+00:00",
-          "EffectiveVersion": "3.1.15.0",
+          "BuiltCommit": "34e45e6819cd180ba83ce92b696b3a07d79734d8",
+          "TimeBuilt": "2026-05-15T05:21:21.4157944+00:00",
+          "EffectiveVersion": "3.1.16.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -192310,6 +192406,42 @@
                 }
               ],
               "Reviewer": "perchbirdd",
+              "Submitter": "Bloodsoul"
+            },
+            "3.1.16.0": {
+              "TimeReleased": "2026-05-15T05:21:21.4157956+00:00",
+              "Changelog": "# Umbra 3.1.16\n\n## Fixes \u0026 Improvements\n\n- Fix Compass Marker being forced to top left (By [Bloodsoul](https://github.com/Bloodsoul)).\n\n---\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "f0d699ca17b44973e161135594fb951d0a0af353"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "System.Reflection.MetadataLoadContext",
+                  "Version": "9.0.4"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Bloodsoul"
             }
           }
@@ -226892,9 +227024,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "bf7c9e307e7ab6b919c708b94a35284e18503f13",
-          "TimeBuilt": "2026-05-10T21:49:18.5777792+00:00",
-          "EffectiveVersion": "1.10.7.0",
+          "BuiltCommit": "0a3785da57135bece447f647408e77bf2d81b98f",
+          "TimeBuilt": "2026-05-15T05:21:04.4895402+00:00",
+          "EffectiveVersion": "1.10.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -227999,6 +228131,50 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.10.8.0": {
+              "TimeReleased": "2026-05-15T05:21:04.4896357+00:00",
+              "Changelog": "- **Timers**:\n  - Add \u0027ban\u0027 icon on fashion reports timer column when unlocked but judging period is not active. \n  - Fix roulette unlocked state for timers reminders\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.72"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Sohtoren"
             }
           }
@@ -262437,9 +262613,9 @@
           }
         },
         "rtyping": {
-          "BuiltCommit": "cf66eb2611ffb972325119908121467ae94ae7da",
-          "TimeBuilt": "2026-04-30T23:06:02.0769051+00:00",
-          "EffectiveVersion": "0.2.0.3",
+          "BuiltCommit": "2cf0ae5957b3da07c489625ca3d266b36e832c43",
+          "TimeBuilt": "2026-05-15T05:21:44.8476459+00:00",
+          "EffectiveVersion": "0.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.5": {
@@ -262940,6 +263116,130 @@
             "0.2.0.3": {
               "TimeReleased": "2026-04-30T23:06:02.0769069+00:00",
               "Changelog": "- API 15\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "SocketIOClient",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Abstractions",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Analyzers",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Relational",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyModel",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "9.0.8"
+                },
+                {
+                  "Key": "SocketIO.Core",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "SocketIO.Serializer.Core",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "SocketIO.Serializer.SystemTextJson",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "9.0.8"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "apetih"
+            },
+            "0.3.0.0": {
+              "TimeReleased": "2026-05-15T05:21:44.8476472+00:00",
+              "Changelog": "- Added ChatTwo typing state integration via IPC (thanks ZeroTheScyther)\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
