@@ -186451,9 +186451,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "87f76cb1f5c6830c2ed5cc3eaa311e85b00bffac",
-          "TimeBuilt": "2026-05-15T05:21:34.6053349+00:00",
-          "EffectiveVersion": "1.40.0.0",
+          "BuiltCommit": "25ffb320ba6b0ecd2e71d65f496b67e3a1ac3403",
+          "TimeBuilt": "2026-05-15T18:38:32.7689865+00:00",
+          "EffectiveVersion": "1.40.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -190410,6 +190410,102 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
+            },
+            "1.40.1.0": {
+              "TimeReleased": "2026-05-15T18:38:32.7690286+00:00",
+              "Changelog": "- Fix context menu not working with input preview visible\r\n- Separator lines now appear correct in world selection",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "morelinq",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
             }
           }
         },
@@ -192557,9 +192653,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "4219294e483768088952bde3ca9b2dd379186698",
-          "TimeBuilt": "2026-05-07T19:11:34.0326688+00:00",
-          "EffectiveVersion": "2.2.0.0",
+          "BuiltCommit": "273745d24f1062db4af48c79198e4d5123c10a1c",
+          "TimeBuilt": "2026-05-15T18:17:44.35918+00:00",
+          "EffectiveVersion": "2.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -192911,6 +193007,34 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "NadyaNayme"
+            },
+            "2.3.0.0": {
+              "TimeReleased": "2026-05-15T18:17:44.3592105+00:00",
+              "Changelog": "Change owner",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.161"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
             }
           }
         },
@@ -274013,9 +274137,9 @@
           }
         },
         "Racingway": {
-          "BuiltCommit": "0b5e8783f1be75ed9714ee083b181a5f035a9248",
-          "TimeBuilt": "2026-05-06T14:34:26.5162784+00:00",
-          "EffectiveVersion": "0.1.1.7",
+          "BuiltCommit": "0a995c8d5a2c385e154ffa13cf0941862aa7b23b",
+          "TimeBuilt": "2026-05-15T23:38:20.6265859+00:00",
+          "EffectiveVersion": "0.1.1.9",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.4.1": {
@@ -274681,6 +274805,46 @@
             "0.1.1.7": {
               "TimeReleased": "2026-05-06T14:34:26.5162799+00:00",
               "Changelog": "v0.1.1.7 [TESTING]\r\n\u002B Fix detecting house address not working\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "6.0.0-prerelease.77"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "ZLinq",
+                  "Version": "1.5.6"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "Abyeon"
+            },
+            "0.1.1.9": {
+              "TimeReleased": "2026-05-15T23:38:20.6266276+00:00",
+              "Changelog": "nofranz\r\n\r\nCulture In-variance. In-variate your culture.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -289385,9 +289549,9 @@
           }
         },
         "ChatAnywhere": {
-          "BuiltCommit": "1d5cd9996fd2b21bd75fcdbaceb04151d14c8e3d",
-          "TimeBuilt": "2026-05-14T18:43:33.2753921+00:00",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "994b27d7f54705e46ac35ea46b0bab08400c06fe",
+          "TimeBuilt": "2026-05-15T18:17:56.9105352+00:00",
+          "EffectiveVersion": "1.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.17.2": {
@@ -289521,6 +289685,70 @@
             "1.1.0.0": {
               "TimeReleased": "2026-05-14T18:43:33.2753938+00:00",
               "Changelog": "New Features:\n- Each character can now have their own personal filter settings, separate from the shared filters. Toggle per-character mode by clicking the character name in the sidebar header.\n- The sidebar header now shows your current character\u0027s name and home world. Clicking it opens a dialog to switch between shared and personal filter modes.\n- Import filters and folders from another character\u0027s saved settings (Filters tab in Settings).\n- When the plugin server is unreachable, the interface shows a pulsing \u0022Connecting...\u0022 animation and automatically retries with exponential backoff, instead of silently failing.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "OpenGraph-Net",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "twelvehouse"
+            },
+            "1.1.1.0": {
+              "TimeReleased": "2026-05-15T18:17:56.9105368+00:00",
+              "Changelog": "Bug Fixes:\n- Fixed a crash when saving a passcode on Linux/Proton (Wine \u003C 11). The OS-level PBKDF2 API missing in older Wine versions is now replaced with a pure managed implementation.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
