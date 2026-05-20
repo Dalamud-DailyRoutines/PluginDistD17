@@ -117733,9 +117733,9 @@
           }
         },
         "Neko": {
-          "BuiltCommit": "d3f569edd15007645eeb7f7e775b48f397d43d1b",
-          "TimeBuilt": "2026-05-01T14:30:08.0666119+00:00",
-          "EffectiveVersion": "1.3.8",
+          "BuiltCommit": "0e5d5319f3488acc559886634f45f79d2f21b6f7",
+          "TimeBuilt": "2026-05-19T15:50:24.1875355+00:00",
+          "EffectiveVersion": "1.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.2": {
@@ -117959,6 +117959,34 @@
             "1.3.8": {
               "TimeReleased": "2026-05-01T14:30:08.0666132+00:00",
               "Changelog": "- Update to API 15\n- Beastmaster support: Catgirls are now valid beasts",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Meisterlala"
+            },
+            "1.4.0": {
+              "TimeReleased": "2026-05-19T15:50:24.1875781+00:00",
+              "Changelog": "- Removed shibe.online (domain expired)\n- Removed waifu.pics (domain expired)\n- Added Nekosia\n- Added Nekos API\n- Added Purrbot\n- Updated waifu.im to v7 (PR #14 from @Torphage )\n- Improved Retry logic on 429 Error code",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -221684,9 +221712,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "b4d554786d3a207a9b39a8550e39d1c5e6043f5f",
-          "TimeBuilt": "2026-05-18T20:01:51.8242649+00:00",
-          "EffectiveVersion": "1.3.2.0",
+          "BuiltCommit": "20d3d30fe96f73c8cc0d1746c6e7002bc4dc7437",
+          "TimeBuilt": "2026-05-19T15:39:20.2117797+00:00",
+          "EffectiveVersion": "1.3.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -226847,6 +226875,46 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.3.2.1": {
+              "TimeReleased": "2026-05-19T15:39:20.2118215+00:00",
+              "Changelog": "Duty Loot Preview - Fix not working when Raid Finder is opened (fix by Airielel)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "06945e1d98777fb52a866d369ec44b2c0ef8a8d9"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -241277,9 +241345,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "7148a46bcc2e819ae621a649db4bec83b7bce053",
-          "TimeBuilt": "2026-05-18T22:00:44.2082529+00:00",
-          "EffectiveVersion": "3.0.0.0",
+          "BuiltCommit": "d08f320d75e851aef5579d8616ec2d14e90f5669",
+          "TimeBuilt": "2026-05-19T15:39:33.4111166+00:00",
+          "EffectiveVersion": "3.0.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.1.2": {
@@ -241392,6 +241460,78 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "3.0.0.3": {
+              "TimeReleased": "2026-05-19T15:39:33.4111179+00:00",
+              "Changelog": "Fix Rulesets sharing configuration data by mistake when configuring them for the first time\r\n\r\nFix Job and Territory triggers, forgot to wire them up, tehepero~\r\n\r\nAdd Matches All/Matches Any toggle\r\n\r\nAdded note to Slot Selection: \r\nItems will fill the slots in the order that you select the slots in. (Or opposite order if its toggle in the Rule Set config)",
+              "UsedNeeds": [
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "1.1.18"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -291061,9 +291201,9 @@
           }
         },
         "ChatAnywhere": {
-          "BuiltCommit": "994b27d7f54705e46ac35ea46b0bab08400c06fe",
-          "TimeBuilt": "2026-05-15T18:17:56.9105352+00:00",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "57e120dc73e12a910e8987ac572986db6b95f6f0",
+          "TimeBuilt": "2026-05-19T21:39:25.8012854+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.17.2": {
@@ -291261,6 +291401,70 @@
             "1.1.1.0": {
               "TimeReleased": "2026-05-15T18:17:56.9105368+00:00",
               "Changelog": "Bug Fixes:\n- Fixed a crash when saving a passcode on Linux/Proton (Wine \u003C 11). The OS-level PBKDF2 API missing in older Wine versions is now replaced with a pure managed implementation.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "OpenGraph-Net",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "twelvehouse"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-05-19T21:39:25.8012864+00:00",
+              "Changelog": "New Features:\n- Long messages now wrap onto multiple lines in the input area instead of scrolling horizontally, so the full message stays visible while you type.\n\nChanges:\n- Pressing Enter (or Ctrl\u002BEnter, depending on your setting) always sends the message. Line breaks can no longer be inserted by Enter or by pasting multi-line text, since FFXIV chat itself cannot send line breaks.\n- The send button and emote/symbol picker icons have been refreshed for a cleaner look.\n- The composer layout has been tightened so the channel selector, text field, and side buttons stay neatly aligned together at any font size.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -292029,6 +292233,54 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "lokinmodar"
+            }
+          }
+        },
+        "QuestAWAY": {
+          "BuiltCommit": "c3e314238644a61cff924c2e30a337d6ecfc8fb2",
+          "TimeBuilt": "2026-05-19T15:34:07.0579312+00:00",
+          "EffectiveVersion": "2.0.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "2.0.1.0": {
+              "TimeReleased": "2026-05-19T15:34:07.0579745+00:00",
+              "Changelog": "- General code cleanup, replaced hooks with Dalamud events and sigs with CS addresses and delegates where possible, no functional changes",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "ECommons",
+                  "Version": "3.2.0.19"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Limiana"
+            }
+          }
+        },
+        "JobMountRoulette": {
+          "BuiltCommit": "dd755e100d6c6cd7ed501a1fd358f838671e4f9d",
+          "TimeBuilt": "2026-05-19T21:39:11.1513248+00:00",
+          "EffectiveVersion": "1.1.2.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.1.2.0": {
+              "TimeReleased": "2026-05-19T21:39:11.1513715+00:00",
+              "Changelog": "Added the ability to scroll through mount table pages using the mouse wheel.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Beletre"
             }
           }
         }
@@ -315845,6 +316097,13 @@
       "Version": "1.1.18",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-05-18T22:00:44.2794284Z"
+    },
+    {
+      "Type": 1,
+      "Key": "ECommons",
+      "Version": "3.2.0.19",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-05-19T15:34:07.1369405Z"
     }
   ]
 }
