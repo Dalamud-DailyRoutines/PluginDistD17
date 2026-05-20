@@ -241345,9 +241345,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "d08f320d75e851aef5579d8616ec2d14e90f5669",
-          "TimeBuilt": "2026-05-19T15:39:33.4111166+00:00",
-          "EffectiveVersion": "3.0.0.3",
+          "BuiltCommit": "fc77f88c9942b638b3771d8665cf8b2faff0e6b8",
+          "TimeBuilt": "2026-05-20T11:16:55.9324181+00:00",
+          "EffectiveVersion": "3.0.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.1.2": {
@@ -241532,6 +241532,78 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "3.0.0.5": {
+              "TimeReleased": "2026-05-20T11:16:55.9324658+00:00",
+              "Changelog": "Fix UI Scaling Issue\r\n\r\nBIG Improvement - UI\u0027s will now update immediately after a sort! Thanks Hasel!\r\n\r\nAdded Gearset Ordering\r\nAdded Anything Filter\r\n\r\nFixed a sorting bug that made things move incorrectly.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "1.1.18"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MidoriKami"
             }
           }
