@@ -233332,9 +233332,9 @@
           }
         },
         "SimpleTriggers": {
-          "BuiltCommit": "6276375678edae7208f4717401d3865be8fdad16",
-          "TimeBuilt": "2026-05-09T20:59:16.3247017+00:00",
-          "EffectiveVersion": "1.0.2.4",
+          "BuiltCommit": "31575ef24a5b0d11d394b65aed223497cd8c7c8e",
+          "TimeBuilt": "2026-05-21T18:56:38.5357783+00:00",
+          "EffectiveVersion": "1.0.4.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -233660,6 +233660,86 @@
             "1.0.2.4": {
               "TimeReleased": "2026-05-09T20:59:16.3247037+00:00",
               "Changelog": "## SimpleTriggers v1.0.2.3\n* Minor improvements.\n* Disabled dectalk (was in testing)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.6"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Brolijah"
+            },
+            "1.0.4.1": {
+              "TimeReleased": "2026-05-21T18:56:38.5358378+00:00",
+              "Changelog": "## SimpleTriggers v1.0.4.1\n* Replaced DECtalk with DECtalkMini\n* Fixed scaling in various places\n* Added a new option for trigger responses: popup toasts/gimmicks\n* Fixed non-fatal UI error when removing a category\n* Trims new-lines from messages before checking against trigger expressions\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -234360,9 +234440,9 @@
           }
         },
         "Clock": {
-          "BuiltCommit": "faa73350f6ccff89797db55ea674ad954e8c7a2b",
-          "TimeBuilt": "2026-05-20T21:14:07.691576+00:00",
-          "EffectiveVersion": "1.0.6.7",
+          "BuiltCommit": "aeb223c7ec5bb2a27c3cc56517346585ebb0164e",
+          "TimeBuilt": "2026-05-21T18:56:47.4999863+00:00",
+          "EffectiveVersion": "1.0.6.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.6.5": {
@@ -234400,6 +234480,22 @@
             "1.0.6.7": {
               "TimeReleased": "2026-05-20T21:14:07.6915782+00:00",
               "Changelog": "## New Chat Timestamp options\n\nNew **Chat Timestamp** section in the Clock settings\n- You can now show a custom timestamp directly in chat messages\n- Added options to match the chat channel color or choose a custom color\n- Added a timezone selector for chat timestamps, including a default **Local Time** option\n- Added a **Show AM/PM** option for timestamps\n- Chat timestamps wont show seconds even if the main clock is using a seconds format\n- Moved **Favorite Timezones** into the **Time Display** section\n- Added translations for the new Chat Timestamp settings\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "seventity7"
+            },
+            "1.0.6.8": {
+              "TimeReleased": "2026-05-21T18:56:47.4999878+00:00",
+              "Changelog": "### Changed Chat Timestamp System\n\nThe plugin now uses the native timestamp system.\nIt still does the same things as before:\n\n- shows custom timestamps in chat;\n- supports 12-hour and 24-hour time;\n- can show or hide \u0060AM/PM\u0060;\n- uses the configured time zone offset;\n- can apply a custom timestamp color;\n\n### Technicall stuff\n\n- Improved how custom chat timestamps are handled internally\n- Reduced unnecessary processing when the custom timestamp option is disabled\n- Improved further compatibility\u0027s\n\n### Notes\n- \u0060Match Channel Color\u0060 option temporarily removed\nPlease note that if you want to use this feature from this plugin, you might need to disable similar features from other plugins to avoid having any incompatibility in case if there is still any.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -241489,9 +241585,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "9cd470e16efb52d5c7e9673c7b3291928b3818f1",
-          "TimeBuilt": "2026-05-21T04:29:28.6443041+00:00",
-          "EffectiveVersion": "3.0.0.8",
+          "BuiltCommit": "e0cba171c47063edea758511afd4e4280db71cce",
+          "TimeBuilt": "2026-05-21T18:56:58.7141454+00:00",
+          "EffectiveVersion": "3.0.0.13",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.1.2": {
@@ -241889,6 +241985,74 @@
                 {
                   "Key": "KamiToolKit",
                   "Version": "1.1.18"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "3.0.0.13": {
+              "TimeReleased": "2026-05-21T18:56:58.7141476+00:00",
+              "Changelog": "Now replaces the action performed when clicking on the games \u0022Sort\u0022 context menu option.\r\n(This can be disabled in SortaKinda settings if you need)\r\n\r\nRemoved \u0022Sort\u0022 buttons from inventory UI\u0027s.\r\n\r\nAdded option to trigger sort on config change. (default on)",
+              "UsedNeeds": [
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
                 }
               ],
               "Reviewer": "nathanctech",
