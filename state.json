@@ -228576,9 +228576,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "6f470ac73647efc860475d1a61304c54bdeeab53",
-          "TimeBuilt": "2026-05-18T20:01:27.2898653+00:00",
-          "EffectiveVersion": "1.10.10.0",
+          "BuiltCommit": "2cf9a214d4d22a2207e24a999617a736bc5972b3",
+          "TimeBuilt": "2026-05-24T00:00:22.2279402+00:00",
+          "EffectiveVersion": "1.10.11.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -229815,6 +229815,50 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.10.11.0": {
+              "TimeReleased": "2026-05-24T00:00:22.2279883+00:00",
+              "Changelog": "- **Timers**: Fix timer raids completion if not reward was looted\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.72"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Sohtoren"
             }
           }
@@ -234740,6 +234784,54 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Abyeon"
+            }
+          }
+        },
+        "LapCatCounter": {
+          "BuiltCommit": "1c584bfa3b677c75a2777c4be36572f59d1aa48c",
+          "TimeBuilt": "2026-05-23T18:34:29.4766064+00:00",
+          "EffectiveVersion": "1.1.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.1.0.0": {
+              "TimeReleased": "2026-05-23T18:34:29.4766096+00:00",
+              "Changelog": "v1.1.0.0. Updated dalamud API level. Removed fallback code for lap detection that was removed in the latest API. Version bump  and new icon",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "ImOv3rburdened"
+            }
+          }
+        },
+        "CreateXIV": {
+          "BuiltCommit": "c4b81a33baf1cc6082177951f3b02d2410201c87",
+          "TimeBuilt": "2026-05-23T22:49:25.1269853+00:00",
+          "EffectiveVersion": "1.0.6.7",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.6.7": {
+              "TimeReleased": "2026-05-23T22:49:25.1269892+00:00",
+              "Changelog": "### CreateXIV\n- **Lets you create custom slash command aliases from an in-game UI**\n- Supports aliases for native FFXIV commands, Dalamud plugin commands, personal macros and shared macros\n- Create short personal commands for longer commands you use often\n  - Example: turn a longer command or macro reference into a simple custom slash command \u0060/mastervolume\u0060 \u003E \u0060/mv\u0060\n- Includes suggestions to help find available commands/macros while setting up aliases\n- Include alias organization tools\n  - Categories with custom colors\n  - Favorites/pinned aliases\n  - Search, type filters, category filters and sortable alias list columns\n- Include alias management tools\n  - Edit, delete, duplicate, test, undo delete, overwrite existing aliases and clipboard import/export\n- Validation system for aliases, macros and any type of commands\n  - Invalid macro/command aliases will be prevented from saving\n  - Saved aliases that become invalid later are highlighted with a tooltip explaining the issue\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "seventity7"
             }
           }
         }
@@ -241749,9 +241841,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "e30412cf0e873d52659692447c71def6ef910d6d",
-          "TimeBuilt": "2026-05-22T17:46:16.0777778+00:00",
-          "EffectiveVersion": "3.0.0.17",
+          "BuiltCommit": "22e5afff783df8a015a77b0668a3aae61a2c3cd6",
+          "TimeBuilt": "2026-05-23T18:34:39.784344+00:00",
+          "EffectiveVersion": "3.0.0.22",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.1.2": {
@@ -242225,6 +242317,74 @@
             "3.0.0.17": {
               "TimeReleased": "2026-05-22T17:46:16.0778177+00:00",
               "Changelog": "Now draws the order that slots will be filled in the config ui\r\n\r\nOrders Rulesets Alphabetically\r\n\r\nFix Gearset Ordering\r\nFix ItemId Ordering\r\n\r\nAdd Armor Filter\r\nAdd Rarity Filter\r\nAdd Weapon Filter\r\n\r\nFix not filling empty slots correctly for main inventory\r\n\r\nImprove Sort Context Menu Override, now only overrides inventories with sorts defined.\r\n\r\nRemoved Sort Context Menu Option, it\u0027s now always enabled.\r\n\r\nAdded Painting feature for selecting multiple slots at once.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "3.0.0.22": {
+              "TimeReleased": "2026-05-23T18:34:39.7843458+00:00",
+              "Changelog": "Final Code Cleanup\r\nFinal Testing Update (unless there are major bugs)\r\n\r\nAdd ItemUiCategory Ordering\r\n\r\nFixed some sorting bugs\r\n\r\nSmall UI Touchup\r\n\r\nImplemented Import/Export. Obviously rules from previous version of this plugin are not compatible.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "Microsoft.CodeAnalysis.CSharp",
@@ -284869,9 +285029,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "cedaaa05e40bdead33d1af9f8a67516bb4fc15f0",
-          "TimeBuilt": "2025-11-29T18:05:10.6995575+00:00",
-          "EffectiveVersion": "1.0.7.7",
+          "BuiltCommit": "780d395a2a7524314da7663782a42a243d462b8c",
+          "TimeBuilt": "2026-05-23T18:53:14.9776062+00:00",
+          "EffectiveVersion": "1.3.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.8": {
@@ -285328,6 +285488,86 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "MidoriKami"
+            },
+            "1.3.3.1": {
+              "TimeReleased": "2026-05-23T18:40:44.1952873+00:00",
+              "Changelog": "async systems testing, if you experience issues please report them to the VanillaPlus thread in the discord.\r\n\r\nIf you continue having issues, feel free to revert back to the stable version of this plugin, there are no new features in this version, it\u0027s purely intended for testing.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "47b537b585bf1c3cd37f2e1142b562ec093e6b5b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.3.3.2": {
+              "TimeReleased": "2026-05-23T18:53:14.9776526+00:00",
+              "Changelog": "Fix safemode command logging",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "47b537b585bf1c3cd37f2e1142b562ec093e6b5b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -288016,95 +288256,15 @@
             }
           }
         },
-        "LapCatCounter": {
-          "BuiltCommit": "1c584bfa3b677c75a2777c4be36572f59d1aa48c",
-          "TimeBuilt": "2026-04-30T20:56:02.5134042+00:00",
-          "EffectiveVersion": "1.1.0.0",
+        "NamePlateDebuffs": {
+          "BuiltCommit": "40493b81576226388923fd41fd1b357fd3ed0f66",
+          "TimeBuilt": "2026-05-23T18:34:46.8161753+00:00",
+          "EffectiveVersion": "1.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
-            "1.0.19.0": {
-              "TimeReleased": "2026-01-07T07:14:45.1573232+00:00",
-              "Changelog": "Initial submission of LapCatCounter.\n\nTracks and displays how many times the player was a lap cat. Purely reactive social plugin.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "Critical-Impact",
-              "Submitter": "ImOv3rburdened"
-            },
-            "1.0.20.0": {
-              "TimeReleased": "2026-01-11T03:18:25.0362767+00:00",
-              "Changelog": "Updated the LapCatCounter plugin to version 1.20.0. Fixed a bug where comfig resets emote ID\u0027s to 0 and doesnt track laps. Adjusted cooldown for time between laps counted to 30 seconds to prevent spamming the same lap or accidental counts from movement. ADded a tiem tracker for how long you sat in someone\u0027s lap per person, total time in laps, and max time spent on a single lap in one go.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "philpax",
-              "Submitter": "ImOv3rburdened"
-            },
-            "1.0.21.0": {
-              "TimeReleased": "2026-01-19T19:27:05.8340063+00:00",
-              "Changelog": "v1.0.21 - Fixed lap detection issues where laps could restart or track incorrect players. Lap tracking now requires a valid target within 0.4 distance and fully stops when the target moves away or you stand up, resuming only after sitting again. Improved cooldown and stability checks to prevent accidental or duplicate lap counts, fixed sit emote ID resets, fixed entering gpose tracks as sitting in your own lap, and improved time tracking and debug accuracy.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "reiichi001",
-              "Submitter": "ImOv3rburdened"
-            },
-            "1.0.22.0": {
-              "TimeReleased": "2026-03-21T13:24:02.6152162+00:00",
-              "Changelog": "v1.0.22 - Reworked lap detection using sit/emote hook data plus positional validation. LapCatCounter now distinguishes between sitting in someone else\u0027s lap and someone sitting in yours, tracks the active partner and session role, avoids duplicate counts from reused sit events, and improves session/debug accuracy without changing the overall UI style.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "Critical-Impact",
-              "Submitter": "ImOv3rburdened"
-            },
-            "1.0.24.0": {
-              "TimeReleased": "2026-04-01T13:30:08.8278243+00:00",
-              "Changelog": "v1.0.24 - Fixed loops detection pickign the wrongg emotes for lap detection, i.e. usign wringhands and someone sat on you would trigger thinking you were the original sitting lap.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nebel",
-              "Submitter": "ImOv3rburdened"
-            },
-            "1.1.0.0": {
-              "TimeReleased": "2026-04-30T20:56:02.5134059+00:00",
-              "Changelog": "v1.1.0.0. Updated dalamud API level. Removed fallback code for lap detection that was removed in the latest API. Version bump  and new icon",
+            "1.1.1.0": {
+              "TimeReleased": "2026-05-23T18:34:46.8161767+00:00",
+              "Changelog": "Support for M**dles, buffs and special statuses, and tweaks / bug fixes. I also did some minor config changes, so reset to defaults if it looks bad. That\u0027s the price of innovation.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -288116,7 +288276,7 @@
                 }
               ],
               "Reviewer": "nathanctech",
-              "Submitter": "ImOv3rburdened"
+              "Submitter": "sourpuh"
             }
           }
         },
@@ -292312,15 +292472,15 @@
             }
           }
         },
-        "CreateXIV": {
-          "BuiltCommit": "2c4f251d01a34a7660e65e4fe198dbf8a61ffd0d",
-          "TimeBuilt": "2026-05-12T05:08:55.2945002+00:00",
-          "EffectiveVersion": "1.0.6.6",
+        "TopSellingItems": {
+          "BuiltCommit": "9c60e7d05cd4e734b3302aabac694941e523f510",
+          "TimeBuilt": "2026-05-23T22:49:33.1671419+00:00",
+          "EffectiveVersion": "1.0.3.1",
           "MinimumVersion": null,
           "Changelogs": {
-            "1.0.6.3": {
-              "TimeReleased": "2026-05-07T21:03:01.4142452+00:00",
-              "Changelog": "Update Native Commands Support",
+            "1.0.3.1": {
+              "TimeReleased": "2026-05-23T22:49:33.1671441+00:00",
+              "Changelog": "TopSellingItems helps identify high-demand market board items using Universalis sales data. The plugin estimates sales velocity, highlights actively traded items, and provides configurable filters for worlds, data centers, prices, sales frequency, and profit potential to help players find items that are actually selling instead of relying only on listing prices.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -292332,55 +292492,7 @@
                 }
               ],
               "Reviewer": "nathanctech",
-              "Submitter": "seventity7"
-            },
-            "1.0.6.4": {
-              "TimeReleased": "2026-05-08T21:34:07.7218438+00:00",
-              "Changelog": "- Added support for shared macros in **Macro Alias** command field\n  - Existing macro aliases continue to work normally\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "perchbirdd",
-              "Submitter": "seventity7"
-            },
-            "1.0.6.5": {
-              "TimeReleased": "2026-05-10T13:52:30.2486442+00:00",
-              "Changelog": "- Added command suggestions while creating command aliases\n- Added macro suggestions while creating macro aliases, including shared macros\n  - Suggestions can be clicked to fill the command field automatically\n- Improved validation of command fields\n- Commands now automatically receive \u0060/\u0060 when needed\n- Cleaner alias list and no longer shows the \u0060N\u00B0\u0060 column\n- Saved aliases can now be sorted by clicking on column titles\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "seventity7"
-            },
-            "1.0.6.6": {
-              "TimeReleased": "2026-05-12T05:08:55.2945013+00:00",
-              "Changelog": "### Fix Patch v1.0.6.6\n- **Fixed saved command and macro aliases being lost after restarting the game**\n- Updated command suggestion list\n- Removed the previous limit of 100 commands suggestions\n  - Added mouse wheel scrolling support for long suggestion lists\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "seventity7"
+              "Submitter": "epinephren"
             }
           }
         },
@@ -316895,6 +317007,13 @@
       "Version": "10.0.8",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-05-22T03:25:24.5427709Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "47b537b585bf1c3cd37f2e1142b562ec093e6b5b",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-05-23T18:40:44.2652482Z"
     }
   ]
 }
