@@ -120983,9 +120983,9 @@
           }
         },
         "JobBars": {
-          "BuiltCommit": "80a325559416aa9152be7a8cd1eef2e5ef9b0cbb",
-          "TimeBuilt": "2026-05-05T06:53:45.0087859+00:00",
-          "EffectiveVersion": "1.3.2.6",
+          "BuiltCommit": "9a32a0ee72dc36137c43ab462f51022dfe1a4099",
+          "TimeBuilt": "2026-05-24T05:27:34.53566+00:00",
+          "EffectiveVersion": "1.3.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.3.0": {
@@ -121173,6 +121173,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "0ceal0t"
+            },
+            "1.3.3.0": {
+              "TimeReleased": "2026-05-24T05:27:34.5356614+00:00",
+              "Changelog": "- Refactor to use KTK overlay nodes",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "2f969471a2544b56a295566cf0c217d8facb4e92"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "0ceal0t"
             }
           }
@@ -216128,9 +216152,9 @@
           }
         },
         "AetherDraw": {
-          "BuiltCommit": "d9c2f6a6a0a57f18af2db60df08a99e9d7a7566a",
-          "TimeBuilt": "2026-04-29T22:51:27.7542879+00:00",
-          "EffectiveVersion": "7.5.0.0",
+          "BuiltCommit": "72037842083219eef2b7a2677e675d888105e8e9",
+          "TimeBuilt": "2026-05-24T05:27:19.0322269+00:00",
+          "EffectiveVersion": "7.5.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.1": {
@@ -217603,6 +217627,82 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "rail2025"
+            },
+            "7.5.0.1": {
+              "TimeReleased": "2026-05-24T05:27:19.0322679+00:00",
+              "Changelog": "v7.5.0.1: added o8s maps for pre-ultimate planning",
+              "UsedNeeds": [
+                {
+                  "Key": "AngleSharp",
+                  "Version": "1.4.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.12.4"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Skia",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "ExCSS",
+                  "Version": "4.3.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "ShimSkiaSharp",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Custom",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "Svg.Model",
+                  "Version": "3.2.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "rail2025"
             }
           }
@@ -268766,9 +268866,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "b1375d71cf366cfd8bff351fdeb0665f90651cb3",
-          "TimeBuilt": "2026-05-22T17:49:14.837643+00:00",
-          "EffectiveVersion": "3.0.0.0",
+          "BuiltCommit": "bccff5785f143f5659f5b194e770b97eefca5474",
+          "TimeBuilt": "2026-05-24T05:27:47.2701268+00:00",
+          "EffectiveVersion": "3.0.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -268809,6 +268909,34 @@
             "3.0.0.0": {
               "TimeReleased": "2026-05-22T17:49:14.8376836+00:00",
               "Changelog": "Rewrote the whole plugin to use messageID instead of regex where possible.\r\n\r\nBug fixes:\r\nChat history evicted newest instead of oldest (Stack \u2192 Queue/FIFO).\r\nCrash fixes: invalid whitelist regex, single-word player names, null UIState derefs.\r\nThread safety: locking on log-message sets \u002B chat history.\r\nDispose() now unsubscribes UI events, removes windows, releases the DTR entry.\r\nUI: ChatHistoryTab saved every frame; Inverse Mode couldn\u0027t be enabled; bad EndTabBar.\r\nWhitelist: Allow overrides emote hiding \u0026 beats Block; works in disabled channels; empty-name no longer matches all; added match modes.\r\nPerf: cached AllRules \u002B whitelist/name regexes (were rebuilt per message).\r\nCleanup: deleted dead GetDutyName.cs, merged 3 DTR settings, L10N format/fallback fixes, SmolMode off-by-one, rule typo/copy-paste fixes.\r\nAPI: SetPlayerName uses ObjectTable.LocalPlayer (deprecated IClientState.LocalPlayer).\r\nNew option : server announcement filter",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.85"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.0.0.1": {
+              "TimeReleased": "2026-05-24T05:27:47.2701285+00:00",
+              "Changelog": "Bug Fixes\r\n\u2022 Fixed server announcement filtering (Condensed/Hide modes) not working\r\n\u2022 Fixed experience gain messages being blocked when \u0022Show experience gain\u0022 was enabled\r\n\u2022 Fixed commendation summary appearing when entering a duty instead of when leaving one\r\n\r\nNew Features\r\n\u2022 New \u0022Hide phishing warning only\u0022 server announcement mode \u2014 keeps greeting and event text, removes the phishing/congestion warning\r\n\u2022 [TidyChat] tag on condensed server announcement lines so you know they were trimmed\r\n\u2022 Custom filters now support LogMessage IDs \u2014 use https://github.com/goatcorp/DalamudPluginsD17/pull/588 or https://github.com/goatcorp/DalamudPluginsD17/pull/588,589 to block/allow by ID\r\n\r\nImprovements\r\n\u2022 Removed deprecated Inverse Mode (use \u0022Show Everything Else\u0022 instead)\r\n\u2022 General performance and code quality improvements",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -285029,9 +285157,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "780d395a2a7524314da7663782a42a243d462b8c",
-          "TimeBuilt": "2026-05-23T18:53:14.9776062+00:00",
-          "EffectiveVersion": "1.3.3.2",
+          "BuiltCommit": "447ce65e1a6beac13d12dddc25ef5391420509e3",
+          "TimeBuilt": "2026-05-24T05:28:03.0228886+00:00",
+          "EffectiveVersion": "1.3.3.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.8": {
@@ -285537,6 +285665,46 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "47b537b585bf1c3cd37f2e1142b562ec093e6b5b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.3.3.3": {
+              "TimeReleased": "2026-05-24T05:28:03.0228904+00:00",
+              "Changelog": "Various Async Fixes\r\n\r\nLogging System Upgrades",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "1b14eb3c700fe6d736904f6b537931980f3b3981"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -317014,6 +317182,20 @@
       "Version": "47b537b585bf1c3cd37f2e1142b562ec093e6b5b",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-05-23T18:40:44.2652482Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "2f969471a2544b56a295566cf0c217d8facb4e92",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-05-24T05:27:34.6016638Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "1b14eb3c700fe6d736904f6b537931980f3b3981",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-05-24T05:28:03.0598134Z"
     }
   ]
 }
