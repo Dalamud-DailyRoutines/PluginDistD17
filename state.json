@@ -140893,9 +140893,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "187f4cfa833c623143df3b53188b6fec8f7e5ec5",
-          "TimeBuilt": "2026-05-20T21:14:23.3561059+00:00",
-          "EffectiveVersion": "3.6.0.0",
+          "BuiltCommit": "fae9f6b4fa71891d441c99418dc717c9b722b6cd",
+          "TimeBuilt": "2026-05-25T11:18:00.2601718+00:00",
+          "EffectiveVersion": "3.6.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -141867,6 +141867,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "kelvin124124"
+            },
+            "3.6.1.0": {
+              "TimeReleased": "2026-05-25T11:18:00.2601742+00:00",
+              "Changelog": "- allow users to disable caching or wipe caches manually\r\n- ui cahnges to language list to make it scrollable\r\n- lift limit on main window target language\r\n- update deepl logic following deeplx update\r\n- switch to Crowdin for localization\r\n- new localization strings\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "SearchPioneer.Lingua",
+                  "Version": "1.0.5"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "kelvin124124"
             }
           }
@@ -230264,9 +230288,9 @@
           }
         },
         "JobMountRoulette": {
-          "BuiltCommit": "f42fadf55ead645677faa4dd636af9a6feaaabf0",
-          "TimeBuilt": "2026-05-02T23:29:15.5313308+00:00",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "dd755e100d6c6cd7ed501a1fd358f838671e4f9d",
+          "TimeBuilt": "2026-05-25T11:17:43.7552235+00:00",
+          "EffectiveVersion": "1.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -230331,6 +230355,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Beletre"
+            },
+            "1.1.2.0": {
+              "TimeReleased": "2026-05-25T11:17:43.7552258+00:00",
+              "Changelog": "Added the ability to scroll through mount table pages using the mouse wheel.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "Beletre"
             }
           }
@@ -234696,9 +234736,9 @@
           }
         },
         "ChatAnywhere": {
-          "BuiltCommit": "d50c110887b149f5dbda41a8b27a6f98d9ea1a12",
-          "TimeBuilt": "2026-05-22T17:51:41.8330205+00:00",
-          "EffectiveVersion": "1.3.0.0",
+          "BuiltCommit": "b82f6b913f7480107f17c642e9432266c1bf7672",
+          "TimeBuilt": "2026-05-25T11:18:12.1101002+00:00",
+          "EffectiveVersion": "1.4.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -234827,6 +234867,70 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "twelvehouse"
+            },
+            "1.4.0.1": {
+              "TimeReleased": "2026-05-25T11:18:12.1101018+00:00",
+              "Changelog": "New Features:\n- Added a send queue: after pressing Send, a brief countdown gives you a moment to cancel an accidental send. (Can be turned on in Settings.)\n\nChanges:\n- Made the light theme a little more kawaii.\n\nFixes:\n- The settings panel now opens as a full-screen modal on mobile.\n- The emote and symbol picker now expands inline below the input on mobile.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "OpenGraph-Net",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "twelvehouse"
             }
           }
@@ -235609,9 +235713,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "307a20621f0cadae6ef2feed1ef3442c7dcfc74f",
-          "TimeBuilt": "2026-02-07T21:11:12.672568+00:00",
-          "EffectiveVersion": "1.7.7.0",
+          "BuiltCommit": "91ddb68d1ce64dec30d61ac647668649b71c5a51",
+          "TimeBuilt": "2026-05-25T11:11:50.3277074+00:00",
+          "EffectiveVersion": "1.10.13.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -239199,6 +239303,50 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.10.13.0": {
+              "TimeReleased": "2026-05-25T11:11:50.3277487+00:00",
+              "Changelog": "- **Code**: Moving reward drawing and tooltip to own helper file and refacto. Fix some rewards tooltips having multiple characters and weirds icons\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.72"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "Sohtoren"
             }
           }
@@ -294093,30 +294241,6 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Limiana"
-            }
-          }
-        },
-        "JobMountRoulette": {
-          "BuiltCommit": "dd755e100d6c6cd7ed501a1fd358f838671e4f9d",
-          "TimeBuilt": "2026-05-19T21:39:11.1513248+00:00",
-          "EffectiveVersion": "1.1.2.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.1.2.0": {
-              "TimeReleased": "2026-05-19T21:39:11.1513715+00:00",
-              "Changelog": "Added the ability to scroll through mount table pages using the mouse wheel.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "Beletre"
             }
           }
         }
