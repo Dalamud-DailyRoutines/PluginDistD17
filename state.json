@@ -16467,9 +16467,9 @@
           }
         },
         "QuestAWAY": {
-          "BuiltCommit": "1fb593d8f9d5b2c73e681c1ddb50108ea1e4332d",
-          "TimeBuilt": "2026-04-30T10:18:19.4123557+00:00",
-          "EffectiveVersion": "2.0.0.11",
+          "BuiltCommit": "c3e314238644a61cff924c2e30a337d6ecfc8fb2",
+          "TimeBuilt": "2026-05-27T00:33:33.8179811+00:00",
+          "EffectiveVersion": "2.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.6": {
@@ -16570,6 +16570,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Limiana"
+            },
+            "2.0.1.0": {
+              "TimeReleased": "2026-05-27T00:33:33.8179827+00:00",
+              "Changelog": "- Move from testing to live, no issues have been found",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "ECommons",
+                  "Version": "3.2.0.19"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Limiana"
             }
           }
@@ -105610,9 +105626,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "e48186585a074db0b0fc216949f7e7d713ba995d",
-          "TimeBuilt": "2026-03-03T23:22:22.9545057+00:00",
-          "EffectiveVersion": "2.2.0.1",
+          "BuiltCommit": "e9d87a1062241e830c1671928271c70570d3c6f8",
+          "TimeBuilt": "2026-05-27T00:33:25.2329751+00:00",
+          "EffectiveVersion": "3.0.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.0.0": {
@@ -106101,6 +106117,74 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "3.0.1.2": {
+              "TimeReleased": "2026-05-27T00:33:25.2329765+00:00",
+              "Changelog": "Reworked plugin, now with greater capabilities, and significantly better performance.\r\n\r\nNot compatible with previous versions of the plugin. All presets prior to v3 are not compatible.\r\n\r\nSeveral new filtering options, new ordering options, ordering can now be done as a tiered list of tiebreakers.\r\n\r\nNew Filters or Ordering options can be easily added over time.\r\n\r\nReplaces the games \u0022Sort\u0022 context menu option to trigger SortaKinda sort if any rules are defined for the target inventory.\r\n\r\nImmediately updates UI upon completing a sort.\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -121199,9 +121283,9 @@
           }
         },
         "JobBars": {
-          "BuiltCommit": "5851154fd733d7f157545a443b7e59e4bea4864e",
-          "TimeBuilt": "2026-05-24T18:40:23.8951835+00:00",
-          "EffectiveVersion": "1.3.3.1",
+          "BuiltCommit": "a2adf8c063de324e1d4aa435851eb7166fed21d2",
+          "TimeBuilt": "2026-05-27T00:33:12.3831653+00:00",
+          "EffectiveVersion": "1.3.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.3.0": {
@@ -121422,6 +121506,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.git",
                   "Version": "2f969471a2544b56a295566cf0c217d8facb4e92"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "0ceal0t"
+            },
+            "1.3.3.2": {
+              "TimeReleased": "2026-05-27T00:33:12.3831673+00:00",
+              "Changelog": "- Fixed issue with pulses of ticks being inconsistent\r\n- Re-attached cooldowns to party list\r\n- Fixed issue with modded textures being overridden",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "2d935fc74ee1843b6b5b2be5f9ff5e02ee46e87c"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -231024,9 +231132,9 @@
           }
         },
         "InventorySearchBar": {
-          "BuiltCommit": "1a5d8a66bded6a00c621e01db22525b3d8cee15f",
-          "TimeBuilt": "2026-05-03T07:17:54.7659203+00:00",
-          "EffectiveVersion": "1.9.3.0",
+          "BuiltCommit": "512d035d2bd702f1dbb4886607c914c02e7f9a5b",
+          "TimeBuilt": "2026-05-27T00:40:19.2112683+00:00",
+          "EffectiveVersion": "1.9.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.9.0.0": {
@@ -231823,6 +231931,206 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "caitlyn-gg"
+            },
+            "1.9.4.0": {
+              "TimeReleased": "2026-05-27T00:40:19.2113156+00:00",
+              "Changelog": "- Added tradable filter",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Critical-Impact/CriticalCommonLib.git",
+                  "Version": "0e5fa3e7e5ddf5788e9fc8ef6dd66ca0cdfb3c80"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "AllaganLib.GameSheets",
+                  "Version": "2.2.2"
+                },
+                {
+                  "Key": "AllaganLib.Monitors",
+                  "Version": "2.2.0"
+                },
+                {
+                  "Key": "AllaganLib.Shared",
+                  "Version": "2.2.0"
+                },
+                {
+                  "Key": "Autofac",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Autofac.Extensions.DependencyInjection",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "DalaMock.Host",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "DalaMock.Shared",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "NaturalSort.Extension",
+                  "Version": "4.4.1"
+                },
+                {
+                  "Key": "SerialQueue",
+                  "Version": "2.1.0"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.4"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "SonarAnalyzer.CSharp",
+                  "Version": "10.17.0.131074"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "caitlyn-gg"
             }
           }
@@ -269746,9 +270054,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "bccff5785f143f5659f5b194e770b97eefca5474",
-          "TimeBuilt": "2026-05-24T05:27:47.2701268+00:00",
-          "EffectiveVersion": "3.0.0.1",
+          "BuiltCommit": "695045e6ba1b79e64733ec90c3c5ff8484a45da7",
+          "TimeBuilt": "2026-05-27T00:33:45.2259213+00:00",
+          "EffectiveVersion": "3.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -269817,6 +270125,34 @@
             "3.0.0.1": {
               "TimeReleased": "2026-05-24T05:27:47.2701285+00:00",
               "Changelog": "Bug Fixes\r\n\u2022 Fixed server announcement filtering (Condensed/Hide modes) not working\r\n\u2022 Fixed experience gain messages being blocked when \u0022Show experience gain\u0022 was enabled\r\n\u2022 Fixed commendation summary appearing when entering a duty instead of when leaving one\r\n\r\nNew Features\r\n\u2022 New \u0022Hide phishing warning only\u0022 server announcement mode \u2014 keeps greeting and event text, removes the phishing/congestion warning\r\n\u2022 [TidyChat] tag on condensed server announcement lines so you know they were trimmed\r\n\u2022 Custom filters now support LogMessage IDs \u2014 use https://github.com/goatcorp/DalamudPluginsD17/pull/588 or https://github.com/goatcorp/DalamudPluginsD17/pull/588,589 to block/allow by ID\r\n\r\nImprovements\r\n\u2022 Removed deprecated Inverse Mode (use \u0022Show Everything Else\u0022 instead)\r\n\u2022 General performance and code quality improvements",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.85"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.0.0.2": {
+              "TimeReleased": "2026-05-27T00:33:45.2259227+00:00",
+              "Changelog": "### Bug fixes\r\n\r\n- **FATE level sync warning** \u2014 The \u201Cyou are 6 or more levels above the recommended level\u201D message is filtered correctly again when that option is enabled.\r\n- **\u0060/isearch\u0060 results** \u2014 Item search summary lines and \u0060\u003E\u003E\u0060 item links show or hide properly based on the \u201CShow \u2018Search for items\u2019 results message\u201D setting.\r\n- **Hide Gil / Hide MGP** \u2014 These options hide gil and MGP messages again instead of affecting unrelated loot messages.\r\n\r\n### Improvements\r\n\r\n- **System messages** \u2014 \u201CTotal Play Time\u201D is no longer accidentally caught by the system spam filter.\r\n- **Gathering \u0026 loot roll filters** \u2014 Hide options on those channels behave more reliably.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -293589,14 +293925,30 @@
           }
         },
         "TopSellingItems": {
-          "BuiltCommit": "9c60e7d05cd4e734b3302aabac694941e523f510",
-          "TimeBuilt": "2026-05-23T22:49:33.1671419+00:00",
-          "EffectiveVersion": "1.0.3.1",
+          "BuiltCommit": "b56d3da8db9031b68ed71dea73c5e78c652e7ad5",
+          "TimeBuilt": "2026-05-27T00:40:28.7634515+00:00",
+          "EffectiveVersion": "1.0.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.3.1": {
               "TimeReleased": "2026-05-23T22:49:33.1671441+00:00",
               "Changelog": "TopSellingItems helps identify high-demand market board items using Universalis sales data. The plugin estimates sales velocity, highlights actively traded items, and provides configurable filters for worlds, data centers, prices, sales frequency, and profit potential to help players find items that are actually selling instead of relying only on listing prices.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "epinephren"
+            },
+            "1.0.3.2": {
+              "TimeReleased": "2026-05-27T00:40:28.7634535+00:00",
+              "Changelog": "Adds optional world selection for datacenter scans and improved best-buy scope display showing the exact world.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -294245,30 +294597,6 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "lokinmodar"
-            }
-          }
-        },
-        "QuestAWAY": {
-          "BuiltCommit": "c3e314238644a61cff924c2e30a337d6ecfc8fb2",
-          "TimeBuilt": "2026-05-19T15:34:07.0579312+00:00",
-          "EffectiveVersion": "2.0.1.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "2.0.1.0": {
-              "TimeReleased": "2026-05-19T15:34:07.0579745+00:00",
-              "Changelog": "- General code cleanup, replaced hooks with Dalamud events and sigs with CS addresses and delegates where possible, no functional changes",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "ECommons",
-                  "Version": "3.2.0.19"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "Limiana"
             }
           }
         }
@@ -318127,6 +318455,13 @@
       "Version": "2d935fc74ee1843b6b5b2be5f9ff5e02ee46e87c",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-05-24T22:26:21.256528Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "2d935fc74ee1843b6b5b2be5f9ff5e02ee46e87c",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-05-27T00:33:12.4552792Z"
     }
   ]
 }
