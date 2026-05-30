@@ -105582,9 +105582,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "ec584e5f9a583375a5375b32bccdc7367b3f5677",
-          "TimeBuilt": "2026-05-29T03:03:35.6478699+00:00",
-          "EffectiveVersion": "3.0.1.5",
+          "BuiltCommit": "47a1fd0b20112f4ed66dd903189a1e2ac27fe022",
+          "TimeBuilt": "2026-05-29T20:04:06.3522319+00:00",
+          "EffectiveVersion": "3.0.1.6",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.0.0": {
@@ -106282,6 +106282,74 @@
             "3.0.1.5": {
               "TimeReleased": "2026-05-29T03:03:35.6478715+00:00",
               "Changelog": "Minor UI adjustments.",
+              "UsedNeeds": [
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "3.0.1.6": {
+              "TimeReleased": "2026-05-29T20:04:06.352279+00:00",
+              "Changelog": "Fix unable to delete specific name filters",
               "UsedNeeds": [
                 {
                   "Key": "Microsoft.CodeAnalysis.CSharp",
@@ -223760,9 +223828,9 @@
           }
         },
         "BetterFriendList": {
-          "BuiltCommit": "1024d0e67a6bdaf7fc9096d7d4aca9e7e893f858",
-          "TimeBuilt": "2026-05-09T20:59:37.8248865+00:00",
-          "EffectiveVersion": "2.1.3.13",
+          "BuiltCommit": "18fcdc4f997c1abb2a0bede7aacf40eb0127a36a",
+          "TimeBuilt": "2026-05-30T00:45:40.6147829+00:00",
+          "EffectiveVersion": "2.1.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -223959,6 +224027,46 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "devckuw"
+            },
+            "2.1.4.0": {
+              "TimeReleased": "2026-05-30T00:45:40.6148249+00:00",
+              "Changelog": "v2.1.4.0:\r\nadd:\r\nsorting by : current area, current world, fc tag, job\r\nfix:\r\nwarning on first draw\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "7b98ee4ea14cc348fba0ed729359c95b31c84a43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "devckuw"
             }
           }
@@ -237548,6 +237656,34 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "sleeds2"
+            }
+          }
+        },
+        "Mini": {
+          "BuiltCommit": "6bf376a20d5f960b7823e70f2810c3968d4adf18",
+          "TimeBuilt": "2026-05-30T00:45:48.7667039+00:00",
+          "EffectiveVersion": "2.1.1.5",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "2.1.1.5": {
+              "TimeReleased": "2026-05-30T00:45:48.7667122+00:00",
+              "Changelog": "It seems like I screwed up and moved folder instead of copying it",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "ECommons",
+                  "Version": "3.2.0.6"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Limiana"
             }
           }
         }
@@ -292377,9 +292513,9 @@
           }
         },
         "AkuTrack": {
-          "BuiltCommit": "40f736b02a95ca0c0ed53d43acd3e04a8729c4c7",
-          "TimeBuilt": "2026-02-17T20:27:01.9171837+00:00",
-          "EffectiveVersion": "0.0.32.0",
+          "BuiltCommit": "5b9a25f08702129adf248f295773e66c0c9f0ecd",
+          "TimeBuilt": "2026-05-29T20:04:22.2373049+00:00",
+          "EffectiveVersion": "0.0.33.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -292428,6 +292564,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "amki"
+            },
+            "0.0.33.0": {
+              "TimeReleased": "2026-05-29T20:04:22.2373086+00:00",
+              "Changelog": "- Update to Dalamud API 15\n- Fix loading configuration\n- Optionally center map on player\n- Add optional camera cone\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.7"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "amki"
             }
           }
@@ -296661,14 +296821,30 @@
           }
         },
         "MaidenAlert": {
-          "BuiltCommit": "2527651c96d03848766466de76d3e39d74a654ca",
-          "TimeBuilt": "2026-05-28T03:54:08.6066702+00:00",
-          "EffectiveVersion": "1.0.0.6",
+          "BuiltCommit": "37af1789ec0f1f422282f139c35af640d58430cc",
+          "TimeBuilt": "2026-05-29T20:04:29.6374972+00:00",
+          "EffectiveVersion": "1.0.0.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.6": {
               "TimeReleased": "2026-05-28T03:54:08.6067122+00:00",
               "Changelog": "Maiden Alert notify you when a Forlorn Maiden appears during FATEs.\nDesigned to make Maiden spawns easier to notice, especially when you are focused on combat, moving between FATEs \u0026 etc.\n\n## Features\n- Sends an in-game chat notification when a Maiden appears\n- Plays a sound alert so the spawn is harder to miss\n- Shows a on-screen overlay to track the Maiden after it appears\n- Displays useful distance/status information while the Maiden is being tracked\n- Automatically follows the current game client language for plugin messages/detections where supported\n\n## Language support\nSupported languages for translations:\n- English\n- Japanese\n- German\n- French\n\nThe plugin can still detect and notify you about Maiden spawns regardless of language.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "seventity7"
+            },
+            "1.0.0.7": {
+              "TimeReleased": "2026-05-29T20:04:29.6374993+00:00",
+              "Changelog": "## New Update!\n- Replaced the tracker visuals with a new better one\n- Removed the previous custom-drawn tracker icon, panel-style text box, borders and framing\n  - Switched the tracker to use fixed in-game icon\n  - Added a game-icon based arrow indicator for off-screen tracking\n  - Updated the tracker label to use a floating text style\n  - Added pulse/glow effects to the tracker icon and off-screen arrow\n- Updated tracker positioning behavior for on-screen/off-screen\n- New **Tracker scale** option\n  - Added scale handling to the tracker renderer so icon, arrow and text scale accordingly\n\n\u0060Never been so easyer to spot Maidens\u0060\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -296705,6 +296881,30 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "yfthbr"
+            }
+          }
+        },
+        "JobRoulettePlugin": {
+          "BuiltCommit": "a4e668abcdb03cc87bc4d358a73e7a2bdd35d35f",
+          "TimeBuilt": "2026-05-29T20:04:14.6942682+00:00",
+          "EffectiveVersion": "1.0.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.1.0": {
+              "TimeReleased": "2026-05-29T20:04:14.6942719+00:00",
+              "Changelog": "Updated logic to only include unlocked jobs in roulette feature and settings menu.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
             }
           }
         }
@@ -320619,6 +320819,13 @@
       "Version": "3.2.1.3",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-05-28T00:02:18.5395712Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "7b98ee4ea14cc348fba0ed729359c95b31c84a43",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-05-30T00:45:40.687546Z"
     }
   ]
 }
