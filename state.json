@@ -272094,9 +272094,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "695045e6ba1b79e64733ec90c3c5ff8484a45da7",
-          "TimeBuilt": "2026-05-27T00:33:45.2259213+00:00",
-          "EffectiveVersion": "3.0.0.2",
+          "BuiltCommit": "478647552c3e65935d1b8e9d55e03b85e3f4ea81",
+          "TimeBuilt": "2026-05-30T04:58:12.9165904+00:00",
+          "EffectiveVersion": "3.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -272205,6 +272205,34 @@
                 {
                   "Key": "Meziantou.Analyzer",
                   "Version": "3.0.85"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.0": {
+              "TimeReleased": "2026-05-30T04:58:12.9166399+00:00",
+              "Changelog": "### New\r\n- Filter profiles (Balanced, Minimal, Vanilla\u002B) in Settings \u2192 General\r\n- Combat tab under Advanced with combat log toggles\r\n- Autosave when you close settings (Save / Save and Close removed)\r\n- UI toggles for general item obtains, mount unlocks, and Active Help entries\r\n\r\n### Bugfix\r\n- Open-world XP and level-up lines now respect Progress filters (not just deep dungeons)\r\n- LogMessage filtering wired/fixed for many system, obtain, combat, and gathering messages\r\n- Party join filter bypass no longer depends on removed settings\r\n- Gearset equipped help tooltip leading newline fixed in localization\r\n\r\n### Update\r\n- Balanced defaults for new installs; existing configs preserved (apply Balanced manually to switch)\r\n- Always visible messages (instances, hunts, invites, quest progress, ready checks, combat adds, BGM, etc.); related toggles removed\r\n- Merged settings (trade, relic book, loot rolls, hide others\u0027 obtain)\r\n- Editing any setting switches profile to Custom\r\n- Settings UI cleanup (Improved Messages grouped, blocked-message counter moved)\r\n- Plugin punchline and description refreshed",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
                 },
                 {
                   "Key": "TextCopy",
@@ -320826,6 +320854,13 @@
       "Version": "7b98ee4ea14cc348fba0ed729359c95b31c84a43",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-05-30T00:45:40.687546Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Meziantou.Analyzer",
+      "Version": "3.0.96",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-05-30T04:58:12.9883689Z"
     }
   ]
 }
