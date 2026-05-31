@@ -379,7 +379,7 @@
     "Author": "Sohtoren",
     "Name": "Altoholic",
     "InternalName": "Altoholic",
-    "AssemblyVersion": "1.10.12.0",
+    "AssemblyVersion": "1.10.14.0",
     "Description": "Get informations (gils, currencies,  items, inventory, retainers, etc) and progress from all your characters",
     "ApplicableVersion": "any",
     "Tags": [
@@ -400,7 +400,7 @@
     "TestingAssemblyVersion": "1.10.13.0",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1779648048",
+    "LastUpdate": "1780162464",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/Altoholic/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Altoholic/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Altoholic/latest.zip"
@@ -4539,7 +4539,7 @@
     "Author": "Critical_Impact",
     "Name": "Allagan Tools",
     "InternalName": "InventoryTools",
-    "AssemblyVersion": "1.15.0.5",
+    "AssemblyVersion": "1.15.0.6",
     "Description": "Allagan Tool's primary purpose is to keep track of items across your characters/retainers/free company. With it's filter system you'll never lose track of items or not know where they should be sorted.\n\nWhile this is it's primary purpose, it has quite an exhaustive list of other features including:\n\t- Craft planning\n\t- Market board integration\n\t- Item highlighting in inventories when searching/sorting and picking ingredients for crafts\n\t- Item window that includes vendor and source information among other things\n\t- Duty/mob/airship/submarine windows that are fully searchable\n\t- A filtering system that lets you setup complex searches for specific items \n\t- Tooltip integration that'll let you see where the items are on hover",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Critical-Impact/InventoryTools",
@@ -4569,7 +4569,7 @@
     "TestingAssemblyVersion": "1.13.1.1",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1778594239",
+    "LastUpdate": "1780162464",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/InventoryTools/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/InventoryTools/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/InventoryTools/latest.zip"
