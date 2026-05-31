@@ -106098,9 +106098,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "47a1fd0b20112f4ed66dd903189a1e2ac27fe022",
-          "TimeBuilt": "2026-05-29T20:04:06.3522319+00:00",
-          "EffectiveVersion": "3.0.1.6",
+          "BuiltCommit": "18125c16124e3566581a23d7a73011055132e68f",
+          "TimeBuilt": "2026-05-31T07:12:41.1454078+00:00",
+          "EffectiveVersion": "3.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.0.0": {
@@ -106866,6 +106866,74 @@
             "3.0.1.6": {
               "TimeReleased": "2026-05-29T20:04:06.352279+00:00",
               "Changelog": "Fix unable to delete specific name filters",
+              "UsedNeeds": [
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "3.0.2.0": {
+              "TimeReleased": "2026-05-31T07:12:41.1454477+00:00",
+              "Changelog": "Removed \u0022Anything\u0022 filter, it was leading to undefined behavior and misuse.\r\n\r\nAdded \u0022Unsorted\u0022 Built-In Ruleset, any slots that are sets as \u0022Unsorted\u0022 will be treated as if they didn\u0027t exist.\r\n\r\nImproved error message instructions.",
               "UsedNeeds": [
                 {
                   "Key": "Microsoft.CodeAnalysis.CSharp",
@@ -238246,6 +238314,82 @@
               "Submitter": "Limiana"
             }
           }
+        },
+        "AetherBlackbox": {
+          "BuiltCommit": "32a2d41880ea575be1f2147c84d81a89d2bd133c",
+          "TimeBuilt": "2026-05-31T07:12:57.4624675+00:00",
+          "EffectiveVersion": "7.50.2.6",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "7.50.2.6": {
+              "TimeReleased": "2026-05-31T07:12:57.4624732+00:00",
+              "Changelog": "public release - AetherBlackbox=DeathRecap \u002B AetherDraw. Visual replay before death.\nv7.50.2.6: toggle status icon, fix for m12s hp display\nv7.50.2.5: o8s maps for UMAD, boss hp% display fix",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Skia",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "ExCSS",
+                  "Version": "4.3.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "ShimSkiaSharp",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Custom",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "Svg.Model",
+                  "Version": "3.2.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "rail2025"
+            }
+          }
         }
       }
     },
@@ -264469,9 +264613,9 @@
           }
         },
         "NoTankYou": {
-          "BuiltCommit": "a38144a6055855fa58b4ee0098042c518ab9d137",
-          "TimeBuilt": "2026-02-04T00:14:00.5661328+00:00",
-          "EffectiveVersion": "7.4.0.4",
+          "BuiltCommit": "36133bb4523478e8cc9c607b1957cb0bb7557caa",
+          "TimeBuilt": "2026-05-31T07:13:14.5144163+00:00",
+          "EffectiveVersion": "7.4.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "7.2.2.1": {
@@ -264872,6 +265016,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "7.4.3.2": {
+              "TimeReleased": "2026-05-31T07:13:14.5144171+00:00",
+              "Changelog": "Experimental System Changes.\r\n\r\nIf you experience issues please report them to the discord or to the github.\r\n\r\nThis testing version does not include any new features, if you are having too many issues, please don\u0027t hesitate to switch back to the stable track.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "13327e50c498a556b0e6bf2e02416e38e016c633"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -271722,9 +271890,9 @@
           "Changelogs": {}
         },
         "DailyDuty": {
-          "BuiltCommit": "1995a99ca5ade0b3083af82d4c7eac9e2dd41c80",
-          "TimeBuilt": "2026-03-26T10:55:34.9769783+00:00",
-          "EffectiveVersion": "6.0.1.2",
+          "BuiltCommit": "d952af3e1ba1abd6129bc9eea6af8612b2d2ef3f",
+          "TimeBuilt": "2026-05-31T07:04:38.4295529+00:00",
+          "EffectiveVersion": "6.0.3.3",
           "MinimumVersion": null,
           "Changelogs": {
             "5.3.0.0": {
@@ -272586,6 +272754,30 @@
               ],
               "Reviewer": "Critical-Impact",
               "Submitter": "MidoriKami"
+            },
+            "6.0.3.3": {
+              "TimeReleased": "2026-05-31T07:04:38.4295998+00:00",
+              "Changelog": "Experimental System Changes.\r\n\r\nIf you experience issues please report them to the discord or to the github.\r\n\r\nThis testing version does not include any new features, if you are having too many issues, please don\u0027t hesitate to switch back to the stable track.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "13327e50c498a556b0e6bf2e02416e38e016c633"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -272654,9 +272846,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "478647552c3e65935d1b8e9d55e03b85e3f4ea81",
-          "TimeBuilt": "2026-05-30T04:58:12.9165904+00:00",
-          "EffectiveVersion": "3.1.0.0",
+          "BuiltCommit": "fbd127f9fa5eec0f83e1309bad2d39e8f931e2bf",
+          "TimeBuilt": "2026-05-31T07:13:27.7135222+00:00",
+          "EffectiveVersion": "3.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -272781,6 +272973,34 @@
             "3.1.0.0": {
               "TimeReleased": "2026-05-30T04:58:12.9166399+00:00",
               "Changelog": "### New\r\n- Filter profiles (Balanced, Minimal, Vanilla\u002B) in Settings \u2192 General\r\n- Combat tab under Advanced with combat log toggles\r\n- Autosave when you close settings (Save / Save and Close removed)\r\n- UI toggles for general item obtains, mount unlocks, and Active Help entries\r\n\r\n### Bugfix\r\n- Open-world XP and level-up lines now respect Progress filters (not just deep dungeons)\r\n- LogMessage filtering wired/fixed for many system, obtain, combat, and gathering messages\r\n- Party join filter bypass no longer depends on removed settings\r\n- Gearset equipped help tooltip leading newline fixed in localization\r\n\r\n### Update\r\n- Balanced defaults for new installs; existing configs preserved (apply Balanced manually to switch)\r\n- Always visible messages (instances, hunts, invites, quest progress, ready checks, combat adds, BGM, etc.); related toggles removed\r\n- Merged settings (trade, relic book, loot rolls, hide others\u0027 obtain)\r\n- Editing any setting switches profile to Custom\r\n- Settings UI cleanup (Improved Messages grouped, blocked-message counter moved)\r\n- Plugin punchline and description refreshed",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.1": {
+              "TimeReleased": "2026-05-31T07:13:27.7135233+00:00",
+              "Changelog": "## What\u0027s Changed\r\n\r\n### Settings\r\n- Individual toggles are back \u2014 no grouped checkboxes or filter profiles (Balanced / Minimal / Vanilla\u002B)\r\n- **Search bar** at the top of the config window to find any setting quickly\r\n- Restored tab toggles for friend list, combat adds, quest item obtains, and custom emote spam\r\n\r\n### Fixes\r\n- Sanctuary, instance, quest progress, and crafting shard messages filter correctly again\r\n- Novice Network compact messages work again when the improved NN toggle is on\r\n- Whitelist \u0022sent by\u0022 and \u0022targeting\u0022 global options apply correctly\r\n\r\n### Restored Options\r\n- Settings that had become always-on are configurable again (FATE discovery, ready checks, countdown, hunt announcements, materia messages, cosmic exploration, and more)\r\n\r\n### Cleanup\r\n- Removed obsolete shard/obtain sub-toggles (merged into the main obtain toggles)\r\n- Added toggle for party objective/comment lines when joining a party\r\n- Reorganised file structure",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -289001,9 +289221,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "49c2784479764a4ce3c0290e71b754249d8fdddc",
-          "TimeBuilt": "2026-05-24T22:26:21.1947806+00:00",
-          "EffectiveVersion": "1.3.3.5",
+          "BuiltCommit": "d1a5bc58603824968ee76d303606ac1bf9854ca0",
+          "TimeBuilt": "2026-05-31T07:04:52.3400934+00:00",
+          "EffectiveVersion": "1.3.4.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.8": {
@@ -289613,6 +289833,42 @@
                 {
                   "Key": "SixLabors.ImageSharp",
                   "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.3.4.1": {
+              "TimeReleased": "2026-05-31T07:04:52.3400952+00:00",
+              "Changelog": "More system upgrades, more opportunities for stuff to break.\r\n\r\nThis testing version is experimental, please expect issues, and please report any issues either to the discord thread, or to the github.\r\n\r\nIf you are not comfortable with this, you are encouraged to opt out of testing this plugin in the in-game installer.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "13327e50c498a556b0e6bf2e02416e38e016c633"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.3"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
                 },
                 {
                   "Key": "Sylvan.Data.Csv",
@@ -321449,6 +321705,13 @@
       "Version": "6.1.2",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-05-30T17:34:19.1134958Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "13327e50c498a556b0e6bf2e02416e38e016c633",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-05-31T07:04:38.5021344Z"
     }
   ]
 }
