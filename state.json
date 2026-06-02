@@ -138358,9 +138358,9 @@
           }
         },
         "Craftimizer": {
-          "BuiltCommit": "be349a29a4986583422ae4af5ab2937ce6a817ca",
-          "TimeBuilt": "2026-01-03T23:38:03.4525641+00:00",
-          "EffectiveVersion": "2.9.1.1",
+          "BuiltCommit": "dac6bba611d5909b1a13f5cd8aa0b98598791058",
+          "TimeBuilt": "2026-06-01T18:30:50.239278+00:00",
+          "EffectiveVersion": "2.10.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.3.0": {
@@ -138705,6 +138705,42 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "WorkingRobot"
+            },
+            "2.10.0.1": {
+              "TimeReleased": "2026-06-01T18:30:50.2393252+00:00",
+              "Changelog": "- Updated for 7.5\r\n- Improved Optimal solver algorithm\r\n- Support for the Robust crafting condition",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.61"
+                },
+                {
+                  "Key": "DotNext",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Raphael.Net",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.IO.Hashing",
+                  "Version": "10.0.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "WorkingRobot"
             }
           }
@@ -239480,14 +239516,30 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "d02c34564631f9a07d5c5c16270ab175efb025a3",
-          "TimeBuilt": "2026-05-29T03:09:32.9409072+00:00",
-          "EffectiveVersion": "1.0.0.1",
+          "BuiltCommit": "a4e668abcdb03cc87bc4d358a73e7a2bdd35d35f",
+          "TimeBuilt": "2026-06-01T18:42:53.837333+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
               "TimeReleased": "2026-05-29T03:09:32.9409106+00:00",
               "Changelog": "Initial upload. Job Roulette is a simple plugin which will randomly choose a job and automatically switch to it.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2026-06-01T18:42:53.8373805+00:00",
+              "Changelog": "Updated logic to only include unlocked jobs in roulette feature and settings menu.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -299131,6 +299183,106 @@
               "Submitter": "sleeds2"
             }
           }
+        },
+        "QuickSymbols": {
+          "BuiltCommit": "eb56fbee63f5f6fd79498fdfd760d968f7262991",
+          "TimeBuilt": "2026-06-01T19:48:15.0683769+00:00",
+          "EffectiveVersion": "1.0.0.5",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.5": {
+              "TimeReleased": "2026-06-01T19:48:15.0684267+00:00",
+              "Changelog": "Adds a fast symbol picker letting you quickly insert any symbols into supported in-game text fields.\nIt is designed to make commonly used symbols easier to access without manually copying them from third-parties or typing them every time.\n\n## Features\n- Adds a floating quick-access \u0022\u2665\u0022 button for opening the symbol popup\n  - Allows the \u0022\u2665\u0022 button position to be changed through drag-and-drop repositioning\n  - Provides a symbol popup for quickly selecting and inserting symbols\n  - List shows ALL existing custom symbols for FFXIV\n- Supports opening the symbol popup through a configurable keybind\n- Ensures only one symbol popup is open at a time\n- Allows keybind-opened popups to be temporarily moved by dragging empty space inside the popup\n- Includes a character selector toggle option for symbol selection behavior\n- Adds an optional \u0022Close popup on lost focus\u0022 setting to auto-close the popup when clicking outside of it\n- Adds quick popup controls for closing the popup, changing the \u0022\u2665\u0022 button position and opening the config window\n- Includes a help tooltip explaining how to properly use some features\n\n## Notes\nThe plugin is intended as a lightweight quality-of-life tool for players who frequently use special symbols in chat, search fields, notes or others\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "seventity7"
+            }
+          }
+        },
+        "EasyChatlog": {
+          "BuiltCommit": "4aeb22a8816b6e62d9f4b6c1aa997a6d84b3efb8",
+          "TimeBuilt": "2026-06-01T19:48:24.296486+00:00",
+          "EffectiveVersion": "0.1.9.5",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.9.5": {
+              "TimeReleased": "2026-06-01T19:48:24.2964875+00:00",
+              "Changelog": "# Easy Chatlog\r\n\r\nA Dalamud plugin for Final Fantasy XIV that captures your in-game chat, exports it\r\n(\u0060.txt\u0060 / \u0060.json\u0060 / \u0060.html\u0060 / \u0060.md\u0060) and optionally forwards it live to a Discord\r\nchannel via webhook or bot.\r\n\r\n## AI Usage\r\nAssist\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Discord.Net.WebSocket",
+                  "Version": "3.17.4"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Discord.Net.Core",
+                  "Version": "3.17.4"
+                },
+                {
+                  "Key": "Discord.Net.Rest",
+                  "Version": "3.17.4"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.Interactive.Async",
+                  "Version": "6.0.1"
+                },
+                {
+                  "Key": "System.Linq.Async",
+                  "Version": "6.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "ElyFura"
+            }
+          }
+        },
+        "RestoreCameraPivotWhileAutorunning": {
+          "BuiltCommit": "77a0c131d7233d2cfad7e0c7aadbafe4da1cb96f",
+          "TimeBuilt": "2026-06-01T19:48:32.3431943+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-06-01T19:48:32.3431958+00:00",
+              "Changelog": "Initial testing release.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "ryankhart"
+            }
+          }
         }
       }
     },
@@ -323106,6 +323258,48 @@
       "Version": "1.1.23",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-06-01T16:23:13.5413024Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DotNext",
+      "Version": "6.1.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-01T18:30:50.3135132Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Raphael.Net",
+      "Version": "5.0.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-01T18:30:50.313542Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.Hashing",
+      "Version": "10.0.3",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-01T18:30:50.3135423Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.WebSocket",
+      "Version": "3.17.4",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-01T19:48:24.364267Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.Core",
+      "Version": "3.17.4",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-01T19:48:24.3642964Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.Rest",
+      "Version": "3.17.4",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-01T19:48:24.3642966Z"
     }
   ]
 }
