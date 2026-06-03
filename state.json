@@ -197816,9 +197816,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "6e2bbeabd85cb5b3284c67f2ba143ca4f0125796",
-          "TimeBuilt": "2026-05-20T23:38:00.2622385+00:00",
-          "EffectiveVersion": "1.3.2.4",
+          "BuiltCommit": "ed0b6e5b0be3af9a390fe8a06a79c0c38310c5e5",
+          "TimeBuilt": "2026-06-03T03:25:55.9018601+00:00",
+          "EffectiveVersion": "1.3.2.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -199667,6 +199667,58 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Felscream"
+            },
+            "1.3.2.5": {
+              "TimeReleased": "2026-06-03T03:25:55.9018613+00:00",
+              "Changelog": "- Dancing Mad support\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "a8631b2053b7d03c4f7fd5ba7c4d781ec34aa9de"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Felscream"
             }
           }
@@ -221660,9 +221712,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "2c92dd9cbf548f1c485edbc1cc7349e77838fd3e",
-          "TimeBuilt": "2026-04-29T22:05:45.213166+00:00",
-          "EffectiveVersion": "0.0.4.1",
+          "BuiltCommit": "29b11afa55d99db542fe3bb7572985a83f9fbcf3",
+          "TimeBuilt": "2026-06-03T03:25:41.4155332+00:00",
+          "EffectiveVersion": "0.0.4.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
@@ -223468,6 +223520,198 @@
             "0.0.4.1": {
               "TimeReleased": "2026-04-29T22:05:45.2131674+00:00",
               "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.12.4"
+                },
+                {
+                  "Key": "K4os.Compression.LZ4",
+                  "Version": "1.3.8"
+                },
+                {
+                  "Key": "K4os.Compression.LZ4.Legacy",
+                  "Version": "1.3.8"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Web.WebView2",
+                  "Version": "1.0.2903.40"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "NReco.Logging.File",
+                  "Version": "1.3.1"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Abstractions",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "System.Resources.Extensions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "serifas"
+            },
+            "0.0.4.2": {
+              "TimeReleased": "2026-06-03T03:25:41.4155744+00:00",
+              "Changelog": "Added an IPC to fetch profile data.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -287541,9 +287785,9 @@
           }
         },
         "MoonbaseOmega": {
-          "BuiltCommit": "f214d09dd9f6ed4107ad8b3c29e657fdf74aea39",
-          "TimeBuilt": "2026-04-29T22:06:32.030957+00:00",
-          "EffectiveVersion": "1.1.0.3",
+          "BuiltCommit": "e35314fee8af6418e2599a94d747c75e5e585ac0",
+          "TimeBuilt": "2026-06-03T03:26:06.1320035+00:00",
+          "EffectiveVersion": "1.1.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -287597,6 +287841,22 @@
             "1.1.0.3": {
               "TimeReleased": "2026-04-29T22:06:32.0309584+00:00",
               "Changelog": "Updated for Patch 7.5. Where plumbob?\r\n\r\nThanks to @GayPotatoEmma for PRing this update!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "NotNite"
+            },
+            "1.1.0.4": {
+              "TimeReleased": "2026-06-03T03:26:06.1320046+00:00",
+              "Changelog": "Enabled while in Auxesia. Thanks @GayPotatoEmma!",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -294005,13 +294265,29 @@
           }
         },
         "NamePlateDebuffs": {
-          "BuiltCommit": "40493b81576226388923fd41fd1b357fd3ed0f66",
-          "TimeBuilt": "2026-05-23T18:34:46.8161753+00:00",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "1b108cb4d64f30d90eb2e1784c697b2d110f8c09",
+          "TimeBuilt": "2026-06-03T03:26:24.6390015+00:00",
+          "EffectiveVersion": "1.1.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.1.0": {
               "TimeReleased": "2026-05-23T18:34:46.8161767+00:00",
+              "Changelog": "Support for M**dles, buffs and special statuses, and tweaks / bug fixes. I also did some minor config changes, so reset to defaults if it looks bad. That\u0027s the price of innovation.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sourpuh"
+            },
+            "1.1.1.1": {
+              "TimeReleased": "2026-06-03T03:26:24.6390028+00:00",
               "Changelog": "Support for M**dles, buffs and special statuses, and tweaks / bug fixes. I also did some minor config changes, so reset to defaults if it looks bad. That\u0027s the price of innovation.",
               "UsedNeeds": [
                 {
@@ -299185,14 +299461,30 @@
           }
         },
         "QuickSymbols": {
-          "BuiltCommit": "eb56fbee63f5f6fd79498fdfd760d968f7262991",
-          "TimeBuilt": "2026-06-01T19:48:15.0683769+00:00",
-          "EffectiveVersion": "1.0.0.5",
+          "BuiltCommit": "7179a5f0fe04d1c89d210cf20d3ab41f68e34f13",
+          "TimeBuilt": "2026-06-03T03:26:15.7044465+00:00",
+          "EffectiveVersion": "1.0.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.5": {
               "TimeReleased": "2026-06-01T19:48:15.0684267+00:00",
               "Changelog": "Adds a fast symbol picker letting you quickly insert any symbols into supported in-game text fields.\nIt is designed to make commonly used symbols easier to access without manually copying them from third-parties or typing them every time.\n\n## Features\n- Adds a floating quick-access \u0022\u2665\u0022 button for opening the symbol popup\n  - Allows the \u0022\u2665\u0022 button position to be changed through drag-and-drop repositioning\n  - Provides a symbol popup for quickly selecting and inserting symbols\n  - List shows ALL existing custom symbols for FFXIV\n- Supports opening the symbol popup through a configurable keybind\n- Ensures only one symbol popup is open at a time\n- Allows keybind-opened popups to be temporarily moved by dragging empty space inside the popup\n- Includes a character selector toggle option for symbol selection behavior\n- Adds an optional \u0022Close popup on lost focus\u0022 setting to auto-close the popup when clicking outside of it\n- Adds quick popup controls for closing the popup, changing the \u0022\u2665\u0022 button position and opening the config window\n- Includes a help tooltip explaining how to properly use some features\n\n## Notes\nThe plugin is intended as a lightweight quality-of-life tool for players who frequently use special symbols in chat, search fields, notes or others\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "seventity7"
+            },
+            "1.0.0.6": {
+              "TimeReleased": "2026-06-03T03:26:15.7044474+00:00",
+              "Changelog": "### Icon update\n- Changed plugin icon\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
