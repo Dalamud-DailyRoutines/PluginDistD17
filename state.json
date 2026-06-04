@@ -128994,9 +128994,9 @@
           }
         },
         "GatherBuddy": {
-          "BuiltCommit": "cecbd11e0cc6547e61f6f43fccc438ff050319db",
-          "TimeBuilt": "2026-05-07T19:10:42.8147848+00:00",
-          "EffectiveVersion": "3.8.7.2",
+          "BuiltCommit": "1531e9676a8ab016e41b12b64e229b694873ae75",
+          "TimeBuilt": "2026-06-03T21:28:57.6667031+00:00",
+          "EffectiveVersion": "3.8.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.4.15926": {
@@ -130004,6 +130004,42 @@
             },
             "3.8.7.2": {
               "TimeReleased": "2026-05-07T19:10:42.8147857+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Ottermandias"
+            },
+            "3.8.8.0": {
+              "TimeReleased": "2026-06-03T21:28:57.6667448+00:00",
               "Changelog": "nofranz",
               "UsedNeeds": [
                 {
@@ -234756,9 +234792,9 @@
           }
         },
         "FATEhelper": {
-          "BuiltCommit": "91d4e84d844d75cb1be676ba7cdd17cc121d8750",
-          "TimeBuilt": "2026-05-01T23:19:31.2308274+00:00",
-          "EffectiveVersion": "1.0.3.0",
+          "BuiltCommit": "d9c40bd646698e118db6d867cda9fb40a52ede6b",
+          "TimeBuilt": "2026-06-03T21:40:43.3951535+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -234812,6 +234848,22 @@
             "1.0.3.0": {
               "TimeReleased": "2026-05-01T23:19:31.230871+00:00",
               "Changelog": "API v15, added option for forlorn spawn sound effect",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "teechep"
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2026-06-03T21:40:43.395201+00:00",
+              "Changelog": "added distance view and sort option, huge thanks to jade-doggerel on github for this \u003C3",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -239508,9 +239560,9 @@
           }
         },
         "Clock": {
-          "BuiltCommit": "ddd614a73b75fd9278ac83abd6bc94a47d254a35",
-          "TimeBuilt": "2026-06-01T10:17:07.8862559+00:00",
-          "EffectiveVersion": "1.0.6.9",
+          "BuiltCommit": "6e2838f384a6a007e27566bc875be292ea60dcb4",
+          "TimeBuilt": "2026-06-03T22:41:52.0009941+00:00",
+          "EffectiveVersion": "1.0.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.6.5": {
@@ -239591,6 +239643,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "seventity7"
+            },
+            "1.0.7.0": {
+              "TimeReleased": "2026-06-03T22:41:52.0010363+00:00",
+              "Changelog": "## What\u0027s new\n- Alarms can now repeat instead of being one-time only\n- Added overlay reminders\n  - Clock can now show the next alarm on the main overlay\n  - Clock can now show today\u0027s detected maintenance on the main overlay\n- When typing \u0060/clock\u0060, a small suggestion list can now appear with available Clock commands\n  - This can be enabled or disabled from the \u0060General\u0060 tab\n- You can now compare two timezones using commands like:\n    - \u0060/clock EST to BRT\u0060\n- Appearance shortcuts were added to make related settings easier to find\n\n### Improvements\n- Alarm creation now prevents setting alarms for dates or times that already passed\n- Presets now focus on visual style without changing the user\u0027s current layout, size or position\n\n### Notes\nNew overlay and command suggestion options are disabled by default until enabled by the user.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "seventity7"
             }
           }
@@ -297437,9 +297505,9 @@
           }
         },
         "PullToOBS": {
-          "BuiltCommit": "95b25ed3e798dd6e1c73ea1e39c4914484980613",
-          "TimeBuilt": "2026-05-18T20:02:14.3542285+00:00",
-          "EffectiveVersion": "0.3.3.0",
+          "BuiltCommit": "0106367b9bcba31e547cef83f5f29b3089767d03",
+          "TimeBuilt": "2026-06-03T21:29:08.5096653+00:00",
+          "EffectiveVersion": "0.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.4.0": {
@@ -297660,6 +297728,50 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Miu-B"
+            },
+            "0.4.0.0": {
+              "TimeReleased": "2026-06-03T21:29:08.5096664+00:00",
+              "Changelog": "- Add InstaPost quick-save workflow with configurable in-game hotkey for on-demand replay buffer saves\n- Write timestamped instapost JSON descriptors for the companion tool limitcut (https://github.com/Miu-B/limitcut), including replay buffer, territory, player, and combat metadata for Discord posting workflows\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "obs-websocket-dotnet",
+                  "Version": "5.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.4"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.1.2"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Miu-B"
             }
           }
