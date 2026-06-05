@@ -107126,9 +107126,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "402c5d7b2a2dd46996a251128e1f526f9bb22870",
-          "TimeBuilt": "2026-06-01T09:35:14.2741861+00:00",
-          "EffectiveVersion": "3.0.2.2",
+          "BuiltCommit": "2a1ec84f9a23b5e5d72e27fb17d29ee4ad0c1653",
+          "TimeBuilt": "2026-06-05T03:20:04.6794281+00:00",
+          "EffectiveVersion": "3.0.2.4",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.0.0": {
@@ -108093,6 +108093,74 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "MidoriKami"
+            },
+            "3.0.2.4": {
+              "TimeReleased": "2026-06-05T03:20:04.6794309+00:00",
+              "Changelog": "Add migration for older presets (by Tiberia)\r\n\r\nImproved error message\r\n\r\nNow aborts sorting when hitting an error\r\n\r\nFixed not showing 26th soul stone slot",
+              "UsedNeeds": [
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -138394,9 +138462,9 @@
           }
         },
         "Craftimizer": {
-          "BuiltCommit": "29098e806555b3cac9d95134451e5dc32c4419a0",
-          "TimeBuilt": "2026-06-04T03:29:18.7850531+00:00",
-          "EffectiveVersion": "2.11.0.0",
+          "BuiltCommit": "59662ba1362025b4df1f8084509e9060d963f337",
+          "TimeBuilt": "2026-06-05T03:19:55.1938092+00:00",
+          "EffectiveVersion": "2.11.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.3.0": {
@@ -138782,6 +138850,42 @@
             "2.11.0.0": {
               "TimeReleased": "2026-06-04T03:29:18.7850905+00:00",
               "Changelog": "A Smarter Synthesis Helper!\r\n\r\nNew Features/Changes:\r\n- Added a new \u0022Next Action\u0022 solver that the Synthesis Helper now uses by default. Instead of solving the whole macro every time, it puts all of its effort into figuring out just the single best next step.\r\n- The \u0022Next Action\u0022 solver has a new \u0022Time Limit\u0022 setting, so giving you a suggestion within a set amount of time no matter how fast or slow your PC is.\r\n- New \u0022Quality Target (%)\u0022 setting: aim for a set percentage of a recipe\u0027s max quality and stop there instead of always pushing for 100%\r\n- New \u0022Cap Quality to Max Collectable Threshold\u0022 setting: on collectables, the solver stops once it reaches the highest collectability tier instead of burning extra steps on quality you don\u0027t need.\r\n- The solver is faster across the board, and on lower-core PCs the Next Action solver takes a quick first look at the options and then spends its time on the most promising ones (tweakable in the advanced settings).\r\n- Removed the old Score Weights settings, since the scoring rework left them doing nothing.\r\n\r\nBug Fixes:\r\n- Fixed a threading issue where the forked/genetic solvers would share one random number generator, which caused lots of annoying rare crashes.\r\n- The solver no longer pads the end of a craft with pointless extra actions just to spend leftover durability or CP. It now finishes first, then maximizes quality, then uses as few steps as possible.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.61"
+                },
+                {
+                  "Key": "DotNext",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Raphael.Net",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.IO.Hashing",
+                  "Version": "10.0.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "WorkingRobot"
+            },
+            "2.11.0.1": {
+              "TimeReleased": "2026-06-05T03:19:55.1938544+00:00",
+              "Changelog": "Bug Fixes:\r\n- \u0022Cap Quality to Max Collectable Threshold\u0022 no longer applies to Cosmic Exploration collectables. These crafts give bonuses past the highest tier, so the solver will now push for max quality.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -276118,9 +276222,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "8f8b9a9cc8575e1f179bcadd54650557b724eb05",
-          "TimeBuilt": "2026-06-04T12:05:41.2056646+00:00",
-          "EffectiveVersion": "3.1.0.4",
+          "BuiltCommit": "0c06179a19992379a678b862c12be4d3262a3b4d",
+          "TimeBuilt": "2026-06-05T03:20:16.3363251+00:00",
+          "EffectiveVersion": "3.1.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -276380,6 +276484,34 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.5": {
+              "TimeReleased": "2026-06-05T03:20:16.3363269+00:00",
+              "Changelog": "## New\r\n\r\n- **Per-line filters** \u2014 Instance/duty, submarine voyage, glamour, \u0060/isearch\u0060, misc system, crafting/gathering catch-alls, and stellar missions expose nested toggles; existing configs migrate on upgrade (v10/v11).\r\n- **Cosmic split** \u2014 Class points/dataset vs daily progress are separate (v11 migration copies prior daily-progress users to both).\r\n- **Master toggle behavior** \u2014 \u0060FilterMasterAccessors\u0060 gates nested rules (master **and** child must be on); improved market board lines respect the market board sales master.\r\n- **Settings layout** \u2014 Shared \u0060SettingsTabLayout\u0060 (nested groups \u002B separators): market board (sales \u2192 nested lines \u2192 gil entrusted), exploration (spidey vs location/hostile), stellar vs cosmic, airship vs submarine, loot rolls vs hide other obtains.\r\n- **Help text / audit** \u2014 Tooltips list LogMessage IDs where rules use them; master help explains that turning a master off disables nested filtering until re-enabled.\r\n\r\n## Bugfix\r\n\r\n- **Market board UX** \u2014 Gil entrusted no longer sits between master and nested sale lines; gil entrusted stays independent of \u201Cshow market board sales.\u201D\r\n- **Aetheryte** \u2014 Ticket ready vs attune are sibling toggles, not nested.\r\n- **System tab** \u2014 Relic and mail use separate section headers.\r\n- **Hunt currency obtains** \u2014 Wolf marks, allied seals, centurio seals, sacks of nuts, and GC seals were blocked while **Hide \u2026** was unchecked (especially with **Show general item obtains** off). Shared obtain LogMessage template **657** was matching too broadly for marker-based hide rules.\r\n  - **\u0060ObtainCurrencyHelper\u0060** \u2014 Explicit allow when the matching **Hide \u2026** toggle is off (chat \u002B LogMessage paths; debug tag \u0060ObtainCurrency (hide off)\u0060).\r\n  - **Marker-based hide rules** \u2014 No longer match from template ID alone; must match the actual currency text/marker.\r\n  - **Inactive show rules** \u2014 No longer block obtain lines on template match alone; currency lines exempt when hide is off.\r\n- **ChatStrings / rules** \u2014 Assorted ID and matcher alignment from the LogMessage audit (e.g. gil spent, mount speed, crafting buff/execute IDs).",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Kagekazu"
             }
           }
