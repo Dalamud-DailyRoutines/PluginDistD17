@@ -205812,9 +205812,9 @@
           }
         },
         "CurrencySpender": {
-          "BuiltCommit": "c12e7f8f9ec80a2aede01573adfd984f69e66f22",
-          "TimeBuilt": "2025-12-20T01:37:52.6174859+00:00",
-          "EffectiveVersion": "1.2.5.0",
+          "BuiltCommit": "69612732fa9cbb139d5fa67de3aff39f6dfa9ed3",
+          "TimeBuilt": "2026-06-04T19:38:15.8761939+00:00",
+          "EffectiveVersion": "1.2.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.5.0": {
@@ -206019,6 +206019,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Blackcatz1911"
+            },
+            "1.2.6.0": {
+              "TimeReleased": "2026-06-04T19:38:15.8762428+00:00",
+              "Changelog": "## 1.2.6\n### Added\n- Fashion accessories can now be considered a collectable.\n- Settings to hide the UI in various scenarios.\n### Fixed\n- Spelling errors.\n### Changed\n- Updated for Dalamud API v15.\n- Updated ECommons.\n### Removed\n- Kofi Banner.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "ECommons",
+                  "Version": "3.2.1.6"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Blackcatz1911"
             }
           }
@@ -244852,9 +244868,9 @@
           "Changelogs": {}
         },
         "HUDManager": {
-          "BuiltCommit": "178c9bb1191c19289dfca7535989eb67c8467404",
-          "TimeBuilt": "2026-04-29T23:40:30.5126955+00:00",
-          "EffectiveVersion": "2.5.22.3",
+          "BuiltCommit": "774b793fc3556d0cb8e17daa949be7b3b721bcfa",
+          "TimeBuilt": "2026-06-04T19:38:25.6823793+00:00",
+          "EffectiveVersion": "2.5.23.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.20.1": {
@@ -244979,6 +244995,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "nebel"
+            },
+            "2.5.23.0": {
+              "TimeReleased": "2026-06-04T19:38:25.6823807+00:00",
+              "Changelog": "- Add some missing zones to \u0022In zone\u0022 custom condition\r\n- Allow partial match when searching for zones",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "12.3.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "nebel"
             }
           }
@@ -325764,6 +325800,13 @@
       "Version": "10.0.1",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-06-04T12:19:19.8427158Z"
+    },
+    {
+      "Type": 1,
+      "Key": "ECommons",
+      "Version": "3.2.1.6",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-04T19:38:15.9495446Z"
     }
   ]
 }
