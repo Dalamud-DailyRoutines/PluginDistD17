@@ -222504,9 +222504,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "29b11afa55d99db542fe3bb7572985a83f9fbcf3",
-          "TimeBuilt": "2026-06-03T03:25:41.4155332+00:00",
-          "EffectiveVersion": "0.0.4.2",
+          "BuiltCommit": "62ef82f89247b28a376359bd8d8b91206e19e799",
+          "TimeBuilt": "2026-06-05T19:30:15.6157962+00:00",
+          "EffectiveVersion": "0.0.4.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
@@ -224691,6 +224691,198 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "serifas"
+            },
+            "0.0.4.3": {
+              "TimeReleased": "2026-06-05T19:30:15.6158384+00:00",
+              "Changelog": "Added tutorial for creating profiles and animation script for animating elements in the windows",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.12.4"
+                },
+                {
+                  "Key": "K4os.Compression.LZ4",
+                  "Version": "1.3.8"
+                },
+                {
+                  "Key": "K4os.Compression.LZ4.Legacy",
+                  "Version": "1.3.8"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Web.WebView2",
+                  "Version": "1.0.2903.40"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "NReco.Logging.File",
+                  "Version": "1.3.1"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Abstractions",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "System.Resources.Extensions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "serifas"
             }
           }
@@ -240028,9 +240220,9 @@
           }
         },
         "ChatAnywhere": {
-          "BuiltCommit": "d9d55951de17f04a18fd397dbea60346bc908986",
-          "TimeBuilt": "2026-06-04T12:05:28.7132748+00:00",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "7d0a05ce0471846df4fa72b46696c7ef2a8d4525",
+          "TimeBuilt": "2026-06-05T19:26:28.7358197+00:00",
+          "EffectiveVersion": "1.5.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -240288,6 +240480,70 @@
               ],
               "Reviewer": "nebel",
               "Submitter": "twelvehouse"
+            },
+            "1.5.0.1": {
+              "TimeReleased": "2026-06-05T19:26:28.7358564+00:00",
+              "Changelog": "New Features:\n- Added a marker at the top of the message list to indicate where scrollback history begins.\n- Added a pull-to-reconnect gesture on mobile: swipe down from the top of the message list to refresh the connection and reload history.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "OpenGraph-Net",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "twelvehouse"
             }
           }
         },
@@ -240460,9 +240716,9 @@
           }
         },
         "Clock": {
-          "BuiltCommit": "6e2838f384a6a007e27566bc875be292ea60dcb4",
-          "TimeBuilt": "2026-06-03T22:41:52.0009941+00:00",
-          "EffectiveVersion": "1.0.7.0",
+          "BuiltCommit": "6c7da0981d18cb9f7cb89f83ea4e99c5280c8531",
+          "TimeBuilt": "2026-06-05T21:14:50.1981177+00:00",
+          "EffectiveVersion": "1.0.7.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.6.5": {
@@ -240548,6 +240804,22 @@
             "1.0.7.0": {
               "TimeReleased": "2026-06-03T22:41:52.0010363+00:00",
               "Changelog": "## What\u0027s new\n- Alarms can now repeat instead of being one-time only\n- Added overlay reminders\n  - Clock can now show the next alarm on the main overlay\n  - Clock can now show today\u0027s detected maintenance on the main overlay\n- When typing \u0060/clock\u0060, a small suggestion list can now appear with available Clock commands\n  - This can be enabled or disabled from the \u0060General\u0060 tab\n- You can now compare two timezones using commands like:\n    - \u0060/clock EST to BRT\u0060\n- Appearance shortcuts were added to make related settings easier to find\n\n### Improvements\n- Alarm creation now prevents setting alarms for dates or times that already passed\n- Presets now focus on visual style without changing the user\u0027s current layout, size or position\n\n### Notes\nNew overlay and command suggestion options are disabled by default until enabled by the user.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "seventity7"
+            },
+            "1.0.7.1": {
+              "TimeReleased": "2026-06-05T21:14:50.1981679+00:00",
+              "Changelog": "## What\u0027s New\nAdded an experimental **Chat Time Conversion** feature for the in-game chat messages\nWhen enabled, the plugin can detect date/times in chat, including single times and time ranges, ex: \u00608PM EST\u0060\u00607PM-10PM EST\u0060, then show the converted time when hovering over it\n\n### Options/Settings\n- **Enable chat time hover** \u2014 turns on/off chat time detection/hover conversion\n- **Primary timezone** \u2014 chooses the timezone used for conversions\n- **Create Alarm** \u2014 Create a alarm based on the detected date/time from the chat\n- **Show alarm setup option** \u2014 turn on/off to show **Create Alarm** option in the conversion tooltip\n- **Tooltip duration** \u2014 controls how long the conversion tooltip stays visible\n- **Test** \u2014 sends example chat messages to test and see how the feature works\n\n### Notes\n- The feature is disabled by default and marked as **experimental** with multiple warnings\n- Dates/Times found in the same message will be used when creating alarms from it\n  - For time ranges, **Create Alarm** uses the first Time. _(08PM-12PM BRT, would use 08PM only)_\n  - Date context is used when creating alarms, messages having like \u0060June 12th\u0060 pre-fill the alarm with the date\n    - If no date is detected, the alarm uses the current date\n- **The feature only changes how detected chat text is displayed/interacted with; it does not resend/consume the original chat message**\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -240728,9 +241000,9 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "a4e668abcdb03cc87bc4d358a73e7a2bdd35d35f",
-          "TimeBuilt": "2026-06-01T18:42:53.837333+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "0c5c7a3e605277c0b11628e11b68ca3538d358cb",
+          "TimeBuilt": "2026-06-06T00:07:04.0191185+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -240752,6 +241024,22 @@
             "1.0.1.0": {
               "TimeReleased": "2026-06-01T18:42:53.8373805+00:00",
               "Changelog": "Updated logic to only include unlocked jobs in roulette feature and settings menu.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-06-06T00:07:04.0191613+00:00",
+              "Changelog": "Added new filters to randomly select jobs by role or group (support or dps).",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -276222,9 +276510,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "0c06179a19992379a678b862c12be4d3262a3b4d",
-          "TimeBuilt": "2026-06-05T03:20:16.3363251+00:00",
-          "EffectiveVersion": "3.1.0.5",
+          "BuiltCommit": "6c406e0f856ed3a59be6179744983131b8ca2dd4",
+          "TimeBuilt": "2026-06-05T21:04:27.8259027+00:00",
+          "EffectiveVersion": "3.1.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -276489,6 +276777,34 @@
             "3.1.0.5": {
               "TimeReleased": "2026-06-05T03:20:16.3363269+00:00",
               "Changelog": "## New\r\n\r\n- **Per-line filters** \u2014 Instance/duty, submarine voyage, glamour, \u0060/isearch\u0060, misc system, crafting/gathering catch-alls, and stellar missions expose nested toggles; existing configs migrate on upgrade (v10/v11).\r\n- **Cosmic split** \u2014 Class points/dataset vs daily progress are separate (v11 migration copies prior daily-progress users to both).\r\n- **Master toggle behavior** \u2014 \u0060FilterMasterAccessors\u0060 gates nested rules (master **and** child must be on); improved market board lines respect the market board sales master.\r\n- **Settings layout** \u2014 Shared \u0060SettingsTabLayout\u0060 (nested groups \u002B separators): market board (sales \u2192 nested lines \u2192 gil entrusted), exploration (spidey vs location/hostile), stellar vs cosmic, airship vs submarine, loot rolls vs hide other obtains.\r\n- **Help text / audit** \u2014 Tooltips list LogMessage IDs where rules use them; master help explains that turning a master off disables nested filtering until re-enabled.\r\n\r\n## Bugfix\r\n\r\n- **Market board UX** \u2014 Gil entrusted no longer sits between master and nested sale lines; gil entrusted stays independent of \u201Cshow market board sales.\u201D\r\n- **Aetheryte** \u2014 Ticket ready vs attune are sibling toggles, not nested.\r\n- **System tab** \u2014 Relic and mail use separate section headers.\r\n- **Hunt currency obtains** \u2014 Wolf marks, allied seals, centurio seals, sacks of nuts, and GC seals were blocked while **Hide \u2026** was unchecked (especially with **Show general item obtains** off). Shared obtain LogMessage template **657** was matching too broadly for marker-based hide rules.\r\n  - **\u0060ObtainCurrencyHelper\u0060** \u2014 Explicit allow when the matching **Hide \u2026** toggle is off (chat \u002B LogMessage paths; debug tag \u0060ObtainCurrency (hide off)\u0060).\r\n  - **Marker-based hide rules** \u2014 No longer match from template ID alone; must match the actual currency text/marker.\r\n  - **Inactive show rules** \u2014 No longer block obtain lines on template match alone; currency lines exempt when hide is off.\r\n- **ChatStrings / rules** \u2014 Assorted ID and matcher alignment from the LogMessage audit (e.g. gil spent, mount speed, crafting buff/execute IDs).",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.6": {
+              "TimeReleased": "2026-06-05T21:04:27.825949+00:00",
+              "Changelog": "## New\r\n\r\n- **Sidebar settings layout** \u2014 Tabs live in a left sidebar (General pinned first, others sorted A\u2013Z) instead of one long scrolling tab bar.\r\n- **Focused tabs** \u2014 Old mega-tabs split into dedicated pages:\r\n  - **Party** \u002B **Duty** (was Party \u0026 Duty)\r\n  - **Currencies** \u002B **Allied Societies** (was Obtain)\r\n  - **Crafting**, **Gathering**, **Desynthesis**, **Materia** (was Crafting \u0026 Gathering)\r\n  - Plus **Exploration**, **Housing**, **Glamour**, **Deep Dungeons**, **Gold Saucer**, **Free Company**, and more\r\n- **Filtering notes** \u2014 Each tab opens with a short note on which **General** master filters apply and how **Hide \u2026** / **Show \u2026** options behave.\r\n- **Consistent sections** \u2014 Multi-section tabs use matching dropdown headers; single-section tabs show options flat (no extra wrapper).\r\n- **Chat History \u2192 Loot channel** \u2014 Loot (obtained) channel can be included in chat-history deduplication.\r\n- **Custom Filters** \u2014 Filtering note at the top; per-row **Loot** channel override when blocking/allowing lines.\r\n- **Currencies tab** \u2014 Tomestone section shows a localized message when game data is unavailable.\r\n- **Smarter help tooltips** \u2014 Help markers and search results point at the right tab and **General** master filter (System / Obtained / Loot Roll / Crafting / Gathering / Progress).\r\n\r\n---\r\n\r\n## Bugfix\r\n\r\n- **Whitelist on loot obtains** \u2014 Show/block rules on **LootNotice** lines (obtained channel) behave correctly again after the rules refactor.\r\n- **Chat history logging** \u2014 Clearer debug messages when the history queue fills or adds a line.\r\n- **Settings search** \u2014 Results land on the correct new tab/section after the split and rename pass.\r\n- **Localization sync** \u2014 Satellite languages updated for renamed settings keys and new filtering-note strings.\r\n\r\n---\r\n\r\n## Changed\r\n\r\n- **Tools tab** \u2014 Chat History and Custom Filters (whitelist) grouped under **Tools**; Debug mode stays in the same tab.\r\n\r\n---\r\n\r\n## Removed (internal / cleanup)\r\n\r\n- Legacy tab files and unused **Advanced** settings strings.\r\n- Unused chat-string / help-marker entries left over from the refactor.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -300209,9 +300525,9 @@
           }
         },
         "ChatAnywhere": {
-          "BuiltCommit": "d9d55951de17f04a18fd397dbea60346bc908986",
-          "TimeBuilt": "2026-06-04T12:05:52.8027197+00:00",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "7d0a05ce0471846df4fa72b46696c7ef2a8d4525",
+          "TimeBuilt": "2026-06-05T19:26:39.5064599+00:00",
+          "EffectiveVersion": "1.5.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.17.2": {
@@ -300596,6 +300912,70 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "twelvehouse"
+            },
+            "1.5.0.1": {
+              "TimeReleased": "2026-06-05T19:26:39.5064616+00:00",
+              "Changelog": "New Features:\n- Added a marker at the top of the message list to indicate where scrollback history begins.\n- Added a pull-to-reconnect gesture on mobile: swipe down from the top of the message list to refresh the connection and reload history.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "OpenGraph-Net",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "twelvehouse"
             }
           }
@@ -301469,14 +301849,30 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "a4e668abcdb03cc87bc4d358a73e7a2bdd35d35f",
-          "TimeBuilt": "2026-05-29T20:04:14.6942682+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "0c5c7a3e605277c0b11628e11b68ca3538d358cb",
+          "TimeBuilt": "2026-06-06T00:07:12.3569999+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
               "TimeReleased": "2026-05-29T20:04:14.6942719+00:00",
               "Changelog": "Updated logic to only include unlocked jobs in roulette feature and settings menu.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-06-06T00:07:12.357002+00:00",
+              "Changelog": "Added new filters to randomly select jobs by role or group (support or dps).",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
