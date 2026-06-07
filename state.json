@@ -122519,9 +122519,9 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "e872f4a7b7400d25c71f7a7122e397296cf08dcf",
-          "TimeBuilt": "2026-06-01T16:23:13.4579711+00:00",
-          "EffectiveVersion": "1.15.0.5",
+          "BuiltCommit": "e286918e8e92e67dfaa4fbf5b7c881a07a302d0c",
+          "TimeBuilt": "2026-06-06T18:19:24.8055114+00:00",
+          "EffectiveVersion": "1.15.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.3.1": {
@@ -123247,6 +123247,26 @@
             "1.15.0.5": {
               "TimeReleased": "2026-06-01T16:23:13.4580152+00:00",
               "Changelog": "***General Changes***\r\n- Fixed issues with some tweaks not saving their settings correctly.\r\n- Disabled metrics collection.\r\n\r\n***Tweak Changes***\r\n- **\u0060Combo Timer\u0060** - Fixed Dragoon\u0027s [Wheeling Thrust -\u003E Drakesbane] combo not being correctly timed.\r\n\r\n- **\u0060Hide Achievements Nearing Completion Notifications\u0060** - Fixed notification window appearing for a couple frames before being hidden. *(Haselnussbomber)*\r\n\r\n- **\u0060Scenario Progression Display\u0060** - Fixed percentage not being displayed in some circumstances.\r\n\r\n- **\u0060Track Outfits\u0060** - Added option to ignore quality when checking if an item exists as part of an outfit.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "1.1.23"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Caraxi"
+            },
+            "1.15.0.6": {
+              "TimeReleased": "2026-06-06T18:19:24.8055137+00:00",
+              "Changelog": "***Tweak Changes***\r\n- **\u0060Character Window Job Switcher\u0060** - Fixed issue causing a loop of trying to apply a gearset that is missing its weapon when using gamepad.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -138287,9 +138307,9 @@
           }
         },
         "NamePlateDebuffs": {
-          "BuiltCommit": "ea31bab30c478d19c4cae4e0efa51d102d01ba8b",
-          "TimeBuilt": "2026-04-29T22:49:24.5800632+00:00",
-          "EffectiveVersion": "1.1.0.8",
+          "BuiltCommit": "1b108cb4d64f30d90eb2e1784c697b2d110f8c09",
+          "TimeBuilt": "2026-06-06T18:19:41.1503813+00:00",
+          "EffectiveVersion": "1.1.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -138457,6 +138477,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "sourpuh"
+            },
+            "1.1.1.1": {
+              "TimeReleased": "2026-06-06T18:19:41.1503833+00:00",
+              "Changelog": "Support for M**dles, buffs and special statuses, and tweaks / bug fixes. I also did some minor config changes, so reset to defaults if it looks bad. That\u0027s the price of innovation.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "sourpuh"
             }
           }
@@ -235628,9 +235664,9 @@
           }
         },
         "RetainerAlerts": {
-          "BuiltCommit": "10e7a945b80b9f8ae9e97b59585d66d5e523cc65",
-          "TimeBuilt": "2026-05-01T19:28:56.4462489+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "fa0a8ec962a889dc193a3861c43e31a152ec0436",
+          "TimeBuilt": "2026-06-06T18:19:48.5788651+00:00",
+          "EffectiveVersion": "1.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
@@ -235652,6 +235688,22 @@
             "1.4.0.0": {
               "TimeReleased": "2026-05-01T19:28:56.446251+00:00",
               "Changelog": "Updated to Dalamud 15.0.0, fixed package references, and version bump.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Ibcrootbeer"
+            },
+            "1.5.0.0": {
+              "TimeReleased": "2026-06-06T18:19:48.5788668+00:00",
+              "Changelog": "Alert window will not show unless on home world now or if you are in a duty.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -240716,9 +240768,9 @@
           }
         },
         "Clock": {
-          "BuiltCommit": "6c7da0981d18cb9f7cb89f83ea4e99c5280c8531",
-          "TimeBuilt": "2026-06-05T21:14:50.1981177+00:00",
-          "EffectiveVersion": "1.0.7.1",
+          "BuiltCommit": "471d3707f5531c6e49f79a515feb59dd8201f9c5",
+          "TimeBuilt": "2026-06-06T22:38:57.2875166+00:00",
+          "EffectiveVersion": "1.0.7.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.6.5": {
@@ -240820,6 +240872,22 @@
             "1.0.7.1": {
               "TimeReleased": "2026-06-05T21:14:50.1981679+00:00",
               "Changelog": "## What\u0027s New\nAdded an experimental **Chat Time Conversion** feature for the in-game chat messages\nWhen enabled, the plugin can detect date/times in chat, including single times and time ranges, ex: \u00608PM EST\u0060\u00607PM-10PM EST\u0060, then show the converted time when hovering over it\n\n### Options/Settings\n- **Enable chat time hover** \u2014 turns on/off chat time detection/hover conversion\n- **Primary timezone** \u2014 chooses the timezone used for conversions\n- **Create Alarm** \u2014 Create a alarm based on the detected date/time from the chat\n- **Show alarm setup option** \u2014 turn on/off to show **Create Alarm** option in the conversion tooltip\n- **Tooltip duration** \u2014 controls how long the conversion tooltip stays visible\n- **Test** \u2014 sends example chat messages to test and see how the feature works\n\n### Notes\n- The feature is disabled by default and marked as **experimental** with multiple warnings\n- Dates/Times found in the same message will be used when creating alarms from it\n  - For time ranges, **Create Alarm** uses the first Time. _(08PM-12PM BRT, would use 08PM only)_\n  - Date context is used when creating alarms, messages having like \u0060June 12th\u0060 pre-fill the alarm with the date\n    - If no date is detected, the alarm uses the current date\n- **The feature only changes how detected chat text is displayed/interacted with; it does not resend/consume the original chat message**\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "seventity7"
+            },
+            "1.0.7.2": {
+              "TimeReleased": "2026-06-06T22:38:57.2875623+00:00",
+              "Changelog": "### Small Patch Update\n- Added a quick **Feedback/Report** button in the main window.\n**Improved:**\n- Time/date detection including formats like \u0060Jun. 24, 2026 7:59 a.m. (PDT)\u0060 and other timezone tags\n- Improved the Alarms tab. It only uses Chat Conversion timezone when an alarm is created from chat\n- Support for more date/time patterns such as weekday-based dates, \u0060tomorrow\u0060 and ISO-style\n- Overall chat detection/hover system\n\n## Notes\n- Removed noisy warning logs from \u0060Xllog\u0060\n- \u0060ChatTimeConversion\u0060 option stay as \u0060Experimental\u0060\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -240976,14 +241044,30 @@
           }
         },
         "CreateXIV": {
-          "BuiltCommit": "c4b81a33baf1cc6082177951f3b02d2410201c87",
-          "TimeBuilt": "2026-05-23T22:49:25.1269853+00:00",
-          "EffectiveVersion": "1.0.6.7",
+          "BuiltCommit": "d3bb63f92d73ed81fe8665a2c20cc914b8bcc88b",
+          "TimeBuilt": "2026-06-06T18:19:33.6174597+00:00",
+          "EffectiveVersion": "1.0.6.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.6.7": {
               "TimeReleased": "2026-05-23T22:49:25.1269892+00:00",
               "Changelog": "### CreateXIV\n- **Lets you create custom slash command aliases from an in-game UI**\n- Supports aliases for native FFXIV commands, Dalamud plugin commands, personal macros and shared macros\n- Create short personal commands for longer commands you use often\n  - Example: turn a longer command or macro reference into a simple custom slash command \u0060/mastervolume\u0060 \u003E \u0060/mv\u0060\n- Includes suggestions to help find available commands/macros while setting up aliases\n- Include alias organization tools\n  - Categories with custom colors\n  - Favorites/pinned aliases\n  - Search, type filters, category filters and sortable alias list columns\n- Include alias management tools\n  - Edit, delete, duplicate, test, undo delete, overwrite existing aliases and clipboard import/export\n- Validation system for aliases, macros and any type of commands\n  - Invalid macro/command aliases will be prevented from saving\n  - Saved aliases that become invalid later are highlighted with a tooltip explaining the issue\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "seventity7"
+            },
+            "1.0.6.8": {
+              "TimeReleased": "2026-06-06T18:19:33.6174615+00:00",
+              "Changelog": "### What\u0027s New?\n- Added live preview when creating/editing aliases, showing what will be executed\n- Added support allowing aliases to be created directly from chat\n  - Example: \u0060/create mv mastervolume\u0060 -\u003E Alias: \u0060mv\u0060 Command: \u0060/mastervolume\u0060\n- Added per-alias enable/disable and per-alias \u0060Wait\u0060 delay controls\n  - Disabled alias will not execute when typed\n- Improved validation for commands, macros and broken aliases\n- Improved the alias table with better filtering, sorting, favorites, type indicators, macro names and delete confirmation\n- Improved import/export feedback\n- Added settings options for chat confirmations and a small command list\n- Refined the main window layout, spacing, tooltips and overall visual\n- Added macro display names in the panel when available\n- Added detection for commands/macros that is already in use\n- Added \u0060Undo\u0060 support\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -276510,9 +276594,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "6c406e0f856ed3a59be6179744983131b8ca2dd4",
-          "TimeBuilt": "2026-06-05T21:04:27.8259027+00:00",
-          "EffectiveVersion": "3.1.0.6",
+          "BuiltCommit": "54f39bb93857649c91f9b861ec6aa64ee15f6efa",
+          "TimeBuilt": "2026-06-06T18:19:59.8807239+00:00",
+          "EffectiveVersion": "3.1.0.7",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -276805,6 +276889,34 @@
             "3.1.0.6": {
               "TimeReleased": "2026-06-05T21:04:27.825949+00:00",
               "Changelog": "## New\r\n\r\n- **Sidebar settings layout** \u2014 Tabs live in a left sidebar (General pinned first, others sorted A\u2013Z) instead of one long scrolling tab bar.\r\n- **Focused tabs** \u2014 Old mega-tabs split into dedicated pages:\r\n  - **Party** \u002B **Duty** (was Party \u0026 Duty)\r\n  - **Currencies** \u002B **Allied Societies** (was Obtain)\r\n  - **Crafting**, **Gathering**, **Desynthesis**, **Materia** (was Crafting \u0026 Gathering)\r\n  - Plus **Exploration**, **Housing**, **Glamour**, **Deep Dungeons**, **Gold Saucer**, **Free Company**, and more\r\n- **Filtering notes** \u2014 Each tab opens with a short note on which **General** master filters apply and how **Hide \u2026** / **Show \u2026** options behave.\r\n- **Consistent sections** \u2014 Multi-section tabs use matching dropdown headers; single-section tabs show options flat (no extra wrapper).\r\n- **Chat History \u2192 Loot channel** \u2014 Loot (obtained) channel can be included in chat-history deduplication.\r\n- **Custom Filters** \u2014 Filtering note at the top; per-row **Loot** channel override when blocking/allowing lines.\r\n- **Currencies tab** \u2014 Tomestone section shows a localized message when game data is unavailable.\r\n- **Smarter help tooltips** \u2014 Help markers and search results point at the right tab and **General** master filter (System / Obtained / Loot Roll / Crafting / Gathering / Progress).\r\n\r\n---\r\n\r\n## Bugfix\r\n\r\n- **Whitelist on loot obtains** \u2014 Show/block rules on **LootNotice** lines (obtained channel) behave correctly again after the rules refactor.\r\n- **Chat history logging** \u2014 Clearer debug messages when the history queue fills or adds a line.\r\n- **Settings search** \u2014 Results land on the correct new tab/section after the split and rename pass.\r\n- **Localization sync** \u2014 Satellite languages updated for renamed settings keys and new filtering-note strings.\r\n\r\n---\r\n\r\n## Changed\r\n\r\n- **Tools tab** \u2014 Chat History and Custom Filters (whitelist) grouped under **Tools**; Debug mode stays in the same tab.\r\n\r\n---\r\n\r\n## Removed (internal / cleanup)\r\n\r\n- Legacy tab files and unused **Advanced** settings strings.\r\n- Unused chat-string / help-marker entries left over from the refactor.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.7": {
+              "TimeReleased": "2026-06-06T18:19:59.8807256+00:00",
+              "Changelog": "## New\r\n\r\n### Tabs\r\n- **Fishing** \u2014 fishing options moved out of Gathering into their own tab\r\n- **Cosmic Exploration** \u2014 Stellar missions and Cosmic Exploration options moved out of Gathering\r\n\r\n### Filters \u0026 options\r\n- **PvP progress** filters: exp, rank, series progress, and zone announcements (Progress tab)\r\n\r\n### Settings UI\r\n- Settings **search** finds many more options\r\n- **Help markers (\u0060?\u0060)** added or improved across Party, Economy, Gathering, Fishing, Crafting, Materia, Desynthesis, Deep Dungeons, Glamour, Free Company, Allied Societies, Tools, and more\r\n- Examples use in-game phrasing and note which **General** channel filter you need (System, Progress, Obtained, etc.)\r\n- Several toggles renamed from confusing \u201CShow\u201D wording to clearer **\u201CHide \u2026\u201D** labels (gil, tomestones, wolf marks, etc.)\r\n\r\n---\r\n\r\n## Bugfixes\r\n\r\n### Combat\r\n- Abilities, misses, and buff/debuff lines match the correct log messages more reliably\r\n- Help examples corrected (auto-attacks vs abilities, player-perspective damage/healing, enemy-ready text)\r\n\r\n### Tooltips \u0026 text\r\n- Fixed tooltips showing broken encoding (e.g. \u0060\u0026apos;\u0060)\r\n- Fixed misleading help examples (e.g. party teleport destination)\r\n\r\n### Filtering\r\n- PvP-related message filtering behavior corrected\r\n- Cosmic/Stellar and currency obtain rules tightened",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -296501,46 +296613,6 @@
               ],
               "Reviewer": "Critical-Impact",
               "Submitter": "Valiice"
-            }
-          }
-        },
-        "NamePlateDebuffs": {
-          "BuiltCommit": "1b108cb4d64f30d90eb2e1784c697b2d110f8c09",
-          "TimeBuilt": "2026-06-03T03:26:24.6390015+00:00",
-          "EffectiveVersion": "1.1.1.1",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.1.1.0": {
-              "TimeReleased": "2026-05-23T18:34:46.8161767+00:00",
-              "Changelog": "Support for M**dles, buffs and special statuses, and tweaks / bug fixes. I also did some minor config changes, so reset to defaults if it looks bad. That\u0027s the price of innovation.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "sourpuh"
-            },
-            "1.1.1.1": {
-              "TimeReleased": "2026-06-03T03:26:24.6390028+00:00",
-              "Changelog": "Support for M**dles, buffs and special statuses, and tweaks / bug fixes. I also did some minor config changes, so reset to defaults if it looks bad. That\u0027s the price of innovation.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "sourpuh"
             }
           }
         },
