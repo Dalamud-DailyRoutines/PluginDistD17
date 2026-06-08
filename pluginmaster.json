@@ -8057,7 +8057,7 @@
     "Author": "MidoriKami",
     "Name": "SortaKinda",
     "InternalName": "SortaKinda",
-    "AssemblyVersion": "3.0.2.6",
+    "AssemblyVersion": "3.0.2.7",
     "Description": "Sort your inventory however you want and keep it sorted",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/MidoriKami/SortaKinda",
@@ -8077,7 +8077,7 @@
     "TestingAssemblyVersion": "3.0.0.22",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1780877808",
+    "LastUpdate": "1780918805",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/SortaKinda/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/SortaKinda/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/SortaKinda/latest.zip"
