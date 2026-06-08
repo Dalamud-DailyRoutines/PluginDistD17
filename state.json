@@ -17285,9 +17285,9 @@
           }
         },
         "FastJobSwitcher": {
-          "BuiltCommit": "fe1311e91027b21ad82a721405eaea464664a403",
-          "TimeBuilt": "2026-05-06T22:01:53.047494+00:00",
-          "EffectiveVersion": "4.0.1.1",
+          "BuiltCommit": "6fd2a05169431ae2e16c0254d0443227e08182e2",
+          "TimeBuilt": "2026-06-07T16:16:26.1049674+00:00",
+          "EffectiveVersion": "4.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -17403,6 +17403,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "meoiswa"
+            },
+            "4.1.0.0": {
+              "TimeReleased": "2026-06-07T16:16:26.1049685+00:00",
+              "Changelog": "Version 4.1.0.0:\n - Added a help/usage tooltip to the \u0022Classes and Jobs\u0022 option\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "meoiswa"
             }
           }
@@ -107126,9 +107142,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "2a1ec84f9a23b5e5d72e27fb17d29ee4ad0c1653",
-          "TimeBuilt": "2026-06-05T03:20:04.6794281+00:00",
-          "EffectiveVersion": "3.0.2.4",
+          "BuiltCommit": "1434b7b7b39e39394ac0ed7ea93698c559fde703",
+          "TimeBuilt": "2026-06-08T00:16:20.7006639+00:00",
+          "EffectiveVersion": "3.0.2.6",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.0.0": {
@@ -108098,6 +108114,142 @@
             "3.0.2.4": {
               "TimeReleased": "2026-06-05T03:20:04.6794309+00:00",
               "Changelog": "Add migration for older presets (by Tiberia)\r\n\r\nImproved error message\r\n\r\nNow aborts sorting when hitting an error\r\n\r\nFixed not showing 26th soul stone slot",
+              "UsedNeeds": [
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "3.0.2.5": {
+              "TimeReleased": "2026-06-07T15:30:51.2404423+00:00",
+              "Changelog": "Fixes error when typing invalid regex into ItemUiCategory Search",
+              "UsedNeeds": [
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "MidoriKami"
+            },
+            "3.0.2.6": {
+              "TimeReleased": "2026-06-08T00:16:20.7007076+00:00",
+              "Changelog": "Potentially fix compat issue",
               "UsedNeeds": [
                 {
                   "Key": "Microsoft.CodeAnalysis.CSharp",
@@ -124944,9 +125096,9 @@
           "Changelogs": {}
         },
         "WhosTalking": {
-          "BuiltCommit": "3752d7ce5925466e1880835a25e9bd1689718f40",
-          "TimeBuilt": "2026-04-01T13:30:00.1560295+00:00",
-          "EffectiveVersion": "0.8.9.0",
+          "BuiltCommit": "65e13c87edcd76ba880b756f2ac46e295a1652b9",
+          "TimeBuilt": "2026-06-07T16:16:17.0247591+00:00",
+          "EffectiveVersion": "0.8.10.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.6.7.0": {
@@ -125234,6 +125386,38 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2022.3.1"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "keysmashes"
+            },
+            "0.8.10.0": {
+              "TimeReleased": "2026-06-07T16:16:17.0248395+00:00",
+              "Changelog": "Updated for API 15 (patch 7.5).\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -245344,9 +245528,9 @@
           "Changelogs": {}
         },
         "HUDManager": {
-          "BuiltCommit": "774b793fc3556d0cb8e17daa949be7b3b721bcfa",
-          "TimeBuilt": "2026-06-04T19:38:25.6823793+00:00",
-          "EffectiveVersion": "2.5.23.0",
+          "BuiltCommit": "81fde149dc604e8a3f1ef503bebbbbaf0dbec8f6",
+          "TimeBuilt": "2026-06-08T00:16:30.5750154+00:00",
+          "EffectiveVersion": "2.5.24.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.20.1": {
@@ -245476,6 +245660,26 @@
             "2.5.23.0": {
               "TimeReleased": "2026-06-04T19:38:25.6823807+00:00",
               "Changelog": "- Add some missing zones to \u0022In zone\u0022 custom condition\r\n- Allow partial match when searching for zones",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "12.3.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "nebel"
+            },
+            "2.5.24.0": {
+              "TimeReleased": "2026-06-08T00:16:30.5750175+00:00",
+              "Changelog": "- Small interface improvements",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -276594,9 +276798,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "54f39bb93857649c91f9b861ec6aa64ee15f6efa",
-          "TimeBuilt": "2026-06-06T18:19:59.8807239+00:00",
-          "EffectiveVersion": "3.1.0.7",
+          "BuiltCommit": "c897dd49a74e1166725fe524628d334857e2f88c",
+          "TimeBuilt": "2026-06-08T00:16:42.13848+00:00",
+          "EffectiveVersion": "3.1.0.8",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -276917,6 +277121,34 @@
             "3.1.0.7": {
               "TimeReleased": "2026-06-06T18:19:59.8807256+00:00",
               "Changelog": "## New\r\n\r\n### Tabs\r\n- **Fishing** \u2014 fishing options moved out of Gathering into their own tab\r\n- **Cosmic Exploration** \u2014 Stellar missions and Cosmic Exploration options moved out of Gathering\r\n\r\n### Filters \u0026 options\r\n- **PvP progress** filters: exp, rank, series progress, and zone announcements (Progress tab)\r\n\r\n### Settings UI\r\n- Settings **search** finds many more options\r\n- **Help markers (\u0060?\u0060)** added or improved across Party, Economy, Gathering, Fishing, Crafting, Materia, Desynthesis, Deep Dungeons, Glamour, Free Company, Allied Societies, Tools, and more\r\n- Examples use in-game phrasing and note which **General** channel filter you need (System, Progress, Obtained, etc.)\r\n- Several toggles renamed from confusing \u201CShow\u201D wording to clearer **\u201CHide \u2026\u201D** labels (gil, tomestones, wolf marks, etc.)\r\n\r\n---\r\n\r\n## Bugfixes\r\n\r\n### Combat\r\n- Abilities, misses, and buff/debuff lines match the correct log messages more reliably\r\n- Help examples corrected (auto-attacks vs abilities, player-perspective damage/healing, enemy-ready text)\r\n\r\n### Tooltips \u0026 text\r\n- Fixed tooltips showing broken encoding (e.g. \u0060\u0026apos;\u0060)\r\n- Fixed misleading help examples (e.g. party teleport destination)\r\n\r\n### Filtering\r\n- PvP-related message filtering behavior corrected\r\n- Cosmic/Stellar and currency obtain rules tightened",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.8": {
+              "TimeReleased": "2026-06-08T00:16:42.1384813+00:00",
+              "Changelog": "## New\r\n- **Exploration \u2192 Hunt Messages:** Show mark bill messages (pick up, complete, abandon)\r\n- **Glamour:** Dresser master toggle with nested outfit / projection / armoire options; try-on preview toggle; show personal effect acquired\r\n- **Fishing:** Separate toggles for lure attempts, bite feelings, reel in line, and lose bait\r\n- **Gathering:** Show stellar GP recovery; hide elemental shards now includes desynth\r\n- **Settings:** Version in config title bar; clear (\u00D7) button on settings search\r\n\r\n## Bugfixes\r\n- Hunt currency hides (Allied Seals, Centurio Seals, sacks of Nuts) now block reliably on the LogMessage path\r\n- **Custom filters:** Text/regex filters now apply on the LogMessage path (not just \u0060#ID\u0060 filters); global whitelisted-player overrides no longer treat custom filters as player entries\r\n- Broader LogMessage catalog matching \u2014 fewer missed or inconsistent filters\r\n- Clearer \u0060[LogMessage]\u0060 debug output when debug mode is on (\u0060ID match\u0060 for dedicated LogMessage IDs)\r\n- **Crafting:** Failure lines (\u0060You use \u2026 \u2192 Failure!\u0060, LogMessages 1155 / 5913) are now covered by **Show All other crafting** alongside success lines\r\n- **LogMessage crashes:** Hardened text extraction before calling the game\u2019s \u0060FormatString\u0060 \u2014 validates message address and parameter readability, uses Lumina sheet text when possible, and skips unsafe format calls (fixes native crashes during login, job changes, and combat reported on 3.1.0.7)\r\n- **Debug vs normal blocking (LogMessage path):**\r\n  - **Debug on:** blocked lines still appear in chat with \u0060[TidyChat] \u2026 [Blocked] [LogMessage]\u0060 tags; full detail also goes to \u0060/xllog\u0060\r\n  - **Debug off:** blocked lines are actually hidden via \u0060PreventOriginal()\u0060 (normal play)\r\n\r\n## Changed\r\n- Eligible for coffers moved from Glamour to System \u2192 Duty/instance section\r\n- Old \u0022glamour altered\u0022 and \u0022lure messages\u0022 settings auto-migrate to the new split toggles\r\n- New custom filters default to the **System** channel (was a different default before)\r\n- **Settings search:** Commendations and personal message book now route to **System \u2192 Social and misc**; obsolete migrated settings (\u0060ShowGlamourAltered\u0060, \u0060ShowLureMessages\u0060) and duplicate \u0060ShowPartyDissolved\u0060 entry removed from search\r\n- **Custom filters UI:** Channel label lookup uses \u0060ChatFlags\u0060 consistently\r\n- **Localization:** Resx / Designer files resynced and normalized\r\n- **Code cleanup:** Global usings adoption and minor formatting pass across plugin, rules, and settings tabs",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
