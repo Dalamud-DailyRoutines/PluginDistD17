@@ -107142,9 +107142,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "1434b7b7b39e39394ac0ed7ea93698c559fde703",
-          "TimeBuilt": "2026-06-08T00:16:20.7006639+00:00",
-          "EffectiveVersion": "3.0.2.6",
+          "BuiltCommit": "832d407dc05e313d6d3b85ed4585eb825e2a3c19",
+          "TimeBuilt": "2026-06-08T11:40:00.7699658+00:00",
+          "EffectiveVersion": "3.0.2.7",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.0.0": {
@@ -108313,6 +108313,74 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "3.0.2.7": {
+              "TimeReleased": "2026-06-08T11:40:00.7700137+00:00",
+              "Changelog": "Probably fixes Gearset 1 not filtering correctly with Gearset filter.",
+              "UsedNeeds": [
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MidoriKami"
             }
           }
