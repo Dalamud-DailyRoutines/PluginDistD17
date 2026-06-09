@@ -298229,9 +298229,9 @@
           }
         },
         "AscianMusicPlayer": {
-          "BuiltCommit": "0e943aa6d6c13da0fb28f18716425ed438077005",
-          "TimeBuilt": "2026-03-19T04:22:44.9290504+00:00",
-          "EffectiveVersion": "1.1.0.2",
+          "BuiltCommit": "961daee596a160187eb2d35b6e40185690259060",
+          "TimeBuilt": "2026-06-09T09:16:31.1168508+00:00",
+          "EffectiveVersion": "1.2.1.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -298472,6 +298472,78 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "GayPotatoEmma"
+            },
+            "1.2.1.6": {
+              "TimeReleased": "2026-06-09T09:16:31.1168821+00:00",
+              "Changelog": "## Fixes\r\n- Add fallback to DirectSound if no WaveOut device can be initialized (hopefully)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "TagLibSharp",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.5"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinForms",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "GayPotatoEmma"
             }
           }
