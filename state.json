@@ -241296,9 +241296,9 @@
           }
         },
         "CreateXIV": {
-          "BuiltCommit": "d3bb63f92d73ed81fe8665a2c20cc914b8bcc88b",
-          "TimeBuilt": "2026-06-06T18:19:33.6174597+00:00",
-          "EffectiveVersion": "1.0.6.8",
+          "BuiltCommit": "4ec06a369a50c5ce5789ddff6ffc37b03594d439",
+          "TimeBuilt": "2026-06-08T21:28:05.6649298+00:00",
+          "EffectiveVersion": "1.0.6.9",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.6.7": {
@@ -241320,6 +241320,22 @@
             "1.0.6.8": {
               "TimeReleased": "2026-06-06T18:19:33.6174615+00:00",
               "Changelog": "### What\u0027s New?\n- Added live preview when creating/editing aliases, showing what will be executed\n- Added support allowing aliases to be created directly from chat\n  - Example: \u0060/create mv mastervolume\u0060 -\u003E Alias: \u0060mv\u0060 Command: \u0060/mastervolume\u0060\n- Added per-alias enable/disable and per-alias \u0060Wait\u0060 delay controls\n  - Disabled alias will not execute when typed\n- Improved validation for commands, macros and broken aliases\n- Improved the alias table with better filtering, sorting, favorites, type indicators, macro names and delete confirmation\n- Improved import/export feedback\n- Added settings options for chat confirmations and a small command list\n- Refined the main window layout, spacing, tooltips and overall visual\n- Added macro display names in the panel when available\n- Added detection for commands/macros that is already in use\n- Added \u0060Undo\u0060 support\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "seventity7"
+            },
+            "1.0.6.9": {
+              "TimeReleased": "2026-06-08T21:28:05.6650051+00:00",
+              "Changelog": "### What\u0027s New?\n- Added support for disabling alias execution delay\n- Updated the per-alias \u0060Wait\u0060 range to \u00600-5\u0060 seconds\n- Added new \u0060/create list\u0060 command\n  - Shows all created aliases and their linked commands/macros in chat\n\n### Notes\n- Default \u0060Wait\u0060 value for new Aliases is now \u00600\u0060\n- Updated \u0060Readme\u0060 on plugin github page\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -269065,9 +269081,9 @@
           }
         },
         "Craftimizer": {
-          "BuiltCommit": "a575ad088f8d24cbad2680fa51404d1c874f4c2f",
-          "TimeBuilt": "2024-02-23T19:14:55.86",
-          "EffectiveVersion": "2.1.0.0",
+          "BuiltCommit": "3b07695eb0636204d61b066dcca4b770d184ea2d",
+          "TimeBuilt": "2026-06-08T21:24:01.9940627+00:00",
+          "EffectiveVersion": "2.11.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.1.0": {
@@ -269104,6 +269120,42 @@
               "UsedNeeds": null,
               "Reviewer": null,
               "Submitter": null
+            },
+            "2.11.0.1": {
+              "TimeReleased": "2026-06-08T21:24:01.9941043+00:00",
+              "Changelog": "An attempted hotfix for a rare GC corruption crash that may occur randomly.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.61"
+                },
+                {
+                  "Key": "DotNext",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Raphael.Net",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.IO.Hashing",
+                  "Version": "10.0.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "WorkingRobot"
             }
           }
         },
@@ -276866,9 +276918,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "c897dd49a74e1166725fe524628d334857e2f88c",
-          "TimeBuilt": "2026-06-08T00:16:42.13848+00:00",
-          "EffectiveVersion": "3.1.0.8",
+          "BuiltCommit": "76b922dde7e2341dcb12beb4b4d9e4f35d495e60",
+          "TimeBuilt": "2026-06-08T21:24:16.8655809+00:00",
+          "EffectiveVersion": "3.1.0.9",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -277217,6 +277269,34 @@
             "3.1.0.8": {
               "TimeReleased": "2026-06-08T00:16:42.1384813+00:00",
               "Changelog": "## New\r\n- **Exploration \u2192 Hunt Messages:** Show mark bill messages (pick up, complete, abandon)\r\n- **Glamour:** Dresser master toggle with nested outfit / projection / armoire options; try-on preview toggle; show personal effect acquired\r\n- **Fishing:** Separate toggles for lure attempts, bite feelings, reel in line, and lose bait\r\n- **Gathering:** Show stellar GP recovery; hide elemental shards now includes desynth\r\n- **Settings:** Version in config title bar; clear (\u00D7) button on settings search\r\n\r\n## Bugfixes\r\n- Hunt currency hides (Allied Seals, Centurio Seals, sacks of Nuts) now block reliably on the LogMessage path\r\n- **Custom filters:** Text/regex filters now apply on the LogMessage path (not just \u0060#ID\u0060 filters); global whitelisted-player overrides no longer treat custom filters as player entries\r\n- Broader LogMessage catalog matching \u2014 fewer missed or inconsistent filters\r\n- Clearer \u0060[LogMessage]\u0060 debug output when debug mode is on (\u0060ID match\u0060 for dedicated LogMessage IDs)\r\n- **Crafting:** Failure lines (\u0060You use \u2026 \u2192 Failure!\u0060, LogMessages 1155 / 5913) are now covered by **Show All other crafting** alongside success lines\r\n- **LogMessage crashes:** Hardened text extraction before calling the game\u2019s \u0060FormatString\u0060 \u2014 validates message address and parameter readability, uses Lumina sheet text when possible, and skips unsafe format calls (fixes native crashes during login, job changes, and combat reported on 3.1.0.7)\r\n- **Debug vs normal blocking (LogMessage path):**\r\n  - **Debug on:** blocked lines still appear in chat with \u0060[TidyChat] \u2026 [Blocked] [LogMessage]\u0060 tags; full detail also goes to \u0060/xllog\u0060\r\n  - **Debug off:** blocked lines are actually hidden via \u0060PreventOriginal()\u0060 (normal play)\r\n\r\n## Changed\r\n- Eligible for coffers moved from Glamour to System \u2192 Duty/instance section\r\n- Old \u0022glamour altered\u0022 and \u0022lure messages\u0022 settings auto-migrate to the new split toggles\r\n- New custom filters default to the **System** channel (was a different default before)\r\n- **Settings search:** Commendations and personal message book now route to **System \u2192 Social and misc**; obsolete migrated settings (\u0060ShowGlamourAltered\u0060, \u0060ShowLureMessages\u0060) and duplicate \u0060ShowPartyDissolved\u0060 entry removed from search\r\n- **Custom filters UI:** Channel label lookup uses \u0060ChatFlags\u0060 consistently\r\n- **Localization:** Resx / Designer files resynced and normalized\r\n- **Code cleanup:** Global usings adoption and minor formatting pass across plugin, rules, and settings tabs",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.9": {
+              "TimeReleased": "2026-06-08T21:24:16.865582+00:00",
+              "Changelog": "## Bugfixes\r\n- **Retainer inventory (789):** Hide rules still apply when LogMessage text formatting fails\r\n- **Fishing hole (1110):** Soft hide \u2014 hidden in chat, still visible to Artisan Fishing Timer and other listeners\r\n\r\n## Changed\r\n- Settings tabs reorganized (currencies, cosmic/FC/Gold Saucer/progress, options moved out of System/Glamour/Gathering); search routes updated\r\n- Allied society currencies \u002B party \u201Canother player obtains\u201D: show-style labels (same saved settings)",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
