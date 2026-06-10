@@ -234092,9 +234092,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "7e24304159e79b337a55fa67943584fec3ddee07",
-          "TimeBuilt": "2026-05-30T17:33:25.1656688+00:00",
-          "EffectiveVersion": "1.10.14.0",
+          "BuiltCommit": "2529d1ba4c95865666c296ef747d6b07a2a1174d",
+          "TimeBuilt": "2026-06-10T01:03:17.3275109+00:00",
+          "EffectiveVersion": "1.10.15.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -235424,6 +235424,50 @@
             "1.10.14.0": {
               "TimeReleased": "2026-05-30T17:33:25.165707+00:00",
               "Changelog": "- **General**: Put debug logs behind setting checkbox\u0022\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.72"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.10.15.0": {
+              "TimeReleased": "2026-06-10T01:03:17.3275126+00:00",
+              "Changelog": "- **Collection**: 7.51 facewear\u0022\n- **Progress**:\n  - Cosmic exploration rewards update\n  - Events reward for 2026 updated when optional reward not given by questline available (ie: those buyable via event currency) \n- **Timers**: Tribe unlocking check was using custom deliveries check instead of correct one.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -241352,9 +241396,9 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "0c5c7a3e605277c0b11628e11b68ca3538d358cb",
-          "TimeBuilt": "2026-06-06T00:07:04.0191185+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "f34cf1aaf2bde1d243a9461cc9931eb314c0db31",
+          "TimeBuilt": "2026-06-10T01:03:02.1939164+00:00",
+          "EffectiveVersion": "1.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -241392,6 +241436,22 @@
             "1.2.0.0": {
               "TimeReleased": "2026-06-06T00:07:04.0191613+00:00",
               "Changelog": "Added new filters to randomly select jobs by role or group (support or dps).",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            },
+            "1.3.0.0": {
+              "TimeReleased": "2026-06-10T01:03:02.1939569+00:00",
+              "Changelog": "**New Feature**: Ability to specify a roulette name and the plugin will roll a random enabled job for the roulette\u0027s Adventurer-In-Need bonus.\n- /jobroulette \u0060leveling\u0060, \u0060trials\u0060, \u0060msq\u0060, \u0060alliance\u0060, \u0060normal\u0060, \u0060mentor\u0060, \u0060expert\u0060, \u0060highlevel\u0060, \u0060levelcap\u0060, \u0060guildhest\u0060\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -245612,9 +245672,9 @@
           "Changelogs": {}
         },
         "HUDManager": {
-          "BuiltCommit": "81fde149dc604e8a3f1ef503bebbbbaf0dbec8f6",
-          "TimeBuilt": "2026-06-08T00:16:30.5750154+00:00",
-          "EffectiveVersion": "2.5.24.0",
+          "BuiltCommit": "1cf34a6bf6d6cc14f298c07ab5b1412c847f57cb",
+          "TimeBuilt": "2026-06-10T01:03:35.059998+00:00",
+          "EffectiveVersion": "2.5.25.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.20.1": {
@@ -245764,6 +245824,26 @@
             "2.5.24.0": {
               "TimeReleased": "2026-06-08T00:16:30.5750175+00:00",
               "Changelog": "- Small interface improvements",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "12.3.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "nebel"
+            },
+            "2.5.25.0": {
+              "TimeReleased": "2026-06-10T01:03:35.059999+00:00",
+              "Changelog": "- Add missing settings to split Status Info elements\r\n- Fix an issue where changing an element\u0027s layout caused the position to change incorrectly when the position preview window was active\r\n- Fix an issue where the export layout popup didn\u0027t render correctly\r\n- Small improvements to UI text alignment",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -269081,9 +269161,9 @@
           }
         },
         "Craftimizer": {
-          "BuiltCommit": "3b07695eb0636204d61b066dcca4b770d184ea2d",
-          "TimeBuilt": "2026-06-08T21:24:01.9940627+00:00",
-          "EffectiveVersion": "2.11.0.1",
+          "BuiltCommit": "1d4a2c67ea47a25d68701e8e69c8744dbbd56d86",
+          "TimeBuilt": "2026-06-10T01:03:51.1915265+00:00",
+          "EffectiveVersion": "2.11.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.1.0": {
@@ -269124,6 +269204,42 @@
             "2.11.0.1": {
               "TimeReleased": "2026-06-08T21:24:01.9941043+00:00",
               "Changelog": "An attempted hotfix for a rare GC corruption crash that may occur randomly.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.61"
+                },
+                {
+                  "Key": "DotNext",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Raphael.Net",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.IO.Hashing",
+                  "Version": "10.0.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "WorkingRobot"
+            },
+            "2.11.0.2": {
+              "TimeReleased": "2026-06-10T01:03:51.1915276+00:00",
+              "Changelog": "forgot to bump version",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -276918,9 +277034,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "76b922dde7e2341dcb12beb4b4d9e4f35d495e60",
-          "TimeBuilt": "2026-06-08T21:24:16.8655809+00:00",
-          "EffectiveVersion": "3.1.0.9",
+          "BuiltCommit": "411a77ff118371e6d641f5be3f9dd34453f8335b",
+          "TimeBuilt": "2026-06-10T01:04:03.6685074+00:00",
+          "EffectiveVersion": "3.1.0.10",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -277297,6 +277413,34 @@
             "3.1.0.9": {
               "TimeReleased": "2026-06-08T21:24:16.865582+00:00",
               "Changelog": "## Bugfixes\r\n- **Retainer inventory (789):** Hide rules still apply when LogMessage text formatting fails\r\n- **Fishing hole (1110):** Soft hide \u2014 hidden in chat, still visible to Artisan Fishing Timer and other listeners\r\n\r\n## Changed\r\n- Settings tabs reorganized (currencies, cosmic/FC/Gold Saucer/progress, options moved out of System/Glamour/Gathering); search routes updated\r\n- Allied society currencies \u002B party \u201Canother player obtains\u201D: show-style labels (same saved settings)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.10": {
+              "TimeReleased": "2026-06-10T01:04:03.6685085+00:00",
+              "Changelog": "## What\u0027s new\r\n\r\n### Chat highlights\r\nYou can now pick **any colour** for chat highlight rules in **Tools \u2192 Chat Highlights**, instead of being stuck with preset swatches. Matching lines show up in chat in the colour you chose.\r\n\r\n### Mark bill messages\r\nDawn Hunt and Clan mark bills are less noisy. With **General \u2192 Message rewrites \u2192 Improved mark bill obtain lines** on (default), you get one short obtain line and the \u201CMark details can viewed at any time\u2026\u201D reminder is hidden.\r\n\r\n---\r\n\r\n## Fixes\r\n\r\n### Chat lines disappearing when they shouldn\u0027t\r\nSome normal chat \u2014 especially in **FC or party** \u2014 could vanish from your log after unrelated system messages (e.g. talking about a **mount** after a mount unlock). That should happen much less often now.\r\n\r\n### Old duty messages popping up again\r\nLines like **\u201CSyrcus Tower has begun\u201D** could show up later during unrelated things (e.g. FC crafting), even when you had instance messages filtered off. Improved duty commence messages now follow your System filter settings again.\r\n\r\n### Gear \u201Cadded to your inventory\u201D still showing\r\nIf you use **bypass armoury chest**, gear could still appear when **Hide added to your inventory** was on. That hide path should be more reliable now.\r\n\r\nIf you still see those lines, check:\r\n- **Currencies \u2192 Hide added to your inventory**\r\n- **General \u2192 Filter Obtained** (master toggle for obtain filtering)\r\n\r\n### NPC lines showing as blocked in debug\r\nBoss/NPC dialogue occasionally showed \u0060[Blocked]\u0060 in debug for no obvious reason \u2014 same family of fix as the FC/party chat issue above.\r\n\r\n---\r\n\r\n## If something still looks wrong\r\n\r\n1. Turn on **Tools \u2192 Enable debug mode** and note whether the missing line shows \u0060[Blocked]\u0060 and what label appears.\r\n2. If party/FC lines vanish, try turning off **Tools \u2192 Chat history** for a session.\r\n3. Check **Tools \u2192 Custom filters** for any Block rules that might match normal chat.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -302373,9 +302517,9 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "0c5c7a3e605277c0b11628e11b68ca3538d358cb",
-          "TimeBuilt": "2026-06-06T00:07:12.3569999+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "f34cf1aaf2bde1d243a9461cc9931eb314c0db31",
+          "TimeBuilt": "2026-06-10T01:03:26.2247146+00:00",
+          "EffectiveVersion": "1.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -302397,6 +302541,22 @@
             "1.2.0.0": {
               "TimeReleased": "2026-06-06T00:07:12.357002+00:00",
               "Changelog": "Added new filters to randomly select jobs by role or group (support or dps).",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            },
+            "1.3.0.0": {
+              "TimeReleased": "2026-06-10T01:03:26.2247155+00:00",
+              "Changelog": "**New Feature**: Ability to specify a roulette name and the plugin will roll a random enabled job for the roulette\u0027s Adventurer-In-Need bonus.\n- /jobroulette \u0060leveling\u0060, \u0060trials\u0060, \u0060msq\u0060, \u0060alliance\u0060, \u0060normal\u0060, \u0060mentor\u0060, \u0060expert\u0060, \u0060highlevel\u0060, \u0060levelcap\u0060, \u0060guildhest\u0060\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
