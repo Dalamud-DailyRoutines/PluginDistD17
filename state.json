@@ -62247,9 +62247,9 @@
           }
         },
         "PartyPlanner": {
-          "BuiltCommit": "362502d210a22174b4e76e9953e93975bd47c716",
-          "TimeBuilt": "2026-03-15T07:11:57.1464866+00:00",
-          "EffectiveVersion": "1.7.5.0",
+          "BuiltCommit": "6b15d63bc0dba298958465460ca3dbf36b775bff",
+          "TimeBuilt": "2026-06-10T23:37:46.6620523+00:00",
+          "EffectiveVersion": "1.7.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.1.0": {
@@ -62608,6 +62608,58 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "edg-l"
+            },
+            "1.7.6.0": {
+              "TimeReleased": "2026-06-10T23:37:46.6620533+00:00",
+              "Changelog": "- Updated for Dalamud API 15\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "GraphQL.Client",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "GraphQL.Client.Serializer.Newtonsoft",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "GraphQL.Client.Abstractions",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "GraphQL.Client.Abstractions.Websocket",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "GraphQL.Primitives",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "edg-l"
             }
           }
@@ -69042,9 +69094,9 @@
           }
         },
         "ToastingwayPlugin": {
-          "BuiltCommit": "9f27518701b4f1e5be39b2fbbc64cb2858c73af9",
-          "TimeBuilt": "2026-05-22T03:25:32.2351066+00:00",
-          "EffectiveVersion": "1.3.1.0",
+          "BuiltCommit": "bcbdad29d6a41b1137d37eb3dd8737c287735234",
+          "TimeBuilt": "2026-06-10T23:38:07.215791+00:00",
+          "EffectiveVersion": "1.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -69157,6 +69209,22 @@
             "1.3.1.0": {
               "TimeReleased": "2026-05-22T03:25:32.2351082+00:00",
               "Changelog": "Robustness and refactoring.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "powellad"
+            },
+            "1.4.0.0": {
+              "TimeReleased": "2026-06-10T23:38:07.215792+00:00",
+              "Changelog": "Add in Dalamud toast option and robustness and tidy refactor.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -206204,9 +206272,9 @@
           }
         },
         "CurrencySpender": {
-          "BuiltCommit": "69612732fa9cbb139d5fa67de3aff39f6dfa9ed3",
-          "TimeBuilt": "2026-06-04T19:38:15.8761939+00:00",
-          "EffectiveVersion": "1.2.6.0",
+          "BuiltCommit": "18e52baecc5b7aabd0ae991cdc1dbccc9c7ec378",
+          "TimeBuilt": "2026-06-10T23:37:58.7607+00:00",
+          "EffectiveVersion": "1.2.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.5.0": {
@@ -206416,6 +206484,22 @@
             "1.2.6.0": {
               "TimeReleased": "2026-06-04T19:38:15.8762428+00:00",
               "Changelog": "## 1.2.6\n### Added\n- Fashion accessories can now be considered a collectable.\n- Settings to hide the UI in various scenarios.\n### Fixed\n- Spelling errors.\n### Changed\n- Updated for Dalamud API v15.\n- Updated ECommons.\n### Removed\n- Kofi Banner.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "ECommons",
+                  "Version": "3.2.1.6"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Blackcatz1911"
+            },
+            "1.2.7.0": {
+              "TimeReleased": "2026-06-10T23:37:58.760701+00:00",
+              "Changelog": "## 1.2.7\n### Added\n- New Currencies: Oizys Credits \u0026 Auxesia Credits.\n- Highlighting for NPCs and items/menus thanks to electr0sheep.\n- Option to automatically add/remove upgrade items to \\\u0022Items of Interest\\\u0022.\n### Fixed\n- Select Bait Ball was missing.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -234092,9 +234176,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "2529d1ba4c95865666c296ef747d6b07a2a1174d",
-          "TimeBuilt": "2026-06-10T01:03:17.3275109+00:00",
-          "EffectiveVersion": "1.10.15.0",
+          "BuiltCommit": "99d290dab158ff77ae3ebd2e5bd3bcd17569d290",
+          "TimeBuilt": "2026-06-10T23:37:38.0573572+00:00",
+          "EffectiveVersion": "1.10.16.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -235468,6 +235552,50 @@
             "1.10.15.0": {
               "TimeReleased": "2026-06-10T01:03:17.3275126+00:00",
               "Changelog": "- **Collection**: 7.51 facewear\u0022\n- **Progress**:\n  - Cosmic exploration rewards update\n  - Events reward for 2026 updated when optional reward not given by questline available (ie: those buyable via event currency) \n- **Timers**: Tribe unlocking check was using custom deliveries check instead of correct one.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.72"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.10.16.0": {
+              "TimeReleased": "2026-06-10T23:37:38.0574202+00:00",
+              "Changelog": "- **Progress**: Fix beast tribes/societal relations data collect\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -277034,9 +277162,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "411a77ff118371e6d641f5be3f9dd34453f8335b",
-          "TimeBuilt": "2026-06-10T01:04:03.6685074+00:00",
-          "EffectiveVersion": "3.1.0.10",
+          "BuiltCommit": "cbc8e0b9e4bf243772a1b60ad2bce26745029b80",
+          "TimeBuilt": "2026-06-10T23:38:19.6093074+00:00",
+          "EffectiveVersion": "3.1.0.11",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -277441,6 +277569,34 @@
             "3.1.0.10": {
               "TimeReleased": "2026-06-10T01:04:03.6685085+00:00",
               "Changelog": "## What\u0027s new\r\n\r\n### Chat highlights\r\nYou can now pick **any colour** for chat highlight rules in **Tools \u2192 Chat Highlights**, instead of being stuck with preset swatches. Matching lines show up in chat in the colour you chose.\r\n\r\n### Mark bill messages\r\nDawn Hunt and Clan mark bills are less noisy. With **General \u2192 Message rewrites \u2192 Improved mark bill obtain lines** on (default), you get one short obtain line and the \u201CMark details can viewed at any time\u2026\u201D reminder is hidden.\r\n\r\n---\r\n\r\n## Fixes\r\n\r\n### Chat lines disappearing when they shouldn\u0027t\r\nSome normal chat \u2014 especially in **FC or party** \u2014 could vanish from your log after unrelated system messages (e.g. talking about a **mount** after a mount unlock). That should happen much less often now.\r\n\r\n### Old duty messages popping up again\r\nLines like **\u201CSyrcus Tower has begun\u201D** could show up later during unrelated things (e.g. FC crafting), even when you had instance messages filtered off. Improved duty commence messages now follow your System filter settings again.\r\n\r\n### Gear \u201Cadded to your inventory\u201D still showing\r\nIf you use **bypass armoury chest**, gear could still appear when **Hide added to your inventory** was on. That hide path should be more reliable now.\r\n\r\nIf you still see those lines, check:\r\n- **Currencies \u2192 Hide added to your inventory**\r\n- **General \u2192 Filter Obtained** (master toggle for obtain filtering)\r\n\r\n### NPC lines showing as blocked in debug\r\nBoss/NPC dialogue occasionally showed \u0060[Blocked]\u0060 in debug for no obvious reason \u2014 same family of fix as the FC/party chat issue above.\r\n\r\n---\r\n\r\n## If something still looks wrong\r\n\r\n1. Turn on **Tools \u2192 Enable debug mode** and note whether the missing line shows \u0060[Blocked]\u0060 and what label appears.\r\n2. If party/FC lines vanish, try turning off **Tools \u2192 Chat history** for a session.\r\n3. Check **Tools \u2192 Custom filters** for any Block rules that might match normal chat.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.11": {
+              "TimeReleased": "2026-06-10T23:38:19.6093084+00:00",
+              "Changelog": "## What\u0027s fixed\r\n\r\n- **Item obtains** \u2014 Lines like \u0022You obtain a tiny key\u0022 no longer disappear when desynthesis or cosmic reward filters are off but general obtained items are on.\r\n- **Gil obtains** \u2014 Hide obtained gil works more reliably.\r\n- **Chat Highlights** \u2014 Regex help text wraps normally instead of breaking one letter per line.\r\n\r\n## What\u0027s new / improved\r\n\r\n- **Glamour dresser** \u2014 Newer outfit storage and projection messages are recognized.\r\n- **Smarter matching** \u2014 Quest progress, combat abilities, exploration senses, and buff messages are less likely to match the wrong filter.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
