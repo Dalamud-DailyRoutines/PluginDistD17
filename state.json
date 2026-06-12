@@ -130885,9 +130885,9 @@
           }
         },
         "CrossUp": {
-          "BuiltCommit": "44b1d6b0b63d5edb3de32b7817f94cd887e03ecd",
-          "TimeBuilt": "2026-05-03T02:26:51.4412102+00:00",
-          "EffectiveVersion": "1.7.1.4",
+          "BuiltCommit": "9cf775b587b6c185c03a9edbbf1f063fd5b32cc1",
+          "TimeBuilt": "2026-06-11T16:38:47.6665242+00:00",
+          "EffectiveVersion": "1.7.1.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -131058,6 +131058,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "ItsBexy"
+            },
+            "1.7.1.5": {
+              "TimeReleased": "2026-06-11T16:38:47.6665634+00:00",
+              "Changelog": "- Fixed HUD features that apparently broke at some point whoops\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "ItsBexy"
             }
           }
