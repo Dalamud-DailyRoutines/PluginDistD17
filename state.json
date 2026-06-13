@@ -191907,9 +191907,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "ee7768ac0893f14580d89bff5644526d2d271ca0",
-          "TimeBuilt": "2026-05-16T18:51:59.2530404+00:00",
-          "EffectiveVersion": "1.40.2.0",
+          "BuiltCommit": "5b58513a5226a2d3b40aca96be4f51c779fab363",
+          "TimeBuilt": "2026-06-12T21:21:23.9616458+00:00",
+          "EffectiveVersion": "1.40.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -196057,6 +196057,198 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.40.3.0": {
+              "TimeReleased": "2026-06-12T20:26:06.0658602+00:00",
+              "Changelog": "- Fix some colors having 0 alpha, making them invisible\r\n- All configurable colors through vanilla chat should be importable now\r\n- Fix aspect ratio of icons\r\n  - Thanks SitiSchu",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "morelinq",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.40.4.0": {
+              "TimeReleased": "2026-06-12T21:21:23.9616825+00:00",
+              "Changelog": "- Fix colors being all black",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "morelinq",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
             }
           }
@@ -219568,9 +219760,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "b50671878e6fd5e05b7dc88b9dcffac87396c7b6",
-          "TimeBuilt": "2026-05-09T06:34:19.1064366+00:00",
-          "EffectiveVersion": "1.6.1.1",
+          "BuiltCommit": "daf408bae94c083e347b91da11be7774432f31b3",
+          "TimeBuilt": "2026-06-12T18:14:19.1056764+00:00",
+          "EffectiveVersion": "1.6.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -219912,6 +220104,22 @@
             "1.6.1.1": {
               "TimeReleased": "2026-05-09T06:34:19.1064378+00:00",
               "Changelog": "Updated to 7.5 - Zero has been added!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "spide-r"
+            },
+            "1.6.2.0": {
+              "TimeReleased": "2026-06-12T18:14:19.1057171+00:00",
+              "Changelog": "PvPAnnouncer is now NPCAnnouncer! Your favorite character can now comment on EVERY DUTY IN THE GAME!!!! Please report any and all bugs or issues.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -236120,9 +236328,9 @@
           }
         },
         "LazyGatherer": {
-          "BuiltCommit": "eda496e6e60ffa3020288c6f00c1c933f67231c3",
-          "TimeBuilt": "2026-04-30T21:04:50.0201801+00:00",
-          "EffectiveVersion": "1.3.4.0",
+          "BuiltCommit": "9388a9ea0f039ef6e74d95dc7ce28c163a7cbe47",
+          "TimeBuilt": "2026-06-12T20:25:50.6727163+00:00",
+          "EffectiveVersion": "1.4.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.1.0": {
@@ -236244,6 +236452,34 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "68d002993a2e1245830167052cba005ff285a939"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Hiroa"
+            },
+            "1.4.3.0": {
+              "TimeReleased": "2026-06-12T20:25:50.6727618+00:00",
+              "Changelog": "Version 1.4.3: \n  - Add GP regeneration alert (Off by default)\n  - Add background on rotation display (On by default, can be turned off on configuration)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "2d935fc74ee1843b6b5b2be5f9ff5e02ee46e87c"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -277358,9 +277594,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "cbc8e0b9e4bf243772a1b60ad2bce26745029b80",
-          "TimeBuilt": "2026-06-10T23:38:19.6093074+00:00",
-          "EffectiveVersion": "3.1.0.11",
+          "BuiltCommit": "50a00d9ce42b2b38baed9bfc1140ec9aa68bb302",
+          "TimeBuilt": "2026-06-12T23:41:14.5427047+00:00",
+          "EffectiveVersion": "3.1.0.14",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -277793,6 +278029,62 @@
             "3.1.0.11": {
               "TimeReleased": "2026-06-10T23:38:19.6093084+00:00",
               "Changelog": "## What\u0027s fixed\r\n\r\n- **Item obtains** \u2014 Lines like \u0022You obtain a tiny key\u0022 no longer disappear when desynthesis or cosmic reward filters are off but general obtained items are on.\r\n- **Gil obtains** \u2014 Hide obtained gil works more reliably.\r\n- **Chat Highlights** \u2014 Regex help text wraps normally instead of breaking one letter per line.\r\n\r\n## What\u0027s new / improved\r\n\r\n- **Glamour dresser** \u2014 Newer outfit storage and projection messages are recognized.\r\n- **Smarter matching** \u2014 Quest progress, combat abilities, exploration senses, and buff messages are less likely to match the wrong filter.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.12": {
+              "TimeReleased": "2026-06-12T17:35:13.9929546+00:00",
+              "Changelog": "## New\r\n- **Economy \u2192 Trade:** Show trade request sent, incoming trade requests, awaiting confirmation, trade canceled, trade complete, and trade item preview lines (most off by default; trade complete on)\r\n\r\n## Bugfixes\r\n- **Duty commence:** \u0022Duty has begun\u0022 no longer blocks unrelated lines containing \u0022has begun\u0022 (e.g. aramitama Lifestream FATE text)\r\n- **LogMessage path:** More reliable handling \u2014 fewer edge-case mis-filters during login, job changes, and combat\r\n\r\n## Changed\r\n- **/xllog:** Blocked messages always written to the debug log \u2014 visible with \u0060/xllog\u0060 \u2192 Debug filter, without enabling TidyChat\u0027s debug checkbox (dry-run \u0060[TidyChat]\u0060 tags in chat still require **Tools \u2192 Enable debug mode**)\r\n- Help markers clarified on Combat and General tabs\r\n\r\n## Translations (Crowdin)\r\n- Merged Crowdin updates for DE, ES, FR, IT, JA, NN, PT, RU",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.14": {
+              "TimeReleased": "2026-06-12T23:41:14.5427464+00:00",
+              "Changelog": "## Removed (always pass through)\r\n- **Combat tab** \u2014 entire combat filtering removed (damage, buffs, debuffs, casts, etc.)\r\n- **Error message filters** \u2014 bulk of error-message rules removed; only FATE level-sync and active-help entry remain under System\r\n- **Duty / progression noise:** unlocks, quest progress, mount messages, party tools, duty mechanic/sealed/objective bonus, personal effect acquired, \u201Cchanges discarded/lost\u201D, eligible-for-coffers, and related catch-alls\r\n\r\n## New\r\n- **Duty tab** (between Party and Deep Dungeons):\r\n  - **Duty Finder** \u2014 registration language, registration complete, briefing, withdrawn, recruitment, unrestricted party lines, etc. (off by default)\r\n  - **Show Unrestricted clear time** (off by default)\r\n  - **Instance \u0026 duty status** \u2014 \u0060/instance\u0060 master \u002B nested toggles moved from System:\r\n    - Instanced area messages\r\n    - Duty will end soon\r\n    - Guildhest will end soon\r\n    - Level no longer synced\r\n- **Allied Societies:** **Omicron Omnitoken** (\u006037854\u0060) and **Loporrit Carat** (\u006038952\u0060) per-currency hide toggles\r\n\r\n## Changed\r\n- **System tab:** reorganized into Travel, Social, Mail \u0026 utility, and Orchestrion; **World \u0026 instances** section removed (duty/instance options moved to Duty); commendations moved to **Party**\r\n- **Economy tab:** gear repair moved from Gil \u2192 new **Repairs** section\r\n- **Settings search:** paths and label keys updated for tab-prefixed layout (\u0060*Tab_*\u0060 for Exploration, Glamour, Housing, Materia, Progress, Party, System, Economy, Duty)\r\n- **Rule metadata:** corrected \u0060SettingsTab\u0060 assignments (e.g. spiritbound gear \u2192 Materia, gear repair \u2192 Economy, duty/instance rules \u2192 Duty)",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -295473,9 +295765,9 @@
           }
         },
         "LazyGatherer": {
-          "BuiltCommit": "d07e1ced7572ab49c83c141dbe99c753ca366882",
-          "TimeBuilt": "2026-06-01T09:43:20.1810488+00:00",
-          "EffectiveVersion": "1.4.2.0",
+          "BuiltCommit": "9388a9ea0f039ef6e74d95dc7ce28c163a7cbe47",
+          "TimeBuilt": "2026-06-12T20:26:19.5648631+00:00",
+          "EffectiveVersion": "1.4.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -295896,6 +296188,34 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "Hiroa"
+            },
+            "1.4.3.0": {
+              "TimeReleased": "2026-06-12T20:26:19.5648647+00:00",
+              "Changelog": "Version 1.4.3: \n - Add option to trigger GP alerts only on gatherer jobs\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "2d935fc74ee1843b6b5b2be5f9ff5e02ee46e87c"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Hiroa"
             }
           }
@@ -302965,9 +303285,9 @@
           }
         },
         "QuickSymbols": {
-          "BuiltCommit": "7179a5f0fe04d1c89d210cf20d3ab41f68e34f13",
-          "TimeBuilt": "2026-06-03T03:26:15.7044465+00:00",
-          "EffectiveVersion": "1.0.0.6",
+          "BuiltCommit": "8fa7288585ded8883778f0ee86503b8e11c9a19a",
+          "TimeBuilt": "2026-06-12T18:31:39.5320652+00:00",
+          "EffectiveVersion": "1.0.0.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.5": {
@@ -303001,6 +303321,22 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "seventity7"
+            },
+            "1.0.0.7": {
+              "TimeReleased": "2026-06-12T18:31:39.532106+00:00",
+              "Changelog": "### Icon update\n- Changed icon with better resolution\n- Updating new Username\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "LatencyBryer"
             }
           }
         },
@@ -327432,6 +327768,27 @@
       "Version": "4.3.6",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-06-12T05:16:27.8548231Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack",
+      "Version": "3.1.7",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-12T20:26:06.1390925Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack.Annotations",
+      "Version": "3.1.7",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-12T20:26:06.1391305Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePackAnalyzer",
+      "Version": "3.1.7",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-12T20:26:06.1391306Z"
     }
   ]
 }
