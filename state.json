@@ -123515,9 +123515,9 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "e286918e8e92e67dfaa4fbf5b7c881a07a302d0c",
-          "TimeBuilt": "2026-06-06T18:19:24.8055114+00:00",
-          "EffectiveVersion": "1.15.0.6",
+          "BuiltCommit": "146e247d1785110ed4d9caee275ea43ecf414669",
+          "TimeBuilt": "2026-06-16T13:39:03.3269053+00:00",
+          "EffectiveVersion": "1.15.0.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.3.1": {
@@ -124278,6 +124278,26 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Caraxi"
+            },
+            "1.15.0.7": {
+              "TimeReleased": "2026-06-16T13:39:03.3269497+00:00",
+              "Changelog": "***Tweak Changes***\r\n- **\u0060Display EXP Gain Percentage of Level\u0060** - Fixed log message being hidden after Dalamud update.\r\n\r\n- **\u0060Track Outfits\u0060** - Fixed some key items incorrectly indicating they belong to an outfit.\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "1.1.23"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Caraxi"
             }
           }
@@ -243232,14 +243252,30 @@
           }
         },
         "QuickSymbols": {
-          "BuiltCommit": "57796b302b33ea82518d8f517258460289bb4fbc",
-          "TimeBuilt": "2026-06-15T18:17:32.4352237+00:00",
-          "EffectiveVersion": "1.0.0.8",
+          "BuiltCommit": "d5968b3eac5bbfc9dc51c16f6715291bf6a6429d",
+          "TimeBuilt": "2026-06-16T02:32:10.2526835+00:00",
+          "EffectiveVersion": "1.0.0.9",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.8": {
               "TimeReleased": "2026-06-15T18:17:32.435227+00:00",
               "Changelog": "Adds a symbol picker letting you quickly insert any symbols from the game into chat.\n\n### Features\n- Quick-access \u0022\u2665\u0022 button on chat for opening the symbol list\n  - Allows the \u0022\u2665\u0022 button position to be changed through drag-and-drop\n  - List shows ALL existing custom symbols for FFXIV\n  - Favorite\u0027s system and Custom entries creation\n- Symbol list can open through a configurable keybind\n- Optional popup behavior options\n\n### What\u0027s New in 1.0.0.8?\n- Added 7 new symbol tabs to make browsing easier\n- **Custom** tab now has a cleaner layout and a button when no custom entries are set\n- Updated the tabs design with a smoother, cleaner animated selector\n\n### Notes\nQuickSymbols is designed for the game\u0027s native chat and supported in-game text inputs.\nText inputs created by other plugins, such as ChatTwo, may not support symbol insertion yet.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "LatencyBryer"
+            },
+            "1.0.0.9": {
+              "TimeReleased": "2026-06-16T02:32:10.252759+00:00",
+              "Changelog": "- Added IPC support/documentation\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -249757,9 +249793,9 @@
           "Changelogs": {}
         },
         "RpUtils": {
-          "BuiltCommit": "8273fbda60bdbe66f6704638646a82ea46edccac",
-          "TimeBuilt": "2026-05-01T20:49:13.2049452+00:00",
-          "EffectiveVersion": "0.6.0.0",
+          "BuiltCommit": "cb50c16d6f45b7020d2ca0614d277d83658e0f45",
+          "TimeBuilt": "2026-06-16T04:05:14.5754331+00:00",
+          "EffectiveVersion": "0.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.0.0": {
@@ -250357,6 +250393,146 @@
                 {
                   "Key": "Microsoft.Extensions.Primitives",
                   "Version": "10.0.7"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Nerifyra"
+            },
+            "0.7.0.0": {
+              "TimeReleased": "2026-06-16T04:05:14.5754807+00:00",
+              "Changelog": "This update adds a first pass on custom markers for use in roleplay events to indicate the location of objects/creatures/etc to interact with. It also includes several bug fixes and updates while I\u0027m trying to get some better patterns implemented moving forward. ",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Pictomancy",
+                  "Version": "1.0.8"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "1.1.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.8"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.D3DCompiler",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct2D1",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct3D11",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.DXGI",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Mathematics",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -329155,6 +329331,20 @@
       "Version": "6.1.7",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-06-15T15:12:30.4154263Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Pictomancy",
+      "Version": "1.0.8",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-16T04:05:14.6582878Z"
+    },
+    {
+      "Type": 1,
+      "Key": "KamiToolKit",
+      "Version": "1.1.2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-16T04:05:14.65831Z"
     }
   ]
 }
