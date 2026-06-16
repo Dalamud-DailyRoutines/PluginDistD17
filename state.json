@@ -243230,6 +243230,30 @@
               "Submitter": "epinephren"
             }
           }
+        },
+        "QuickSymbols": {
+          "BuiltCommit": "57796b302b33ea82518d8f517258460289bb4fbc",
+          "TimeBuilt": "2026-06-15T18:17:32.4352237+00:00",
+          "EffectiveVersion": "1.0.0.8",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.8": {
+              "TimeReleased": "2026-06-15T18:17:32.435227+00:00",
+              "Changelog": "Adds a symbol picker letting you quickly insert any symbols from the game into chat.\n\n### Features\n- Quick-access \u0022\u2665\u0022 button on chat for opening the symbol list\n  - Allows the \u0022\u2665\u0022 button position to be changed through drag-and-drop\n  - List shows ALL existing custom symbols for FFXIV\n  - Favorite\u0027s system and Custom entries creation\n- Symbol list can open through a configurable keybind\n- Optional popup behavior options\n\n### What\u0027s New in 1.0.0.8?\n- Added 7 new symbol tabs to make browsing easier\n- **Custom** tab now has a cleaner layout and a button when no custom entries are set\n- Updated the tabs design with a smoother, cleaner animated selector\n\n### Notes\nQuickSymbols is designed for the game\u0027s native chat and supported in-game text inputs.\nText inputs created by other plugins, such as ChatTwo, may not support symbol insertion yet.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "LatencyBryer"
+            }
+          }
         }
       }
     },
@@ -304637,62 +304661,6 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "sleeds2"
-            }
-          }
-        },
-        "QuickSymbols": {
-          "BuiltCommit": "8fa7288585ded8883778f0ee86503b8e11c9a19a",
-          "TimeBuilt": "2026-06-12T18:31:39.5320652+00:00",
-          "EffectiveVersion": "1.0.0.7",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.0.5": {
-              "TimeReleased": "2026-06-01T19:48:15.0684267+00:00",
-              "Changelog": "Adds a fast symbol picker letting you quickly insert any symbols into supported in-game text fields.\nIt is designed to make commonly used symbols easier to access without manually copying them from third-parties or typing them every time.\n\n## Features\n- Adds a floating quick-access \u0022\u2665\u0022 button for opening the symbol popup\n  - Allows the \u0022\u2665\u0022 button position to be changed through drag-and-drop repositioning\n  - Provides a symbol popup for quickly selecting and inserting symbols\n  - List shows ALL existing custom symbols for FFXIV\n- Supports opening the symbol popup through a configurable keybind\n- Ensures only one symbol popup is open at a time\n- Allows keybind-opened popups to be temporarily moved by dragging empty space inside the popup\n- Includes a character selector toggle option for symbol selection behavior\n- Adds an optional \u0022Close popup on lost focus\u0022 setting to auto-close the popup when clicking outside of it\n- Adds quick popup controls for closing the popup, changing the \u0022\u2665\u0022 button position and opening the config window\n- Includes a help tooltip explaining how to properly use some features\n\n## Notes\nThe plugin is intended as a lightweight quality-of-life tool for players who frequently use special symbols in chat, search fields, notes or others\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "seventity7"
-            },
-            "1.0.0.6": {
-              "TimeReleased": "2026-06-03T03:26:15.7044474+00:00",
-              "Changelog": "### Icon update\n- Changed plugin icon\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "seventity7"
-            },
-            "1.0.0.7": {
-              "TimeReleased": "2026-06-12T18:31:39.532106+00:00",
-              "Changelog": "### Icon update\n- Changed icon with better resolution\n- Updating new Username\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "LatencyBryer"
             }
           }
         },
