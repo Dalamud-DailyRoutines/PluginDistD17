@@ -69698,9 +69698,9 @@
           }
         },
         "ToastingwayPlugin": {
-          "BuiltCommit": "bcbdad29d6a41b1137d37eb3dd8737c287735234",
-          "TimeBuilt": "2026-06-10T23:38:07.215791+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "0b7f4788aa00e5db68e374233c784e87ddd48171",
+          "TimeBuilt": "2026-06-18T01:46:56.2876531+00:00",
+          "EffectiveVersion": "1.4.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -69829,6 +69829,22 @@
             "1.4.0.0": {
               "TimeReleased": "2026-06-10T23:38:07.215792+00:00",
               "Changelog": "Add in Dalamud toast option and robustness and tidy refactor.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "powellad"
+            },
+            "1.4.0.1": {
+              "TimeReleased": "2026-06-18T01:46:56.2876547+00:00",
+              "Changelog": "Fix for restoring saved configuration.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -119739,9 +119755,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "2ad4f09fa70295e0801769950098107743ab90bf",
-          "TimeBuilt": "2026-06-15T15:11:37.736368+00:00",
-          "EffectiveVersion": "1.7.1.6",
+          "BuiltCommit": "728bf8b6c379ea66e1ee930114595fe91a9d4cb5",
+          "TimeBuilt": "2026-06-18T01:46:21.4561173+00:00",
+          "EffectiveVersion": "1.7.1.7",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -120798,6 +120814,42 @@
             "1.7.1.6": {
               "TimeReleased": "2026-06-15T15:11:37.7364194+00:00",
               "Changelog": "- Update KTK\r\n- Fix ImGui Asserts",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.1.7": {
+              "TimeReleased": "2026-06-18T01:46:21.4561188+00:00",
+              "Changelog": "- Fix KTK unload",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -228760,9 +228812,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "20d3d30fe96f73c8cc0d1746c6e7002bc4dc7437",
-          "TimeBuilt": "2026-05-19T15:39:20.2117797+00:00",
-          "EffectiveVersion": "1.3.2.1",
+          "BuiltCommit": "2e90812a4a4a4b1249cec0750238c60733083fe2",
+          "TimeBuilt": "2026-06-18T01:46:47.7716887+00:00",
+          "EffectiveVersion": "1.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -233956,6 +234008,46 @@
                 {
                   "Key": "SixLabors.ImageSharp",
                   "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.1.0": {
+              "TimeReleased": "2026-06-18T01:46:47.7716905+00:00",
+              "Changelog": "Several internal systems have been upgraded and improved, this plugin now loads each modules asynchronously meaning less lag impact on the game when opening windows or turning features on and off.\r\n\r\nSignificantly improved performance\r\n\r\nInitial pass on controller support. Only some windows have full controller support, others have limited support, and some have no support at all. This will be improved upon over time.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "26a0abbc8795a3b4b903623022ae8ba6725b59a5"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "a13fa93095875ccd88dfa6133e23658d5221a57b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.6"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
                 },
                 {
                   "Key": "Sylvan.Data.Csv",
@@ -243052,9 +243144,9 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "062d216ec6d5e40fe9047cb0e89fe13aca2276ff",
-          "TimeBuilt": "2026-06-17T01:15:08.3411918+00:00",
-          "EffectiveVersion": "1.3.1.0",
+          "BuiltCommit": "8b6eb6addfe17ecbb71c2c38174e0d2174eb57a0",
+          "TimeBuilt": "2026-06-18T01:46:11.2161113+00:00",
+          "EffectiveVersion": "1.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -243124,6 +243216,22 @@
             "1.3.1.0": {
               "TimeReleased": "2026-06-17T01:15:08.3412678+00:00",
               "Changelog": "**Update**: Added /jr as an alias for /jobroulette.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            },
+            "1.4.0.0": {
+              "TimeReleased": "2026-06-18T01:46:11.2161483+00:00",
+              "Changelog": "**New Feature**: Added an option to choose a random glamour plate when randomly choosing a job.\n- Option added to the settings panel to toggle random glamour plate switching\n- /jobroulette \u0060glam\u0060|\u0060glamour\u0060 will toggle the random glamour option\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -243268,9 +243376,9 @@
           }
         },
         "QuickSymbols": {
-          "BuiltCommit": "d5968b3eac5bbfc9dc51c16f6715291bf6a6429d",
-          "TimeBuilt": "2026-06-16T02:32:10.2526835+00:00",
-          "EffectiveVersion": "1.0.0.9",
+          "BuiltCommit": "a7163bfe93a7be3ff11d28b329d9c316c97d68bc",
+          "TimeBuilt": "2026-06-18T01:46:30.5018032+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.8": {
@@ -243292,6 +243400,22 @@
             "1.0.0.9": {
               "TimeReleased": "2026-06-16T02:32:10.252759+00:00",
               "Changelog": "- Added IPC support/documentation\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "LatencyBryer"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2026-06-18T01:46:30.501806+00:00",
+              "Changelog": "### What\u0027s New?\n- Added **Button position** options:\n  - **Left of Chat**\n  - **Right of Chat**\n  - **Keybind Only**\n- Option to **Use Dalamud theme** instead of the FFXIV theme\n- Added a popup **Background opacity** option\n  - Can be adjusted from **0%** to **100%** _(Transparent to Opaque)_\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -304801,9 +304925,9 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "062d216ec6d5e40fe9047cb0e89fe13aca2276ff",
-          "TimeBuilt": "2026-06-17T01:15:16.7017146+00:00",
-          "EffectiveVersion": "1.3.1.0",
+          "BuiltCommit": "8b6eb6addfe17ecbb71c2c38174e0d2174eb57a0",
+          "TimeBuilt": "2026-06-18T01:47:04.2984879+00:00",
+          "EffectiveVersion": "1.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -304857,6 +304981,22 @@
             "1.3.1.0": {
               "TimeReleased": "2026-06-17T01:15:16.7017157+00:00",
               "Changelog": "**Update**: Added /jr as an alias for /jobroulette.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            },
+            "1.4.0.0": {
+              "TimeReleased": "2026-06-18T01:47:04.2984891+00:00",
+              "Changelog": "**New Feature**: Added an option to choose a random glamour plate when randomly choosing a job.\n- Option added to the settings panel to toggle random glamour plate switching\n- /jobroulette \u0060glam\u0060|\u0060glamour\u0060 will toggle the random glamour option\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -329449,6 +329589,13 @@
       "Version": "1.1.2",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-06-16T04:05:14.65831Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "26a0abbc8795a3b4b903623022ae8ba6725b59a5",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-18T01:46:47.8039894Z"
     }
   ]
 }
