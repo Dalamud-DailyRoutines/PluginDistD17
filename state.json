@@ -206080,9 +206080,9 @@
           }
         },
         "TeamcraftListMaker": {
-          "BuiltCommit": "43f24ba7359d6e9855a8e36eb4853491a3d5bd95",
-          "TimeBuilt": "2026-06-12T05:16:11.4425245+00:00",
-          "EffectiveVersion": "1.0.1.1",
+          "BuiltCommit": "6e16d3ea4885b01b6a879f54b02732728646fc60",
+          "TimeBuilt": "2026-06-19T21:25:20.9853577+00:00",
+          "EffectiveVersion": "1.0.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
@@ -206472,6 +206472,22 @@
             "1.0.1.1": {
               "TimeReleased": "2026-06-12T05:16:11.4425264+00:00",
               "Changelog": "- Have it split lists if it exceeds 100 items on export",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Aida-Enna"
+            },
+            "1.0.1.2": {
+              "TimeReleased": "2026-06-19T21:25:20.985359+00:00",
+              "Changelog": "- Have it split lists if it exceeds 100 items on export\n- Text bugfix for the above feature",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -220692,9 +220708,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "f465357c311f231a7ba216d0eceae6e1afb0adf0",
-          "TimeBuilt": "2026-06-13T20:39:18.2086549+00:00",
-          "EffectiveVersion": "1.6.2.1",
+          "BuiltCommit": "5c81445f6d9c7ada487a74e7e9fc62126fcad30e",
+          "TimeBuilt": "2026-06-19T21:24:57.723751+00:00",
+          "EffectiveVersion": "1.6.2.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -221068,6 +221084,22 @@
             "1.6.2.1": {
               "TimeReleased": "2026-06-13T20:39:18.2086928+00:00",
               "Changelog": "PvPAnnouncer is now NPCAnnouncer! Your favorite character can now comment on EVERY DUTY IN THE GAME!!!! Please report any and all bugs or issues.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "spide-r"
+            },
+            "1.6.2.2": {
+              "TimeReleased": "2026-06-19T21:24:57.7237938+00:00",
+              "Changelog": "Voice Lines now have a cooldown that will clear after a time. New Config Settings, some fixes. Event History is now visible.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -228812,9 +228844,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "2e90812a4a4a4b1249cec0750238c60733083fe2",
-          "TimeBuilt": "2026-06-18T01:46:47.7716887+00:00",
-          "EffectiveVersion": "1.4.1.0",
+          "BuiltCommit": "bba549314c8d7beb986d630164944691f15dad0c",
+          "TimeBuilt": "2026-06-19T21:25:13.4513505+00:00",
+          "EffectiveVersion": "1.4.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -234028,6 +234060,46 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
                   "Version": "a13fa93095875ccd88dfa6133e23658d5221a57b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.6"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.1.2": {
+              "TimeReleased": "2026-06-19T21:25:13.4513524+00:00",
+              "Changelog": "Fancy Loading Screens - New feature, a reimplementation of the Fancy Loading Screens plugin by goat, maintained by MapleRecall. (Added with permission)\r\n\r\nAction Highlight - Updated thanks to Zeffuro, still marked as Experimental for a short while.\r\n\r\nSome minor system fixes",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "d9402bf2511c9f36b0f864f01def3f05152df144"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "43d15a7bebdb7b4a00fc3acd3d0669a21e3f0004"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -279010,9 +279082,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "b2f793d942edae6a2642b07fa82e17385867b27e",
-          "TimeBuilt": "2026-06-15T00:01:22.9201139+00:00",
-          "EffectiveVersion": "3.1.0.17",
+          "BuiltCommit": "76014301cdc049ae720dff6ed226f40efe374d10",
+          "TimeBuilt": "2026-06-19T21:25:40.27993+00:00",
+          "EffectiveVersion": "3.1.0.18",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -279585,6 +279657,34 @@
             "3.1.0.17": {
               "TimeReleased": "2026-06-15T00:01:22.9201153+00:00",
               "Changelog": "## Fixed\r\n- Loot and system message filters no longer hide things other players type in say, shout, party, tell, linkshell, or Free Company chat.\r\n- \u0022Show all players\u0022 works again, so other people\u0027s loot rolls and lot casts show up like they should.\r\n- Hiding quest item pickups no longer removes the floating pickup text above your character.\r\n- Hiding gil or MGP pickups no longer hides your normal gear and item pickups along with them.\r\n- The kicked-out message in treasure map dungeons now shows the floor you were actually on.\r\n- Cosmic Exploration mission completions and high scores are recognised on their own now, so they follow your Cosmic settings instead of getting caught by a generic filter.\r\n\r\n## Added\r\n- Tool mastery point gains are now covered by the \u0022show cosmic class points, tool mastery, and dataset submission\u0022 setting.\r\n- Cosmic Exploration sizable contribution messages can now be filtered.\r\n- Stellar mission complete messages now have their own filter.\r\n\r\n## Changed\r\n- Setting labels and help text for cosmic class points and exploration now mention tool mastery and sizable contributions.\r\n- Blocked messages always show in the plugin log, while the in-chat debug labels only appear when debug mode is turned on.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.18": {
+              "TimeReleased": "2026-06-19T21:25:40.2799313+00:00",
+              "Changelog": "### Bugfix\r\n- Other-player item obtains, loot rolls, and cast lots now respect their party-tab toggles (\u0060HideOthersObtain\u0060, \u0060ShowOthersLootRoll\u0060, \u0060ShowOthersCastLot\u0060)\r\n- Generic obtain/roll show rules no longer match other-player lines when those toggles should defer them\r\n- Added LootNotice hide coverage for shared obtain templates (657/1259) with other-player markers\r\n\r\n### New\r\n- **Progress tab:** \u201CShow mettle gain messages\u201D toggle (LogMessage 9635)",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -284697,9 +284797,9 @@
           }
         },
         "HUDLayoutHelper": {
-          "BuiltCommit": "87f8d6413ff29fc18c71405d7740209968ec6d18",
-          "TimeBuilt": "2025-12-30T01:45:18.5379302+00:00",
-          "EffectiveVersion": "0.0.0.3",
+          "BuiltCommit": "5abfc1a745559b8b6c76891607b5176a4a8cf78a",
+          "TimeBuilt": "2026-06-19T21:25:28.9100087+00:00",
+          "EffectiveVersion": "0.0.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -284752,6 +284852,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Mary-Usagi"
+            },
+            "0.0.4.0": {
+              "TimeReleased": "2026-06-19T21:25:28.9100102+00:00",
+              "Changelog": "Update to API 15",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Mary-Usagi"
             }
           }
@@ -329596,6 +329712,20 @@
       "Version": "26a0abbc8795a3b4b903623022ae8ba6725b59a5",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-06-18T01:46:47.8039894Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "d9402bf2511c9f36b0f864f01def3f05152df144",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-19T21:25:13.5197599Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+      "Version": "43d15a7bebdb7b4a00fc3acd3d0669a21e3f0004",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-19T21:25:13.5197966Z"
     }
   ]
 }
