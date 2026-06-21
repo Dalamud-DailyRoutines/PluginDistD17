@@ -234428,9 +234428,9 @@
           }
         },
         "BeastieBuddy": {
-          "BuiltCommit": "4b6a59edbf3e84343dbdb546f5dad0a5c9e8f60a",
-          "TimeBuilt": "2026-05-13T04:00:40.4888061+00:00",
-          "EffectiveVersion": "7.50.1.1",
+          "BuiltCommit": "add893a05defb62e7f55d9aaf8a613154a49528c",
+          "TimeBuilt": "2026-06-20T22:00:41.3814914+00:00",
+          "EffectiveVersion": "7.51.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -234847,6 +234847,58 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "rail2025"
+            },
+            "7.51.0.0": {
+              "TimeReleased": "2026-06-20T22:00:41.3815299+00:00",
+              "Changelog": "v7.51.0.0: search list expanded from 10 to 25, clustered results, click to teleport option",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.3.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "rail2025"
             }
           }
@@ -243448,9 +243500,9 @@
           }
         },
         "QuickSymbols": {
-          "BuiltCommit": "a7163bfe93a7be3ff11d28b329d9c316c97d68bc",
-          "TimeBuilt": "2026-06-18T01:46:30.5018032+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "d5f35580462cd7cc0979c72d5d478f88da53014a",
+          "TimeBuilt": "2026-06-20T23:20:20.038056+00:00",
+          "EffectiveVersion": "1.0.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.8": {
@@ -243488,6 +243540,22 @@
             "1.0.1.0": {
               "TimeReleased": "2026-06-18T01:46:30.501806+00:00",
               "Changelog": "### What\u0027s New?\n- Added **Button position** options:\n  - **Left of Chat**\n  - **Right of Chat**\n  - **Keybind Only**\n- Option to **Use Dalamud theme** instead of the FFXIV theme\n- Added a popup **Background opacity** option\n  - Can be adjusted from **0%** to **100%** _(Transparent to Opaque)_\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "LatencyBryer"
+            },
+            "1.0.1.1": {
+              "TimeReleased": "2026-06-20T23:20:20.0380932+00:00",
+              "Changelog": "### What\u0027s New?\n- Fixed \u0022\u2665\u0022 button alignment/centering\n- The \u0022\u2665\u0022 button now appears in more native windows:\n  - User Macros\n  - Strategy Board\n- New **optional** feature: Automatic Text-To-Symbol\n  - Automaticaly convert known texts to symbols, like \u003C3 -\u003E \u2665\n  - Create your own Text-To-Symbol in the config\nNote:\n\u0022Text-To-Symbol\u0022 feature is intended for vanilla chat only and will work ONLY with it.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
