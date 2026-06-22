@@ -101240,9 +101240,9 @@
           }
         },
         "SimpleMarketBoard": {
-          "BuiltCommit": "d2485e32755895f5119446847abbb9ba52fd0b4b",
-          "TimeBuilt": "2026-05-01T04:55:55.6054792+00:00",
-          "EffectiveVersion": "1.11.0.1",
+          "BuiltCommit": "ff1694c987327142bc6ed80ffd92a3248e13f7cc",
+          "TimeBuilt": "2026-06-21T21:22:47.3500692+00:00",
+          "EffectiveVersion": "1.12.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.2": {
@@ -102649,6 +102649,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Elypha"
+            },
+            "1.12.0.0": {
+              "TimeReleased": "2026-06-21T21:22:47.3500702+00:00",
+              "Changelog": "v1.12.0.0\r\n- Fix a compatibility issue with Universalis.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Elypha/Miosuke.git",
+                  "Version": "ebc47e2e746dec28778c2e04336a89cef82d56ac"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Elypha"
             }
           }
@@ -125453,9 +125473,9 @@
           }
         },
         "BatteryGauge": {
-          "BuiltCommit": "860afb4aeebeef315026ac1a7a3eda8c34a84ca4",
-          "TimeBuilt": "2025-12-19T22:16:56.0612485+00:00",
-          "EffectiveVersion": "1.2.5.0",
+          "BuiltCommit": "8e9fec9cc3270c0e401c3316f3b7c875181262c5",
+          "TimeBuilt": "2026-06-22T01:51:25.1009598+00:00",
+          "EffectiveVersion": "1.2.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.1.0": {
@@ -125537,6 +125557,22 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "KazWolfe"
+            },
+            "1.2.6.0": {
+              "TimeReleased": "2026-06-22T01:51:25.1010058+00:00",
+              "Changelog": "API15 release, better nate than lever.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -140074,9 +140110,9 @@
           }
         },
         "SubmarineTracker": {
-          "BuiltCommit": "03d1de30cd9aa41af07908f4a5aa3edfa8ce2c2b",
-          "TimeBuilt": "2026-06-15T00:00:26.3329309+00:00",
-          "EffectiveVersion": "2.0.5.4",
+          "BuiltCommit": "503213bb9d66570b10ca61633b5d1aa2ac333128",
+          "TimeBuilt": "2026-06-21T21:21:56.4900885+00:00",
+          "EffectiveVersion": "2.0.5.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -144111,6 +144147,46 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
+            },
+            "2.0.5.5": {
+              "TimeReleased": "2026-06-21T21:21:56.4901269+00:00",
+              "Changelog": "- Add T1 and Poor options to ShipFinder\r\n- Switch Spreadsheet to Website link\r\n- Update item data\r\n- Update loc",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "System.Data.SQLite",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
             }
           }
         },
@@ -144401,9 +144477,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "fae9f6b4fa71891d441c99418dc717c9b722b6cd",
-          "TimeBuilt": "2026-05-25T11:18:00.2601718+00:00",
-          "EffectiveVersion": "3.6.1.0",
+          "BuiltCommit": "3483db66ad0bf7d9da230b09cf216b1bb647ee65",
+          "TimeBuilt": "2026-06-21T21:22:28.3730708+00:00",
+          "EffectiveVersion": "3.6.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -145399,6 +145475,30 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "kelvin124124"
+            },
+            "3.6.1.2": {
+              "TimeReleased": "2026-06-21T21:22:28.3730728+00:00",
+              "Changelog": "adjust translation engine sequence to avoid 429 errors\r\nrewrite context fetching code\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "SearchPioneer.Lingua",
+                  "Version": "1.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "kelvin124124"
             }
           }
@@ -178012,9 +178112,9 @@
           }
         },
         "Snooper": {
-          "BuiltCommit": "a931b7e668362c3037fc97b2b5adb985d1927da4",
-          "TimeBuilt": "2026-05-03T17:36:49.5061424+00:00",
-          "EffectiveVersion": "1.5.0.2",
+          "BuiltCommit": "dbd107ebcdb0ba9b67342fbe1788b07751073062",
+          "TimeBuilt": "2026-06-22T01:43:29.0487662+00:00",
+          "EffectiveVersion": "1.5.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.0.0": {
@@ -178159,6 +178259,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Maia-Everett"
+            },
+            "1.5.1.0": {
+              "TimeReleased": "2026-06-22T01:43:29.0488161+00:00",
+              "Changelog": "* Hopefully fixed \u0022System.Collections.Generic.KeyNotFoundException: The given key \u0027TellOutgoing\u0027 was not present in the dictionary.\u0022.\n* Slightly enlarged the config window to fit all controls.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Maia-Everett"
             }
           }
@@ -199213,9 +199329,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "0d2012311db8de29358f0117ac50371ac584ab7a",
-          "TimeBuilt": "2026-05-17T19:43:39.7759204+00:00",
-          "EffectiveVersion": "2.3.1.2",
+          "BuiltCommit": "c25d12bec0a87f5262f104f541e801e1866f1a9f",
+          "TimeBuilt": "2026-06-22T01:55:46.5728627+00:00",
+          "EffectiveVersion": "3.1.0.19",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -199678,6 +199794,34 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.19": {
+              "TimeReleased": "2026-06-22T01:55:46.5729133+00:00",
+              "Changelog": "### Housing\r\n- **Ward entry** matching is stricter \u2014 lottery lines with \u201Cward \u201D no longer match the ward-entry rule\r\n- New **Housing lottery** toggle on the Housing tab (lottery submission \u002B estate tab reminder)\r\n\r\n### Filtering fixes\r\n- Friend requests no longer tagged as materia retrieval\r\n- Materia \u201Cyou receive \u2026\u201D matching is more specific\r\n- Venture **coffers** no longer treated as venture currency for hide rules\r\n- Combat log (damage, heals, casts, buffs, etc.) is never filtered\r\n- Error lines only hidden when a hide toggle is explicitly on\r\n\r\n### Other\r\n- Localization resource cleanup\r\n- Editor/resx tooling tweaks",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Kagekazu"
             }
           }
@@ -228844,9 +228988,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "bba549314c8d7beb986d630164944691f15dad0c",
-          "TimeBuilt": "2026-06-19T21:25:13.4513505+00:00",
-          "EffectiveVersion": "1.4.1.2",
+          "BuiltCommit": "08ad9289a9c0905ed1da0eb79319d7629e64e515",
+          "TimeBuilt": "2026-06-21T21:22:13.7924946+00:00",
+          "EffectiveVersion": "1.4.1.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -234100,6 +234244,46 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
                   "Version": "43d15a7bebdb7b4a00fc3acd3d0669a21e3f0004"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.6"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.1.3": {
+              "TimeReleased": "2026-06-21T21:22:13.7924967+00:00",
+              "Changelog": "Inventory Search Bar - Fix crash on close\r\nRetainer Search Bar - Fix crash on close\r\nGearset Reorder Buttons - Fix crash when window is closed",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "ff7a6897eea05baac85b1f915147fadd590a3c4f"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -242920,9 +243104,9 @@
           }
         },
         "Clock": {
-          "BuiltCommit": "2c9b68db6ef7b6617a07e037d7df52027f193caf",
-          "TimeBuilt": "2026-06-12T05:16:04.7294565+00:00",
-          "EffectiveVersion": "1.0.7.3",
+          "BuiltCommit": "956eb6aa496810f738197c064d8fd3cd2b26f2e5",
+          "TimeBuilt": "2026-06-21T21:22:38.3742752+00:00",
+          "EffectiveVersion": "1.0.7.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.6.5": {
@@ -243056,6 +243240,22 @@
             "1.0.7.3": {
               "TimeReleased": "2026-06-12T05:16:04.7294577+00:00",
               "Changelog": "### **Added:**\n- New themes: **Digital**, **Tech**, **Cartoon** **Countdown**\n- New option for changing the clock font style\n- New **Alarm overlay** with keybind support and better visual/functionality\n- New **Seasonal Events** reminder option\n  - Optional notifications \u002B Alarm\n\n**Improved:**\n- UI cleanup, translation improvements and general stability\n- Chat time conversion/alarm creation\n\n### **Notes:**\n- The \u0060alarm\u0060 section was removed from the main window\n  - **Alarm management is now focused on \u0060/alarms\u0060**\n  - Existing alarm features were reorganized, not removed\n- Reminders are now under **Reminders** tab\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "LatencyBryer"
+            },
+            "1.0.7.5": {
+              "TimeReleased": "2026-06-21T21:22:38.3742762+00:00",
+              "Changelog": "### **Added:**\n- Maintenance reminders now auto-create alarms\n- Chat time conversion now detect time formats using symbols\n\n### **Improved:**\n- Maintenance reminders now uses the start time\n- Maintenance checks run automatically every 2 hours\n\n### **Notes:**\n- Old **24 hours** maintenance reminder option was replaced for **5 hours before**\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -279150,9 +279350,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "76014301cdc049ae720dff6ed226f40efe374d10",
-          "TimeBuilt": "2026-06-19T21:25:40.27993+00:00",
-          "EffectiveVersion": "3.1.0.18",
+          "BuiltCommit": "c25d12bec0a87f5262f104f541e801e1866f1a9f",
+          "TimeBuilt": "2026-06-22T01:55:59.5974544+00:00",
+          "EffectiveVersion": "3.1.0.19",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -279776,6 +279976,34 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.19": {
+              "TimeReleased": "2026-06-22T01:55:59.5974555+00:00",
+              "Changelog": "### Housing\r\n- **Ward entry** matching is stricter \u2014 lottery lines with \u201Cward \u201D no longer match the ward-entry rule\r\n- New **Housing lottery** toggle on the Housing tab (lottery submission \u002B estate tab reminder)\r\n\r\n### Filtering fixes\r\n- Friend requests no longer tagged as materia retrieval\r\n- Materia \u201Cyou receive \u2026\u201D matching is more specific\r\n- Venture **coffers** no longer treated as venture currency for hide rules\r\n- Combat log (damage, heals, casts, buffs, etc.) is never filtered\r\n- Error lines only hidden when a hide toggle is explicitly on\r\n\r\n### Other\r\n- Localization resource cleanup\r\n- Editor/resx tooling tweaks",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Kagekazu"
             }
           }
@@ -329794,6 +330022,27 @@
       "Version": "43d15a7bebdb7b4a00fc3acd3d0669a21e3f0004",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-06-19T21:25:13.5197966Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Data.SQLite",
+      "Version": "2.0.3",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-21T21:21:56.5741249Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "ff7a6897eea05baac85b1f915147fadd590a3c4f",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-21T21:22:13.875357Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+      "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-21T21:22:13.8753575Z"
     }
   ]
 }
