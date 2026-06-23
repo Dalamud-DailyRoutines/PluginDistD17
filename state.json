@@ -228988,9 +228988,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "08ad9289a9c0905ed1da0eb79319d7629e64e515",
-          "TimeBuilt": "2026-06-21T21:22:13.7924946+00:00",
-          "EffectiveVersion": "1.4.1.3",
+          "BuiltCommit": "8b059f36417acfc23e8397ceae460be0fc646987",
+          "TimeBuilt": "2026-06-22T21:09:40.8851135+00:00",
+          "EffectiveVersion": "1.4.1.4",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -234311,6 +234311,46 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.1.4": {
+              "TimeReleased": "2026-06-22T21:09:40.8851662+00:00",
+              "Changelog": "More stability improvements.\r\n\r\nFixed custom windows not updating their window size correctly.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "122ca9c9e5599fda7fdfca222101d64cc8c440a9"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.6"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MidoriKami"
             }
           }
@@ -291233,9 +291273,9 @@
           }
         },
         "ArchipelagoXIV": {
-          "BuiltCommit": "e1f96e902d28a6232ca754343ce6dc97a999f0a7",
-          "TimeBuilt": "2026-05-04T14:56:07.5676205+00:00",
-          "EffectiveVersion": "0.28.0.0",
+          "BuiltCommit": "64ae639ba1b37ec1070fc6d20e4254f5022ff1a3",
+          "TimeBuilt": "2026-06-22T21:49:06.4315148+00:00",
+          "EffectiveVersion": "0.29.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.19.5.0": {
@@ -291432,6 +291472,26 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "silasary"
+            },
+            "0.29.0.0": {
+              "TimeReleased": "2026-06-22T21:49:06.4315569+00:00",
+              "Changelog": "Added new goals.",
+              "UsedNeeds": [
+                {
+                  "Key": "Archipelago.MultiClient.Net",
+                  "Version": "6.6.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "silasary"
             }
           }
@@ -300041,9 +300101,9 @@
           }
         },
         "WachuMakeyMaking": {
-          "BuiltCommit": "88ba81bb14728605dbac34f7064fd1ecbd4255b7",
-          "TimeBuilt": "2026-04-25T17:54:19.8750305+00:00",
-          "EffectiveVersion": "1.0.9.0",
+          "BuiltCommit": "e56373c4e7290d51189af83af52a013dc518c29d",
+          "TimeBuilt": "2026-06-22T21:09:50.3139379+00:00",
+          "EffectiveVersion": "1.0.10.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.6.0": {
@@ -300108,6 +300168,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "ArcaneAj"
+            },
+            "1.0.10.0": {
+              "TimeReleased": "2026-06-22T21:09:50.3139391+00:00",
+              "Changelog": "Updated to use SDK v15.\r\nFixed bug where opening any extra inventory or changing item quantities in game reset the resource overrides.\r\nManually set/overriden quantities do not get thrown away, even if the item you\u0027ve changed the quantity for has had its underlying quantity change.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "ArcaneAj"
             }
           }
@@ -330043,6 +330119,13 @@
       "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-06-21T21:22:13.8753575Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "122ca9c9e5599fda7fdfca222101d64cc8c440a9",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-06-22T21:09:40.9697482Z"
     }
   ]
 }
