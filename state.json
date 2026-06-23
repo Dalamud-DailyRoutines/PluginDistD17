@@ -243740,9 +243740,9 @@
           }
         },
         "QuickSymbols": {
-          "BuiltCommit": "d5f35580462cd7cc0979c72d5d478f88da53014a",
-          "TimeBuilt": "2026-06-20T23:20:20.038056+00:00",
-          "EffectiveVersion": "1.0.1.1",
+          "BuiltCommit": "c53f089146f9e42b189bfe6df81702e40400e814",
+          "TimeBuilt": "2026-06-23T05:49:22.1269696+00:00",
+          "EffectiveVersion": "1.0.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.8": {
@@ -243796,6 +243796,22 @@
             "1.0.1.1": {
               "TimeReleased": "2026-06-20T23:20:20.0380932+00:00",
               "Changelog": "### What\u0027s New?\n- Fixed \u0022\u2665\u0022 button alignment/centering\n- The \u0022\u2665\u0022 button now appears in more native windows:\n  - User Macros\n  - Strategy Board\n- New **optional** feature: Automatic Text-To-Symbol\n  - Automaticaly convert known texts to symbols, like \u003C3 -\u003E \u2665\n  - Create your own Text-To-Symbol in the config\nNote:\n\u0022Text-To-Symbol\u0022 feature is intended for vanilla chat only and will work ONLY with it.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "LatencyBryer"
+            },
+            "1.0.1.2": {
+              "TimeReleased": "2026-06-23T05:49:22.1270073+00:00",
+              "Changelog": "- Added a \u0022Compatibility Disclaimer\u0022 on config window\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -247888,9 +247904,9 @@
           "Changelogs": {}
         },
         "HUDManager": {
-          "BuiltCommit": "1cf34a6bf6d6cc14f298c07ab5b1412c847f57cb",
-          "TimeBuilt": "2026-06-10T01:03:35.059998+00:00",
-          "EffectiveVersion": "2.5.25.0",
+          "BuiltCommit": "3d6aa03953232ca336c678a4abc9573cd58409da",
+          "TimeBuilt": "2026-06-23T05:49:31.6265466+00:00",
+          "EffectiveVersion": "2.5.26.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.20.1": {
@@ -248060,6 +248076,26 @@
             "2.5.25.0": {
               "TimeReleased": "2026-06-10T01:03:35.059999+00:00",
               "Changelog": "- Add missing settings to split Status Info elements\r\n- Fix an issue where changing an element\u0027s layout caused the position to change incorrectly when the position preview window was active\r\n- Fix an issue where the export layout popup didn\u0027t render correctly\r\n- Small improvements to UI text alignment",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "12.3.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "nebel"
+            },
+            "2.5.26.0": {
+              "TimeReleased": "2026-06-23T05:49:31.6265478+00:00",
+              "Changelog": "- Adds a toggleable tree view to the layout editor:\r\n  - The tree view allows you reorder and reposition layouts (and entire layout subtrees) freely via drag and drop.\r\n  - Rather than setting a layout\u0027s parent via dropdown, simply place a layout under another to set it as the child. (Hold shift to attach a layout as the child of another if it currently has no children.)\r\n  - You can also drag and drop an element from the currently selected layout to another layout on the tree. This lets you copy or move element configurations between layouts.\r\n  - Return to the (slightly improved) compact view at any time.\r\n- Numerous other small improvements to the UI.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
