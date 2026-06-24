@@ -228744,9 +228744,9 @@
           }
         },
         "BetterFriendList": {
-          "BuiltCommit": "18fcdc4f997c1abb2a0bede7aacf40eb0127a36a",
-          "TimeBuilt": "2026-05-30T00:45:40.6147829+00:00",
-          "EffectiveVersion": "2.1.4.0",
+          "BuiltCommit": "7c51bfb633ff10762a77758e33ddf75fb4d420cd",
+          "TimeBuilt": "2026-06-24T05:12:25.79283+00:00",
+          "EffectiveVersion": "2.1.4.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -228983,6 +228983,46 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "devckuw"
+            },
+            "2.1.4.1": {
+              "TimeReleased": "2026-06-24T05:12:25.7928697+00:00",
+              "Changelog": "v2.1.4.1:\r\n- make sorting a little beter\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "7b98ee4ea14cc348fba0ed729359c95b31c84a43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "devckuw"
             }
           }
@@ -305613,14 +305653,30 @@
           }
         },
         "Drawers": {
-          "BuiltCommit": "817a516b722ab296b69bf675f5ec7c8c355dc1f6",
-          "TimeBuilt": "2026-06-17T01:09:38.523135+00:00",
-          "EffectiveVersion": "0.0.0.1",
+          "BuiltCommit": "ebdc0d950e1151ec0e707db3265def4f0da18bb7",
+          "TimeBuilt": "2026-06-24T05:12:33.4960144+00:00",
+          "EffectiveVersion": "0.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
               "TimeReleased": "2026-06-17T01:09:38.5231829+00:00",
               "Changelog": "Initial release. Replaces the standard weapon draw and sheathe actions with the /draw and /sheathe emotes.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "brosesarered"
+            },
+            "0.1.0.0": {
+              "TimeReleased": "2026-06-24T05:12:33.4960156+00:00",
+              "Changelog": "Added auto mode.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
