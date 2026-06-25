@@ -67967,9 +67967,9 @@
           }
         },
         "CoordImporter": {
-          "BuiltCommit": "d126a7faaec9978afa652411372c389b4bafd524",
-          "TimeBuilt": "2026-05-24T17:56:39.5528441+00:00",
-          "EffectiveVersion": "1.2.0.7",
+          "BuiltCommit": "686541a7aa1dfdbaba9f64e80fc47348b91f5cb1",
+          "TimeBuilt": "2026-06-25T05:48:09.9632263+00:00",
+          "EffectiveVersion": "1.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -69534,6 +69534,222 @@
                 {
                   "Key": "CSharpFunctionalExtensions",
                   "Version": "2.40.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "zw3lf"
+            },
+            "1.3.0.0": {
+              "TimeReleased": "2026-06-25T05:48:09.9632702+00:00",
+              "Changelog": "Add optional hunt sorting and teleporter pathing to output",
+              "UsedNeeds": [
+                {
+                  "Key": "CSharpFunctionalExtensions",
+                  "Version": "3.6.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DitzyExtensions",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "XIVHuntUtils",
+                  "Version": "1.6.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "Lib.Harmony",
+                  "Version": "2.3.0-prerelease.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "NSubstitute",
+                  "Version": "5.1.0"
+                },
+                {
+                  "Key": "NUnit",
+                  "Version": "3.13.3"
+                },
+                {
+                  "Key": "NUnit.Analyzers",
+                  "Version": "3.6.1"
+                },
+                {
+                  "Key": "NUnit3TestAdapter",
+                  "Version": "4.4.2"
+                },
+                {
+                  "Key": "Serilog",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "Castle.Core",
+                  "Version": "5.1.1"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "Mono.Cecil",
+                  "Version": "0.11.4"
+                },
+                {
+                  "Key": "MonoMod.Backports",
+                  "Version": "1.0.0-prerelease.2"
+                },
+                {
+                  "Key": "MonoMod.Core",
+                  "Version": "1.0.0-prerelease.2"
+                },
+                {
+                  "Key": "MonoMod.ILHelpers",
+                  "Version": "1.0.0-prerelease.2"
+                },
+                {
+                  "Key": "MonoMod.Utils",
+                  "Version": "25.0.0-prerelease.2"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "NuGet.Frameworks",
+                  "Version": "6.5.0"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -119775,9 +119991,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "728bf8b6c379ea66e1ee930114595fe91a9d4cb5",
-          "TimeBuilt": "2026-06-18T01:46:21.4561173+00:00",
-          "EffectiveVersion": "1.7.1.7",
+          "BuiltCommit": "8d7e577ed719fcb05d22a5dcc24e035198aa62a4",
+          "TimeBuilt": "2026-06-25T05:48:22.2343282+00:00",
+          "EffectiveVersion": "1.7.1.8",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -120882,6 +121098,42 @@
                 {
                   "Key": "KamiToolKit",
                   "Version": "2.0.9"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.1.8": {
+              "TimeReleased": "2026-06-25T05:48:22.2343292+00:00",
+              "Changelog": "- Workaround fix for KTK crash on logout",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
                 },
                 {
                   "Key": "Penumbra.Api",
@@ -300161,9 +300413,9 @@
           }
         },
         "Swatch": {
-          "BuiltCommit": "8828b53ee9e1d36c6374284e4a8a506a49390b6e",
-          "TimeBuilt": "2026-05-02T05:03:22.0779142+00:00",
-          "EffectiveVersion": "0.0.2.1",
+          "BuiltCommit": "f01e6f2cb2c2e543caf63dd78ac922ea64112ed2",
+          "TimeBuilt": "2026-06-25T05:48:32.4119596+00:00",
+          "EffectiveVersion": "0.0.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
@@ -300185,6 +300437,22 @@
             "0.0.2.1": {
               "TimeReleased": "2026-05-02T05:03:22.0779152+00:00",
               "Changelog": "DAPI 15",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sleepybnuuy"
+            },
+            "0.0.3.0": {
+              "TimeReleased": "2026-06-25T05:48:32.4119606+00:00",
+              "Changelog": "Fixed 999 rollover bug, added option for 3-place padding (ex. @ 008)",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -330218,6 +330486,13 @@
       "Version": "122ca9c9e5599fda7fdfca222101d64cc8c440a9",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-06-22T21:09:40.9697482Z"
+    },
+    {
+      "Type": 1,
+      "Key": "KamiToolKit",
+      "Version": "2.0.23",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-25T05:48:22.3078553Z"
     }
   ]
 }
