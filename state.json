@@ -243866,6 +243866,30 @@
               "Submitter": "LatencyBryer"
             }
           }
+        },
+        "RealTorch": {
+          "BuiltCommit": "5c4e0a2e5daccbfe8818b6c33b324167bd3191cc",
+          "TimeBuilt": "2026-06-24T14:12:18.7083972+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-06-24T14:12:18.7084018+00:00",
+              "Changelog": "RealTorch is a tiny plugin that makes the torch fashion accessory emit real light and cast shadows around the player. Only the player\u0027s own torch is affected.\r\n\r\nNow you can feel like a real explorer in the darkest of dungeons.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "yfthbr"
+            }
+          }
         }
       }
     },
@@ -305461,30 +305485,6 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "seventity7"
-            }
-          }
-        },
-        "RealTorch": {
-          "BuiltCommit": "5c4e0a2e5daccbfe8818b6c33b324167bd3191cc",
-          "TimeBuilt": "2026-05-28T04:13:49.9498877+00:00",
-          "EffectiveVersion": "1.0.0.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.0.0": {
-              "TimeReleased": "2026-05-28T04:13:49.9499256+00:00",
-              "Changelog": "RealTorch is a tiny plugin that makes the torch fashion accessory emit real light and cast shadows around the player. Only the player\u0027s own torch is affected.\r\n\r\nNow you can feel like a real explorer in the darkest of dungeons.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "yfthbr"
             }
           }
         },
