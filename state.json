@@ -130986,9 +130986,9 @@
           }
         },
         "GatherBuddy": {
-          "BuiltCommit": "1531e9676a8ab016e41b12b64e229b694873ae75",
-          "TimeBuilt": "2026-06-03T21:28:57.6667031+00:00",
-          "EffectiveVersion": "3.8.8.0",
+          "BuiltCommit": "fb1715359707279999c3caf18672939835de59ec",
+          "TimeBuilt": "2026-06-27T04:09:15.0799443+00:00",
+          "EffectiveVersion": "3.8.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.4.15926": {
@@ -132032,6 +132032,42 @@
             },
             "3.8.8.0": {
               "TimeReleased": "2026-06-03T21:28:57.6667448+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Ottermandias"
+            },
+            "3.8.9.0": {
+              "TimeReleased": "2026-06-27T04:09:15.0799454+00:00",
               "Changelog": "nofranz",
               "UsedNeeds": [
                 {
@@ -200097,9 +200133,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "c25d12bec0a87f5262f104f541e801e1866f1a9f",
-          "TimeBuilt": "2026-06-22T01:55:46.5728627+00:00",
-          "EffectiveVersion": "3.1.0.19",
+          "BuiltCommit": "b8f5d055c81b580ff9f3cd16698a183318fe69f4",
+          "TimeBuilt": "2026-06-27T04:09:48.9684863+00:00",
+          "EffectiveVersion": "3.1.0.20",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -200590,6 +200626,34 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.20": {
+              "TimeReleased": "2026-06-27T04:09:48.9684879+00:00",
+              "Changelog": "- Fixed gathering crystals/shards/clusters not being hidden when the message starts with the character name instead of \u0060You\u0060.\r\n- Fixed crystal/shard/clusters obtains on the Obtained channel being allowed by the collectable gathering obtain rule.\r\n- Fixed the title bar version label drawing over other windows.\r\n- Made Jumbo Cactpot ticket purchases always show, independent of the \u0022Hide obtained MGP\u0022 setting.\r\n- Tightened MGP obtain matching to reduce false positives.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Kagekazu"
             }
           }
@@ -229796,9 +229860,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "8b059f36417acfc23e8397ceae460be0fc646987",
-          "TimeBuilt": "2026-06-22T21:09:40.8851135+00:00",
-          "EffectiveVersion": "1.4.1.4",
+          "BuiltCommit": "07b52b714ae500d33082622fa122d2f13a5be7cf",
+          "TimeBuilt": "2026-06-27T04:09:35.7043405+00:00",
+          "EffectiveVersion": "1.4.1.6",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -235159,6 +235223,46 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.1.6": {
+              "TimeReleased": "2026-06-27T04:09:35.7043423+00:00",
+              "Changelog": "Various fixes and system changes.\r\n\r\nThis changelog describes the technical parts of what changed, this is mostly for those that are finding issues with some of the changes due to programmer error.\r\n\r\nCastbar Countdown - Simplified code by splitting each castbar into its own system.\r\n\r\nInventory Cooldowns - Now only applies changes to the inventory type you\u0027re actually using, instead of all 3 types at once. (Improves performance too).\r\n\r\nLock Chat Button - Simplified code by splitting each castbar into its own system.\r\n\r\nDragable Window Deadspace - Marked experimental due to weird edge case that I have not investigated yet.\r\n\r\nHUD Preset - Now allows deleting presets\r\n\r\nFancy Loading Screens - Probably fixed weird once-per-session zooming.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "11c37003f490d6f99d71ff18fee45240be61a1b7"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.7"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -244672,6 +244776,30 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "yfthbr"
+            }
+          }
+        },
+        "WachuMakeyMaking": {
+          "BuiltCommit": "e56373c4e7290d51189af83af52a013dc518c29d",
+          "TimeBuilt": "2026-06-27T04:09:59.0647132+00:00",
+          "EffectiveVersion": "1.0.10.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.10.0": {
+              "TimeReleased": "2026-06-27T04:09:59.0647177+00:00",
+              "Changelog": "WachuMakeyMaking takes what you have in your inventory and calculates the optimal combination of items to make.\r\nItem prices are fetched from Universalis, or can be manually overridden.\r\n\r\nMake the most with what you have!\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "ArcaneAj"
             }
           }
         }
@@ -301000,94 +301128,6 @@
             }
           }
         },
-        "WachuMakeyMaking": {
-          "BuiltCommit": "e56373c4e7290d51189af83af52a013dc518c29d",
-          "TimeBuilt": "2026-06-22T21:09:50.3139379+00:00",
-          "EffectiveVersion": "1.0.10.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.6.0": {
-              "TimeReleased": "2026-01-31T13:59:03.5212481+00:00",
-              "Changelog": "Initial Release",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "Critical-Impact",
-              "Submitter": "ArcaneAj"
-            },
-            "1.0.7.0": {
-              "TimeReleased": "2026-02-12T06:42:49.1519011+00:00",
-              "Changelog": "If universalis has trouble, the problem is now displayed to the user rather than just defaulting mysteriously to shop prices.\r\nIt will now auto swap jobs when clicking the recipe icon to view in the recipe log.\r\nPlugin icon also updated (screenshot of an aetheryte is far too generic)\r\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nebel",
-              "Submitter": "ArcaneAj"
-            },
-            "1.0.8.0": {
-              "TimeReleased": "2026-03-08T19:31:50.9513621+00:00",
-              "Changelog": "Will now add items from opened retainer and saddlebag inventories, caching them until next opened.\r\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "reiichi001",
-              "Submitter": "ArcaneAj"
-            },
-            "1.0.9.0": {
-              "TimeReleased": "2026-04-25T17:54:19.8750324+00:00",
-              "Changelog": "Better handles large numbers of recipes with Universalis, while giving progress updates on requests.\r\nFixed bug where switching gearset reset the resource overrides. Changes that don\u0027t affect total amounts shouldn\u0027t reset them.\r\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "ArcaneAj"
-            },
-            "1.0.10.0": {
-              "TimeReleased": "2026-06-22T21:09:50.3139391+00:00",
-              "Changelog": "Updated to use SDK v15.\r\nFixed bug where opening any extra inventory or changing item quantities in game reset the resource overrides.\r\nManually set/overriden quantities do not get thrown away, even if the item you\u0027ve changed the quantity for has had its underlying quantity change.\r\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nebel",
-              "Submitter": "ArcaneAj"
-            }
-          }
-        },
         "TotalCharacterLevel": {
           "BuiltCommit": "8938feca1a44997dbb69f88fbc2770ee9129126d",
           "TimeBuilt": "2026-01-31T13:59:10.6113777+00:00",
@@ -331070,6 +331110,13 @@
       "Version": "4.3.7",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-06-26T05:19:01.1504501Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "11c37003f490d6f99d71ff18fee45240be61a1b7",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-27T04:09:35.7984918Z"
     }
   ]
 }
