@@ -192177,9 +192177,9 @@
           }
         },
         "ChillFrames": {
-          "BuiltCommit": "aafc54052cc8f6f9f5751b8c586f18a2c62b7796",
-          "TimeBuilt": "2026-05-24T22:26:06.7166027+00:00",
-          "EffectiveVersion": "3.2.2.6",
+          "BuiltCommit": "339b95bcf54911b6d2b4c8f77c63125816a263fc",
+          "TimeBuilt": "2026-06-27T22:17:26.431559+00:00",
+          "EffectiveVersion": "3.2.2.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.2": {
@@ -192693,6 +192693,22 @@
             "3.2.2.6": {
               "TimeReleased": "2026-05-24T22:26:06.7166624+00:00",
               "Changelog": "Set fixed width for DTR entry (thanks k0etsu)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "3.2.2.7": {
+              "TimeReleased": "2026-06-27T22:17:26.4316144+00:00",
+              "Changelog": "Fix mistake that was causing loading screens to get slowed down, sorry about that.\r\n\r\nAdd new toggle for High End Duties (untested, sorry I\u0027m on free trial at the moment)",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -236812,9 +236828,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "99d290dab158ff77ae3ebd2e5bd3bcd17569d290",
-          "TimeBuilt": "2026-06-10T23:37:38.0573572+00:00",
-          "EffectiveVersion": "1.10.16.0",
+          "BuiltCommit": "5c8d3ee9902cc5f0b67692107821e83bd7177d7b",
+          "TimeBuilt": "2026-06-27T22:17:44.0418738+00:00",
+          "EffectiveVersion": "1.10.18.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -238268,6 +238284,50 @@
                 {
                   "Key": "SQLitePCLRaw.provider.e_sqlite3",
                   "Version": "2.1.11"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.10.18.0": {
+              "TimeReleased": "2026-06-27T22:17:44.0418755+00:00",
+              "Changelog": "- **General**: Update dependencies\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.79"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.3"
+                },
+                {
+                  "Key": "SourceGear.sqlite3",
+                  "Version": "3.50.4.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.3"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.3"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.3"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -279446,9 +279506,9 @@
           "Changelogs": {}
         },
         "DailyDuty": {
-          "BuiltCommit": "d952af3e1ba1abd6129bc9eea6af8612b2d2ef3f",
-          "TimeBuilt": "2026-05-31T07:04:38.4295529+00:00",
-          "EffectiveVersion": "6.0.3.3",
+          "BuiltCommit": "1455db8b6aa6afdbcf6a5e7f9fffb1bd9c2841b6",
+          "TimeBuilt": "2026-06-28T01:49:48.4915109+00:00",
+          "EffectiveVersion": "6.0.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "5.3.0.0": {
@@ -280318,6 +280378,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "13327e50c498a556b0e6bf2e02416e38e016c633"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.4.0": {
+              "TimeReleased": "2026-06-28T01:49:48.4915529+00:00",
+              "Changelog": "Initial update to new KTK systems and features.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "2287c2916571c654d247c09c0839634a19fa91da"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -306603,6 +306687,30 @@
               "Submitter": "meoiswa"
             }
           }
+        },
+        "Dummy": {
+          "BuiltCommit": "d5ff392c90cc43ad545e6da778ed5dc4179d446a",
+          "TimeBuilt": "2026-06-28T02:03:52.3173186+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2026-06-28T02:03:52.3173636+00:00",
+              "Changelog": "initial release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sleepybnuuy"
+            }
+          }
         }
       }
     },
@@ -331117,6 +331225,69 @@
       "Version": "11c37003f490d6f99d71ff18fee45240be61a1b7",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-06-27T04:09:35.7984918Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Dapper",
+      "Version": "2.1.79",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-27T22:17:44.120761Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DotNet.ReproducibleBuilds",
+      "Version": "2.0.5",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-27T22:17:44.1208055Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite.Core",
+      "Version": "10.0.9",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-27T22:17:44.1208058Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+      "Version": "3.0.3",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-27T22:17:44.120806Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SourceGear.sqlite3",
+      "Version": "3.50.4.5",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-27T22:17:44.1208062Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.config.e_sqlite3",
+      "Version": "3.0.3",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-27T22:17:44.1208065Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.core",
+      "Version": "3.0.3",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-27T22:17:44.1208066Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.provider.e_sqlite3",
+      "Version": "3.0.3",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-27T22:17:44.1208068Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "2287c2916571c654d247c09c0839634a19fa91da",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-28T01:49:48.5651462Z"
     }
   ]
 }
