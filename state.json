@@ -306711,6 +306711,30 @@
               "Submitter": "sleepybnuuy"
             }
           }
+        },
+        "FriendNote": {
+          "BuiltCommit": "006779583f5c39eeaa093bfd4a569dfba6f52ad5",
+          "TimeBuilt": "2026-06-28T02:17:56.9195177+00:00",
+          "EffectiveVersion": "1.0.2.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.2.0": {
+              "TimeReleased": "2026-06-28T02:17:56.9195715+00:00",
+              "Changelog": "Add personal notes to friends from the friend list context menu. Right-click a friend\u0027s name to set a note, which will then be shown in the friend list.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "fj233"
+            }
+          }
         }
       }
     },
