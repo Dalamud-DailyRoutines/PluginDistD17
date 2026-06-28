@@ -11709,6 +11709,37 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/FlashOnCutSceneDone/latest.zip"
   },
   {
+    "Author": "Fj233",
+    "Name": "Friend Note",
+    "InternalName": "FriendNote",
+    "AssemblyVersion": "1.0.2.0",
+    "Description": "Add personal notes to friends from the friend list context menu. Right-click a friend's name to set a note, which will then be shown in the friend list.",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "friend",
+      "notes",
+      "utility",
+      "social"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "A simple plugin to add notes to your friends.",
+    "AcceptsFeedback": true,
+    "_isDip17Plugin": true,
+    "_Dip17Channel": "testing-live",
+    "IsHide": "False",
+    "TestingAssemblyVersion": "1.0.2.0",
+    "IsTestingExclusive": "True",
+    "TestingDalamudApiLevel": 15,
+    "LastUpdate": "1782613083",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/FriendNote/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/FriendNote/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/FriendNote/latest.zip"
+  },
+  {
     "Author": "Cometo",
     "Name": "Gamba",
     "InternalName": "Gamba",
