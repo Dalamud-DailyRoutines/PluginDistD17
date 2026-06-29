@@ -200149,9 +200149,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "b8f5d055c81b580ff9f3cd16698a183318fe69f4",
-          "TimeBuilt": "2026-06-27T04:09:48.9684863+00:00",
-          "EffectiveVersion": "3.1.0.20",
+          "BuiltCommit": "29b555c82dde0f574d2001c04264f8ba3a5ee759",
+          "TimeBuilt": "2026-06-29T02:29:09.7653747+00:00",
+          "EffectiveVersion": "3.1.0.21",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -200647,6 +200647,34 @@
             "3.1.0.20": {
               "TimeReleased": "2026-06-27T04:09:48.9684879+00:00",
               "Changelog": "- Fixed gathering crystals/shards/clusters not being hidden when the message starts with the character name instead of \u0060You\u0060.\r\n- Fixed crystal/shard/clusters obtains on the Obtained channel being allowed by the collectable gathering obtain rule.\r\n- Fixed the title bar version label drawing over other windows.\r\n- Made Jumbo Cactpot ticket purchases always show, independent of the \u0022Hide obtained MGP\u0022 setting.\r\n- Tightened MGP obtain matching to reduce false positives.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.21": {
+              "TimeReleased": "2026-06-29T02:29:09.765435+00:00",
+              "Changelog": "- Always show \u0060/playtime\u0060.\r\n- Fix party leave not showing.\r\n- Preserve party join/leave SFX when toggles are off .\r\n- Show learned actions and emotes.\r\n- Filter Frontline objective announcements \u2014 \u0060ShowPvpZoneAnnouncements\u0060 now also covers Seal Rock / Fields of Glory / Onsal Hakair objective lines.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -229876,9 +229904,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "07b52b714ae500d33082622fa122d2f13a5be7cf",
-          "TimeBuilt": "2026-06-27T04:09:35.7043405+00:00",
-          "EffectiveVersion": "1.4.1.6",
+          "BuiltCommit": "1ddc08f056730299a2038c7c9b4d55815a8e498a",
+          "TimeBuilt": "2026-06-29T02:22:42.3370717+00:00",
+          "EffectiveVersion": "1.4.1.9",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -235248,6 +235276,46 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "11c37003f490d6f99d71ff18fee45240be61a1b7"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.7"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.1.9": {
+              "TimeReleased": "2026-06-29T02:22:42.3371137+00:00",
+              "Changelog": "Update KTK, potentially resolve some of the rarer crashes.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "852babab7b81a92653847e9913b81de8f8094292"
                 },
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
@@ -279506,9 +279574,9 @@
           "Changelogs": {}
         },
         "DailyDuty": {
-          "BuiltCommit": "1455db8b6aa6afdbcf6a5e7f9fffb1bd9c2841b6",
-          "TimeBuilt": "2026-06-28T01:49:48.4915109+00:00",
-          "EffectiveVersion": "6.0.4.0",
+          "BuiltCommit": "ea59909e62c2b68154df577a6c6dc7a7abea62b8",
+          "TimeBuilt": "2026-06-29T02:23:11.4605061+00:00",
+          "EffectiveVersion": "6.0.4.3",
           "MinimumVersion": null,
           "Changelogs": {
             "5.3.0.0": {
@@ -280402,6 +280470,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "2287c2916571c654d247c09c0839634a19fa91da"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.4.3": {
+              "TimeReleased": "2026-06-29T02:23:11.4605079+00:00",
+              "Changelog": "Fix Search Not working (forgot to re-implement it tehe)\r\n\r\nFix todo panel not hiding completed entries.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "f92d85be73acbb8852b6fb54d54b2dc34f0f0fbd"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -281493,9 +281585,9 @@
           }
         },
         "HUDUnlimited": {
-          "BuiltCommit": "2500217d4d1a4a78410309f5fd2aeb1929b99ac7",
-          "TimeBuilt": "2025-08-27T12:14:10.1960351+00:00",
-          "EffectiveVersion": "1.1.2.4",
+          "BuiltCommit": "6f4aa1785a500f1122cbd275879d7d949299834c",
+          "TimeBuilt": "2026-06-29T02:22:56.3783518+00:00",
+          "EffectiveVersion": "1.2.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -281948,6 +282040,30 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.3.0": {
+              "TimeReleased": "2026-06-29T02:22:56.3783531+00:00",
+              "Changelog": "Experimental change removes ProxyAddon internal system, this should fix some... somewhat hard to explain issues.\r\n\r\nNew dalamud systems make the ProxyAddon system no longer necessary.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "a0b3f6debd2617e1e66b7bb6d925a4d3fb9d6692"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -331312,6 +331428,20 @@
       "Version": "2287c2916571c654d247c09c0839634a19fa91da",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-06-28T01:49:48.5651462Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "852babab7b81a92653847e9913b81de8f8094292",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-29T02:22:42.4139141Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "f92d85be73acbb8852b6fb54d54b2dc34f0f0fbd",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-29T02:23:11.5537804Z"
     }
   ]
 }
