@@ -203064,9 +203064,9 @@
           }
         },
         "HUDUnlimited": {
-          "BuiltCommit": "e1de2cde53ef55d925221aab56fdacee2f2c2c26",
-          "TimeBuilt": "2026-05-18T21:53:44.5763416+00:00",
-          "EffectiveVersion": "1.2.2.1",
+          "BuiltCommit": "8244a1af4e897c7abffd2203c298160a60c9f6bc",
+          "TimeBuilt": "2026-06-30T18:08:16.6363348+00:00",
+          "EffectiveVersion": "1.2.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
@@ -203823,6 +203823,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.3.2": {
+              "TimeReleased": "2026-06-30T18:08:16.6363372+00:00",
+              "Changelog": "When HUDU Can\u0027t find a node, it will now only log the warning once per session.\r\n\r\nSome nodes don\u0027t exist at all times, and so seeing a warning for some nodes might be normal.\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "a0b3f6debd2617e1e66b7bb6d925a4d3fb9d6692"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -211868,9 +211892,9 @@
           }
         },
         "BisBuddy": {
-          "BuiltCommit": "d4a7fa2f47a756d625cccaddf23a9b2862279a34",
-          "TimeBuilt": "2026-04-29T22:05:16.9845981+00:00",
-          "EffectiveVersion": "0.2.7.3",
+          "BuiltCommit": "6b43e64ac05533048c0583c4db01b9a8f2f93ac0",
+          "TimeBuilt": "2026-06-30T18:07:48.5086772+00:00",
+          "EffectiveVersion": "0.2.7.4",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.0": {
@@ -215000,6 +215024,214 @@
             "0.2.7.3": {
               "TimeReleased": "2026-04-29T22:05:16.9845998+00:00",
               "Changelog": "API 15 \u002B 7.5 changes\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "a40db3168c2fef974dc60a150f039ecda694cc9a"
+                },
+                {
+                  "Key": "Autofac",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Autofac.Extensions.DependencyInjection",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "CommunityToolkit.Mvvm",
+                  "Version": "8.4.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Fastenshtein",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "LinearAssignment",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "7.1.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.4.1"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "TestableIO.System.IO.Abstractions.Wrappers",
+                  "Version": "22.1.0"
+                },
+                {
+                  "Key": "BCnEncoder.Net",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "CommunityToolkit.HighPerformance",
+                  "Version": "8.4.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Testably.Abstractions.FileSystem.Interface",
+                  "Version": "10.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "RajahOmen"
+            },
+            "0.2.7.4": {
+              "TimeReleased": "2026-06-30T18:07:48.5087177+00:00",
+              "Changelog": "UI bugfixes / assert fixes\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.git",
@@ -229932,9 +230164,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "9558b26019cc8a922f9bca48827a19a11f79e72a",
-          "TimeBuilt": "2026-06-29T17:36:37.1618337+00:00",
-          "EffectiveVersion": "1.4.1.10",
+          "BuiltCommit": "67b218f56a8b7669594432d031d4939509982ec5",
+          "TimeBuilt": "2026-06-30T18:08:05.9626278+00:00",
+          "EffectiveVersion": "1.4.1.11",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -235380,6 +235612,46 @@
             "1.4.1.10": {
               "TimeReleased": "2026-06-29T17:36:37.1618731+00:00",
               "Changelog": "Maybe more stability improvements.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "00c131df24258bfccc062c071068ebdd8594743e"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.7"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.1.11": {
+              "TimeReleased": "2026-06-30T18:08:05.9626293+00:00",
+              "Changelog": "Fix Castbar Countdowns not updating correctly.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
@@ -279702,9 +279974,9 @@
           "Changelogs": {}
         },
         "DailyDuty": {
-          "BuiltCommit": "ea59909e62c2b68154df577a6c6dc7a7abea62b8",
-          "TimeBuilt": "2026-06-29T02:23:11.4605061+00:00",
-          "EffectiveVersion": "6.0.4.3",
+          "BuiltCommit": "8686c34655cd490c41ff3c4bbe093d175c540fa7",
+          "TimeBuilt": "2026-06-30T18:08:30.114939+00:00",
+          "EffectiveVersion": "6.0.4.5",
           "MinimumVersion": null,
           "Changelogs": {
             "5.3.0.0": {
@@ -280622,6 +280894,34 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "f92d85be73acbb8852b6fb54d54b2dc34f0f0fbd"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.4.5": {
+              "TimeReleased": "2026-06-30T18:08:30.1149406+00:00",
+              "Changelog": "Improve timers and todo-panel code.\r\n\r\nFixed localization files being in the wrong place.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "2ec714e7dddf1170a22688968ae7ec732e35aaa6"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -331577,6 +331877,13 @@
       "Version": "00c131df24258bfccc062c071068ebdd8594743e",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-06-29T17:36:37.2326373Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "2ec714e7dddf1170a22688968ae7ec732e35aaa6",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-06-30T18:08:30.1534325Z"
     }
   ]
 }
