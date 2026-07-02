@@ -65070,9 +65070,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "d4a078f48ffe07b74e184148b2d2aeeedd495377",
-          "TimeBuilt": "2026-06-15T00:00:58.6912433+00:00",
-          "EffectiveVersion": "1.6.9.0",
+          "BuiltCommit": "92778c1596301f644d715906c36e717edef1b02a",
+          "TimeBuilt": "2026-07-02T01:46:27.0018796+00:00",
+          "EffectiveVersion": "1.6.9.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -67157,6 +67157,42 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.6.9.1": {
+              "TimeReleased": "2026-07-02T01:46:27.0018815+00:00",
+              "Changelog": "- Improve reduction tracking",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Infiziert90"
             }
           }
@@ -200149,9 +200185,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "c60bf8c4dc3d6b970f4a4542a60fd3b349a1ed82",
-          "TimeBuilt": "2026-06-29T17:40:36.2920921+00:00",
-          "EffectiveVersion": "3.1.0.22",
+          "BuiltCommit": "f86ad3be48685e5ea8b34a210081af77696f2bc4",
+          "TimeBuilt": "2026-07-02T01:46:12.9220896+00:00",
+          "EffectiveVersion": "3.1.0.23",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -200726,6 +200762,34 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.23": {
+              "TimeReleased": "2026-07-02T01:46:12.9221412+00:00",
+              "Changelog": "- Fix false commendation lines on login or character switch.\r\n- Fix hunt relay lines being blocked as \u0060ShowJobChange\u0060.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Kagekazu"
             }
           }
