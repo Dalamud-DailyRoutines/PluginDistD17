@@ -2584,9 +2584,9 @@
           }
         },
         "ScoutHelper": {
-          "BuiltCommit": "d173507372db6f346e0196bffe89d732a9cceef8",
-          "TimeBuilt": "2026-01-02T04:48:31.4967804+00:00",
-          "EffectiveVersion": "1.11.1.0",
+          "BuiltCommit": "b38517c67a5b315e432bde71f6e0d174e90e2787",
+          "TimeBuilt": "2026-07-03T12:04:43.2528537+00:00",
+          "EffectiveVersion": "1.12.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -3293,6 +3293,166 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "dit-zy"
+            },
+            "1.12.0.0": {
+              "TimeReleased": "2026-07-03T12:04:43.252894+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/dit-zy/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "CSharpFunctionalExtensions",
+                  "Version": "3.6.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DitzyExtensions",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "XIVHuntUtils",
+                  "Version": "1.6.2"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "dit-zy"
             }
           }
@@ -239192,9 +239352,9 @@
           }
         },
         "LazyGatherer": {
-          "BuiltCommit": "9388a9ea0f039ef6e74d95dc7ce28c163a7cbe47",
-          "TimeBuilt": "2026-06-12T20:25:50.6727163+00:00",
-          "EffectiveVersion": "1.4.3.0",
+          "BuiltCommit": "69e50a2b8804464a6473e1d6236fb6655fd7a4b0",
+          "TimeBuilt": "2026-07-03T12:04:54.2376453+00:00",
+          "EffectiveVersion": "1.4.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.1.0": {
@@ -239363,6 +239523,34 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Hiroa"
+            },
+            "1.4.4.0": {
+              "TimeReleased": "2026-07-03T12:04:54.2376464+00:00",
+              "Changelog": "Version 1.4.4: \n - Improve stability\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "46959c978dd96a820bee225094b8d12618b74545"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Hiroa"
             }
           }
@@ -299573,9 +299761,9 @@
           }
         },
         "LazyGatherer": {
-          "BuiltCommit": "9388a9ea0f039ef6e74d95dc7ce28c163a7cbe47",
-          "TimeBuilt": "2026-06-12T20:26:19.5648631+00:00",
-          "EffectiveVersion": "1.4.3.0",
+          "BuiltCommit": "69e50a2b8804464a6473e1d6236fb6655fd7a4b0",
+          "TimeBuilt": "2026-07-03T12:05:05.2771904+00:00",
+          "EffectiveVersion": "1.4.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -300024,6 +300212,34 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Hiroa"
+            },
+            "1.4.4.0": {
+              "TimeReleased": "2026-07-03T12:05:05.2771915+00:00",
+              "Changelog": "Version 1.4.4: \n - Improve stability\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "46959c978dd96a820bee225094b8d12618b74545"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Hiroa"
             }
           }
