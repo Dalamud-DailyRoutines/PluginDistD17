@@ -230228,9 +230228,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "67b218f56a8b7669594432d031d4939509982ec5",
-          "TimeBuilt": "2026-06-30T18:08:05.9626278+00:00",
-          "EffectiveVersion": "1.4.1.11",
+          "BuiltCommit": "ce16860388f65eb43e7cb0acdb91e9f93cd9a123",
+          "TimeBuilt": "2026-07-02T21:09:23.8934828+00:00",
+          "EffectiveVersion": "1.4.1.12",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -235720,6 +235720,46 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "00c131df24258bfccc062c071068ebdd8594743e"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.7"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.1.12": {
+              "TimeReleased": "2026-07-02T21:09:23.8934849+00:00",
+              "Changelog": "Improve Stability",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "46959c978dd96a820bee225094b8d12618b74545"
                 },
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
@@ -245392,6 +245432,30 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "ArcaneAj"
+            }
+          }
+        },
+        "Sundried": {
+          "BuiltCommit": "419f8baa13d60dee54f6e9604cd74b01efb589ff",
+          "TimeBuilt": "2026-07-02T21:09:32.0867561+00:00",
+          "EffectiveVersion": "1.0.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.1.0": {
+              "TimeReleased": "2026-07-02T21:09:32.0867624+00:00",
+              "Changelog": "Version 1.0.1.0:\r\n - Icon by SnoodleWolfieB\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "meoiswa"
             }
           }
         }
@@ -280038,9 +280102,9 @@
           "Changelogs": {}
         },
         "DailyDuty": {
-          "BuiltCommit": "8686c34655cd490c41ff3c4bbe093d175c540fa7",
-          "TimeBuilt": "2026-06-30T18:08:30.114939+00:00",
-          "EffectiveVersion": "6.0.4.5",
+          "BuiltCommit": "aadd400e9a691ae3797983dac5058b742de2cc41",
+          "TimeBuilt": "2026-07-02T21:09:44.9284563+00:00",
+          "EffectiveVersion": "6.0.4.6",
           "MinimumVersion": null,
           "Changelogs": {
             "5.3.0.0": {
@@ -280982,6 +281046,34 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "2ec714e7dddf1170a22688968ae7ec732e35aaa6"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.4.6": {
+              "TimeReleased": "2026-07-02T21:09:44.9284582+00:00",
+              "Changelog": "Fix some crashes, improves stability.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "46959c978dd96a820bee225094b8d12618b74545"
                 },
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
@@ -307272,30 +307364,6 @@
             }
           }
         },
-        "Sundried": {
-          "BuiltCommit": "884ba681298d88c57cc48bc1db6ccf433f7ff68d",
-          "TimeBuilt": "2026-06-17T01:21:02.3844284+00:00",
-          "EffectiveVersion": "1.0.0.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.0.0": {
-              "TimeReleased": "2026-06-17T01:21:02.3844694+00:00",
-              "Changelog": "Version 1.0.0.0:\r\n - Initial release\r\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "meoiswa"
-            }
-          }
-        },
         "Dummy": {
           "BuiltCommit": "d5ff392c90cc43ad545e6da778ed5dc4179d446a",
           "TimeBuilt": "2026-06-28T02:03:52.3173186+00:00",
@@ -331948,6 +332016,13 @@
       "Version": "2ec714e7dddf1170a22688968ae7ec732e35aaa6",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-06-30T18:08:30.1534325Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "46959c978dd96a820bee225094b8d12618b74545",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-07-02T21:09:23.962475Z"
     }
   ]
 }
