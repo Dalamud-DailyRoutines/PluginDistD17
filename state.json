@@ -106536,9 +106536,9 @@
           }
         },
         "BilingualTooltips": {
-          "BuiltCommit": "893ffc56713dbdfa74ef9a7b07dad9edf7d4748c",
-          "TimeBuilt": "2026-05-01T04:56:32.3748504+00:00",
-          "EffectiveVersion": "1.6.0.1",
+          "BuiltCommit": "8f0a689492691cb96ab6c4130dbe076555cd6d14",
+          "TimeBuilt": "2026-07-04T02:27:09.2900452+00:00",
+          "EffectiveVersion": "1.7.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -108773,6 +108773,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Elypha"
+            },
+            "1.7.1.0": {
+              "TimeReleased": "2026-07-04T02:27:09.2900467+00:00",
+              "Changelog": "v1.7.1.0\n\nThis is a major update and please check against your current settings after updating, as some settings have been renamed or removed.\n\n- Add support for NPC dialogues.\n- Add support for a few more actions/items (DeepDungeon, minions/mounts, Bozjan, etc.).\n- Add lookup history window to show some statistics about your bilingual exploration.\n- Add support for all FFXIV official languages (JEDF plus Chinese and Korean, WIP).\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Elypha/Miosuke.git",
+                  "Version": "06fc0f1ee60b4aa95653f46163afddd63f3bfbc1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "ZstdSharp.Port",
+                  "Version": "0.8.8"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Elypha"
             }
           }
@@ -132301,9 +132325,9 @@
           }
         },
         "RepairMe": {
-          "BuiltCommit": "f1bfe94bb424ee54fd2c3e7e7cb4f6f50f6ac74f",
-          "TimeBuilt": "2026-05-04T14:55:24.7991318+00:00",
-          "EffectiveVersion": "1.0.1.21",
+          "BuiltCommit": "0ceffc13316367df79b796ecddd35909a81e4072",
+          "TimeBuilt": "2026-07-04T02:26:41.3394884+00:00",
+          "EffectiveVersion": "1.0.1.22",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.12": {
@@ -132397,6 +132421,22 @@
             "1.0.1.21": {
               "TimeReleased": "2026-05-04T14:55:24.799133+00:00",
               "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "chalkos"
+            },
+            "1.0.1.22": {
+              "TimeReleased": "2026-07-04T02:26:41.3394901+00:00",
+              "Changelog": "SamuraiKal will be continuing the development of RepairMe instead of me.\r\nThe next PR will probably come from them, but we figured this transition PR would be better coming from me to officialize the author change.\r\n\r\nChanges:\r\n* Cache resolution options in PluginUI to avoid rebuilding the list every frame\r\n* Shorten repeated PlayerState call sites with a local alias\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -245372,14 +245412,82 @@
           }
         },
         "AetherBlackbox": {
-          "BuiltCommit": "32a2d41880ea575be1f2147c84d81a89d2bd133c",
-          "TimeBuilt": "2026-05-31T07:12:57.4624675+00:00",
-          "EffectiveVersion": "7.50.2.6",
+          "BuiltCommit": "fc8961cf8b57f3b634b17c328adf826a3123d723",
+          "TimeBuilt": "2026-07-04T02:26:57.6386793+00:00",
+          "EffectiveVersion": "7.51.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "7.50.2.6": {
               "TimeReleased": "2026-05-31T07:12:57.4624732+00:00",
               "Changelog": "public release - AetherBlackbox=DeathRecap \u002B AetherDraw. Visual replay before death.\nv7.50.2.6: toggle status icon, fix for m12s hp display\nv7.50.2.5: o8s maps for UMAD, boss hp% display fix",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Skia",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "ExCSS",
+                  "Version": "4.3.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "ShimSkiaSharp",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Custom",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "Svg.Model",
+                  "Version": "3.2.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "rail2025"
+            },
+            "7.51.0.1": {
+              "TimeReleased": "2026-07-04T02:26:57.6386807+00:00",
+              "Changelog": "v7.51.0.1: ui scaling fix\nv7.51.0.0: aoe wip in replays. optional manual json required for loading, files available on githhub\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -245644,6 +245752,30 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "meoiswa"
+            }
+          }
+        },
+        "FriendNote": {
+          "BuiltCommit": "006779583f5c39eeaa093bfd4a569dfba6f52ad5",
+          "TimeBuilt": "2026-07-04T02:26:31.9330108+00:00",
+          "EffectiveVersion": "1.0.2.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.2.0": {
+              "TimeReleased": "2026-07-04T02:26:31.9330132+00:00",
+              "Changelog": "Add personal notes to friends from the friend list context menu. Right-click a friend\u0027s name to set a note, which will then be shown in the friend list.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "fj233"
             }
           }
         }
@@ -249724,9 +249856,9 @@
           "Changelogs": {}
         },
         "HUDManager": {
-          "BuiltCommit": "3d6aa03953232ca336c678a4abc9573cd58409da",
-          "TimeBuilt": "2026-06-23T05:49:31.6265466+00:00",
-          "EffectiveVersion": "2.5.26.0",
+          "BuiltCommit": "c87a7e0c0e4b443754a45baa1f97d4e3b47c460b",
+          "TimeBuilt": "2026-07-04T02:27:20.3332447+00:00",
+          "EffectiveVersion": "2.5.27.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.20.1": {
@@ -249916,6 +250048,26 @@
             "2.5.26.0": {
               "TimeReleased": "2026-06-23T05:49:31.6265478+00:00",
               "Changelog": "- Adds a toggleable tree view to the layout editor:\r\n  - The tree view allows you reorder and reposition layouts (and entire layout subtrees) freely via drag and drop.\r\n  - Rather than setting a layout\u0027s parent via dropdown, simply place a layout under another to set it as the child. (Hold shift to attach a layout as the child of another if it currently has no children.)\r\n  - You can also drag and drop an element from the currently selected layout to another layout on the tree. This lets you copy or move element configurations between layouts.\r\n  - Return to the (slightly improved) compact view at any time.\r\n- Numerous other small improvements to the UI.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "12.3.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "nebel"
+            },
+            "2.5.27.0": {
+              "TimeReleased": "2026-07-04T02:27:20.3332458+00:00",
+              "Changelog": "- UI Improvements:\r\n  - Rename \u0022enable\u0022 column to \u0022apply\u0022.\r\n  - Always enable \u0022apply\u0022 column visibility, even in layouts with no parent, if at least one setting would not be applied. When enabled for this reason the column header will be highlighted and a tooltip explaining this is added to the header.\r\n  - Show layouts as a tree in the layout selection dropdown when creating and editing swaps.\r\n  - Fix hotbar element order in add element popup.\r\n  - Add additional tooltips to some buttons.\r\n  - Other minor visual improvements.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -307603,30 +307755,6 @@
               "Submitter": "sleepybnuuy"
             }
           }
-        },
-        "FriendNote": {
-          "BuiltCommit": "006779583f5c39eeaa093bfd4a569dfba6f52ad5",
-          "TimeBuilt": "2026-06-28T02:17:56.9195177+00:00",
-          "EffectiveVersion": "1.0.2.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.2.0": {
-              "TimeReleased": "2026-06-28T02:17:56.9195715+00:00",
-              "Changelog": "Add personal notes to friends from the friend list context menu. Right-click a friend\u0027s name to set a note, which will then be shown in the friend list.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "fj233"
-            }
-          }
         }
       }
     },
@@ -332239,6 +332367,20 @@
       "Version": "46959c978dd96a820bee225094b8d12618b74545",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-07-02T21:09:23.962475Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Elypha/Miosuke.git",
+      "Version": "06fc0f1ee60b4aa95653f46163afddd63f3bfbc1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-07-04T02:27:09.3382863Z"
+    },
+    {
+      "Type": 1,
+      "Key": "ZstdSharp.Port",
+      "Version": "0.8.8",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-07-04T02:27:09.3383216Z"
     }
   ]
 }
