@@ -17031,9 +17031,9 @@
           }
         },
         "XIVCombo": {
-          "BuiltCommit": "6222e80ca0b2f7f16c3e1756cb8c6c47f63ca8ff",
-          "TimeBuilt": "2026-05-01T04:56:50.0007896+00:00",
-          "EffectiveVersion": "2.0.15.0",
+          "BuiltCommit": "ca08a970983d8bd85964decfbe164ba08d793285",
+          "TimeBuilt": "2026-07-05T09:07:05.2252125+00:00",
+          "EffectiveVersion": "2.0.15.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.14.0": {
@@ -17290,6 +17290,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MKhayle"
+            },
+            "2.0.15.1": {
+              "TimeReleased": "2026-07-05T09:07:05.2252725+00:00",
+              "Changelog": "**Tintable Starter Actions**\nYou can now recolor starter actions of combos which share a starter action with another combo in order to visually distinguish them.\nThis feature is enabled by default, but you need to set it up for it to have any effect. \n\n-# Huge thanks to Square Enix for inspiring me this idea through their implementation of this concept with Monk\u0027s Forbidden Meditation and Steeled Meditation. Now who\u0027s the copycat, huh?!\n\t\t",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MKhayle"
             }
           }
@@ -65230,9 +65246,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "92778c1596301f644d715906c36e717edef1b02a",
-          "TimeBuilt": "2026-07-02T01:46:27.0018796+00:00",
-          "EffectiveVersion": "1.6.9.1",
+          "BuiltCommit": "ccae9a44f395415451c9ab082bcb73687d1ba1ff",
+          "TimeBuilt": "2026-07-05T04:17:26.9757394+00:00",
+          "EffectiveVersion": "1.6.9.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -67353,6 +67369,42 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.6.9.2": {
+              "TimeReleased": "2026-07-05T04:17:26.9757846+00:00",
+              "Changelog": "- Improve desynthesis tracking and add new tracking values\r\n- Saves are scheduled now every few seconds\r\n  - This will ease the burden for people with huge config files\r\n- Link to the new website",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Infiziert90"
             }
           }
@@ -96310,9 +96362,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "892e3e8477103b64325d68591531238e6aaa6803",
-          "TimeBuilt": "2026-05-12T23:20:30.4301526+00:00",
-          "EffectiveVersion": "6.0.2.3",
+          "BuiltCommit": "8e3b19de69fc086150e775efe4d79cc88d86f216",
+          "TimeBuilt": "2026-07-05T04:31:49.4574013+00:00",
+          "EffectiveVersion": "6.0.4.7",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -97901,6 +97953,34 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.4.7": {
+              "TimeReleased": "2026-07-05T04:31:49.4574394+00:00",
+              "Changelog": "Various significant performance improvements.\r\n\r\nPlugin is now translatable (again), currently translated to Chinese.\r\n\r\nTreasure Map - Snooze now will only snooze for 18hrs instead of until the end of time.\r\n\r\nReworked config window a bit, now uses more efficient version of a tree list.\r\n\r\nTimers/TodoPanel - Improved management to remove flickering when adding/removing timers/panels.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "376d8f96351f00bbfb7472cd86b70418c6935751"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MidoriKami"
             }
           }
@@ -106536,9 +106616,9 @@
           }
         },
         "BilingualTooltips": {
-          "BuiltCommit": "8f0a689492691cb96ab6c4130dbe076555cd6d14",
-          "TimeBuilt": "2026-07-04T02:27:09.2900452+00:00",
-          "EffectiveVersion": "1.7.1.0",
+          "BuiltCommit": "f7433a84cfe6150385cfec9f65434e0b5bb03e1f",
+          "TimeBuilt": "2026-07-05T10:09:26.1586286+00:00",
+          "EffectiveVersion": "1.7.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -108797,6 +108877,54 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Elypha"
+            },
+            "1.7.3.0": {
+              "TimeReleased": "2026-07-05T04:17:36.4172442+00:00",
+              "Changelog": "v1.7.1.0\n\nThis is a major update and please check against your current settings after updating, as some settings have been renamed or removed.\n\n- Add support for NPC dialogues.\n- Add support for a few more actions/items (DeepDungeon, minions/mounts, Bozjan, etc.).\n- Add lookup history window to show some statistics about your bilingual exploration.\n- Add support for all FFXIV official languages (JEDF plus Chinese and Korean, WIP).\n\nv1.7.2.0 ~ v1.7.3.0\n- Fix NPC dialogue matching issue for alphabetic languages (English, French, German, etc.).\n- Fix long tooltips going beyond the screen.\n- Gaps before/after the divider line between the translated description and the native one are now configurable in pixels.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Elypha/Miosuke.git",
+                  "Version": "cfa60caf692cf99f63685694ff0e4fa1b7ba5cdf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "ZstdSharp.Port",
+                  "Version": "0.8.8"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "Elypha"
+            },
+            "1.7.4.0": {
+              "TimeReleased": "2026-07-05T10:09:26.1587102+00:00",
+              "Changelog": "v1.7.1.0\n\nThis is a major update and please check against your current settings after updating, as some settings have been renamed or removed.\n\n- Add support for NPC dialogues.\n- Add support for a few more actions/items (DeepDungeon, minions/mounts, Bozjan, etc.).\n- Add lookup history window to show some statistics about your bilingual exploration.\n- Add support for all FFXIV official languages (JEDF plus Chinese and Korean, WIP).\n\nv1.7.2.0 ~ v1.7.4.0\n- Fix NPC dialogue matching issue for alphabetic languages (English, French, German, etc.).\n- Fix long tooltips going beyond the screen.\n- Gaps before/after the divider line between the translated description and the native one are now configurable in pixels.\n- Tooltip layout is computed more accurately for better alignment/less chance to break.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Elypha/Miosuke.git",
+                  "Version": "cfa60caf692cf99f63685694ff0e4fa1b7ba5cdf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "ZstdSharp.Port",
+                  "Version": "0.8.8"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Elypha"
             }
           }
@@ -236104,9 +236232,9 @@
           }
         },
         "StatusTimers": {
-          "BuiltCommit": "d06ceeb28db7bd937f156a35df5e8365d06171c1",
-          "TimeBuilt": "2026-04-29T21:40:07.2179876+00:00",
-          "EffectiveVersion": "1.0.3.5",
+          "BuiltCommit": "90aa9989366c77444c8961b8e99dd0b8a27f76a6",
+          "TimeBuilt": "2026-07-05T04:23:37.5809117+00:00",
+          "EffectiveVersion": "1.0.3.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.2": {
@@ -236323,6 +236451,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.3.7": {
+              "TimeReleased": "2026-07-05T04:23:37.5809326+00:00",
+              "Changelog": "# 1.0.3.7\n- Added the ability to show an HQ indicator for high quality food and medicine.\n- Added separate Buffs and Debuffs overlays.\n- Updated KTK to latest version, crashes *should* be completely solved.rrrr",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "e0bb5004d182018f06dbf711bc91f5be8a35782f"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Zeffuro"
             }
           }
@@ -273189,9 +273341,9 @@
           }
         },
         "NoTankYou": {
-          "BuiltCommit": "36133bb4523478e8cc9c607b1957cb0bb7557caa",
-          "TimeBuilt": "2026-05-31T07:13:14.5144163+00:00",
-          "EffectiveVersion": "7.4.3.2",
+          "BuiltCommit": "29eff9ef0fc2d3cd77ac6822260e196a8533b36d",
+          "TimeBuilt": "2026-07-05T04:17:48.1736297+00:00",
+          "EffectiveVersion": "7.4.4.1",
           "MinimumVersion": null,
           "Changelogs": {
             "7.2.2.1": {
@@ -273616,6 +273768,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "7.4.4.1": {
+              "TimeReleased": "2026-07-05T04:17:48.1736315+00:00",
+              "Changelog": "Update KTK, should resolve any crashes that occur when switching between options in the config window.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "e0bb5004d182018f06dbf711bc91f5be8a35782f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MidoriKami"
             }
           }
@@ -332477,6 +332653,27 @@
       "Version": "0.8.8",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-07-04T02:27:09.3383216Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Elypha/Miosuke.git",
+      "Version": "cfa60caf692cf99f63685694ff0e4fa1b7ba5cdf",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-07-05T04:17:36.4900283Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "e0bb5004d182018f06dbf711bc91f5be8a35782f",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-07-05T04:17:48.269093Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "376d8f96351f00bbfb7472cd86b70418c6935751",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-07-05T04:31:49.5266458Z"
     }
   ]
 }
