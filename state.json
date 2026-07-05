@@ -198677,9 +198677,9 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "34e45e6819cd180ba83ce92b696b3a07d79734d8",
-          "TimeBuilt": "2026-05-15T05:21:21.4157944+00:00",
-          "EffectiveVersion": "3.1.16.0",
+          "BuiltCommit": "4d0527e18b4c24dfa4a7f7b9d386c91e5d31c3fe",
+          "TimeBuilt": "2026-07-04T13:24:37.5400929+00:00",
+          "EffectiveVersion": "3.1.17.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -200239,6 +200239,42 @@
             "3.1.16.0": {
               "TimeReleased": "2026-05-15T05:21:21.4157956+00:00",
               "Changelog": "# Umbra 3.1.16\n\n## Fixes \u0026 Improvements\n\n- Fix Compass Marker being forced to top left (By [Bloodsoul](https://github.com/Bloodsoul)).\n\n---\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "f0d699ca17b44973e161135594fb951d0a0af353"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "System.Reflection.MetadataLoadContext",
+                  "Version": "9.0.4"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "Bloodsoul"
+            },
+            "3.1.17.0": {
+              "TimeReleased": "2026-07-04T13:24:37.5401316+00:00",
+              "Changelog": "# Umbra 3.1.17\n\n## Fixes \u0026 Improvements\n\n- Re-add color hex input to the color picker for easy copy and paste (By [Bloodsoul](https://github.com/Bloodsoul)).\n- Custom Deliveries: Add teleport for Tiisol Ja (By [Bloodsoul](https://github.com/Bloodsoul)).\n- Gearset Switcher: Add right click shortcut to open the character window (By [Bloodsoul](https://github.com/Bloodsoul)).\n- Teleport: Add option to show the teleport ticket count on the widget (By [Bloodsoul](https://github.com/Bloodsoul)).\n- Teleport: Add a small padding to condensed menu popup scroll list for a slightly better readability at the last entry (By [Bloodsoul](https://github.com/Bloodsoul)).\n\n---\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/una-xiv/drawing.git",
@@ -237540,9 +237576,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "7c6625bda77ab1caa206239987e496ccfc4197ad",
-          "TimeBuilt": "2026-06-29T20:50:21.1238939+00:00",
-          "EffectiveVersion": "1.11.1.0",
+          "BuiltCommit": "b789ce8bf4d9a40900676b19f6ef3cec1ff14083",
+          "TimeBuilt": "2026-07-04T13:25:01.0172678+00:00",
+          "EffectiveVersion": "1.11.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -239087,6 +239123,50 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.11.2.0": {
+              "TimeReleased": "2026-07-04T13:25:01.0172699+00:00",
+              "Changelog": "- **Timers**: Fix chat timer remainder reminder message for custom delivery\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.79"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.3"
+                },
+                {
+                  "Key": "SourceGear.sqlite3",
+                  "Version": "3.50.4.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.3"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.3"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.3"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Sohtoren"
             }
           }
@@ -242968,9 +243048,9 @@
           }
         },
         "SteamRecordingEnhanced": {
-          "BuiltCommit": "f4ef14d21cd0b9b6efc62148391415b34704f1d2",
-          "TimeBuilt": "2026-06-26T05:31:14.4477178+00:00",
-          "EffectiveVersion": "1.0.0.1",
+          "BuiltCommit": "84526d7ab542608aed28f3f2ba2cd6a5b1b9637c",
+          "TimeBuilt": "2026-07-04T13:24:45.3316463+00:00",
+          "EffectiveVersion": "1.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.2.8": {
@@ -243019,6 +243099,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "RokasKil"
+            },
+            "1.0.0.2": {
+              "TimeReleased": "2026-07-04T13:24:45.3316475+00:00",
+              "Changelog": "- Fixed Duty wiped and Duty started labels being swapped in the configuration menu\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "RokasKil"
             }
           }
