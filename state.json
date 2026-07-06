@@ -96362,9 +96362,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "8e3b19de69fc086150e775efe4d79cc88d86f216",
-          "TimeBuilt": "2026-07-05T04:31:49.4574013+00:00",
-          "EffectiveVersion": "6.0.4.7",
+          "BuiltCommit": "fa5080b17113f8ad277afec5fddec8fde7ef78df",
+          "TimeBuilt": "2026-07-05T18:56:19.7263683+00:00",
+          "EffectiveVersion": "6.0.4.8",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -97981,6 +97981,34 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.4.8": {
+              "TimeReleased": "2026-07-05T18:56:19.7263703+00:00",
+              "Changelog": "Todo Panel Config - Fix scale slider having wrong increment value\r\nGrand Company Supply/Provision - Fix marking other jobs as completed when they aren\u0027t available",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "e0bb5004d182018f06dbf711bc91f5be8a35782f"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -106616,9 +106644,9 @@
           }
         },
         "BilingualTooltips": {
-          "BuiltCommit": "f7433a84cfe6150385cfec9f65434e0b5bb03e1f",
-          "TimeBuilt": "2026-07-05T10:09:26.1586286+00:00",
-          "EffectiveVersion": "1.7.4.0",
+          "BuiltCommit": "86bbd1568a1f1643803e7deeea27b820632bb055",
+          "TimeBuilt": "2026-07-05T21:40:47.6835708+00:00",
+          "EffectiveVersion": "1.7.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -108906,6 +108934,54 @@
             "1.7.4.0": {
               "TimeReleased": "2026-07-05T10:09:26.1587102+00:00",
               "Changelog": "v1.7.1.0\n\nThis is a major update and please check against your current settings after updating, as some settings have been renamed or removed.\n\n- Add support for NPC dialogues.\n- Add support for a few more actions/items (DeepDungeon, minions/mounts, Bozjan, etc.).\n- Add lookup history window to show some statistics about your bilingual exploration.\n- Add support for all FFXIV official languages (JEDF plus Chinese and Korean, WIP).\n\nv1.7.2.0 ~ v1.7.4.0\n- Fix NPC dialogue matching issue for alphabetic languages (English, French, German, etc.).\n- Fix long tooltips going beyond the screen.\n- Gaps before/after the divider line between the translated description and the native one are now configurable in pixels.\n- Tooltip layout is computed more accurately for better alignment/less chance to break.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Elypha/Miosuke.git",
+                  "Version": "cfa60caf692cf99f63685694ff0e4fa1b7ba5cdf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "ZstdSharp.Port",
+                  "Version": "0.8.8"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "Elypha"
+            },
+            "1.7.5.0": {
+              "TimeReleased": "2026-07-05T13:28:59.4172006+00:00",
+              "Changelog": "v1.7.1.0\n\nThis is a major update and please check against your current settings after updating, as some settings have been renamed or removed.\n\n- Add support for NPC dialogues.\n- Add support for a few more actions/items (DeepDungeon, minions/mounts, Bozjan, etc.).\n- Add lookup history window to show some statistics about your bilingual exploration.\n- Add support for all FFXIV official languages (JEDF plus Chinese and Korean, WIP).\n\nv1.7.2.0 ~ v1.7.5.0\n- Fix NPC dialogue matching issue for alphabetic languages (English, French, German, etc.).\n- Fix long tooltips going beyond the screen.\n- Gaps before/after the divider line between the translated description and the native one are now configurable in pixels.\n- Tooltip layout is computed more accurately for better alignment/less chance to break.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Elypha/Miosuke.git",
+                  "Version": "cfa60caf692cf99f63685694ff0e4fa1b7ba5cdf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "ZstdSharp.Port",
+                  "Version": "0.8.8"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "Elypha"
+            },
+            "1.7.6.0": {
+              "TimeReleased": "2026-07-05T21:40:47.6836096+00:00",
+              "Changelog": "v1.7.1.0\n\nThis is a major update and please check against your current settings after updating, as some settings have been renamed or removed.\n\n- Add support for NPC dialogues.\n- Add support for a few more actions/items (DeepDungeon, minions/mounts, Bozjan, etc.).\n- Add lookup history window to show some statistics about your bilingual exploration.\n- Add support for all FFXIV official languages (JEDF plus Chinese and Korean, WIP).\n\nv1.7.2.0 ~ v1.7.6.0\n- Fix NPC dialogue matching issue for alphabetic languages (English, French, German, etc.).\n- Fix long tooltips going beyond the screen.\n- Gaps before/after the divider line between the translated description and the native one are now configurable in pixels.\n- Tooltip layout is computed more accurately for better alignment/less chance to break.\n- Fix the issue where the config window still pops up when the NPC dialogue feature is disabled.\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Elypha/Miosuke.git",
@@ -200549,9 +200625,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "f86ad3be48685e5ea8b34a210081af77696f2bc4",
-          "TimeBuilt": "2026-07-02T01:46:12.9220896+00:00",
-          "EffectiveVersion": "3.1.0.23",
+          "BuiltCommit": "457ee5390eede98e3256b61feea6728c378138d2",
+          "TimeBuilt": "2026-07-05T13:31:50.0350513+00:00",
+          "EffectiveVersion": "3.1.0.24",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -201154,6 +201230,34 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.24": {
+              "TimeReleased": "2026-07-05T13:31:50.0350943+00:00",
+              "Changelog": "### Gathering\r\n- **\u0022Obtains nothing\u0022** lines (yours and other players\u0027) now respect your Gathering filters instead of slipping through.\r\n- **Prospector / collectability spam** (e.g. \u0022uses Meticulous Prospector\u0022) is covered by **Aetherial Reduction** and **All other gathering** toggles.\r\n- **Hide elemental shards \u0026 crystals** moved from **Currencies** to the **Gathering** tab.\r\n- Clearer labels on a few Gathering toggles (Gatherer\u0027s Boon scores, collectables, Aetherial Reduction).\r\n\r\n### Dungeons / duties\r\n- **\u0022The sealed door opens.\u0022** and similar dungeon mechanic lines are no longer blocked by the **Instanced area messages** toggle.\r\n- Common duty feedback (firesand set, shaft clear, item drops, etc.) **always shows**.\r\n\r\n### Settings UI\r\n- Tab list is **grouped logically** instead of alphabetical (Gathering sits with Fishing/Crafting, economy tabs together, etc.).\r\n- **Search** tells you which tab *and* section a setting lives in.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Kagekazu"
             }
           }
@@ -230592,9 +230696,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "ce16860388f65eb43e7cb0acdb91e9f93cd9a123",
-          "TimeBuilt": "2026-07-02T21:09:23.8934828+00:00",
-          "EffectiveVersion": "1.4.1.12",
+          "BuiltCommit": "10c589f2494ed6269444c03b534bcd2ec8c8788b",
+          "TimeBuilt": "2026-07-05T20:24:21.7533997+00:00",
+          "EffectiveVersion": "1.4.1.16",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -236156,6 +236260,86 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
+            },
+            "1.4.1.13": {
+              "TimeReleased": "2026-07-05T18:56:04.671288+00:00",
+              "Changelog": "Inventory Search Bar - Fix not attaching the search bar on login\r\nInventory Search Bar - Now updates fade on tab change\r\nFaster Scroll - Clamps scroll value to 0.1 to fix internal rounding error\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "15c21597fce4f12ac0f1341028c6fbd9f606578f"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.7"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.1.16": {
+              "TimeReleased": "2026-07-05T20:24:21.7534515+00:00",
+              "Changelog": "nofranz\r\n\r\nsmall fix",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "15c21597fce4f12ac0f1341028c6fbd9f606578f"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.7"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -236480,9 +236664,9 @@
           }
         },
         "BeastieBuddy": {
-          "BuiltCommit": "add893a05defb62e7f55d9aaf8a613154a49528c",
-          "TimeBuilt": "2026-06-20T22:00:41.3814914+00:00",
-          "EffectiveVersion": "7.51.0.0",
+          "BuiltCommit": "f68d63771573adbfd52bfa47c162131cd879571f",
+          "TimeBuilt": "2026-07-05T18:56:44.7697093+00:00",
+          "EffectiveVersion": "7.51.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -236904,6 +237088,58 @@
             "7.51.0.0": {
               "TimeReleased": "2026-06-20T22:00:41.3815299+00:00",
               "Changelog": "v7.51.0.0: search list expanded from 10 to 25, clustered results, click to teleport option",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.3.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "rail2025"
+            },
+            "7.51.1.0": {
+              "TimeReleased": "2026-07-05T18:56:44.7697104+00:00",
+              "Changelog": "v7.51.1.0: beastmaster placeholder bestiary added, will auto update post patch, restart plugin/client to fetch latest version",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -241684,9 +241920,9 @@
           }
         },
         "CurrencyWatchdog": {
-          "BuiltCommit": "39c38501ae523edce896261c2c8ddece1fc5138c",
-          "TimeBuilt": "2026-05-06T14:34:02.0153356+00:00",
-          "EffectiveVersion": "1.0.4.0",
+          "BuiltCommit": "e4f239e25258ac5250b6f232f0af836291d51be4",
+          "TimeBuilt": "2026-07-05T18:56:32.9971348+00:00",
+          "EffectiveVersion": "1.0.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.2": {
@@ -241856,6 +242092,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "e68e9c9801a8011093a30f6c7750a6f74696f407"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "nebel"
+            },
+            "1.0.5.0": {
+              "TimeReleased": "2026-07-05T18:56:32.997136+00:00",
+              "Changelog": "- Add \u0022hide in combat\u0022 setting to overlay and jurisdiction settings\r\n- Update KTK",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "376d8f96351f00bbfb7472cd86b70418c6935751"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -246024,6 +246284,34 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "fj233"
+            }
+          }
+        },
+        "HUDManager": {
+          "BuiltCommit": "c87a7e0c0e4b443754a45baa1f97d4e3b47c460b",
+          "TimeBuilt": "2026-07-05T18:55:44.6475374+00:00",
+          "EffectiveVersion": "2.5.27.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "2.5.27.0": {
+              "TimeReleased": "2026-07-05T18:55:44.6475831+00:00",
+              "Changelog": "HUD Manager gives you total control over your HUD layouts:\r\n- Save infinite layouts\r\n- Edit your HUD with precision\r\n- Automatically swap between layouts based on conditions\r\n- Make child layouts that only affect desired HUD elements\r\n- Change visibility of job gauges\r\n- Export and import layouts from text\r\n\r\nAfter 6 long years, HUD Manager is no longer testing-exclusive. Kept you waiting, huh?",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "12.3.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "nebel"
             }
           }
         }
@@ -332674,6 +332962,13 @@
       "Version": "376d8f96351f00bbfb7472cd86b70418c6935751",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-07-05T04:31:49.5266458Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "15c21597fce4f12ac0f1341028c6fbd9f606578f",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-07-05T18:56:04.7499745Z"
     }
   ]
 }
