@@ -96362,9 +96362,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "fa5080b17113f8ad277afec5fddec8fde7ef78df",
-          "TimeBuilt": "2026-07-05T18:56:19.7263683+00:00",
-          "EffectiveVersion": "6.0.4.8",
+          "BuiltCommit": "be33be1fd6e7a8f4b253f1175ba6f7335affbc9b",
+          "TimeBuilt": "2026-07-07T00:11:48.8222949+00:00",
+          "EffectiveVersion": "6.0.4.9",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -98009,6 +98009,34 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.4.9": {
+              "TimeReleased": "2026-07-07T00:11:48.8223352+00:00",
+              "Changelog": "Update French Localization",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "e0bb5004d182018f06dbf711bc91f5be8a35782f"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MidoriKami"
             }
           }
@@ -118509,9 +118537,9 @@
           }
         },
         "Namingway": {
-          "BuiltCommit": "4b457401f9d092dd0f79c342c33f3259ce1011d0",
-          "TimeBuilt": "2026-05-01T04:57:08.6378437+00:00",
-          "EffectiveVersion": "1.1.22.0",
+          "BuiltCommit": "dd8c4303ca943accc3b42e6b430f99a303223398",
+          "TimeBuilt": "2026-07-07T01:34:52.887499+00:00",
+          "EffectiveVersion": "1.1.22.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.8.0": {
@@ -118673,6 +118701,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MKhayle"
+            },
+            "1.1.22.1": {
+              "TimeReleased": "2026-07-07T01:34:52.8875386+00:00",
+              "Changelog": "-# Tentative bugfix for the Status Replacement crash some users were facing under specific conditions.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MKhayle"
             }
           }
@@ -200625,9 +200669,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "457ee5390eede98e3256b61feea6728c378138d2",
-          "TimeBuilt": "2026-07-05T13:31:50.0350513+00:00",
-          "EffectiveVersion": "3.1.0.24",
+          "BuiltCommit": "f0ae675b785b139beb31aa343e57fab9eb6c969a",
+          "TimeBuilt": "2026-07-06T23:02:13.7412302+00:00",
+          "EffectiveVersion": "3.1.0.25",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -201235,6 +201279,34 @@
             "3.1.0.24": {
               "TimeReleased": "2026-07-05T13:31:50.0350943+00:00",
               "Changelog": "### Gathering\r\n- **\u0022Obtains nothing\u0022** lines (yours and other players\u0027) now respect your Gathering filters instead of slipping through.\r\n- **Prospector / collectability spam** (e.g. \u0022uses Meticulous Prospector\u0022) is covered by **Aetherial Reduction** and **All other gathering** toggles.\r\n- **Hide elemental shards \u0026 crystals** moved from **Currencies** to the **Gathering** tab.\r\n- Clearer labels on a few Gathering toggles (Gatherer\u0027s Boon scores, collectables, Aetherial Reduction).\r\n\r\n### Dungeons / duties\r\n- **\u0022The sealed door opens.\u0022** and similar dungeon mechanic lines are no longer blocked by the **Instanced area messages** toggle.\r\n- Common duty feedback (firesand set, shaft clear, item drops, etc.) **always shows**.\r\n\r\n### Settings UI\r\n- Tab list is **grouped logically** instead of alphabetical (Gathering sits with Fishing/Crafting, economy tabs together, etc.).\r\n- **Search** tells you which tab *and* section a setting lives in.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.25": {
+              "TimeReleased": "2026-07-06T23:02:13.7412723+00:00",
+              "Changelog": "- Debug mode tags Echo lines with Echo passthrough so you can see they weren\u2019t blocked.\r\n- Deduped some things in chat history\r\n- Clearer settings help on Exploration and Chat History.\r\n- Code Cleanup and formatting.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
