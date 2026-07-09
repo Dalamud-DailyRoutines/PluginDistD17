@@ -96362,9 +96362,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "be33be1fd6e7a8f4b253f1175ba6f7335affbc9b",
-          "TimeBuilt": "2026-07-07T00:11:48.8222949+00:00",
-          "EffectiveVersion": "6.0.4.9",
+          "BuiltCommit": "17d4039ff715435250919181983cec2405ce79f1",
+          "TimeBuilt": "2026-07-09T04:28:29.0828815+00:00",
+          "EffectiveVersion": "6.0.4.10",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -98037,6 +98037,34 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.4.10": {
+              "TimeReleased": "2026-07-09T04:28:29.0828832+00:00",
+              "Changelog": "Fix todo panel not showing entries sometimes.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "bac4a8364b9319e5002a3a01f8fe930e144d5504"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
@@ -243848,9 +243876,9 @@
           }
         },
         "DiscordBotFFXIV": {
-          "BuiltCommit": "63f4e96c65124c697a588ce64036c94506c62b88",
-          "TimeBuilt": "2026-05-02T23:29:39.8181484+00:00",
-          "EffectiveVersion": "1.1.2.3",
+          "BuiltCommit": "caaa4d7f873189a695101957d9dfc86a655560e7",
+          "TimeBuilt": "2026-07-09T04:28:17.2068842+00:00",
+          "EffectiveVersion": "1.1.2.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.2.2": {
@@ -244019,6 +244047,90 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "devckuw"
+            },
+            "1.1.2.4": {
+              "TimeReleased": "2026-07-09T04:28:17.2069604+00:00",
+              "Changelog": "v1.1.2.4:\nupdate help text\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetCord",
+                  "Version": "1.0.0-beta.9"
+                },
+                {
+                  "Key": "NetCord.Hosting",
+                  "Version": "1.0.0-beta.9"
+                },
+                {
+                  "Key": "NetCord.Hosting.AspNetCore",
+                  "Version": "1.0.0-beta.9"
+                },
+                {
+                  "Key": "NetCord.Hosting.Services",
+                  "Version": "1.0.0-beta.9"
+                },
+                {
+                  "Key": "NetCord.Services",
+                  "Version": "1.0.0-beta.9"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.9"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.9"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.9"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.9"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.9"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.9"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.9"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.9"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.9"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.9"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.DataAnnotations",
+                  "Version": "10.0.9"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.9"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "devckuw"
             }
           }
@@ -273753,9 +273865,9 @@
           }
         },
         "NoTankYou": {
-          "BuiltCommit": "29eff9ef0fc2d3cd77ac6822260e196a8533b36d",
-          "TimeBuilt": "2026-07-05T04:17:48.1736297+00:00",
-          "EffectiveVersion": "7.4.4.1",
+          "BuiltCommit": "d7ea427eee7d7d4f6a9aa60ca8eaf53bc948d7a3",
+          "TimeBuilt": "2026-07-09T04:28:40.3827824+00:00",
+          "EffectiveVersion": "7.4.4.2",
           "MinimumVersion": null,
           "Changelogs": {
             "7.2.2.1": {
@@ -274204,6 +274316,30 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "MidoriKami"
+            },
+            "7.4.4.2": {
+              "TimeReleased": "2026-07-09T04:28:40.3827838+00:00",
+              "Changelog": "Fix warning banner disabling itself after logout and not re-enabling after next login.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "bac4a8364b9319e5002a3a01f8fe930e144d5504"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
@@ -333093,6 +333229,132 @@
       "Version": "15c21597fce4f12ac0f1341028c6fbd9f606578f",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-07-05T18:56:04.7499745Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord",
+      "Version": "1.0.0-beta.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.2835901Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord.Hosting",
+      "Version": "1.0.0-beta.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.2836207Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord.Hosting.AspNetCore",
+      "Version": "1.0.0-beta.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.283621Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord.Hosting.Services",
+      "Version": "1.0.0-beta.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.2836213Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord.Services",
+      "Version": "1.0.0-beta.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.2836216Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration",
+      "Version": "10.0.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.2836218Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration.Abstractions",
+      "Version": "10.0.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.283622Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration.Binder",
+      "Version": "10.0.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.2836225Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "Version": "10.0.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.2836227Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+      "Version": "10.0.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.2836877Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+      "Version": "10.0.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.283688Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Hosting.Abstractions",
+      "Version": "10.0.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.2836883Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging.Abstractions",
+      "Version": "10.0.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.2836885Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options",
+      "Version": "10.0.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.2836887Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+      "Version": "10.0.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.2836889Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options.DataAnnotations",
+      "Version": "10.0.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.283689Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Primitives",
+      "Version": "10.0.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:17.2836892Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "bac4a8364b9319e5002a3a01f8fe930e144d5504",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-07-09T04:28:29.1564015Z"
     }
   ]
 }
