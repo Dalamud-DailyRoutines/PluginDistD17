@@ -236736,9 +236736,9 @@
           }
         },
         "BeastieBuddy": {
-          "BuiltCommit": "f68d63771573adbfd52bfa47c162131cd879571f",
-          "TimeBuilt": "2026-07-05T18:56:44.7697093+00:00",
-          "EffectiveVersion": "7.51.1.0",
+          "BuiltCommit": "ed211fa5d62f33de7e70932947126bf5e7a36e43",
+          "TimeBuilt": "2026-07-08T18:47:11.0481389+00:00",
+          "EffectiveVersion": "7.51.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -237212,6 +237212,58 @@
             "7.51.1.0": {
               "TimeReleased": "2026-07-05T18:56:44.7697104+00:00",
               "Changelog": "v7.51.1.0: beastmaster placeholder bestiary added, will auto update post patch, restart plugin/client to fetch latest version",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.3.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "rail2025"
+            },
+            "7.51.2.0": {
+              "TimeReleased": "2026-07-08T18:47:11.0481885+00:00",
+              "Changelog": "v7.51.2.0: bestiary layout options, feedback on github for preference. \nv7.51.1.0: beastmaster placeholder bestiary added, will auto update post patch, restart plugin/client to fetch latest version",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
