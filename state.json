@@ -71567,9 +71567,9 @@
           }
         },
         "Echoglossian": {
-          "BuiltCommit": "059d8e7687b4692fa5666e6f8d0a6030015afb32",
-          "TimeBuilt": "2026-06-01T16:11:55.9016587+00:00",
-          "EffectiveVersion": "4.2601.531.115",
+          "BuiltCommit": "a6479a8d3354101639ca3b7cc1bedb34b87393d1",
+          "TimeBuilt": "2026-07-11T01:11:07.4746286+00:00",
+          "EffectiveVersion": "4.2601.710.1250",
           "MinimumVersion": null,
           "Changelogs": {
             "2.100.2208.281": {
@@ -76746,6 +76746,266 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "lokinmodar"
+            },
+            "4.2601.710.1250": {
+              "TimeReleased": "2026-07-11T01:11:07.4746814+00:00",
+              "Changelog": "v4.2601.0710.x \n production release:\n - structured dialogue translation, glossary/context routing, and better LLM provider coverage\n - custom OpenAI-compatible providers, live model refresh, and stronger debugger diagnostics/retranslation tools\n - prompt/history/quota hardening plus expanded target-language and downloadable script-font support",
+              "UsedNeeds": [
+                {
+                  "Key": "AutoCtor",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "AWSSDK.Translate",
+                  "Version": "4.0.1.27"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DeepL.net",
+                  "Version": "1.21.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.3.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.12.4"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "5.2.2"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Tools",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "OpenAI",
+                  "Version": "2.10.0"
+                },
+                {
+                  "Key": "RestSharp",
+                  "Version": "114.0.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.435"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "AWSSDK.Core",
+                  "Version": "4.0.4"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Workspaces.Common",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Abstractions",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Analyzers",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Design",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Relational",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyModel",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Http",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Http.Polly",
+                  "Version": "5.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Mono.TextTemplating",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "Polly",
+                  "Version": "7.1.0"
+                },
+                {
+                  "Key": "Polly.Extensions.Http",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.11"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.435"
+                },
+                {
+                  "Key": "System.ClientModel",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Composition",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Composition.AttributedModel",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Composition.Convention",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Composition.Hosting",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Composition.Runtime",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Composition.TypedParts",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Memory.Data",
+                  "Version": "10.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "lokinmodar"
             }
           }
@@ -192689,9 +192949,9 @@
           }
         },
         "ChillFrames": {
-          "BuiltCommit": "339b95bcf54911b6d2b4c8f77c63125816a263fc",
-          "TimeBuilt": "2026-06-27T22:17:26.431559+00:00",
-          "EffectiveVersion": "3.2.2.7",
+          "BuiltCommit": "6e1ceb56f3989725ad237e42a74ec85f11cc31cc",
+          "TimeBuilt": "2026-07-11T01:00:16.0409863+00:00",
+          "EffectiveVersion": "3.2.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.2": {
@@ -193232,6 +193492,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "3.2.3.0": {
+              "TimeReleased": "2026-07-11T01:00:16.0409879+00:00",
+              "Changelog": "Add controls for the games Idle FPS Options.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
@@ -246040,9 +246316,9 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "8b6eb6addfe17ecbb71c2c38174e0d2174eb57a0",
-          "TimeBuilt": "2026-06-18T01:46:11.2161113+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "88d74aee534bd1023db06e6c90d22c14fd67c3cc",
+          "TimeBuilt": "2026-07-11T01:00:08.4253705+00:00",
+          "EffectiveVersion": "1.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -246139,6 +246415,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            },
+            "1.4.1.0": {
+              "TimeReleased": "2026-07-11T01:00:08.425424+00:00",
+              "Changelog": "**New Feature**: Added an option to allow/disallow rolling your current job.\n- Toggle added to the settings panel\n- /jobroulette \u0060current\u0060 will toggle the current job option\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "sleeds2"
             }
           }
@@ -308341,9 +308633,9 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "8b6eb6addfe17ecbb71c2c38174e0d2174eb57a0",
-          "TimeBuilt": "2026-06-18T01:47:04.2984879+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "88d74aee534bd1023db06e6c90d22c14fd67c3cc",
+          "TimeBuilt": "2026-07-11T01:00:24.4886166+00:00",
+          "EffectiveVersion": "1.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -308424,6 +308716,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            },
+            "1.4.1.0": {
+              "TimeReleased": "2026-07-11T01:00:24.488618+00:00",
+              "Changelog": "**New Feature**: Added an option to allow/disallow rolling your current job.\n- Toggle added to the settings panel\n- /jobroulette \u0060current\u0060 will toggle the current job option\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "sleeds2"
             }
           }
