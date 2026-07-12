@@ -192949,9 +192949,9 @@
           }
         },
         "ChillFrames": {
-          "BuiltCommit": "6e1ceb56f3989725ad237e42a74ec85f11cc31cc",
-          "TimeBuilt": "2026-07-11T01:00:16.0409863+00:00",
-          "EffectiveVersion": "3.2.3.0",
+          "BuiltCommit": "97f7d364819ffd401ed61b444c1a0dd919e544c4",
+          "TimeBuilt": "2026-07-11T15:26:34.3569417+00:00",
+          "EffectiveVersion": "3.2.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.2": {
@@ -193508,6 +193508,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "3.2.3.1": {
+              "TimeReleased": "2026-07-11T15:26:34.356987+00:00",
+              "Changelog": "nofranz\r\n\r\nImproves tooltip",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MidoriKami"
             }
           }
