@@ -9430,7 +9430,7 @@
     "Author": "MidoriKami",
     "Name": "VanillaPlus",
     "InternalName": "VanillaPlus",
-    "AssemblyVersion": "1.4.1.17",
+    "AssemblyVersion": "1.4.1.18",
     "Description": "This plugin is primarily focused on various UI adjustments, behavior adjustments, and adding new native elements to the game",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/MidoriKami/VanillaPlus",
@@ -9450,7 +9450,7 @@
     "TestingAssemblyVersion": "1.4.0.2",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1783892332",
+    "LastUpdate": "1783939417",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/VanillaPlus/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/VanillaPlus/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/VanillaPlus/latest.zip"
