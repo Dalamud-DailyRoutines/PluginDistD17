@@ -201317,9 +201317,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "f0ae675b785b139beb31aa343e57fab9eb6c969a",
-          "TimeBuilt": "2026-07-06T23:02:13.7412302+00:00",
-          "EffectiveVersion": "3.1.0.25",
+          "BuiltCommit": "c384057741574505a66418945c68e1747f24652f",
+          "TimeBuilt": "2026-07-14T01:04:14.0457592+00:00",
+          "EffectiveVersion": "3.1.0.26",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -201978,6 +201978,34 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.26": {
+              "TimeReleased": "2026-07-14T01:04:14.0458418+00:00",
+              "Changelog": "- [x] Fixes Dalamud plugin chat (\u0060IChatGui.Print\u0060) being silently hidden on filtered channels (e.g. System)\r\n- [x] Clarifies settings help text so toggles accurately describe what they show or hide. With better examples.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Kagekazu"
             }
           }
@@ -226792,9 +226820,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "62ef82f89247b28a376359bd8d8b91206e19e799",
-          "TimeBuilt": "2026-06-05T19:30:15.6157962+00:00",
-          "EffectiveVersion": "0.0.4.3",
+          "BuiltCommit": "610c1a9476c9989ebe30939e8efc28f9442019e2",
+          "TimeBuilt": "2026-07-14T01:04:40.1657744+00:00",
+          "EffectiveVersion": "0.0.4.4",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
@@ -229171,6 +229199,198 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "serifas"
+            },
+            "0.0.4.4": {
+              "TimeReleased": "2026-07-14T01:04:40.1657758+00:00",
+              "Changelog": "IPC updates and fix to tooltip uncentered text.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.12.4"
+                },
+                {
+                  "Key": "K4os.Compression.LZ4",
+                  "Version": "1.3.8"
+                },
+                {
+                  "Key": "K4os.Compression.LZ4.Legacy",
+                  "Version": "1.3.8"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Web.WebView2",
+                  "Version": "1.0.2903.40"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "NReco.Logging.File",
+                  "Version": "1.3.1"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Abstractions",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "8.15.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "System.Resources.Extensions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "serifas"
             }
           }
@@ -243004,9 +243224,9 @@
           }
         },
         "MusicalGuide": {
-          "BuiltCommit": "aa6d1165ce23eea487818602712ca90cb0c5fbe6",
-          "TimeBuilt": "2026-05-21T04:29:17.2311516+00:00",
-          "EffectiveVersion": "1.6.5.0",
+          "BuiltCommit": "d2669ade57918ec604fc93acd44513df88b72d7d",
+          "TimeBuilt": "2026-07-14T01:04:21.7903134+00:00",
+          "EffectiveVersion": "1.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.6.0": {
@@ -243092,6 +243312,22 @@
             "1.6.5.0": {
               "TimeReleased": "2026-05-21T04:29:17.2311891+00:00",
               "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "yfthbr"
+            },
+            "1.7.0.0": {
+              "TimeReleased": "2026-07-14T01:04:21.7903145+00:00",
+              "Changelog": "- added customization to object visibility range\r\n- compatibility notice times out",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -295029,9 +295265,9 @@
           }
         },
         "ArchipelagoXIV": {
-          "BuiltCommit": "64ae639ba1b37ec1070fc6d20e4254f5022ff1a3",
-          "TimeBuilt": "2026-06-22T21:49:06.4315148+00:00",
-          "EffectiveVersion": "0.29.0.0",
+          "BuiltCommit": "4ba592e6004c23fa61317a78f16dee70bd47da64",
+          "TimeBuilt": "2026-07-14T01:04:57.2134217+00:00",
+          "EffectiveVersion": "0.30.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.19.5.0": {
@@ -295248,6 +295484,26 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "silasary"
+            },
+            "0.30.0.0": {
+              "TimeReleased": "2026-07-14T01:04:57.2134235+00:00",
+              "Changelog": "Added new checks for attuning aetherytes.\nAdded new option: Huntsanity.  Checks for defeating hunt targets.\nAdded the rest of Bozja.\nAdded Occult Crescent South Horn.\nAdded Connection History to make it easier to jump between multiple slots\nAdded new PvP map\nAdded sorting to job tooltip\nChanged logic for Big Fish to also require the bait for Intuition fish\nUpdated some fish with more reasonable baits\nAssorted bugfixes",
+              "UsedNeeds": [
+                {
+                  "Key": "Archipelago.MultiClient.Net",
+                  "Version": "6.6.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "silasary"
             }
           }
@@ -309389,6 +309645,58 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "sleepybnuuy"
+            }
+          }
+        },
+        "GlamourRoulette": {
+          "BuiltCommit": "a6ca31d37030053fc692fce2f5449d7825901c6c",
+          "TimeBuilt": "2026-07-14T01:04:48.541265+00:00",
+          "EffectiveVersion": "0.9.9.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.9.9.0": {
+              "TimeReleased": "2026-07-14T01:04:48.541275+00:00",
+              "Changelog": "**New Plugin**: Glamour Roulette is a plugin for Final Fantasy XIV that randomly selects one of your saved Glamour Plates and swaps to it.\n- Allows the user to select eligible gearsets to be randomized.\n- Don\u0027t know what to wear tonight? Glamour Roulette has you covered!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            }
+          }
+        },
+        "Gaolbreak": {
+          "BuiltCommit": "ed6417fb5b71b15379071012e86354c697d1862d",
+          "TimeBuilt": "2026-07-14T01:10:18.6908438+00:00",
+          "EffectiveVersion": "0.0.0.26",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.26": {
+              "TimeReleased": "2026-07-14T01:10:18.6908849+00:00",
+              "Changelog": "Initial Main Repo Testing Release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.3.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sourpuh"
             }
           }
         }
