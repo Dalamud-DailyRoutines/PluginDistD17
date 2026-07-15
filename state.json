@@ -247004,9 +247004,9 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "88d74aee534bd1023db06e6c90d22c14fd67c3cc",
-          "TimeBuilt": "2026-07-11T01:00:08.4253705+00:00",
-          "EffectiveVersion": "1.4.1.0",
+          "BuiltCommit": "b88eb574bead5c416c01764d9f9d37e2184713bb",
+          "TimeBuilt": "2026-07-15T04:47:20.8297204+00:00",
+          "EffectiveVersion": "1.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -247119,6 +247119,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "sleeds2"
+            },
+            "1.5.0.0": {
+              "TimeReleased": "2026-07-15T04:47:20.8297712+00:00",
+              "Changelog": "**Update**: Random Glamour Plate option is now ignored when a Gearset has a linked Glamour Plate\n- Toggle added to the settings panel to enable/disable overriding the linked Glamour Plate\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "sleeds2"
             }
           }
@@ -309997,9 +310013,9 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "88d74aee534bd1023db06e6c90d22c14fd67c3cc",
-          "TimeBuilt": "2026-07-11T01:00:24.4886166+00:00",
-          "EffectiveVersion": "1.4.1.0",
+          "BuiltCommit": "b88eb574bead5c416c01764d9f9d37e2184713bb",
+          "TimeBuilt": "2026-07-15T04:47:30.892236+00:00",
+          "EffectiveVersion": "1.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -310096,6 +310112,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "sleeds2"
+            },
+            "1.5.0.0": {
+              "TimeReleased": "2026-07-15T04:47:30.8922375+00:00",
+              "Changelog": "**Update**: Random Glamour Plate option is now ignored when a Gearset has a linked Glamour Plate\n- Toggle added to the settings panel to enable/disable overriding the linked Glamour Plate\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "sleeds2"
             }
           }
@@ -310265,14 +310297,30 @@
           }
         },
         "GlamourRoulette": {
-          "BuiltCommit": "a6ca31d37030053fc692fce2f5449d7825901c6c",
-          "TimeBuilt": "2026-07-14T01:04:48.541265+00:00",
-          "EffectiveVersion": "0.9.9.0",
+          "BuiltCommit": "91db46705a414b7ca1d1eae76b192c6bfa1dd5e7",
+          "TimeBuilt": "2026-07-15T04:47:39.7545004+00:00",
+          "EffectiveVersion": "0.9.9.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.9.9.0": {
               "TimeReleased": "2026-07-14T01:04:48.541275+00:00",
               "Changelog": "**New Plugin**: Glamour Roulette is a plugin for Final Fantasy XIV that randomly selects one of your saved Glamour Plates and swaps to it.\n- Allows the user to select eligible gearsets to be randomized.\n- Don\u0027t know what to wear tonight? Glamour Roulette has you covered!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            },
+            "0.9.9.1": {
+              "TimeReleased": "2026-07-15T04:47:39.7545017+00:00",
+              "Changelog": "**New Plugin**: Glamour Roulette is a plugin for Final Fantasy XIV that randomly selects one of your saved Glamour Plates and swaps to it.\n- Allows the user to select eligible gearsets to be randomized.\n- Don\u0027t know what to wear tonight? Glamour Roulette has you covered!\n\n0.9.9.1 Testing Update - Modified Glamour Plate window and switching to utilize client actions.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
