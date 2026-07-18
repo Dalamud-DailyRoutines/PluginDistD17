@@ -3203,7 +3203,7 @@
     "Author": "lokinmodar",
     "Name": "Echoglossian",
     "InternalName": "Echoglossian",
-    "AssemblyVersion": "4.2601.715.1114",
+    "AssemblyVersion": "4.2601.717.8",
     "Description": "Realtime game text translator",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/lokinmodar/Echoglossian",
@@ -3232,7 +3232,7 @@
     "TestingAssemblyVersion": "4.2601.516.1300",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1784182999",
+    "LastUpdate": "1784319218",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/Echoglossian/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Echoglossian/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Echoglossian/latest.zip"
