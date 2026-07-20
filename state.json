@@ -310077,9 +310077,9 @@
           }
         },
         "Dalamud.RichPresence": {
-          "BuiltCommit": "024b79ea0bda36e32397418398016d82472cf55a",
-          "TimeBuilt": "2026-07-19T04:43:32.728107+00:00",
-          "EffectiveVersion": "2.0.9.3",
+          "BuiltCommit": "041a27ff90179dc6f0f8fd79cfb3ec36fdc86749",
+          "TimeBuilt": "2026-07-20T07:03:21.8097865+00:00",
+          "EffectiveVersion": "2.0.9.4",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.9.0": {
@@ -310176,6 +310176,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "2.0.9.4": {
+              "TimeReleased": "2026-07-20T07:03:21.809835+00:00",
+              "Changelog": "# What\u0027s New?\n- Added a alternate envar check \u0060WINE_HOST_XDG_RUNTIME_DIR\u0060 to fix issues finding Discord\u0027s socket on Wine/Proton 11 installs.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.6.1.70"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Bronya-Rand"
             }
           }
