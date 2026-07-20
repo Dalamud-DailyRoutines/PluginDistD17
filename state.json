@@ -202357,9 +202357,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "77e3c22d768d01c419b1078f010233ba1caac4da",
-          "TimeBuilt": "2026-07-14T19:05:04.4743144+00:00",
-          "EffectiveVersion": "3.1.0.27",
+          "BuiltCommit": "b0e42a8fa97b25c00a5b0ce7c1f94a4bd5b1c0ae",
+          "TimeBuilt": "2026-07-19T16:32:29.2726202+00:00",
+          "EffectiveVersion": "3.1.0.29",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -203074,6 +203074,34 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.29": {
+              "TimeReleased": "2026-07-19T16:32:29.2726686+00:00",
+              "Changelog": "- **Hide FATE level sync** works again for the \u201Ctoo many levels above this FATE\u201D warning (including older content that says 5 levels instead of 6).\r\n- **Other plugins\u2019 chat** on System (and similar filtered channels) shows again instead of being hidden as spam.\r\n- **Emote filtering** correctly keeps emotes that involve you when filtering is on.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Kagekazu"
             }
           }
