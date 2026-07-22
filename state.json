@@ -12864,9 +12864,9 @@
           }
         },
         "NoTankYou": {
-          "BuiltCommit": "357d3b5759ba8ba56efa1e7107314510ed4f96e0",
-          "TimeBuilt": "2026-07-12T21:36:34.3127615+00:00",
-          "EffectiveVersion": "7.4.4.3",
+          "BuiltCommit": "ac2325cfc2756c33e9c3e19d3d52e219da6e7409",
+          "TimeBuilt": "2026-07-22T05:15:37.5162068+00:00",
+          "EffectiveVersion": "7.4.4.4",
           "MinimumVersion": null,
           "Changelogs": {
             "7.1.0.2": {
@@ -14164,6 +14164,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "8abdb1c6e6edc642aae4606a7751b1c8527b5a76"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "7.4.4.4": {
+              "TimeReleased": "2026-07-22T05:15:37.5162081+00:00",
+              "Changelog": "Stability Improvements",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "b3ba9099023c3f599816507993b332be6174819b"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -97946,9 +97970,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "79df9f494b4df6164850131def11ae53982e0179",
-          "TimeBuilt": "2026-07-12T21:37:19.2269138+00:00",
-          "EffectiveVersion": "6.0.4.11",
+          "BuiltCommit": "c476b6a5b76004d70412f83152069487936ac4d2",
+          "TimeBuilt": "2026-07-22T05:15:13.1512752+00:00",
+          "EffectiveVersion": "6.0.4.12",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -99662,6 +99686,34 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
                   "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.4.12": {
+              "TimeReleased": "2026-07-22T05:15:13.1513168+00:00",
+              "Changelog": "Stability Improvements",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "b3ba9099023c3f599816507993b332be6174819b"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "76ebbac0b3d91dace40ac16b5e132bee0793b49a"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -249752,6 +249804,34 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "sleeds2"
+            }
+          }
+        },
+        "Gaolbreak": {
+          "BuiltCommit": "d73a801b0130d1a62e66c82400213deefb858def",
+          "TimeBuilt": "2026-07-22T05:15:24.0654006+00:00",
+          "EffectiveVersion": "0.0.0.31",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.31": {
+              "TimeReleased": "2026-07-22T05:15:24.0654061+00:00",
+              "Changelog": "**Initial Main Repo Stable Release**\n- Layer game windows with plugin windows\n- Allow 3D overlay plugins to draw under the game\u0027s UI\n- Prevent ReShade or other graphics effects from affecting the UI\n**New Since Testing**\n- Drag-and-drop ImGui window reordering in the Gaolbreak config\n- Pin plugin windows above or below the game\u0027s UI (drag to intended position first)\n- If you want to pin a window to a specific addon, follow https://github.com/sourpuh/ffxiv_gaolbreak#pins\n- More pin improvements coming soon\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.3.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sourpuh"
             }
           }
         }
