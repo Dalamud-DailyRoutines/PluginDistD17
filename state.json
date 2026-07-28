@@ -65318,9 +65318,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "ccae9a44f395415451c9ab082bcb73687d1ba1ff",
-          "TimeBuilt": "2026-07-05T04:17:26.9757394+00:00",
-          "EffectiveVersion": "1.6.9.2",
+          "BuiltCommit": "82d2426b214ea75512242010513dbc74046cada5",
+          "TimeBuilt": "2026-07-27T16:25:27.1532669+00:00",
+          "EffectiveVersion": "1.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -67477,6 +67477,42 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.0.0": {
+              "TimeReleased": "2026-07-27T16:25:27.1533101+00:00",
+              "Changelog": "- Add reward tracking prototype\r\n  - This includes all \u0027fate\u0027 like reward popup, occult, bozja, eureka .....\r\n  - Only a prototype until things have been worked out\r\n  - As always this is upload only for now",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
             }
           }
@@ -313677,6 +313713,54 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "RajahOmen"
+            }
+          }
+        },
+        "Pseudonamingway": {
+          "BuiltCommit": "bfbf04c4552aabcea842277da5a1bfd1e9d905d0",
+          "TimeBuilt": "2026-07-27T15:46:52.8557716+00:00",
+          "EffectiveVersion": "0.2.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.2.0.0": {
+              "TimeReleased": "2026-07-27T15:46:52.8558023+00:00",
+              "Changelog": "Give proper names to Loporrit NPCs without them - Mendingway, Vendingway, and Supplyingway",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sourpuh"
+            }
+          }
+        },
+        "AcrylicXIV": {
+          "BuiltCommit": "bd20d6f7f1de1ff9bf3a9fd754abd80f5fef7f13",
+          "TimeBuilt": "2026-07-28T00:54:49.9823104+00:00",
+          "EffectiveVersion": "0.0.0.2",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.2": {
+              "TimeReleased": "2026-07-28T00:54:49.9823516+00:00",
+              "Changelog": "Initial testing release.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MapleRecall"
             }
           }
         }
