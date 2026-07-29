@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "708d6256a36b30c07e5b51e154bef807028f55bc",
-          "TimeBuilt": "2026-07-19T04:41:57.2331147+00:00",
-          "EffectiveVersion": "2.0.9.2",
+          "BuiltCommit": "038afe26797ec6b3f015fa9e7b76f0d04aca6698",
+          "TimeBuilt": "2026-07-28T17:47:20.4146054+00:00",
+          "EffectiveVersion": "2.0.9.5",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -734,6 +734,30 @@
             "2.0.9.2": {
               "TimeReleased": "2026-07-19T04:41:57.2331538+00:00",
               "Changelog": "## What\u0027s New?\r\n\u003E Some features are only available on the testing branch and will be labeled as such.\r\n\r\n- **Template System!** Instead of toggling certain things or whatnot, now you can create your own RPC details within XIV.\r\n\r\n  | Tag | Description |\r\n  | :--: | :------------: |\r\n  | {playername} | Your character\u0027s name (e.g. Y\u0027shtola Rhul) | \r\n  | {fc} | Your free company\u0027s tag (e.g. \u00ABFFXIV\u00BB) |\r\n  | {world} | The current world you are in (e.g. Balmung) |\r\n  | {homeworld} | Your home world (e.g. Goblin) |\r\n  | {dc} | The data center you are in (e.g. Aether) |\r\n  | {ward} | The ward of your current residential area (e.g. Ward 20) |\r\n  | {job} | Your job name or abbreviation [if enabled] (e.g. Summoner or SMN) |\r\n  | {level} | Your current level (e.g. 100) |\r\n  | {location} | The current location name/content you are in/doing (e.g. New Gridania/Windurst) |\r\n\r\n\u003E Depending on what you toggled, this update will \u0027attempt\u0027 to reconstruct what you had as valid tags. For all available tags, past this version, see the *Available Tags* drop down. Clicking on a tag in this dropdown will copy the tag to your clipboard to paste in the field textbox. A preview of what will be shown is available to you below every field.\r\n\r\n- (Testing Only) **New Discord Socket**. The plugin can now communicate with all Discord clients on Linux whether it be Flatpak, Snap or a Native Client \u002B 3rd-Party Clients (Vesktop).\r\n- (Testing Only) Removed WineRPCBridge as part of the plugin itself.\r\n- (Testing Only) Removed the Wine toggle in the configuration window.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.6.1.70"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "2.0.9.5": {
+              "TimeReleased": "2026-07-28T17:47:20.4146803+00:00",
+              "Changelog": "# What\u0027s New?\r\n- **New Discord Socket.** The plugin can now communicate with all Discord clients on Linux whether it be Flatpak, Snap or a Native Client \u002B 3rd-Party Clients (Vesktop).\r\n   \u003E This feature requires at least Wine 10.8 or GE-Proton 11-1 to work. GE-Proton 10-34 or any Wine version without \u0060AF_UNIX\u0060 support will cause the plugin to disable itself in code.\r\n\r\n- Removed WineRPCBridge as part of the plugin itself.\r\n- Removed the Wine toggle in the configuration window.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -65318,9 +65342,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "82d2426b214ea75512242010513dbc74046cada5",
-          "TimeBuilt": "2026-07-27T16:25:27.1532669+00:00",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "8356bc5958fde0c1a65d125d0b4face83f4ca7b5",
+          "TimeBuilt": "2026-07-28T22:55:07.869499+00:00",
+          "EffectiveVersion": "1.7.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -67482,6 +67506,114 @@
             "1.7.0.0": {
               "TimeReleased": "2026-07-27T16:25:27.1533101+00:00",
               "Changelog": "- Add reward tracking prototype\r\n  - This includes all \u0027fate\u0027 like reward popup, occult, bozja, eureka .....\r\n  - Only a prototype until things have been worked out\r\n  - As always this is upload only for now",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.1.0": {
+              "TimeReleased": "2026-07-28T15:54:48.4538872+00:00",
+              "Changelog": "- North horn support",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.1.1": {
+              "TimeReleased": "2026-07-28T20:11:28.816757+00:00",
+              "Changelog": "- Fix pot fate ids not being tracked correctly\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.1.2": {
+              "TimeReleased": "2026-07-28T22:55:07.8695005+00:00",
+              "Changelog": "- Reset data more often to prevent leakage into the next instance",
               "UsedNeeds": [
                 {
                   "Key": "CsvHelper",
@@ -108348,9 +108480,9 @@
           }
         },
         "FauxHollowsSolver": {
-          "BuiltCommit": "c672a5cabdb4ba9f31521afb2517907a4dc9ca60",
-          "TimeBuilt": "2025-12-25T12:34:47.3209516+00:00",
-          "EffectiveVersion": "1.5.1.1",
+          "BuiltCommit": "d60e49b0625ae3484d4e8059891f62feabc03c7e",
+          "TimeBuilt": "2026-07-28T22:54:54.5452015+00:00",
+          "EffectiveVersion": "1.5.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.0.0": {
@@ -108439,6 +108571,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "Glorou"
+            },
+            "1.5.1.2": {
+              "TimeReleased": "2026-07-28T22:54:54.5452421+00:00",
+              "Changelog": "Updated Faux Hollows Solver for API 15",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Glorou"
             }
           }
@@ -122747,9 +122895,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "8d7e577ed719fcb05d22a5dcc24e035198aa62a4",
-          "TimeBuilt": "2026-06-25T05:48:22.2343282+00:00",
-          "EffectiveVersion": "1.7.1.8",
+          "BuiltCommit": "9f9470ea70abe288e40240b260dcf7615a908480",
+          "TimeBuilt": "2026-07-28T22:55:17.3487021+00:00",
+          "EffectiveVersion": "1.7.3.4",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -123878,6 +124026,150 @@
             "1.7.1.8": {
               "TimeReleased": "2026-06-25T05:48:22.2343292+00:00",
               "Changelog": "- Workaround fix for KTK crash on logout",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.0": {
+              "TimeReleased": "2026-07-28T15:54:58.3559553+00:00",
+              "Changelog": "- Update everything for north horn\r\n  - Some manual input is missing, will be done by tomorrow",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.1": {
+              "TimeReleased": "2026-07-28T17:47:30.5410664+00:00",
+              "Changelog": "- Add all treasure locations for north\r\n  - No bunny carrots or pots yet",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.2": {
+              "TimeReleased": "2026-07-28T20:11:39.4187143+00:00",
+              "Changelog": "- Add first batch of bunny and pot locations",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.4": {
+              "TimeReleased": "2026-07-28T22:55:17.3487034+00:00",
+              "Changelog": "- All pot locations\r\n  - They will be split into north, south, reroll once i have more data",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -218740,9 +219032,9 @@
           }
         },
         "RazerReader": {
-          "BuiltCommit": "e75425af3cdf9d1eaa5290f4b9ad03757af245d3",
-          "TimeBuilt": "2026-04-30T04:14:16.9530018+00:00",
-          "EffectiveVersion": "1.1.5.0",
+          "BuiltCommit": "240e32309a0a4833d5366155b6e91e66e9794972",
+          "TimeBuilt": "2026-07-29T00:08:48.4987588+00:00",
+          "EffectiveVersion": "2.0.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.1": {
@@ -218895,6 +219187,42 @@
                 }
               ],
               "Reviewer": "karashiiro",
+              "Submitter": "mashirochan"
+            },
+            "2.0.0.0": {
+              "TimeReleased": "2026-07-29T00:08:48.4987987+00:00",
+              "Changelog": "Massive v2.0 overhaul into Battery Buddy! Logitech device support!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "mashirochan"
             }
           }
@@ -243580,9 +243908,9 @@
           }
         },
         "FATEhelper": {
-          "BuiltCommit": "d9c40bd646698e118db6d867cda9fb40a52ede6b",
-          "TimeBuilt": "2026-06-03T21:40:43.3951535+00:00",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "fc42309343b4797d302432c6b83f2ec2415e31f4",
+          "TimeBuilt": "2026-07-28T23:11:00.3237322+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -243652,6 +243980,22 @@
             "1.1.0.0": {
               "TimeReleased": "2026-06-03T21:40:43.395201+00:00",
               "Changelog": "added distance view and sort option, huge thanks to jade-doggerel on github for this \u003C3",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "teechep"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-07-28T23:11:00.3237769+00:00",
+              "Changelog": "added sound alert for new fate spawns, updated occult aetheryte with north horn",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -313373,9 +313717,9 @@
           }
         },
         "Drawers": {
-          "BuiltCommit": "3077d5c3e5bf6fe47c1b59c6d99f9485928f221f",
-          "TimeBuilt": "2026-07-27T03:25:16.6134198+00:00",
-          "EffectiveVersion": "0.1.0.5",
+          "BuiltCommit": "4dd1012efa66b177fa4303ff08e1fc6a6ac47555",
+          "TimeBuilt": "2026-07-28T23:11:09.1625761+00:00",
+          "EffectiveVersion": "0.1.0.51",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -313413,6 +313757,22 @@
             "0.1.0.5": {
               "TimeReleased": "2026-07-27T03:25:16.6134209+00:00",
               "Changelog": "Fixed auto mode so it doesn\u0027t flash the weapon. Tiny other improvements. Fixed detour.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "brosesarered"
+            },
+            "0.1.0.51": {
+              "TimeReleased": "2026-07-28T23:11:09.1625776+00:00",
+              "Changelog": "Fixed being unable to dismount.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
