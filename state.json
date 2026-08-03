@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "038afe26797ec6b3f015fa9e7b76f0d04aca6698",
-          "TimeBuilt": "2026-07-28T17:47:20.4146054+00:00",
-          "EffectiveVersion": "2.0.9.5",
+          "BuiltCommit": "eceb281dc9a337fcf9eaf6773e5dd6bdf0ab7010",
+          "TimeBuilt": "2026-08-02T20:19:17.5363954+00:00",
+          "EffectiveVersion": "2.0.9.6",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -777,6 +777,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "2.0.9.6": {
+              "TimeReleased": "2026-08-02T20:19:17.5363969+00:00",
+              "Changelog": "# What\u0027s New?\r\n- Fixed a bug where migrating from RPC V1 to RPC V2 failed to apply a user\u0027s original values.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.6.1.70"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Bronya-Rand"
             }
           }
@@ -123103,9 +123127,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "cd0dcf5da03e5661aa0c78e6e887038964f6de44",
-          "TimeBuilt": "2026-08-01T20:33:20.0877902+00:00",
-          "EffectiveVersion": "1.7.3.9",
+          "BuiltCommit": "0115c294d8dbd52840deb2f212a2cfc0a4a0f3ae",
+          "TimeBuilt": "2026-08-02T21:02:35.0597397+00:00",
+          "EffectiveVersion": "1.7.3.10",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -124517,6 +124541,42 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.10": {
+              "TimeReleased": "2026-08-02T21:02:35.0597785+00:00",
+              "Changelog": "- Fix all text related to north horn tower\r\n- New tracker design\r\n\r\n\u003Cimg width=\u0022635\u0022 height=\u0022529\u0022 alt=\u0022image\u0022 src=\u0022https://github.com/user-attachments/assets/6a9b2931-f3dc-4f64-adf2-a811437a2005\u0022 /\u003E\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
             }
           }
@@ -240868,9 +240928,9 @@
           }
         },
         "BeastieBuddy": {
-          "BuiltCommit": "65cc92db1d54ee9af5e1eb5a313295b3ffadc767",
-          "TimeBuilt": "2026-07-30T20:34:23.7293573+00:00",
-          "EffectiveVersion": "7.55.0.0",
+          "BuiltCommit": "8ef4b1776b4b6c109164c510b3a43bb39a5c495b",
+          "TimeBuilt": "2026-08-03T00:45:20.2978311+00:00",
+          "EffectiveVersion": "7.55.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -241500,6 +241560,58 @@
             "7.55.0.0": {
               "TimeReleased": "2026-07-30T20:34:23.7293977+00:00",
               "Changelog": "v7.55.0.0: Search fixes\nv7.51.2.1:bestiary v2 layout options, info from eu fanfest/pll",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.3.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "rail2025"
+            },
+            "7.55.0.1": {
+              "TimeReleased": "2026-08-03T00:45:20.2978705+00:00",
+              "Changelog": "v7.55.0.1: images resized, optimizations\nv7.55.0.0: Search fixes\nv7.51.2.1:bestiary v2 layout options, info from eu fanfest/pll",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -251464,6 +251576,30 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "cohenaj194"
+            }
+          }
+        },
+        "DutySpeed": {
+          "BuiltCommit": "331d85ef5de8701adce9dd573dde6902c3ba24cf",
+          "TimeBuilt": "2026-08-02T20:19:09.3114332+00:00",
+          "EffectiveVersion": "1.7.5.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.7.5.1": {
+              "TimeReleased": "2026-08-02T20:19:09.311436+00:00",
+              "Changelog": "Have tested it across multiple patches and weeks/months of duty running without issues. \r\nNo changes have been made. ",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "EuphoricCrashOut"
             }
           }
         }
@@ -313120,62 +313256,6 @@
             }
           }
         },
-        "DutySpeed": {
-          "BuiltCommit": "331d85ef5de8701adce9dd573dde6902c3ba24cf",
-          "TimeBuilt": "2026-05-01T06:39:01.8508431+00:00",
-          "EffectiveVersion": "1.7.5.1",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.3.4.0": {
-              "TimeReleased": "2026-04-10T20:30:04.0073445+00:00",
-              "Changelog": "DutySpeed is a lightweight, automated \u0022speedrun\u0022 timer for Final Fantasy XIV. It tracks the time it took to complete dungeons, trials, and raids without needing to manually start or stop a stopwatch. This would be my first submission attempt! \\o/\r\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.2"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "EuphoricCrashOut"
-            },
-            "1.7.5.0": {
-              "TimeReleased": "2026-05-01T02:07:00.0023102+00:00",
-              "Changelog": "Attempts are made. ",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "EuphoricCrashOut"
-            },
-            "1.7.5.1": {
-              "TimeReleased": "2026-05-01T06:39:01.8508914+00:00",
-              "Changelog": "I gotta slow down. ",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "reiichi001",
-              "Submitter": "EuphoricCrashOut"
-            }
-          }
-        },
         "PullToOBS": {
           "BuiltCommit": "0106367b9bcba31e547cef83f5f29b3089767d03",
           "TimeBuilt": "2026-06-03T21:29:08.5096653+00:00",
@@ -314797,9 +314877,9 @@
           }
         },
         "ARealmRepopulated": {
-          "BuiltCommit": "579d3d71b0d94469164dbc62b5dad0ddb8110f33",
-          "TimeBuilt": "2026-06-15T00:01:10.4064362+00:00",
-          "EffectiveVersion": "0.1.5.0",
+          "BuiltCommit": "f1bc7890ea160daacdff1e6cb6793eda3232307c",
+          "TimeBuilt": "2026-08-02T21:02:45.5706561+00:00",
+          "EffectiveVersion": "0.1.6.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.4.4": {
@@ -315109,6 +315189,162 @@
                 {
                   "Key": "xunit.v3.runner.inproc.console",
                   "Version": "3.2.2"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "NetStyx"
+            },
+            "0.1.6.1": {
+              "TimeReleased": "2026-08-02T21:02:45.5706576+00:00",
+              "Changelog": "Functional Changes\r\n- Added an appearance picker for selecting appearances from known NPCs.\r\n\r\nTechnical Changes\r\n- Added model scale values to scenario files.\r\n- Improved head-tracking behavior for models that do not support it.\r\n- Prevented a game crash that could occur when spawning an actor on a water surface.\r\n- Fixed an issue where scenarios could be loaded in housing districts on the wrong server.",
+              "UsedNeeds": [
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Shouldly",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "xunit.v3",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiffEngine",
+                  "Version": "11.3.0"
+                },
+                {
+                  "Key": "EmptyFiles",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Microsoft.ApplicationInsights",
+                  "Version": "2.23.0"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.Telemetry",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform.MSBuild",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "6.0.1"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.27.0"
+                },
+                {
+                  "Key": "xunit.v3.assert",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.core.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.extensibility.core",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.inproc.console",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
                 }
               ],
               "Reviewer": "nathanctech",
