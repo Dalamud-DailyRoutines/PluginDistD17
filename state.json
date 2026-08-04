@@ -65406,9 +65406,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "1b0befed9c6f41fcfb324e8edcc1afb126de8c2a",
-          "TimeBuilt": "2026-08-02T00:06:22.8149841+00:00",
-          "EffectiveVersion": "1.7.1.4",
+          "BuiltCommit": "8e1554a7d129343d7c43dd33668617288197aa98",
+          "TimeBuilt": "2026-08-03T17:22:44.9092202+00:00",
+          "EffectiveVersion": "1.7.1.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -67781,6 +67781,42 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.1.5": {
+              "TimeReleased": "2026-08-03T17:22:44.9092604+00:00",
+              "Changelog": "- More BNPC tracking",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Infiziert90"
             }
           }
@@ -123127,9 +123163,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "0115c294d8dbd52840deb2f212a2cfc0a4a0f3ae",
-          "TimeBuilt": "2026-08-02T21:02:35.0597397+00:00",
-          "EffectiveVersion": "1.7.3.10",
+          "BuiltCommit": "a43ae950caee79a4efa2834251d904e1417db0fc",
+          "TimeBuilt": "2026-08-03T17:19:31.6247109+00:00",
+          "EffectiveVersion": "1.7.3.12",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -124577,6 +124613,78 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.11": {
+              "TimeReleased": "2026-08-03T17:11:29.1391682+00:00",
+              "Changelog": "- More tracker updates",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.12": {
+              "TimeReleased": "2026-08-03T17:19:31.6247473+00:00",
+              "Changelog": "- Fix tower kills reset",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Infiziert90"
             }
           }
@@ -133910,9 +134018,9 @@
           }
         },
         "GatherBuddy": {
-          "BuiltCommit": "9a13ee7825f37606605d5c3a6362c4cb68d97127",
-          "TimeBuilt": "2026-07-30T00:55:27.3605662+00:00",
-          "EffectiveVersion": "3.8.9.1",
+          "BuiltCommit": "98df54f4dbf9c765ccc77b809bee20fb6f0f9ba6",
+          "TimeBuilt": "2026-08-03T23:44:44.7659533+00:00",
+          "EffectiveVersion": "3.8.9.2",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.4.15926": {
@@ -135028,6 +135136,42 @@
             },
             "3.8.9.1": {
               "TimeReleased": "2026-07-30T00:55:27.3606071+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Ottermandias"
+            },
+            "3.8.9.2": {
+              "TimeReleased": "2026-08-03T23:44:44.7660055+00:00",
               "Changelog": "nofranz",
               "UsedNeeds": [
                 {
@@ -242436,9 +242580,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "6ba03f4fa287cb441e8708e9da1567e0a69a6378",
-          "TimeBuilt": "2026-08-01T20:27:59.7427956+00:00",
-          "EffectiveVersion": "1.12.9.0",
+          "BuiltCommit": "bf6aed9096c48512a10e66f7af860b0153cc805d",
+          "TimeBuilt": "2026-08-03T23:45:00.1579462+00:00",
+          "EffectiveVersion": "1.12.10.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -244291,6 +244435,50 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.10.0": {
+              "TimeReleased": "2026-08-03T23:45:00.1579483+00:00",
+              "Changelog": "- **Progress**: Add Yo-Kai weapons to rewards list (tracking from all inventories (character and retainers))\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.79"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Sohtoren"
             }
           }
@@ -251600,6 +251788,158 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "EuphoricCrashOut"
+            }
+          }
+        },
+        "YokaiCheck": {
+          "BuiltCommit": "f7cbac8ec374d4ed538ad41c4490853e6ccc72db",
+          "TimeBuilt": "2026-08-03T23:22:23.8278298+00:00",
+          "EffectiveVersion": "1.3.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.3.0.0": {
+              "TimeReleased": "2026-08-03T23:22:23.8278568+00:00",
+              "Changelog": "Yo-kai Check is a small plugin to assist you in tracking the rewards of the Yo-kai Watch event.\r\nThe plugin window can be opened with \u0060/yokai\u0060 or \u0060/yokaicheck\u0060 and shows a list of minions, weapons and how many medals you still need.\r\nWhen you have a minion summoned, the amount of medals you need for the weapon is displayed in the Server Info Bar.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+                  "Version": "f3d592c01b290d8fade39a4e4f55bc916605c54a"
+                },
+                {
+                  "Key": "AutoCtor",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "4.15.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.10"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
             }
           }
         }
@@ -290200,9 +290540,9 @@
           }
         },
         "AvantGarde": {
-          "BuiltCommit": "d9af708f61324a3d6b631a18a6346c1844774451",
-          "TimeBuilt": "2026-07-24T21:03:02.5099423+00:00",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "1c853343196a741bcc5830205a384f5bd077c274",
+          "TimeBuilt": "2026-08-03T23:40:34.4934861+00:00",
+          "EffectiveVersion": "1.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.0": {
@@ -290245,6 +290585,22 @@
             "1.1.1.0": {
               "TimeReleased": "2026-07-24T21:03:02.5099439+00:00",
               "Changelog": "**Available for testing:**\r\n- Automatic Crowdsourcing\r\n  - Now sends a chat message when an upload fails.\r\n  - Fetches data from an alternative source, with the previous one as a fallback.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "NeNeppie"
+            },
+            "1.1.2.0": {
+              "TimeReleased": "2026-08-03T23:40:34.4935615+00:00",
+              "Changelog": "**Available for testing:**\r\n- Minor fixes\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -315813,9 +316169,9 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "8c943ea24c5ee6b3c1e5413f0759edb368f1441d",
-          "TimeBuilt": "2026-07-30T20:49:15.0699361+00:00",
-          "EffectiveVersion": "1.6.0.0",
+          "BuiltCommit": "baf1ebe9584e61e32fe92399ef5f33e56a102fad",
+          "TimeBuilt": "2026-08-03T17:22:53.6569674+00:00",
+          "EffectiveVersion": "1.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -315944,6 +316300,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            },
+            "1.7.0.0": {
+              "TimeReleased": "2026-08-03T17:22:53.6569699+00:00",
+              "Changelog": "**Update**: Added class support.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "sleeds2"
             }
           }
@@ -316561,9 +316933,9 @@
           }
         },
         "LooturesRewritten": {
-          "BuiltCommit": "649743882475b91f095e5a9f847298868c1abd7b",
-          "TimeBuilt": "2026-07-31T14:12:43.3975821+00:00",
-          "EffectiveVersion": "1.0.0.1",
+          "BuiltCommit": "60f72b511bf20256e15da3298fe6ca5090f1c1f3",
+          "TimeBuilt": "2026-08-03T17:29:17.8800781+00:00",
+          "EffectiveVersion": "1.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -316605,6 +316977,50 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "GayPotatoEmma"
+            },
+            "1.0.0.2": {
+              "TimeReleased": "2026-08-03T17:29:17.8801164+00:00",
+              "Changelog": "## New Additions\r\n- Add support for showing Roll results (by @Zeffuro)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "b3ba9099023c3f599816507993b332be6174819b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "GayPotatoEmma"
+            }
+          }
+        },
+        "NoMouseMoveForward": {
+          "BuiltCommit": "41f023cea488bb154e5d8473e6a619f5e004aca8",
+          "TimeBuilt": "2026-08-03T23:30:21.6888376+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-08-03T23:30:21.688893+00:00",
+              "Changelog": "# NoMouseMoveForward\r\n\r\nA simple plugin to prevent LMB\u002BRMB from moving the player forward, with separate toggles for walking and flying.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "beer-psi"
             }
           }
         }
@@ -341814,6 +342230,27 @@
       "Version": "8f05f8e5de36f68078a7c18d938d1a9e29992269",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-08-02T01:00:24.4628053Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+      "Version": "f3d592c01b290d8fade39a4e4f55bc916605c54a",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-03T23:22:23.8845727Z"
+    },
+    {
+      "Type": 1,
+      "Key": "AutoCtor",
+      "Version": "3.1.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-03T23:22:23.884603Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Injectio",
+      "Version": "6.1.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-03T23:22:23.8846034Z"
     }
   ]
 }
