@@ -58585,9 +58585,9 @@
           }
         },
         "MacroRecorded": {
-          "BuiltCommit": "de74c2595b712bde2c1537ac6ad7ca56e538ea87",
-          "TimeBuilt": "2026-01-06T07:08:34.3598872+00:00",
-          "EffectiveVersion": "1.0.7.2",
+          "BuiltCommit": "3ec72502d157335f446f3e79047d2062d3d5c9cb",
+          "TimeBuilt": "2026-08-10T22:22:17.1681963+00:00",
+          "EffectiveVersion": "1.0.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -58704,6 +58704,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "danielbrenom"
+            },
+            "1.0.8.0": {
+              "TimeReleased": "2026-08-10T22:22:17.1682321+00:00",
+              "Changelog": "- Updated API 15\n ",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "danielbrenom"
             }
           }
@@ -255824,9 +255840,9 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "8c943ea24c5ee6b3c1e5413f0759edb368f1441d",
-          "TimeBuilt": "2026-07-30T20:48:31.4113617+00:00",
-          "EffectiveVersion": "1.6.0.0",
+          "BuiltCommit": "acb5ba12b575fa1c994948f461a2cfbbd84d5eab",
+          "TimeBuilt": "2026-08-10T22:14:26.0117897+00:00",
+          "EffectiveVersion": "1.7.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -255960,6 +255976,22 @@
             "1.6.0.0": {
               "TimeReleased": "2026-07-30T20:48:31.4114118+00:00",
               "Changelog": "**Update**: Added an option to change notification locations to Chat, Toast, or Chat and Toast.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            },
+            "1.7.2.1": {
+              "TimeReleased": "2026-08-10T22:14:26.0118281+00:00",
+              "Changelog": "**Update**: Added class support.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -321393,9 +321425,9 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "ed09a2fafcd00d63655064a9c6064e828368d6bd",
-          "TimeBuilt": "2026-08-06T01:22:36.1169756+00:00",
-          "EffectiveVersion": "1.7.2.0",
+          "BuiltCommit": "acb5ba12b575fa1c994948f461a2cfbbd84d5eab",
+          "TimeBuilt": "2026-08-10T22:14:35.2117565+00:00",
+          "EffectiveVersion": "1.7.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -321560,6 +321592,22 @@
             },
             "1.7.2.0": {
               "TimeReleased": "2026-08-06T01:22:36.1169773+00:00",
+              "Changelog": "**Update**: Added class support.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            },
+            "1.7.2.1": {
+              "TimeReleased": "2026-08-10T22:14:35.2117585+00:00",
               "Changelog": "**Update**: Added class support.\n",
               "UsedNeeds": [
                 {
