@@ -416,7 +416,7 @@
     "Author": "Sohtoren",
     "Name": "Altoholic",
     "InternalName": "Altoholic",
-    "AssemblyVersion": "1.12.11.0",
+    "AssemblyVersion": "1.12.12.0",
     "Description": "Get informations (gils, currencies,  items, inventory, retainers, etc) and progress from all your characters",
     "ApplicableVersion": "any",
     "Tags": [
@@ -438,7 +438,7 @@
     "TestingAssemblyVersion": "1.10.13.0",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1785979376",
+    "LastUpdate": "1786587975",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/Altoholic/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Altoholic/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Altoholic/latest.zip"
