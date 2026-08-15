@@ -9707,7 +9707,7 @@
     "_isDip17Plugin": true,
     "_Dip17Channel": "stable",
     "IsHide": "False",
-    "TestingAssemblyVersion": "1.4.0.2",
+    "TestingAssemblyVersion": "1.4.3.0",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
     "LastUpdate": "1786746167",
