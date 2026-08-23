@@ -9243,7 +9243,7 @@
     "Author": "karashiiro",
     "Name": "TextToTalk",
     "InternalName": "TextToTalk",
-    "AssemblyVersion": "1.40.2.0",
+    "AssemblyVersion": "1.40.4.0",
     "Description": "Chat and game dialogue TTS. Use /tttconfig to configure the enabled channels and triggers/exceptions.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/karashiiro/TextToTalk",
@@ -9271,7 +9271,7 @@
     "TestingAssemblyVersion": "1.40.3.0",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1786548352",
+    "LastUpdate": "1787446338",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/TextToTalk/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/TextToTalk/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/TextToTalk/latest.zip"
