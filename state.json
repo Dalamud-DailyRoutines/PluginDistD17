@@ -151226,9 +151226,9 @@
           }
         },
         "SubmarineTracker": {
-          "BuiltCommit": "f344eb56490423eb0566b3ef2013c44891e588ad",
-          "TimeBuilt": "2026-08-30T19:52:40.6149732+00:00",
-          "EffectiveVersion": "2.0.6.1",
+          "BuiltCommit": "71b3d140164c24e82e948c30a158a8f3370719e6",
+          "TimeBuilt": "2026-09-06T21:07:06.0060788+00:00",
+          "EffectiveVersion": "2.0.6.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -155422,6 +155422,46 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "2.0.6.2": {
+              "TimeReleased": "2026-09-06T21:07:06.0061075+00:00",
+              "Changelog": "- Fix AllaganTools IPC\r\n  - Each account must resend submarines once to be tracked correctly again\r\n- Fix account management delete button ",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.8"
+                },
+                {
+                  "Key": "System.Data.SQLite",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.8"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.8"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Infiziert90"
             }
           }
@@ -205325,9 +205365,9 @@
           }
         },
         "ChillFrames": {
-          "BuiltCommit": "cdc0b8d4a85a461448ab6463e50ce186c080a42b",
-          "TimeBuilt": "2026-07-27T03:24:45.7476335+00:00",
-          "EffectiveVersion": "3.2.3.4",
+          "BuiltCommit": "d678c6d07a71027620c7ae53aea41b1227f801f2",
+          "TimeBuilt": "2026-09-06T21:07:14.4219483+00:00",
+          "EffectiveVersion": "3.2.3.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.2": {
@@ -205932,6 +205972,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "3.2.3.5": {
+              "TimeReleased": "2026-09-06T21:07:14.4219498+00:00",
+              "Changelog": "Adds Idle FPS Limiter Delay (seconds) option, to delay the activation of the idle fps limiter.\r\n\r\nThis is useful when using high idle fps wait times, as alt-tabbing to and from the game was very jarring. Now with this delay, it won\u0027t apply the idle fps limiter until the window has been idle by the specific number of seconds.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
