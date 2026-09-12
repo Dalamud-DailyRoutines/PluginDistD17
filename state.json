@@ -205705,9 +205705,9 @@
           }
         },
         "ChillFrames": {
-          "BuiltCommit": "6cc60af35e91750fc1d39394f169c37167525bbb",
-          "TimeBuilt": "2026-09-10T21:50:07.828695+00:00",
-          "EffectiveVersion": "3.2.4.4",
+          "BuiltCommit": "b0d57265e6faa567ff408e8644ab59ee2d5f7875",
+          "TimeBuilt": "2026-09-11T17:59:03.8773248+00:00",
+          "EffectiveVersion": "3.2.4.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.2": {
@@ -206376,6 +206376,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "3.2.4.5": {
+              "TimeReleased": "2026-09-11T17:59:03.8773652+00:00",
+              "Changelog": "Fix table scaling",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -246004,9 +246020,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "70e2dca7c51e6ddcb4a4b3ad3e8bafe495fc4f51",
-          "TimeBuilt": "2026-09-08T20:46:55.8397834+00:00",
-          "EffectiveVersion": "1.4.4.2",
+          "BuiltCommit": "02ff3315bceba2bf545d18c17ee7774acdf40534",
+          "TimeBuilt": "2026-09-11T21:17:13.7921917+00:00",
+          "EffectiveVersion": "1.4.4.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -252567,6 +252583,46 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.4.3": {
+              "TimeReleased": "2026-09-11T21:17:13.7922565+00:00",
+              "Changelog": "Additional Hotbars - Improved behavior, slots now fade properly, and tint red when out of range.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "93704ed00c0fe948c513d6bcce6672f83856d55b"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
@@ -264660,9 +264716,9 @@
           }
         },
         "HUDManager": {
-          "BuiltCommit": "da265119864933059ccb1b4cc48c8c579fdeeb44",
-          "TimeBuilt": "2026-09-09T18:35:10.5232806+00:00",
-          "EffectiveVersion": "2.7.1.5",
+          "BuiltCommit": "90306c336e2622403933741b1b021cdb7beb44a0",
+          "TimeBuilt": "2026-09-11T18:09:20.5989174+00:00",
+          "EffectiveVersion": "2.7.2.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.27.0": {
@@ -264748,6 +264804,26 @@
             "2.7.1.5": {
               "TimeReleased": "2026-09-09T18:35:10.5233255+00:00",
               "Changelog": "- Show swap block reason in UI\r\n- Show active HUD slot information in Debug tab\r\n- Temporarily use manual HUD slot offset",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "12.3.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "nebel"
+            },
+            "2.7.2.2": {
+              "TimeReleased": "2026-09-11T18:09:20.5989643+00:00",
+              "Changelog": "- Fix element preview size for certain hotbar configurations\r\n- Add alert to Swapper tab when no swap condition is currently matched",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -333415,6 +333491,82 @@
               "Submitter": "juan-medina"
             }
           }
+        },
+        "Dalamud.DiscordBridge": {
+          "BuiltCommit": "0ea45d0cc6c495737e827b34d92c43ab33410c1f",
+          "TimeBuilt": "2026-09-11T18:09:31.4523476+00:00",
+          "EffectiveVersion": "1.6.1.6",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.6.1.6": {
+              "TimeReleased": "2026-09-11T18:09:31.4523534+00:00",
+              "Changelog": "Disables the most recent changes to clear message queue on login/logout.\n\nThis plugin is looking for a new owner/maintainer. Please reach out to Franz if you want to adopt it.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Discord.Net",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Core",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Rest",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Webhook",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.WebSocket",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "Discord.Net.Commands",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Dave",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Interactions",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "reiichi001"
+            }
+          }
         }
       }
     },
@@ -359875,6 +360027,20 @@
       "Version": "3.0.235",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-09-11T12:22:39.8164184Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "93704ed00c0fe948c513d6bcce6672f83856d55b",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-11T21:17:13.8728759Z"
+    },
+    {
+      "Type": 1,
+      "Key": "LuminaSupplemental.Excel",
+      "Version": "5.1.5",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-11T21:17:13.872906Z"
     }
   ]
 }
