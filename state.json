@@ -246020,9 +246020,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "02ff3315bceba2bf545d18c17ee7774acdf40534",
-          "TimeBuilt": "2026-09-11T21:17:13.7921917+00:00",
-          "EffectiveVersion": "1.4.4.3",
+          "BuiltCommit": "0fea140621b9867f810784af1312a712214005fd",
+          "TimeBuilt": "2026-09-12T22:50:03.2601958+00:00",
+          "EffectiveVersion": "1.4.4.7",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -252624,6 +252624,46 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
+            },
+            "1.4.4.7": {
+              "TimeReleased": "2026-09-12T22:50:03.2602653+00:00",
+              "Changelog": "Additional Hotbars - Fix setting a slot causing it to delete the keybind\r\nAdditional Hotbars - Add padlock button for locking/unlocking/moving and opening config.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "258b9d16292b79f5ed2f9324413cb3014b980835"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -254676,9 +254716,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "611582cfde06d26fbbe95de4a1373c5d4247eb22",
-          "TimeBuilt": "2026-09-10T21:49:21.1232879+00:00",
-          "EffectiveVersion": "1.12.17.0",
+          "BuiltCommit": "b9156b2c2c3ae635384810fad565cfdc9a8d69cb",
+          "TimeBuilt": "2026-09-12T22:45:12.0656092+00:00",
+          "EffectiveVersion": "1.12.19.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -256883,6 +256923,50 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.19.0": {
+              "TimeReleased": "2026-09-12T22:45:12.0656544+00:00",
+              "Changelog": "- **Progress**: Fix mount reward id for Hallowed Kamuy\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.79"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Sohtoren"
             }
           }
@@ -265484,9 +265568,9 @@
           }
         },
         "ItsUp": {
-          "BuiltCommit": "6541bf222d6e42721344b182cdeaefa94bac8e15",
-          "TimeBuilt": "2026-09-05T15:39:00.3700641+00:00",
-          "EffectiveVersion": "0.6.0.0",
+          "BuiltCommit": "d6222f09ea78ccdd2b3314668c5bfe89138cfa44",
+          "TimeBuilt": "2026-09-12T22:59:50.0185513+00:00",
+          "EffectiveVersion": "0.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.6.0.0": {
@@ -265503,6 +265587,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "juan-medina"
+            },
+            "0.7.0.0": {
+              "TimeReleased": "2026-09-12T22:59:50.0185998+00:00",
+              "Changelog": "- Show hotbar keybinds on ability icons.\n- Role abilities are now tracked per job.\n- Added an option to only show while inside duties.\n- Added an option to toggle the marching ants border animation.\n- Improve config window.\n- Added /itsup preview and /itsup reset slash commands.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "juan-medina"
             }
           }
@@ -333437,9 +333537,9 @@
           }
         },
         "ItsUp": {
-          "BuiltCommit": "6541bf222d6e42721344b182cdeaefa94bac8e15",
-          "TimeBuilt": "2026-09-05T15:39:26.6961577+00:00",
-          "EffectiveVersion": "0.6.0.0",
+          "BuiltCommit": "d6222f09ea78ccdd2b3314668c5bfe89138cfa44",
+          "TimeBuilt": "2026-09-12T23:00:00.3509509+00:00",
+          "EffectiveVersion": "0.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.5.1.0": {
@@ -333488,6 +333588,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "juan-medina"
+            },
+            "0.7.0.0": {
+              "TimeReleased": "2026-09-12T23:00:00.350952+00:00",
+              "Changelog": "- Show hotbar keybinds on ability icons.\n- Role abilities are now tracked per job.\n- Added an option to only show while inside duties.\n- Added an option to toggle the marching ants border animation.\n- Improve config window.\n- Added /itsup preview and /itsup reset slash commands.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "juan-medina"
             }
           }
@@ -360109,6 +360225,13 @@
       "Version": "5.1.5",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-09-11T21:17:13.872906Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "258b9d16292b79f5ed2f9324413cb3014b980835",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-09-12T22:50:03.3426892Z"
     }
   ]
 }
