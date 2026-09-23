@@ -491,7 +491,7 @@
     "Author": "Sohtoren",
     "Name": "Altoholic",
     "InternalName": "Altoholic",
-    "AssemblyVersion": "1.12.22.0",
+    "AssemblyVersion": "1.12.23.0",
     "Description": "Get informations (gils, currencies,  items, inventory, retainers, etc) and progress from all your characters",
     "ApplicableVersion": "any",
     "Tags": [
@@ -513,7 +513,7 @@
     "TestingAssemblyVersion": "1.10.13.0",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1789872745",
+    "LastUpdate": "1790114860",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/Altoholic/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Altoholic/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Altoholic/latest.zip"
@@ -6241,7 +6241,7 @@
     "Author": "Zeffuro",
     "Name": "MouseLock",
     "InternalName": "MouseLock",
-    "AssemblyVersion": "1.0.1.0",
+    "AssemblyVersion": "1.0.1.1",
     "Description": "MouseLock keeps FFXIV in mouselook until you actually need the cursor. It pauses for chat, bags, menus, and other UI, and can also turn LMB/RMB into configurable game inputs, hotbar actions, or MouseLock controls.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Zeffuro/MouseLock",
@@ -6272,7 +6272,7 @@
     "TestingAssemblyVersion": "1.0.0.3",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1790030117",
+    "LastUpdate": "1790114860",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/MouseLock/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/MouseLock/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/MouseLock/latest.zip"
