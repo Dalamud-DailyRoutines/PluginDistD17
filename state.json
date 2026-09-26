@@ -227404,9 +227404,9 @@
           }
         },
         "BisBuddy": {
-          "BuiltCommit": "eb586bae3d60d574cb41097723e7c594071e745d",
-          "TimeBuilt": "2026-07-21T22:00:51.838507+00:00",
-          "EffectiveVersion": "0.2.8.0",
+          "BuiltCommit": "d2f43d447a3996c364f13ee3b6552ef9e522dd3b",
+          "TimeBuilt": "2026-09-25T22:23:13.6869838+00:00",
+          "EffectiveVersion": "0.2.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.0": {
@@ -231155,6 +231155,214 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "RajahOmen"
+            },
+            "0.2.9.0": {
+              "TimeReleased": "2026-09-25T22:23:13.6870215+00:00",
+              "Changelog": "**Added**\n- Support for new XIVGear link format, legacy-style links no longer required\n**Fixes**\n- Fix BST sets causing extreme lag. This is a large change to prerequisites on the backend, so:\n    - Any locked prerequisites / disabled sources may have reset on update, sorry!\n    - There may be bugs with prerequisite generation or assignment. Please report them!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "a36fc4fe964de447f162137738fb77e2770662ec"
+                },
+                {
+                  "Key": "Autofac",
+                  "Version": "9.3.4"
+                },
+                {
+                  "Key": "Autofac.Extensions.DependencyInjection",
+                  "Version": "11.0.2"
+                },
+                {
+                  "Key": "CommunityToolkit.Mvvm",
+                  "Version": "8.4.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Fastenshtein",
+                  "Version": "1.0.12"
+                },
+                {
+                  "Key": "LinearAssignment",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "7.1.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.4.1"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "TestableIO.System.IO.Abstractions.Wrappers",
+                  "Version": "22.2.0"
+                },
+                {
+                  "Key": "Wacton.Unicolour",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "BCnEncoder.Net",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "CommunityToolkit.HighPerformance",
+                  "Version": "8.4.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Testably.Abstractions.FileSystem.Interface",
+                  "Version": "10.3.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "RajahOmen"
             }
           }
@@ -246932,9 +247140,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "0fea140621b9867f810784af1312a712214005fd",
-          "TimeBuilt": "2026-09-12T22:50:03.2601958+00:00",
-          "EffectiveVersion": "1.4.4.7",
+          "BuiltCommit": "742d0f3ab6d446f44207e45ef036ad93d9c2ff71",
+          "TimeBuilt": "2026-09-26T01:27:23.3337827+00:00",
+          "EffectiveVersion": "1.4.4.8",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -253576,6 +253784,46 @@
               ],
               "Reviewer": "nebel",
               "Submitter": "MidoriKami"
+            },
+            "1.4.4.8": {
+              "TimeReleased": "2026-09-26T01:27:23.3338223+00:00",
+              "Changelog": "Add deprecation notice to Additional Hotbars feature.\r\n\r\nA better more feature complete version is now available as a standalone plugin named \u0022Expanded Hotbars\u0022 is now available in plugin testing. (Must have testing mode enabled to see it)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "78f5a74bc1266bac6e33a32c6f2694b95a2e31ea"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -258800,9 +259048,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "e7f754d692b86ea2d36d870752d21482f1580fb7",
-          "TimeBuilt": "2026-09-24T12:07:44.3409926+00:00",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "debc1cd9b04c3c61b6d3b502fc8abfecb086075d",
+          "TimeBuilt": "2026-09-26T01:27:31.4681104+00:00",
+          "EffectiveVersion": "1.5.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -258891,6 +259139,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.5.1.0": {
+              "TimeReleased": "2026-09-26T01:27:31.4681118+00:00",
+              "Changelog": "# Version 1.5.1\n\n- The support buttons in the loot window, Settings and What\u0027s New now open LootView\u0027s Patreon page instead of Ko-fi. Everything stays free, as always.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "GitHixy"
             }
           }
@@ -265960,9 +266224,9 @@
           }
         },
         "WachuMakeyMaking": {
-          "BuiltCommit": "833f81e67019ac28fa669805fbaa3c31b40dc3ba",
-          "TimeBuilt": "2026-09-24T20:51:23.2690094+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "9af09d3c6f49c27c2bd1ef2340eb4c6074b93bb7",
+          "TimeBuilt": "2026-09-26T01:04:59.497521+00:00",
+          "EffectiveVersion": "1.2.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.10.0": {
@@ -266000,6 +266264,22 @@
             "1.2.0.0": {
               "TimeReleased": "2026-09-24T20:51:23.2690406+00:00",
               "Changelog": " - Added the ability to toggle seen inventories on and off\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "ArcaneAj"
+            },
+            "1.2.2.0": {
+              "TimeReleased": "2026-09-26T01:04:59.497557+00:00",
+              "Changelog": " - Fixed bug in filter resource candidates using the incorrect ids\r\n - Fixed issue where the \u0022Other\u0022 tag was overly inclusive of any items that had at least one division that didn\u0027t match, rather than all divisions not matching which is intended.\r\n - Renamed and regrouped headers for clarity\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -326889,9 +327169,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "e7f754d692b86ea2d36d870752d21482f1580fb7",
-          "TimeBuilt": "2026-09-24T12:07:54.9179805+00:00",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "debc1cd9b04c3c61b6d3b502fc8abfecb086075d",
+          "TimeBuilt": "2026-09-26T01:27:40.8551455+00:00",
+          "EffectiveVersion": "1.5.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.5.0": {
@@ -327016,6 +327296,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.5.1.0": {
+              "TimeReleased": "2026-09-26T01:27:40.8551479+00:00",
+              "Changelog": "# Version 1.5.1\n\n- The support buttons in the loot window, Settings and What\u0027s New now open LootView\u0027s Patreon page instead of Ko-fi. Everything stays free, as always.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "GitHixy"
             }
           }
@@ -335629,6 +335925,86 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "GrimmortalDread"
+            }
+          }
+        },
+        "ExpandedHotbars": {
+          "BuiltCommit": "1b9e89ca50ce556367440921edd4b4565dc02882",
+          "TimeBuilt": "2026-09-26T01:05:15.3586625+00:00",
+          "EffectiveVersion": "1.0.0.2",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.2": {
+              "TimeReleased": "2026-09-26T01:05:15.3586704+00:00",
+              "Changelog": "Standalone version of VanillaPlus\u0027s \u0022Additional Hotbars\u0022 feature, that allows you to add an unlimited number of custom native hotbars to your UI, with the ability to configure various conditions to show and hide these hotbars automatically.\r\n\r\n\u00220% of this plugin\u2019s code was developed with the help of an AI assistant\u2014not even at the \u0027Copilot\u0027 level, as defined in the Dalamud AI Usage Policy. I directed the entire design of the plugin, handcrafted every pixel of the UI myself, architected every single line, wrote all the code by hand, rectified my own human errors, and personally developed and tested every feature in-game across endless caffeine-fueled sessions. Bleatbot can run all the checks it wants: you will find absolutely zero machine-generated slop here.\r\n\r\nP.S. Any chaotic code logic or confusing comments you encounter are entirely the fault of my own organic, unassisted brain.\u0022\r\n\r\nAI disclosure, written by AI.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "41a23dec62243cf89fdc6913abd5fc8da5c99ae3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
             }
           }
         }
@@ -362203,6 +362579,90 @@
       "Version": "2.1.89",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-24T22:16:17.5278072Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "a36fc4fe964de447f162137738fb77e2770662ec",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533779Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Autofac",
+      "Version": "9.3.4",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.753393Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CommunityToolkit.Mvvm",
+      "Version": "8.4.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533935Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Fastenshtein",
+      "Version": "1.0.12",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533937Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Caching.Memory",
+      "Version": "10.0.12",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533942Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.ObjectPool",
+      "Version": "10.0.12",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533944Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TestableIO.System.IO.Abstractions.Wrappers",
+      "Version": "22.2.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533946Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Wacton.Unicolour",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533946Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Caching.Abstractions",
+      "Version": "10.0.12",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533951Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Testably.Abstractions.FileSystem.Interface",
+      "Version": "10.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7534476Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "41a23dec62243cf89fdc6913abd5fc8da5c99ae3",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-26T01:05:15.4297665Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "78f5a74bc1266bac6e33a32c6f2694b95a2e31ea",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-26T01:27:23.3962056Z"
     }
   ]
 }
