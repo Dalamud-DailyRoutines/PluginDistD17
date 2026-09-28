@@ -1759,7 +1759,7 @@
     "Author": "Infi, Anna",
     "Name": "Chat 2",
     "InternalName": "ChatTwo",
-    "AssemblyVersion": "1.40.8.0",
+    "AssemblyVersion": "1.40.9.0",
     "Description": "Chat 2 is a complete rewrite of the in-game chat window as a plugin.\nIt supports:\n\n- Unlimited tabs\n- Tabs that always send to a certain channel\n- More flexible filtering\n- RGB channel colouring\n- Completely variable font size\n- Sidebar tabs\n- Unread counts\n- Emotes\n- Screenshot mode (obfuscate names)",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Infiziert90/ChatTwo",
@@ -1783,7 +1783,7 @@
     "TestingAssemblyVersion": "1.22.1.0",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1790030117",
+    "LastUpdate": "1790545666",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/ChatTwo/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ChatTwo/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/ChatTwo/latest.zip"
