@@ -491,7 +491,7 @@
     "Author": "Sohtoren",
     "Name": "Altoholic",
     "InternalName": "Altoholic",
-    "AssemblyVersion": "1.12.24.0",
+    "AssemblyVersion": "1.12.25.0",
     "Description": "Get informations (gils, currencies,  items, inventory, retainers, etc) and progress from all your characters",
     "ApplicableVersion": "any",
     "Tags": [
@@ -513,7 +513,7 @@
     "TestingAssemblyVersion": "1.10.13.0",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1790288185",
+    "LastUpdate": "1790571170",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/Altoholic/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Altoholic/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/Altoholic/latest.zip"
@@ -3631,7 +3631,7 @@
     "Author": "Infi, electr0sheep",
     "Name": "Eureka Linker",
     "InternalName": "EurekaTrackerAutoPopper",
-    "AssemblyVersion": "1.7.3.17",
+    "AssemblyVersion": "1.7.3.18",
     "Description": "A simple tracker for Eureka, and Occult.\nOther Features:\n- Fairy Finder\n- Bunny Timer Window\n- Bunny Coffer Helper\n- Stats\n- Quest Guide (clickable coords)\n- Localized (DE, FR, JA)\n\nOccult:\n- Random Treasure Proximity Notification\n- Bunny Carrot Proximity Notification\n- Pot Coffer Helper\n- Pot Timer Window\n- Map Markers For Treasure, Bunny, Pot, Survey Points\n- Occult Tracker\n\nWebsite (https://tracker.xivstats.com):\n- A simple tracker for occult\n- Players don't need the plugin to enjoy the benefits",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Infiziert90/EurekaTrackerAutoPopper",
@@ -3663,7 +3663,7 @@
     "_Dip17Channel": "stable",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdate": "1786115118",
+    "LastUpdate": "1790571170",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/EurekaTrackerAutoPopper/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/EurekaTrackerAutoPopper/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/EurekaTrackerAutoPopper/latest.zip"
@@ -10143,7 +10143,7 @@
     "Author": "MidoriKami",
     "Name": "VanillaPlus",
     "InternalName": "VanillaPlus",
-    "AssemblyVersion": "1.4.4.8",
+    "AssemblyVersion": "1.4.5.0",
     "Description": "This plugin is primarily focused on various UI adjustments, behavior adjustments, and adding new native elements to the game",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/MidoriKami/VanillaPlus",
@@ -10163,7 +10163,7 @@
     "TestingAssemblyVersion": "1.4.3.17",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1790386069",
+    "LastUpdate": "1790571170",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/VanillaPlus/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/VanillaPlus/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/VanillaPlus/latest.zip"
