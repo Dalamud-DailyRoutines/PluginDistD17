@@ -16039,9 +16039,9 @@
           }
         },
         "Honorific": {
-          "BuiltCommit": "9d66b6330eb724fc3959f5c37e7696a41d37a946",
-          "TimeBuilt": "2026-04-30T15:32:47.0391053+00:00",
-          "EffectiveVersion": "1.7.5.0",
+          "BuiltCommit": "3d4676e9c38205125df8b2e24845d0b08f39c943",
+          "TimeBuilt": "2026-10-01T16:42:14.3890465+00:00",
+          "EffectiveVersion": "1.7.5.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.3": {
@@ -16327,6 +16327,22 @@
             "1.7.5.0": {
               "TimeReleased": "2026-04-30T15:32:47.0391067+00:00",
               "Changelog": "API15 / 7.5",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Caraxi"
+            },
+            "1.7.5.1": {
+              "TimeReleased": "2026-10-01T16:42:14.3890792+00:00",
+              "Changelog": null,
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -256960,9 +256976,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "6701e877832cbe51890f8798bca8bf87cd5b1c59",
-          "TimeBuilt": "2026-09-30T22:56:53.5191451+00:00",
-          "EffectiveVersion": "1.13.0.0",
+          "BuiltCommit": "49785d66cf511ae9ed809a9bb630fa6aeda6c613",
+          "TimeBuilt": "2026-10-01T16:42:30.2261153+00:00",
+          "EffectiveVersion": "1.13.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -259480,6 +259496,50 @@
             "1.13.0.0": {
               "TimeReleased": "2026-09-30T22:56:53.519147+00:00",
               "Changelog": "- **Progress**:\n    - Event: Add Blunderville 2026\n\t- Blunderville: Add outfit and furnitures to rewards in Blunderville tab\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.89"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.13.1.0": {
+              "TimeReleased": "2026-10-01T16:42:30.2261169+00:00",
+              "Changelog": "- **General**: Indicate \u0027N/A\u0027 for non available hairstyles on races (example: ffxv\u0027s for hrothgar) in all rewards lists\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -268220,9 +268280,9 @@
           }
         },
         "MouseLock": {
-          "BuiltCommit": "53de5537f6d3c6fb7dd04bc55d78b6567c7c0d51",
-          "TimeBuilt": "2026-09-23T22:03:53.1250988+00:00",
-          "EffectiveVersion": "1.0.1.2",
+          "BuiltCommit": "b44ec82e5c4d26e0ac0068d9315caabf710613f7",
+          "TimeBuilt": "2026-10-01T16:32:36.493668+00:00",
+          "EffectiveVersion": "1.0.1.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -268299,6 +268359,26 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.1.3": {
+              "TimeReleased": "2026-10-01T16:32:36.4937072+00:00",
+              "Changelog": "# 1.0.1.3\n- Added an option to keep MouseLock active while config is open.\n- Added recent window history with quick exception buttons.\n- Added pause history and preserved the last pause reason when opening config.\n- Moved window exceptions to their own tab and made the config more compact.\n- Added the ability to manually define windows to add to exceptions.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.2.49"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Zeffuro"
             }
           }
@@ -334085,9 +334165,9 @@
           }
         },
         "ARealmRepopulated": {
-          "BuiltCommit": "a017ee6d053aea059bf8fc3185c9d74da1fd72a0",
-          "TimeBuilt": "2026-09-23T22:10:34.86836+00:00",
-          "EffectiveVersion": "0.1.8.0",
+          "BuiltCommit": "1a88571b902fe27095373ff8e5f62a012bbda6d7",
+          "TimeBuilt": "2026-10-01T16:32:50.3105311+00:00",
+          "EffectiveVersion": "0.1.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.4.4": {
@@ -334872,6 +334952,166 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "NetStyx"
+            },
+            "0.1.9.0": {
+              "TimeReleased": "2026-10-01T16:32:50.3105322+00:00",
+              "Changelog": "# 0.1.9.0 Changelog\r\n\r\nScenarios can now be given conditions, so they only bring their actors out at the right hour, in the right weather, or now and then by chance.\r\n\r\n## Functional Changes\r\n- Scenarios can now carry conditions - an Eorzean time window, one or more weathers, or a plain chance - and all of them have to hold before the scenario runs\r\n- A running scenario is never cut short; its conditions are only acted on between runs\r\n- The scenario editor and the scenario list both show whether a scenario\u0027s conditions currently hold\r\n- Actors can be given a voice, so emotes with a voice line are now heard. It is taken over from character files and picked characters that have one\r\n\r\n## Bugfixes\r\n- Changing the scale, height or hidden gear of a newly added actor no longer changes it for the other newly added actors, or for the next ones added in that session\r\n- \u0060/arrp reload\u0060 now reloads the scenarios in the current area instead of opening the configuration window\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Serilog",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "Shouldly",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "xunit.v3",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiffEngine",
+                  "Version": "11.3.0"
+                },
+                {
+                  "Key": "EmptyFiles",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Microsoft.ApplicationInsights",
+                  "Version": "2.23.0"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.Telemetry",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform.MSBuild",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "6.0.1"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.27.0"
+                },
+                {
+                  "Key": "xunit.v3.assert",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.core.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.extensibility.core",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.inproc.console",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "NetStyx"
             }
           }
