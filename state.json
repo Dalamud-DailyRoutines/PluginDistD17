@@ -14712,9 +14712,9 @@
           }
         },
         "PetRenamer": {
-          "BuiltCommit": "8f0b9c2c2656c6b74c959f5984a4a54f26b9baeb",
-          "TimeBuilt": "2026-09-29T13:15:00.7278493+00:00",
-          "EffectiveVersion": "3.0.0.2",
+          "BuiltCommit": "707c9808b6a024ae565b07c39ab352d9362091df",
+          "TimeBuilt": "2026-10-02T20:26:48.342848+00:00",
+          "EffectiveVersion": "3.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -15706,6 +15706,30 @@
             "3.0.0.2": {
               "TimeReleased": "2026-09-29T13:15:00.7278507+00:00",
               "Changelog": "[3.0.0.2] \r\n- Fixes an issue where switching alt\u0027s wouldn\u0027t push an update over IPC.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2025.2.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Glyceri"
+            },
+            "3.0.1.0": {
+              "TimeReleased": "2026-10-02T20:26:48.3428494+00:00",
+              "Changelog": "[3.0.1.0] \r\n- Tentative fix for lag issue in content.\r\n- Other potential performance improvements.\r\n- Removed Ephemiral Chat\r\n- Fixes an issue where the plugin would hang on startup if the game data should be repaired (within reason).\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -215461,9 +215485,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "969aba2a368c3d91920d0b3eab75327416a852e4",
-          "TimeBuilt": "2026-09-21T22:34:37.77974+00:00",
-          "EffectiveVersion": "3.1.1.1",
+          "BuiltCommit": "e101d90c0ab152f017152473e9b70f7328c3eeb8",
+          "TimeBuilt": "2026-10-02T20:26:36.3887475+00:00",
+          "EffectiveVersion": "3.1.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -216295,6 +216319,34 @@
             "3.1.1.1": {
               "TimeReleased": "2026-09-21T22:34:37.7797418+00:00",
               "Changelog": "- Volume control now also covers set-to-N lines, plus performance, mount BGM, and own/party/others sound effects\r\n- New System option: show configuration change messages (\u0060Changes saved.\u0060, lost, discarded). Off by default\r\n- Changing gearsets no longer hides ARR relic quest warnings that say you must be equipped with a specific weapon\r\n- \u0060The fish gets away\u2026\u0060 follows the existing lose-bait option\r\n- Settings search matches LogMessage IDs exactly, so short numbers don\u0027t hit unrelated options\r\n- Custom filter and highlight channel lists stay open when the label updates\r\n- Custom Allow filters can override condensed login/world-travel announcements",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.1.2": {
+              "TimeReleased": "2026-10-02T20:26:36.3887502+00:00",
+              "Changelog": "- New Duty option: show Party Finder search results (\u0060Of the X parties currently recruiting\u2026\u0060), split from Duty Finder notifications and starting with that setting\u0027s current value\r\n- New Party option: show party member offline messages (\u0060X has gone offline.\u0060); FC member logout now only covers the FC login/logout channel\r\n- Plugin messages no longer get hidden by an unrelated filter that shares a word with them (e.g. Doorbell lines with \u0022ward\u0022 in a name)\r\n- Custom Allow filters now win over built-in rules on lines where the game\u0027s internal wording differs from chat, and over Block filters that match the same line\r\n- Custom filters on the System channel now also cover Party Finder recruitment messages\r\n- Improved commendations now hide the individual \u0060You received a player commendation!\u0060 lines\r\n- Improved instance and mark bill messages now apply even when their show option is on\r\n- \u0060The only party currently recruiting\u2026\u0060 is now recognised as a Party Finder message\r\n- Removed unused code, merged small rule files, and trimmed per-message filtering work",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -260244,9 +260296,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "dfaede23490e4ff4d24cf79f565b8276dc3c1964",
-          "TimeBuilt": "2026-09-30T15:47:05.8823602+00:00",
-          "EffectiveVersion": "1.6.0.0",
+          "BuiltCommit": "b967dfb4a2bf34d6b7b634925403dc235579abaf",
+          "TimeBuilt": "2026-10-02T22:23:48.7155735+00:00",
+          "EffectiveVersion": "1.6.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -260356,6 +260408,22 @@
             "1.6.0.0": {
               "TimeReleased": "2026-09-30T15:47:05.882387+00:00",
               "Changelog": "# Version 1.6.0\n\n- LootView now works with every game language: Japanese, German and French clients see their drops and rolls just like English ones.\n- Need, Greed and Pass buttons on every open item in the roll window. Only the choices the game allows you are offered.\n- The game\u0027s own Need/Greed window now stays hidden, so every roll happens in LootView. A button in the roll panel brings it back, and you can turn this off in Settings \u2192 Tracking.\n- Items still waiting for your choice are listed first, newest on top.\n- Hovering an item shows its full details: item level, jobs, stats, bonuses, materia slots, description and market price.\n- Right-click an item to try it on, open it on Garland Tools or Universalis, or copy its name.\n- Minions, mounts, orchestrion rolls, Triple Triad cards, emotes, hairstyles and portrait frames show whether you already have them.\n- LootView now has a Discord server: https://discord.gg/9kjUjWDBkJ\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.6.1.0": {
+              "TimeReleased": "2026-10-02T22:23:48.7156216+00:00",
+              "Changelog": "# Version 1.6.1\n\n- New currency drawer beside the loot window with every currency you hold (gil, tomestones, scrips, seals, MGP, PvP marks, tribal currencies and more), each cap and the weekly tomestone limit. Gains flash as they come in. Open it with the coin button; choose left or right in Settings \u2192 General.\n- A large banner at the top of the screen when someone commends you. Several commendations are counted on one banner, and it waits for the loading screen to finish. Resize, preview or turn it off in Settings \u2192 Effects.\n- Loot window scale from 60% to 140% in Settings \u2192 Appearance; the window can now be made much smaller.\n- Need, Greed and Pass buttons now sit right under the item name, so incoming rolls no longer push them away.\n- Locking the window from Settings \u2192 Appearance now takes effect straight away.\n- With \u0022Hide the game\u0027s Need/Greed window\u0022 on, closing LootView\u0027s roll window now brings the game\u0027s window back, so you can always still roll.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -268280,9 +268348,9 @@
           }
         },
         "MouseLock": {
-          "BuiltCommit": "b44ec82e5c4d26e0ac0068d9315caabf710613f7",
-          "TimeBuilt": "2026-10-01T16:32:36.493668+00:00",
-          "EffectiveVersion": "1.0.1.3",
+          "BuiltCommit": "7872c9625cb1c5780e24216dbada0a92b577b576",
+          "TimeBuilt": "2026-10-02T20:26:13.201229+00:00",
+          "EffectiveVersion": "1.0.1.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -268364,6 +268432,26 @@
             "1.0.1.3": {
               "TimeReleased": "2026-10-01T16:32:36.4937072+00:00",
               "Changelog": "# 1.0.1.3\n- Added an option to keep MouseLock active while config is open.\n- Added recent window history with quick exception buttons.\n- Added pause history and preserved the last pause reason when opening config.\n- Moved window exceptions to their own tab and made the config more compact.\n- Added the ability to manually define windows to add to exceptions.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.2.49"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.1.4": {
+              "TimeReleased": "2026-10-02T20:26:13.2012304+00:00",
+              "Changelog": "# 1.0.1.4\n- Fixed a bug where the MouseLook sensitivity was higher than holding right-click.\n  If it feels slower than you\u0027re used to, adjust Mouse Camera Sensitivity under System Configuration -\u003E Mouse Settings.\n- Added input recording to help troubleshoot mouse issues.\n- Cleaned up the Diagnostics tab and made it available in release builds.\n- Made some performance optimizations.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -268548,6 +268636,74 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "RokasKil"
+            }
+          }
+        },
+        "XivReflex": {
+          "BuiltCommit": "bc9a3cf508a5a6d9225a3e10e5fb2ad60cbd8550",
+          "TimeBuilt": "2026-10-02T20:26:02.0667903+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-10-02T20:26:02.0667939+00:00",
+              "Changelog": "**XivReflex** integrates [NVIDIA Reflex Low Latency](\u003Chttps://www.nvidia.com/en-us/geforce/news/reflex-low-latency-platform/\u003E) to reduce system input lag in GPU-bound scenarios by dynamically aligning the game\u0027s engine updates closer to the moment your GPU actually draws the frame on screen.\r\n\r\n**Requirements:**\r\n\r\n- NVIDIA GeForce 900 Series or newer\r\n- NVIDIA Driver version 456.38 or newer",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Windows.CsWin32",
+                  "Version": "0.3.321"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Windows.SDK.Win32Docs",
+                  "Version": "0.1.42-alpha"
+                },
+                {
+                  "Key": "Microsoft.Windows.SDK.Win32Metadata",
+                  "Version": "71.0.14-preview"
+                },
+                {
+                  "Key": "Microsoft.Windows.WDK.Win32Metadata",
+                  "Version": "0.13.25-experimental"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
+            }
+          }
+        },
+        "NoQuestIcons": {
+          "BuiltCommit": "a069b401bcd291c2d50e7c0f7aafab1b528ed633",
+          "TimeBuilt": "2026-10-02T20:26:57.5896395+00:00",
+          "EffectiveVersion": "1.5.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.5.0.0": {
+              "TimeReleased": "2026-10-02T20:26:57.589641+00:00",
+              "Changelog": "Now available on stable! Hides quest, FATE, leve and other NPC marker icons, with per-category settings, a master toggle keybind and a peek keybind.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GrimmortalDread"
             }
           }
         }
@@ -328417,9 +328573,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "dfaede23490e4ff4d24cf79f565b8276dc3c1964",
-          "TimeBuilt": "2026-09-30T15:48:00.6080163+00:00",
-          "EffectiveVersion": "1.6.0.0",
+          "BuiltCommit": "b967dfb4a2bf34d6b7b634925403dc235579abaf",
+          "TimeBuilt": "2026-10-02T22:23:59.1875014+00:00",
+          "EffectiveVersion": "1.6.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.5.0": {
@@ -328565,6 +328721,22 @@
             "1.6.0.0": {
               "TimeReleased": "2026-09-30T15:48:00.6080177+00:00",
               "Changelog": "# Version 1.6.0\n\n- LootView now works with every game language: Japanese, German and French clients see their drops and rolls just like English ones.\n- Need, Greed and Pass buttons on every open item in the roll window. Only the choices the game allows you are offered.\n- The game\u0027s own Need/Greed window now stays hidden, so every roll happens in LootView. A button in the roll panel brings it back, and you can turn this off in Settings \u2192 Tracking.\n- Items still waiting for your choice are listed first, newest on top.\n- Hovering an item shows its full details: item level, jobs, stats, bonuses, materia slots, description and market price.\n- Right-click an item to try it on, open it on Garland Tools or Universalis, or copy its name.\n- Minions, mounts, orchestrion rolls, Triple Triad cards, emotes, hairstyles and portrait frames show whether you already have them.\n- LootView now has a Discord server: https://discord.gg/9kjUjWDBkJ\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.6.1.0": {
+              "TimeReleased": "2026-10-02T22:23:59.1875027+00:00",
+              "Changelog": "# Version 1.6.1\n\n- New currency drawer beside the loot window with every currency you hold (gil, tomestones, scrips, seals, MGP, PvP marks, tribal currencies and more), each cap and the weekly tomestone limit. Gains flash as they come in. Open it with the coin button; choose left or right in Settings \u2192 General.\n- A large banner at the top of the screen when someone commends you. Several commendations are counted on one banner, and it waits for the loading screen to finish. Resize, preview or turn it off in Settings \u2192 Effects.\n- Loot window scale from 60% to 140% in Settings \u2192 Appearance; the window can now be made much smaller.\n- Need, Greed and Pass buttons now sit right under the item name, so incoming rolls no longer push them away.\n- Locking the window from Settings \u2192 Appearance now takes effect straight away.\n- With \u0022Hide the game\u0027s Need/Greed window\u0022 on, closing LootView\u0027s roll window now brings the game\u0027s window back, so you can always still roll.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -337276,50 +337448,6 @@
             }
           }
         },
-        "XivReflex": {
-          "BuiltCommit": "bc9a3cf508a5a6d9225a3e10e5fb2ad60cbd8550",
-          "TimeBuilt": "2026-09-17T00:09:50.1498683+00:00",
-          "EffectiveVersion": "1.0.0.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.0.0": {
-              "TimeReleased": "2026-09-17T00:09:50.1498894+00:00",
-              "Changelog": "**XivReflex** integrates [NVIDIA Reflex Low Latency](\u003Chttps://www.nvidia.com/en-us/geforce/news/reflex-low-latency-platform/\u003E) to reduce system input lag in GPU-bound scenarios by dynamically aligning the game\u0027s engine updates closer to the moment your GPU actually draws the frame on screen.\r\n\r\n**Requirements:**\r\n\r\n- NVIDIA GeForce 900 Series or newer\r\n- NVIDIA Driver version 456.38 or newer",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                },
-                {
-                  "Key": "Microsoft.Windows.CsWin32",
-                  "Version": "0.3.321"
-                },
-                {
-                  "Key": "Roslynator.Analyzers",
-                  "Version": "5.0.0"
-                },
-                {
-                  "Key": "Microsoft.Windows.SDK.Win32Docs",
-                  "Version": "0.1.42-alpha"
-                },
-                {
-                  "Key": "Microsoft.Windows.SDK.Win32Metadata",
-                  "Version": "71.0.14-preview"
-                },
-                {
-                  "Key": "Microsoft.Windows.WDK.Win32Metadata",
-                  "Version": "0.13.25-experimental"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "Haselnussbomber"
-            }
-          }
-        },
         "ARealmReorganized": {
           "BuiltCommit": "43b56398872c985b6c51e35f4db9b3527af4004f",
           "TimeBuilt": "2026-09-17T00:27:53.7489729+00:00",
@@ -337344,34 +337472,10 @@
             }
           }
         },
-        "NoQuestIcons": {
-          "BuiltCommit": "a069b401bcd291c2d50e7c0f7aafab1b528ed633",
-          "TimeBuilt": "2026-09-17T00:28:01.2923644+00:00",
-          "EffectiveVersion": "1.5.0.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.5.0.0": {
-              "TimeReleased": "2026-09-17T00:28:01.2923657+00:00",
-              "Changelog": "v1.5.1 - Converted every ImGui Begin/End and Push/Pop pair (tabs, tables, combos, child windows, IDs, disabled state, style colors) to ImRaii, per review feedback. Ties cleanup to C#\u0027s using scope instead of a manually-written matching call, so a future early return or exception can\u0027t leave ImGui\u0027s internal state corrupted. Also synced plugin description text across the installer punchline, detailed description, and in-game About tab.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "GrimmortalDread"
-            }
-          }
-        },
         "ExpandedHotbars": {
-          "BuiltCommit": "1b9e89ca50ce556367440921edd4b4565dc02882",
-          "TimeBuilt": "2026-09-26T01:05:15.3586625+00:00",
-          "EffectiveVersion": "1.0.0.2",
+          "BuiltCommit": "459e51d1083b8d779b09e7800bd2cb5d9f6f0d59",
+          "TimeBuilt": "2026-10-03T01:28:39.9322994+00:00",
+          "EffectiveVersion": "1.0.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -337445,6 +337549,174 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
+            },
+            "1.0.0.3": {
+              "TimeReleased": "2026-10-03T01:28:39.9323026+00:00",
+              "Changelog": "Add item support.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "d44b6029325c03986b8da430ad2c7792eafd148d"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            }
+          }
+        },
+        "BardicMemory": {
+          "BuiltCommit": "68c30ca36bc7c9e7fd527d5bf5c00146b7c781fa",
+          "TimeBuilt": "2026-10-03T00:00:47.1665825+00:00",
+          "EffectiveVersion": "0.0.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.1.0": {
+              "TimeReleased": "2026-10-03T00:00:47.1666136+00:00",
+              "Changelog": "- Plays half a second of a random orchestrion track for you to name, worth six points.\n- Stretch the clip through 1, 2, 4, 8 and 15 seconds, dropping a point each time.\n- Filter the pool by orchestrion category or leave out tracks you have already solved.\n- Keeps a history of every round with totals, streaks and solve rate.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "OOFGamesss"
+            }
+          }
+        },
+        "Gubal": {
+          "BuiltCommit": "03bfb79253b16f437ceb267fb791c52411197d71",
+          "TimeBuilt": "2026-10-03T01:02:50.0449271+00:00",
+          "EffectiveVersion": "0.5.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.5.1.0": {
+              "TimeReleased": "2026-10-03T01:02:50.0449701+00:00",
+              "Changelog": "First release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "juan-medina"
+            }
+          }
+        },
+        "LiteShade": {
+          "BuiltCommit": "38ee1ae5d9290d58f22b7b7f21503000bcf4ae63",
+          "TimeBuilt": "2026-10-03T01:14:53.8440616+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-10-03T01:14:53.8441066+00:00",
+              "Changelog": "# LiteShade\n\nA little less green.\n\nColour adjustments, GPose filters, optional depth of field and vignette.\nUses the game\u0027s own effects and leaves the UI alone.\n\nPick a preset or make your own. Share profiles and switch them automatically by zone, weather, Eorzea time and more.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            }
+          }
+        },
+        "KeybindsPlus": {
+          "BuiltCommit": "3dffe969b0d5c7bdb00089c52b698bb4daa7b85e",
+          "TimeBuilt": "2026-10-03T01:28:27.4253284+00:00",
+          "EffectiveVersion": "0.2.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.2.0.0": {
+              "TimeReleased": "2026-10-03T01:28:27.4253498+00:00",
+              "Changelog": "Keybinds Plus is a plugin that allows you to bind _almost_ any key on your keyboard to either a XIV keybind or a supported Dalamud plugin.\r\n\r\nKeybinds Plus allows you to bind any key, including those that are not supported by the game (F13-F24) to almost any game function (Shortcuts, Chat, Targeting, Hotbars) as well as any plugin that implements KeybindsPlus\u0027 IPC. You can also bind a key to a custom command (like \u0060/wlmark\u0060) or macro just like how the game does.\r\n\r\nSupported Keybinds:\r\n- Custom Macros and Commands\r\n- Supported Plugins\r\n- Targeting*\r\n- Shortcuts\r\n- Chat*\r\n- Hotbars\r\n\r\n  \u003E \\* - Some features may be grayed out due to complexities or unavailability. Not all base game keybinds are in KeybindsPlus but may appear as updates progress.\r\n\r\nThis plugin is a early state and quite ambitious of me to do from prior plugins I\u0027ve made. Why did I decide to write this? Simply put I wanted to use my Razer Miyabi keyboard macros and originally wanted to use F13 but game said no so I said \u0060Fine. I\u0027ll do it myself.\u0060  Also, past conversations. Thanks Miyabi :)\r\n\r\n## AI Declaration\r\nCode Usage: Assist\r\n\u003E Claude/Gemini was used only to inquire about what ClientStructs to use given my prior research to reading said ClientStructs aside from the people who suggested/pointed me to the right CS in #plugin-dev and reading code from other plugins that were a basis on Better Keybinds like Vanilla Plus, MouseLock, Chat 2, a bit of DelvUI and Better Targeting System in a way I could best understand it. All other code was written by me, borrowed from some Github searching for things and Google-fu.\r\n\r\nImage Usage: None\r\n\u003E The icon (the M5 key button with the \u0022No. 564\u0022 Miyabi identifier) was made by me in Photoshop with some SVG modifications to the \u0022No. 564\u0022 image itself.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
             }
           }
         }
@@ -364124,6 +364396,13 @@
       "Version": "7b31a90be5b46c1a247aea9052ccb7e921188513",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-29T13:14:19.2389814Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "d44b6029325c03986b8da430ad2c7792eafd148d",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T01:28:39.9732272Z"
     }
   ]
 }
