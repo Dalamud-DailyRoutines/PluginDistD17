@@ -158264,9 +158264,9 @@
           }
         },
         "SonarPlugin": {
-          "BuiltCommit": "3bb88f5e713578120538b52523a617a0e78f91aa",
-          "TimeBuilt": "2026-08-19T11:54:16.3051807+00:00",
-          "EffectiveVersion": "15.755.2.0",
+          "BuiltCommit": "e883116d6235101f7b77bf3dd75c76ec6e8f8d48",
+          "TimeBuilt": "2026-10-14T04:20:12.6156369+00:00",
+          "EffectiveVersion": "15.757.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.5.2.6": {
@@ -175087,6 +175087,618 @@
                 {
                   "Key": "Microsoft.Windows.WDK.Win32Metadata",
                   "Version": "0.13.25-experimental"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "rreminy"
+            },
+            "15.757.0.0": {
+              "TimeReleased": "2026-10-14T04:20:12.615667+00:00",
+              "Changelog": "Check Sonar Discord for more information: https://discord.gg/K7y24Rr",
+              "UsedNeeds": [
+                {
+                  "Key": "AG",
+                  "Version": "0.1.2-alpha"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "DryIoc.dll",
+                  "Version": "5.4.3"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "AG.Collections.Concurrent",
+                  "Version": "0.1.2-alpha"
+                },
+                {
+                  "Key": "AG.Collections.Generic",
+                  "Version": "0.1.2-alpha"
+                },
+                {
+                  "Key": "AG.EnumLocalization",
+                  "Version": "0.1.3-alpha"
+                },
+                {
+                  "Key": "AG.NonBlocking",
+                  "Version": "2.1.1"
+                },
+                {
+                  "Key": "BouncyCastle.Cryptography",
+                  "Version": "2.7.0"
+                },
+                {
+                  "Key": "DeviceId",
+                  "Version": "6.11.0"
+                },
+                {
+                  "Key": "DeviceId.Linux",
+                  "Version": "6.11.0"
+                },
+                {
+                  "Key": "DeviceId.Mac",
+                  "Version": "6.11.0"
+                },
+                {
+                  "Key": "DeviceId.Windows",
+                  "Version": "6.11.0"
+                },
+                {
+                  "Key": "DeviceId.Windows.Wmi",
+                  "Version": "6.11.0"
+                },
+                {
+                  "Key": "DryIoc.MefAttributedModel.dll",
+                  "Version": "7.0.2"
+                },
+                {
+                  "Key": "DryIoc.Microsoft.DependencyInjection",
+                  "Version": "6.2.0"
+                },
+                {
+                  "Key": "DryIocAttributes.dll",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "F23.StringSimilarity",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "Farmhash.Sharp",
+                  "Version": "0.9.0"
+                },
+                {
+                  "Key": "Fastenshtein",
+                  "Version": "1.0.12"
+                },
+                {
+                  "Key": "InterlockedUtils",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "IPAddressRange",
+                  "Version": "6.3.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.8"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.8"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.MessagePack",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "System.ComponentModel.Composition",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "XoshiroPRNG.Net",
+                  "Version": "1.6.0"
+                },
+                {
+                  "Key": "ZString",
+                  "Version": "2.6.0"
+                },
+                {
+                  "Key": "Microsoft.Windows.CsWin32",
+                  "Version": "0.3.321"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "4.16.1"
+                },
+                {
+                  "Key": "Microsoft.Windows.SDK.Win32Docs",
+                  "Version": "0.1.42-alpha"
+                },
+                {
+                  "Key": "Microsoft.Windows.SDK.Win32Metadata",
+                  "Version": "71.0.14-preview"
+                },
+                {
+                  "Key": "Microsoft.Windows.WDK.Win32Metadata",
+                  "Version": "0.13.25-experimental"
+                },
+                {
+                  "Key": "Blurhash.Core",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "FileSystemLinks",
+                  "Version": "1.0.3"
+                },
+                {
+                  "Key": "Humanizer",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Magick.NET-Q8-x64",
+                  "Version": "14.16.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.11"
+                },
+                {
+                  "Key": "Spectre.Console",
+                  "Version": "0.57.2"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.af",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.ar",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.az",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.bg",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.bn",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.ca",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.cs",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.da",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.de",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.el",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.es",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.fa",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.fi",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.fil",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.fr",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.he",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.hr",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.hu",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.hy",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.id",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.is",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.it",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.ja",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.ko",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.ku",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.lb",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.lt",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.lv",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.ms",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.mt",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.nb",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.nl",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.pl",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.pt",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.pt-BR",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.ro",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.ru",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.sk",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.sl",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.sr",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.sr-Latn",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.sv",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.th",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.tr",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.uk",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.uz-Cyrl-UZ",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.uz-Latn-UZ",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.vi",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.zh-CN",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.zh-Hans",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Humanizer.Core.zh-Hant",
+                  "Version": "3.0.10"
+                },
+                {
+                  "Key": "Magick.NET.Core",
+                  "Version": "14.16.0"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.8"
+                },
+                {
+                  "Key": "Spectre.Console.Ansi",
+                  "Version": "0.57.2"
+                },
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "18.9.0"
+                },
+                {
+                  "Key": "xunit",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "18.9.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "18.9.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "18.9.0"
+                },
+                {
+                  "Key": "xunit.abstractions",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.18.0"
+                },
+                {
+                  "Key": "xunit.assert",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.core",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.extensibility.core",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.extensibility.execution",
+                  "Version": "2.9.3"
                 }
               ],
               "Reviewer": "reiichi001",
@@ -220468,9 +221080,9 @@
           }
         },
         "QuestTracker": {
-          "BuiltCommit": "79b1c2c3706037d2c65393ea1c149215c937a683",
-          "TimeBuilt": "2026-05-16T20:33:02.1323361+00:00",
-          "EffectiveVersion": "1.2.2.4",
+          "BuiltCommit": "ab72d928589aaba1dc9635cead3d741fa42da4ab",
+          "TimeBuilt": "2026-10-14T04:28:39.3639124+00:00",
+          "EffectiveVersion": "1.2.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.1": {
@@ -221275,6 +221887,134 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "keifufu"
+            },
+            "1.2.3.0": {
+              "TimeReleased": "2026-10-14T04:28:39.3639451+00:00",
+              "Changelog": "- Improved window performance\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "keifufu"
             }
           }
@@ -225588,9 +226328,9 @@
           }
         },
         "JobTitles": {
-          "BuiltCommit": "be1a0843bd27c279279f6d8d0d3997df544ddb5f",
-          "TimeBuilt": "2026-09-08T19:51:00.4972839+00:00",
-          "EffectiveVersion": "0.2.0.8",
+          "BuiltCommit": "7a091458eb2d4bd27ce938cbd2dad0eba838dcde",
+          "TimeBuilt": "2026-10-14T04:29:13.5208037+00:00",
+          "EffectiveVersion": "0.2.0.9",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -226780,6 +227520,134 @@
             "0.2.0.8": {
               "TimeReleased": "2026-09-08T19:51:00.4972856+00:00",
               "Changelog": "- Support for Beastmaster\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "keifufu"
+            },
+            "0.2.0.9": {
+              "TimeReleased": "2026-10-14T04:29:13.5208055+00:00",
+              "Changelog": "Decided to clean these plugins up before Evercold, most of this is just refactoring, with a few exceptions:\nQuestTracker doesn\u0027t nuke the framerate with the window open anymore.\nFacade won\u0027t die on staging due to accessing stuff off the main thread.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -258428,9 +259296,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "661588b1a8722a2c1ae580a2d0fcd2ab81529081",
-          "TimeBuilt": "2026-10-11T23:00:22.5096784+00:00",
-          "EffectiveVersion": "1.14.3.0",
+          "BuiltCommit": "c7a1aa55440436116a45c40efd3f3993bc23fd69",
+          "TimeBuilt": "2026-10-14T04:29:38.5942976+00:00",
+          "EffectiveVersion": "1.14.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -261168,6 +262036,50 @@
             "1.14.3.0": {
               "TimeReleased": "2026-10-11T23:00:22.5096799+00:00",
               "Changelog": "- **Progress**:\n    - Add All Saint\u0027s Wake 2026\n    - Add Uolon mont to moogle trove rewards list\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.89"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.14.4.0": {
+              "TimeReleased": "2026-10-14T04:29:38.5942997+00:00",
+              "Changelog": "- **Retainers**: Fix retainer inventory columns number to avoid assertion error\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -264348,9 +265260,9 @@
           }
         },
         "Facade": {
-          "BuiltCommit": "6d381cb8f09787fcc08c11a87b33b1781f347433",
-          "TimeBuilt": "2026-05-10T00:34:22.7633706+00:00",
-          "EffectiveVersion": "1.0.0.2",
+          "BuiltCommit": "38e9cac6814039e9df148169131e1004716a488c",
+          "TimeBuilt": "2026-10-14T04:29:03.6785407+00:00",
+          "EffectiveVersion": "1.0.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -264735,6 +265647,134 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "keifufu"
+            },
+            "1.0.0.3": {
+              "TimeReleased": "2026-10-14T04:29:03.6785427+00:00",
+              "Changelog": "Decided to clean these plugins up before Evercold, most of this is just refactoring, with a few exceptions:\nQuestTracker doesn\u0027t nuke the framerate with the window open anymore.\nFacade won\u0027t die on staging due to accessing stuff off the main thread.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "keifufu"
             }
           }
@@ -267168,9 +268208,9 @@
           }
         },
         "ChatAnywhere": {
-          "BuiltCommit": "a58126a974503a970f8d661658053ce751f67e6e",
-          "TimeBuilt": "2026-10-11T23:00:04.5578045+00:00",
-          "EffectiveVersion": "1.6.0.0",
+          "BuiltCommit": "636a47918d2cec4dcceb509909cee97b15e51d8b",
+          "TimeBuilt": "2026-10-14T04:28:52.100949+00:00",
+          "EffectiveVersion": "1.6.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -267496,6 +268536,70 @@
             "1.6.0.0": {
               "TimeReleased": "2026-10-11T23:00:04.557806+00:00",
               "Changelog": "New Features:\n- Added more FFXIV symbols to the symbol picker.\n  Thanks to Cyenia for the contribution!\n- Symbols missing from the Lodestone font are now built locally by the plugin, so every symbol in the symbol picker can be displayed.\nFixes:\n- Fixed a crash that could happen when the plugin was reloaded or updated while a browser was connected.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "OpenGraph-Net",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "twelvehouse"
+            },
+            "1.6.0.1": {
+              "TimeReleased": "2026-10-14T04:28:52.100951+00:00",
+              "Changelog": "Fixes:\n- Fixed symbols not showing up after a failed font download.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -270566,17 +271670,122 @@
               "Submitter": "GayPotatoEmma"
             }
           }
+        },
+        "QuestTextRecolor": {
+          "BuiltCommit": "97a79f0a7e2d4b11880b88b3e31896ee1ed3cb4b",
+          "TimeBuilt": "2026-10-14T04:29:21.9818495+00:00",
+          "EffectiveVersion": "1.3.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.3.1.0": {
+              "TimeReleased": "2026-10-14T04:29:21.981854+00:00",
+              "Changelog": "Quest Text Recolor v1.3.1\n\nChanges:\n- Added popup position and scale customization\n- Added optional Penumbra-based quest popup textures\n- Added texture previews in the configuration window\n- Added configuration value validation and clamping\n- Centralized plugin default values and reset behavior\n- About page version now updates dynamically\n- Improved configuration UI consistency\n- Fixed popup texture seam regression\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.13.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "ScareCrowLegion"
+            }
+          }
         }
       }
     },
     "testing-live": {
       "Plugins": {
         "XIVDeck.FFXIVPlugin": {
-          "BuiltCommit": "d1e264b14374401703546898cfdb01223b4b8011",
-          "TimeBuilt": "2023-07-14T22:50:22.977",
-          "EffectiveVersion": "0.3.14",
+          "BuiltCommit": "4a5fb26eba81ae97f0dbfd29ec34a47f48c9c7d1",
+          "TimeBuilt": "2026-10-14T04:35:05.4994603+00:00",
+          "EffectiveVersion": "0.5.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "0.5.0": {
+              "TimeReleased": "2026-10-14T04:35:05.4995081+00:00",
+              "Changelog": "It\u0027s been a while! There\u0027s way too much to put into a single changelog, since this was basically a *total* rewrite of XIVDeck. In no particular order:\r\n\r\n- A revamped communication system means communication between the Stream Deck and the game is *much* faster.\r\n    - Windows users get to use Named Pipes for communication, while Linux and macOS users get Unix Domain Sockets.\r\n    - The websocket server is still available (and will remain so), but is no longer preferred for use.\r\n- The Stream Deck Plugin now can render hotbar slots far more faithfully to the game.\r\n    - Sub-icons, costs, ***and cooldowns*** are now rendered on buttons that support them!\r\n    - The in-game hotbar watcher will now only track visible hotbar slots, improving overall performance.\r\n- The Stream Deck plugin has been ported to NodeJS, which should provide some performance boosts as well.\r\n- New plugin internals means certain features should be much easier to add in the future.\r\n- Linux is now finally officially supported via [OpenDeck](https://github.com/nekename/OpenDeck)!\r\n- A new process detection engine should detect FFXIV much more reliably now across all operating systems.\r\n- Multiboxing is now properly supported, with your Stream Deck buttons following your last-focused game client. \r\n  - The ability to \u0022pin\u0022 a button to use a specific game client will be coming in a future update.\r\n- **[DEPRECATION]** While never officially supported, control of XIVDeck over the network is no longer available. This may be readded in a later update, but for now it\u0027s just not possible.\r\n\r\nIt\u0027s very important to note that this is a pre-release change, and this new version of XIVDeck is considered beta. If you need things to work, I strongly suggest you wait for 0.5.1 or later. **Since the XIVDeck protocol has been remade, old clients will not be able to connect.** \r\n\r\n## Testing Notes\r\n\r\nIt\u0027s been a _really_ long time since I last had testing notes. So:\r\n\r\n* Test everything! Major rewrites mean that things have changed, and there\u0027s plenty of room for bugs.\r\n* Let me know if your buttons lose configuration or don\u0027t work quite right after the update. Please bring logs for your reports.\r\n* I\u0027m also particularly interested in performance, and if everything still feels better to navigate.\r\n\r\nFull release notes and downloads are available [on the plugin GitHub](https://github.com/KazWolfe/XIVDeck/releases/tag/v0.5.0).",
+              "UsedNeeds": [
+                {
+                  "Key": "Autofac",
+                  "Version": "9.3.1"
+                },
+                {
+                  "Key": "BCnEncoder.Net",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2026.2.0"
+                },
+                {
+                  "Key": "Nerdbank.MessagePack",
+                  "Version": "1.2.4"
+                },
+                {
+                  "Key": "StbImageWriteSharp",
+                  "Version": "1.16.7"
+                },
+                {
+                  "Key": "StreamJsonRpc",
+                  "Version": "2.25.29"
+                },
+                {
+                  "Key": "CommunityToolkit.HighPerformance",
+                  "Version": "8.4.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "2.5.302"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "2.5.302"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "18.4.0"
+                },
+                {
+                  "Key": "Microsoft.VisualStudio.Threading.Only",
+                  "Version": "17.14.15"
+                },
+                {
+                  "Key": "Microsoft.VisualStudio.Validation",
+                  "Version": "17.13.22"
+                },
+                {
+                  "Key": "Nerdbank.Streams",
+                  "Version": "2.13.16"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "PolyType",
+                  "Version": "1.3.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "KazWolfe"
+            }
+          }
         },
         "PartyListLayout": {
           "BuiltCommit": "3c0343940f4d07bbc379f446e8e4cee794da5aa4",
@@ -367143,6 +368352,97 @@
       "Version": "6bbcd8a52c8da70e3bba5f95e83ba725de0ac625",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-10-12T09:35:03.9270147Z"
+    },
+    {
+      "Type": 1,
+      "Key": "F23.StringSimilarity",
+      "Version": "7.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-10-14T04:20:12.6764187Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Autofac",
+      "Version": "9.3.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855244Z"
+    },
+    {
+      "Type": 1,
+      "Key": "JetBrains.Annotations",
+      "Version": "2026.2.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855559Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Nerdbank.MessagePack",
+      "Version": "1.2.4",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.585556Z"
+    },
+    {
+      "Type": 1,
+      "Key": "StbImageWriteSharp",
+      "Version": "1.16.7",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855563Z"
+    },
+    {
+      "Type": 1,
+      "Key": "StreamJsonRpc",
+      "Version": "2.25.29",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855565Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack",
+      "Version": "2.5.302",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855569Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack.Annotations",
+      "Version": "2.5.302",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855572Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NET.StringTools",
+      "Version": "18.4.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855573Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.VisualStudio.Threading.Only",
+      "Version": "17.14.15",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855573Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.VisualStudio.Validation",
+      "Version": "17.13.22",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5856108Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Nerdbank.Streams",
+      "Version": "2.13.16",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5856111Z"
+    },
+    {
+      "Type": 1,
+      "Key": "PolyType",
+      "Version": "1.3.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5856114Z"
     }
   ]
 }
