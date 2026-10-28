@@ -67894,9 +67894,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "242867acba0af0a4d2bb6812d6cc4809781bce0f",
-          "TimeBuilt": "2026-09-02T04:18:18.7882326+00:00",
-          "EffectiveVersion": "1.7.4.1",
+          "BuiltCommit": "699d27f29e0bfc0a4237d232f22d956e64c1933a",
+          "TimeBuilt": "2026-10-28T15:16:25.9226276+00:00",
+          "EffectiveVersion": "1.7.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -70485,6 +70485,42 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.5.0": {
+              "TimeReleased": "2026-10-28T15:16:25.9226498+00:00",
+              "Changelog": "- Add keybound gacha tracking",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
             }
           }
@@ -196160,9 +196196,9 @@
           }
         },
         "Dalamud.FindAnything": {
-          "BuiltCommit": "45a3a614db02007d02a9809f52ea5f9a2f480e27",
-          "TimeBuilt": "2026-09-09T14:33:51.1412347+00:00",
-          "EffectiveVersion": "1.1.3.2",
+          "BuiltCommit": "ca8e5647181bfca97691dc1c91706988aefb2273",
+          "TimeBuilt": "2026-10-28T15:09:18.8631308+00:00",
+          "EffectiveVersion": "1.1.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.5.3": {
@@ -197564,6 +197600,42 @@
             "1.1.3.2": {
               "TimeReleased": "2026-09-09T14:33:51.1412361+00:00",
               "Changelog": "Add support for BST in gearset search",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "NCalcSync",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Antlr3.Runtime",
+                  "Version": "3.5.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "nebel"
+            },
+            "1.1.4.0": {
+              "TimeReleased": "2026-10-28T15:09:18.8631746+00:00",
+              "Changelog": "- Add a setting to disable input capture during Keybound Brawler (this setting is disabled by default)\n- Improve search speed, and search through more potential matches\n- Improve finder window draw speed\n- Show full text for daily roulette matches\n- Make gearset search more robust when a new job is added\n- Fix an issue where Gamepad Settings was displayed simply as Settings\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -210243,9 +210315,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "a63403c13d418348c6b6a449df3d69ca09132611",
-          "TimeBuilt": "2026-09-27T21:47:43.2419073+00:00",
-          "EffectiveVersion": "1.40.9.0",
+          "BuiltCommit": "3eb8334c949b89aa32c13e533581f134e1525f97",
+          "TimeBuilt": "2026-10-28T14:30:43.1211081+00:00",
+          "EffectiveVersion": "1.41.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -214873,6 +214945,102 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.41.1.0": {
+              "TimeReleased": "2026-10-28T14:30:43.1211317+00:00",
+              "Changelog": "- Completely hide during keybound brawler to fix issues",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "morelinq",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
             }
           }
@@ -263600,9 +263768,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "11032cb108f433406ac0f8ed704f77b530024e19",
-          "TimeBuilt": "2026-10-19T22:57:13.6964595+00:00",
-          "EffectiveVersion": "1.6.3.0",
+          "BuiltCommit": "ca691cf373efa6c88955bacf45148dded0dca631",
+          "TimeBuilt": "2026-10-28T15:16:35.1638145+00:00",
+          "EffectiveVersion": "1.6.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -263771,6 +263939,22 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "GitHixy"
+            },
+            "1.6.4.0": {
+              "TimeReleased": "2026-10-28T15:16:35.1638164+00:00",
+              "Changelog": "# Version 1.6.4\n\n- Dice reveal: when an item is resolved, everyone\u0027s roll counts up from zero together and stops at its number. The lowest settle first, the last one still climbing takes the crown, then the rows slide into rank order.\n- A soft chime when an item goes to someone else. The game only sounds your own wins, so lost rolls were easy to miss. It follows the game\u0027s master and system volume and has its own volume in Settings \u003E Tracking.\n- The roll window now lists what still needs your choice first, then results, then items you\u0027ve already chosen on. Results fold into a single line once revealed, and nothing moves while your mouse is over the window.\n- Ticker: minimise the loot window and new drops slide in on a slim strip you can drag anywhere, then fade out. Repeat drops add up on one row, and it can also run beside the open window.\n- Loot jar: an optional loot window view where your drops fall into a glass jar. Repeat drops merge, and currencies and crystals settle as labelled sand.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "GitHixy"
             }
           }
