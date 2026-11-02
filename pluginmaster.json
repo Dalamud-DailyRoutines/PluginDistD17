@@ -10556,7 +10556,7 @@
     "Author": "ocealot",
     "Name": "VFXEditor",
     "InternalName": "VFXEditor",
-    "AssemblyVersion": "1.9.4.5",
+    "AssemblyVersion": "1.9.4.6",
     "Description": "VFX, animation, and sound editing plugin. Icon by PAPACHIN",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/0ceal0t/Dalamud-VFXEditor",
@@ -10575,7 +10575,7 @@
     "_Dip17Channel": "stable",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdate": "1793490897",
+    "LastUpdate": "1793631427",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/VFXEditor/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/VFXEditor/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/VFXEditor/latest.zip"
