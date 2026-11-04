@@ -6485,7 +6485,7 @@
     "Author": "Zeffuro",
     "Name": "MouseLock",
     "InternalName": "MouseLock",
-    "AssemblyVersion": "1.0.1.6",
+    "AssemblyVersion": "1.0.1.7",
     "Description": "MouseLock keeps FFXIV in mouselook until you actually need the cursor. It pauses for chat, bags, menus, and other UI, and can also turn LMB/RMB into configurable game inputs, hotbar actions, or MouseLock controls.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Zeffuro/MouseLock",
@@ -6516,7 +6516,7 @@
     "TestingAssemblyVersion": "1.0.0.3",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1793559925",
+    "LastUpdate": "1793810441",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/MouseLock/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/MouseLock/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/MouseLock/latest.zip"
@@ -7890,7 +7890,7 @@
     "Author": "spide-r",
     "Name": "NPCAnnouncer",
     "InternalName": "PvPAnnouncer",
-    "AssemblyVersion": "1.6.7.0",
+    "AssemblyVersion": "1.7.0.0",
     "Description": "This plugin will cause character voice lines to play upon specific conditions being met.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -7926,7 +7926,7 @@
     "TestingAssemblyVersion": "1.6.0.2",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1790687714",
+    "LastUpdate": "1793815913",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/PvPAnnouncer/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/PvPAnnouncer/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/PvPAnnouncer/latest.zip"
