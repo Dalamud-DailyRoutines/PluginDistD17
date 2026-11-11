@@ -74852,9 +74852,9 @@
           }
         },
         "OofPlugin": {
-          "BuiltCommit": "d412dace211d77205bfc88697a2cb05e7aa9de16",
-          "TimeBuilt": "2026-08-04T20:40:47.7352854+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "2d90f4b6a983cd0b92e348bb71f022bcfe6c35b9",
+          "TimeBuilt": "2026-11-11T15:22:37.1011055+00:00",
+          "EffectiveVersion": "1.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
@@ -75012,6 +75012,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "codelastnight"
+            },
+            "1.4.1.0": {
+              "TimeReleased": "2026-11-11T15:22:37.1011557+00:00",
+              "Changelog": "- auto-switch audio output when a change in device is detected.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SoundFlow",
+                  "Version": "1.4.0"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "codelastnight"
             }
           }
@@ -243556,9 +243576,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "26b3f292814253daec472df4d84eae33eff415ee",
-          "TimeBuilt": "2026-11-07T05:17:14.1578031+00:00",
-          "EffectiveVersion": "1.7.0.1",
+          "BuiltCommit": "49a6b788f2803f8c2f60f7380d1217c3424213d6",
+          "TimeBuilt": "2026-11-11T15:39:49.5813777+00:00",
+          "EffectiveVersion": "1.7.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -244131,6 +244151,42 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "spide-r"
+            },
+            "1.7.0.2": {
+              "TimeReleased": "2026-11-11T15:39:49.5814088+00:00",
+              "Changelog": "Lyse is here! 200\u002B new voicelines across all announcers. New duty support Settings. Lots of fixes.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "spide-r"
             }
           }
@@ -261772,9 +261828,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "95ce766941ba00000ad6bd4ce62e6e060652b464",
-          "TimeBuilt": "2026-10-28T23:01:23.4778008+00:00",
-          "EffectiveVersion": "1.16.3.0",
+          "BuiltCommit": "80fb263ff010c597654be21789ef368961d2fa5f",
+          "TimeBuilt": "2026-11-11T15:05:42.6923737+00:00",
+          "EffectiveVersion": "1.16.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -264772,6 +264828,50 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Sohtoren"
+            },
+            "1.16.4.0": {
+              "TimeReleased": "2026-11-11T15:05:42.6924017+00:00",
+              "Changelog": "- **Progress**: Adding The Path Infernal (FFXVI event) 2026 and rewards \n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.89"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.14"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "Sohtoren"
             }
           }
         },
@@ -265436,9 +265536,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "ca691cf373efa6c88955bacf45148dded0dca631",
-          "TimeBuilt": "2026-10-28T15:16:35.1638145+00:00",
-          "EffectiveVersion": "1.6.4.0",
+          "BuiltCommit": "d2fbbb99134932a98961b53a9473d5a55c0cbaf2",
+          "TimeBuilt": "2026-11-11T15:08:37.3495226+00:00",
+          "EffectiveVersion": "1.6.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -265623,6 +265723,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.6.5.0": {
+              "TimeReleased": "2026-11-11T15:08:37.3495748+00:00",
+              "Changelog": "# Version 1.6.5\n\n- Jar on its own: the loot jar can now stay on screen by itself, just the glass with no frame. Move it, resize it from its edges and lock it in place from Settings \u003E General. It fades back while nothing is happening and comes forward when something drops in.\n- The loot jar now holds exactly what the loot list shows: clearing the list pours it out, and drops that leave the list leave the jar too.\n- Ticker: Ctrl\u002Bclick a drop, or pick Dismiss from its right-click menu, to clear it early. A broom button next to the ticker\u0027s controls clears every drop at once.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "GitHixy"
             }
           }
@@ -274984,9 +275100,9 @@
           }
         },
         "ProxyPlayer": {
-          "BuiltCommit": "fae2a649bc0b561b27624bb374e91c9c7f613e5d",
-          "TimeBuilt": "2026-11-07T05:17:23.8843668+00:00",
-          "EffectiveVersion": "1.1.3.0",
+          "BuiltCommit": "8c8827233257d2b1b884a67ea4e8d4e90e89e500",
+          "TimeBuilt": "2026-11-11T15:40:02.0707518+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.2.0": {
@@ -275035,6 +275151,34 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-11-11T15:40:02.0707536+00:00",
+              "Changelog": "# What\u0027s New?\n- Brought Compact and Portrait layouts to Native UI.\n- Added tha ability to cycle between ImGui and Native UI in Settings.\n\n(Native UI is toggled by default for new installs. If you have a reason to want ImGui as a default instead, let me know on Discord)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "b4b7cab18e3b60abb49391272acb421e35b52bad"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Tmds.DBus.Generator",
+                  "Version": "0.95.2"
+                },
+                {
+                  "Key": "Tmds.DBus.Protocol",
+                  "Version": "0.95.2"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Bronya-Rand"
             }
           }
@@ -345874,9 +346018,9 @@
           }
         },
         "HitSpark": {
-          "BuiltCommit": "145caadaf07170c359ce139023542e3744f0825f",
-          "TimeBuilt": "2026-11-04T22:49:28.711315+00:00",
-          "EffectiveVersion": "0.1.0.0",
+          "BuiltCommit": "bd17c9b7447dea7e1e05df37256b82f4448799c2",
+          "TimeBuilt": "2026-11-11T15:17:37.2268833+00:00",
+          "EffectiveVersion": "0.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -345893,6 +346037,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "0.2.0.0": {
+              "TimeReleased": "2026-11-11T15:17:37.2269054+00:00",
+              "Changelog": "We added support for MultiHit since it was requested as a feature.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "GitHixy"
             }
           }
@@ -373220,6 +373380,27 @@
       "Version": "6.2.2",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-11-08T22:54:00.6297006Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "b4b7cab18e3b60abb49391272acb421e35b52bad",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-11T15:40:02.1468708Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Tmds.DBus.Generator",
+      "Version": "0.95.2",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-11T15:40:02.1468976Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Tmds.DBus.Protocol",
+      "Version": "0.95.2",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-11T15:40:02.1468978Z"
     }
   ]
 }
