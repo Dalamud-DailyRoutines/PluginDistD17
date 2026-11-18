@@ -10488,7 +10488,7 @@
     "Author": "Infi",
     "Name": "Tracky",
     "InternalName": "TrackyTrack",
-    "AssemblyVersion": "1.7.5.1",
+    "AssemblyVersion": "1.7.5.2",
     "Description": "### Normal Functions \n+ Track currency increase\n+ Track teleport and npc repair costs\n+ Track desynthesis results\n+ Track retainer ventures\n\n### Advanced  Functions\n+ Track different coffer rewards\n  - Venture Coffer\n  - Materiel Container 3.0\n  - Materiel Container 4.0\n  - Sanctuary Materiel Container\n+ Track Eureka bunny rewards\n+ Track Eureka/Bozja lockboxes",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Infiziert90/TrackyTrack",
@@ -10517,7 +10517,7 @@
     "TestingAssemblyVersion": "0.0.7.6",
     "TestingDalamudApiLevel": 15,
     "IsTestingExclusive": "False",
-    "LastUpdate": "1794846192",
+    "LastUpdate": "1794968653",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/TrackyTrack/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/TrackyTrack/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/TrackyTrack/latest.zip"
